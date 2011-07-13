@@ -1,1 +1,1 @@
-Welcome to the HeaterMeter wiki!
+Introduction to HeaterMeter / LinkMeter
