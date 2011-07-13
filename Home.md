@@ -1,4 +1,4 @@
-* [Introduction to HeaterMeter / LinkMeter](Introduction)
+* [[An Introduction to LinkMeter / HeaterMeter]]
 * [[Installation]]
     * [[OpenWrt Packages]]
 
