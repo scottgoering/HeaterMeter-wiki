@@ -3,6 +3,7 @@
 HeaterMeter is simply compiled using the Arduino IDE and uploaded to an AVR.  The source path is /arduino/ and it contains both the heatermeter source directory (open the pde file in the Arduino IDE) and the libraries needed.  The libraries may need to be copied / linked to your Arduino library directory depending on where you installed the source.  On Windows this is under My Documents/Arduino/Libraries, or %USERPROFILE%/Documents/Arduino/Libraries. 
 
 It may be convenient to simply link the library directories using the Windows mklink command (Win7), which must be run as Administrator.  For example (substitute sourcepath with where your HeaterMeter source is)
+
     mklink /D (sourcepath)/arduino/libraries/ShiftRegLCD %USERPROFILE%/Documents/Arduino/Libraries/ShiftRegLCD
 
 ## Installation of LinkMeter
