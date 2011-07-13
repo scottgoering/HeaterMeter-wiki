@@ -1,12 +1,16 @@
 # OpenWrt Packages
 
 ## Essential Standard Packages
-* luci
+* **luci**
 
 ## Custom Packages
-* rrdtool-1.4.5-LM* and librrd-1.4.5-LM* Supplies the rrd lua bindings.  Note this package has had the graph components removed.
-* linkmeter-* The LinkMeter daemon and web ui files
-* avrdude-5.8-LM* Needed to flash the HeaterMeter AVR with new firmware from the LinkMeter web interface.  If you plan on updating the AVR manually via ICSP or a chip-swap, this can be omitted.
+Prebuilt custom packages from the development branch can be downloaded from  
+<http://capnbry.net/linkmeter/snapshots/trunk/packages/>  
+These are not necessary if installing the pre-built OpenWrt image as it already contains these packages.
+
+* **rrdtool-1.4.5-LM*** and **librrd-1.4.5-LM*** Supplies the rrd lua bindings.  Note this package has had the graph components removed.
+* **linkmeter-*** The LinkMeter daemon and web ui files
+* **avrdude-5.8-LM*** Needed to flash the HeaterMeter AVR with new firmware from the LinkMeter web interface.  If you plan on updating the AVR manually via ICSP or a chip-swap, this can be omitted.
 
 ## Included in Pre-built LinkMeter Image
 * avrdude - 5.8-LM1
