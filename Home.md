@@ -1,1 +1,2 @@
-[Introduction to HeaterMeter / LinkMeter](Introduction)
+* [Introduction to HeaterMeter / LinkMeter](Introduction)
+* [[Installation]]
