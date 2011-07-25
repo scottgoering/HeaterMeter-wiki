@@ -15,19 +15,29 @@ Items roughly in the order I may get to them
     * Only get CFs that are used?
     * Download / upload?
 * Archive library.  Text file associated with each item
+    * Save probe names!
     * Date / Time, duration
     * Title 
     * Short description
     * Annotations
     * Keywords
+    * Upload a photo associated with it?
+* Archived view
+    * Start and End time
+    * Add date to tooltip?
+    * Add legend
+    * Ability to trim out data before start / after end
+    * Put the graph data as static in the page?
+* Graph
+    * Ability to toggle between absolute time and relative time from start
 * Adjust order of items on tooltip?
 * utils.html  config.html?  
     * Split one-time settings from common changed settings
 * probe config 
     * Disposition=Disabled, Internal, Wireless
-    * Wireless Mapping: Node (B-Z), Pin (0-3), Dest (Probe0-Probe3)
+    * Wireless Mapping: Node (B-Z), Pin (0-5), Dest (Probe0-Probe3)
     * ProbeName, Offset, Rknown, steinhart[3]
-    * /set?pc0=8.98053228e-4,2.49263324e-4,2.04047542e-7,022000  = 57 bytes
+    * /set?pc0=8.98053228e-4,2.49263324e-4,2.04047542e-7,022000,B6  = 60 bytes
     * Alarm High, Alarm Low, High Enabled, Low Enabled
 * Alarms
     * Serial notification
