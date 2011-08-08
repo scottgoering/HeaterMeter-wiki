@@ -15,7 +15,7 @@ There's no longer /etc/init.d/linkmeterd to start and stop.  LinkMeter can be st
 The daemon is will not start multiple instances if you call LMD1 multiple times
 
 ### New config file
-LinkMeter configuration is now stored in **/etc/config/lucid**.  The option names have not changed.
+LinkMeter configuration is now stored in **/etc/config/lucid**. Your configuration will not be migrated. The option names have not changed. 
 
     config 'linkmeterd' 'linkmeter'
             option 'serial_device' '/dev/ttyS1'
