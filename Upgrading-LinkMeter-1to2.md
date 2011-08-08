@@ -2,7 +2,7 @@
 This document covers important changes to the LinkMeter package from v1 to v2.
 
 ## New architecture
-To conserve resources, LinkMeter no longer runs in its own separate process (formerly linkmeterd).  LinkMeter now lives inside the LuCId process.  The base process, which contains the HTTP server and linkmeterd has a smaller RAM footprint than the original C-based LUA daemon, and removes the requirement of having uhttpd installed and running.  
+To conserve resources, LinkMeter no longer runs in its own separate process (formerly linkmeterd).  LinkMeter now lives inside the LuCId process.  This removes the requirement of having uhttpd installed and running.  
 
 ### No init.d script
 There's no longer /etc/init.d/linkmeterd to start and stop.  LinkMeter can be started and stopped via /etc/init.d/lucid start | stop.  This has the side effect of starting and stopping the web server as well.  If this is not desirable, you can start and stop the serial daemon using the LinkMeter Client
@@ -12,7 +12,7 @@ There's no longer /etc/init.d/linkmeterd to start and stop.  LinkMeter can be st
     # Start the LinkMeter serial daemon 
     lua /usr/lib/lua/lmclient.lua LMD1
 
-The daemon is will not start multiple instances if you call LMD1 multiple times
+The daemon is will not start multiple instances if you call LMD1 multiple times.  See also [[LMClient Commands]]
 
 ### New config file
 LinkMeter configuration is now stored in **/etc/config/lucid**. Your configuration will not be migrated. The option names have not changed. 
