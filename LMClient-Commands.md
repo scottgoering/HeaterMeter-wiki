@@ -4,7 +4,7 @@ These are commands which can be passed to the linkmeter daemon over the UNIX soc
 * LMSU - Request state update. Returns the last state update from the HeaterMeter, JSON-formatted. Includes UNIX timestamp and RF status when available.
 * LMRF - Get RF status. Returns current RF node status information.  Last seen UNIX timestamp, battery level, and signal level.
 * LMD0 - Stop the serial monitor daemon, the actual linkmeterd portion that receives and records data.
-* LMD1 - Start the serial monitor daemon.
+* LMD1 - Start the serial monitor daemon. The daemon is will not start multiple instances if you call LMD1 multiple times.
 
 ## Invocation
 
