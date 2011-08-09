@@ -5,11 +5,14 @@ Items roughly in the order I may get to them
 * Security
     * Still possibly getting silently logged out?
 * Consider using LuCId as the HTTP server and linkmeterd
+* Option to LuCId to reject X-Purpose|Purpose: preload to prevent Chrome from raping the server
 * RF probe status information
     * Added voltage to tooltip.  Need a probe status / config page still (below)
+* Optimize LuCI node() generation to speed page loads and reduce memory usage
+    * Entire tree is generated on every page call, taking at least 300ms and peaking at 1.1MB of RAM per process
 * avrupdate 
     * Better integration and update-from-web.  Part of larger automatic update process?
-* linkmeterd socket to allow through read/write
+* Better interactivity with linkmeterd socket, ability to do actual query/response to HeaterMeter
 * Allow archive, copy to / from archive.  Archive location defaults to SD card but can use /tmp for testing
     * GZIP it?
     * Only get CFs that are used?
@@ -48,5 +51,5 @@ Items roughly in the order I may get to them
     * 2.7V 8MHz internal clock?  Can be powered from solar path light
 * New enclosure?
 * Inkject PCB printing
-* BatchPCB linkmeter design
+* BatchPCB / DorkbotPDX linkmeter design
 * ASUS RT-N12 GPIO points/design
