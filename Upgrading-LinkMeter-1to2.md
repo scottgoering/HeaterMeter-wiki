@@ -30,3 +30,6 @@ The LinkMeter server communication socket is now /var/run/linkmeter.sock
 
 ### No PID file
 The LinkMeter daemon no longer drops a pid file in /var/run/linkmeter/pid
+
+#### For self-builders
+If you build your own LinkMeter packages or image, note that there are new patches under openwrt/patches. The 3 200-level patches need to be copied into your wrt tree under feeds/luci/luci/patches. There is no directory there currently, you will need to create it. These address a critical memory leak in the LuCId server and a large performance increase to luci-lib-web on the whole. These patches will be removed as I work to get them accepted into the LuCI project, so if there aren't files matching 2??-luci-*.patch in the HeaterMeter git tree when you pull, they're already in LuCI.
