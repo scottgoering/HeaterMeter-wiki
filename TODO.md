@@ -3,8 +3,8 @@ Items roughly in the order I may get to them
 
 * Wiki pages
 * Security
-    * Still possibly getting silently logged out?
-* Consider using LuCId as the HTTP server and linkmeterd
+    * Still possibly getting silently logged out? Could be double-cookie. Should modify to use old cookie after privilege escalation.
+* BUG: If the JSON update occurs while you have an in-place edit control open, you'll lose the ability to edit that item.
 * Option to LuCId to reject X-Purpose|Purpose: preload to prevent Chrome from raping the server
 * RF probe status information
     * Added voltage to tooltip.  Need a probe status / config page still (below)
