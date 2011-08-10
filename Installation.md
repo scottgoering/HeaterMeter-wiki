@@ -40,7 +40,7 @@ After installation of the prebuilt image, one can simply update the linkmeter pa
 
 Example upgrading the LinkMeter package (command line)
 
-    opkg install http://capnbry.net/linkmeter/snapshots/trunk/packages/linkmeter_1_brcm47xx.ipk
+    opkg install http://capnbry.net/linkmeter/snapshots/trunk/packages/linkmeter_2_brcm47xx.ipk
 
 Example upgrading the LinkMeter OpenWrt image, preserving configuration (command line)
 
