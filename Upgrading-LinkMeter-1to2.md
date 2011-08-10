@@ -43,5 +43,3 @@ Due to the large number of changes to the base system, it is recommended you fla
     wget -O/tmp/hm.hex http://capnbry.net/linkmeter/release/2/heatermeter.cpp.hex && avrupdate
     rm /etc/config/linkmeter
     sysupgrade http://capnbry.net/linkmeter/release/2/linkmeter-brcm47xx-squashfs.trx && reboot
-
-**Don't do this until the linkmeter release is posted**
