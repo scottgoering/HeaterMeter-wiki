@@ -40,6 +40,7 @@ If you build your own LinkMeter packages or image, note that there are new patch
 #### For image flashers
 Due to the large number of changes to the base system, it is recommended you flash the entire router image rather than try to update individual packages. **You will lose everything in your /root** which is the default stashpath so if you want to keep it, remember to copy it off the router before upgrading.  The preferred method for upgrading is to ssh into LinkMeter then use the sysupgrade command. As mentioned above, the linkmeter config file is not used any more so it would be a good idea to delete it. Upgrade:
 
-    wget -O/tmp/hm.hex http://capnbry.net/linkmeter/release/2/heatermeter.cpp.hex && avrupdate
     rm /etc/config/linkmeter
     sysupgrade http://capnbry.net/linkmeter/release/2/linkmeter-brcm47xx-squashfs.trx && reboot
+
+After the upgrade completes, you'll want to upgrade the AVR Firmware as well via the web interface using [this HEX file](http://capnbry.net/linkmeter/release/2/heatermeter.cpp.hex)
