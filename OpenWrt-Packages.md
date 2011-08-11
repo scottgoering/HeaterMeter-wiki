@@ -1,7 +1,7 @@
 # OpenWrt Packages
 
 ## Essential Standard Packages
-* **luci**
+* **luci-lib-lucid-http** This pulls the necessary dependencies
 
 ## Custom Packages
 Prebuilt custom packages from the development branch can be downloaded from  
