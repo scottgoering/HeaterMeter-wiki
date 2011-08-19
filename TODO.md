@@ -47,6 +47,9 @@ Items roughly in the order I may get to them
     * Chrome To Phone / C2DM message
     * Temperature Cut mode.  Option to have the pit temperature drop when food reaches done point
         * Can be an alarm option.  When AlarmRinging && !AlarmSilenced -> SetPoint = AlarmHigh, AlarmSilenced = true
+* Unknown probe Steinhart calculations
+    * Set slave probes to mode "resist" where they just output their resistance. Add "raw" for raw ADC value, and "metric" for celcius output. Expand datatype / rename?
+    * LUA implementation of Levenberg–Marquardt algorithm for a 2-pass (rough estimate, refine) multi-iteration determination off coeffs
 * Remote node
     * 2.7V 8MHz internal clock?  Can be powered from solar path light
 * New enclosure?
