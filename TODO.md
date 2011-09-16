@@ -1,10 +1,13 @@
 # TODO list
 Items roughly in the order I may get to them
 
+* Only initialize RFM12B if probes are configured to use it. This will prevent potential lockups for people with no RF chip without recompiling.
+    * Can we tell if it has been inited already from the RF class? Might be nice to RFMSLEEP if turning it off.
 * Wiki pages
 * Security
     * Still possibly getting silently logged out? Could be double-cookie. Should modify to use old cookie after privilege escalation.
 * BUG: If the JSON update occurs while you have an in-place edit control open, you'll lose the ability to edit that item.
+* Add current HM firmware version number available via /ver or something.
 * Option to LuCId to reject X-Purpose|Purpose: preload to prevent Chrome from raping the server
 * RF probe status information
     * Added voltage to tooltip.  Need a probe status / config page still (below)
