@@ -22,7 +22,43 @@ The HM for LM (HM4LM) configuration doesn't need the barrel power jack, and adds
 
 To use wireless probes, a RFM12B receiver needs to be added to the design. The default code assumes a 915MHz transceiver, which is only legal in the United States, but a one-line code change facilitates using 433MHz or 868MHz bands to comply with other local regulations. In the Standalone HeaterMeter configuration, an additional 3.3V power supply needs to be added to power the transceiver. The 3.3V regulator is not needed in the HM4LM configuration.
 
-Qty|Value|Device|Parts
----|-----|------|-----
-1|ATmega328P|AVR-MEGA8-PPTH|IC2
-Some description||
+## Parts List
+
+**INCOMPLETE**
+
+Qty|Value     |Device                |Parts
+:-:|----------|----------------------|-----
+1  |ATmega328P|AVR-MEGA8-PPTH        |IC2
+1  |74HC164N  |74HC164N              |IC1
+1  |16Mz      |RESONATOR-PTH         |Y1
+1  |0         |R-US_0204/7           |R7
+5  |1k        |R-US_0204/7           |R1, R3, R4, R15, R19
+2  |2.2k      |R-US_0204/7           |R8, R9
+5  |4.7k      |R-US_0204/7           |R2, R13, R22, R23, R24
+5  |10k       |R-US_0204/7           |R20, R21, R25, R26, R27
+4  |10k 1%    |R-US_0204/7           |R5, R16, R17, R18
+1  |10k       |TRIM_US-CT6           |R6
+1  |0.01u     |C-US025-025X050       |C7
+5  |0.1u      |C-US025-025X050       |C2, C3, C6, C9, C10
+1  |22u/6.3   |CPOL-USE2.5-6         |C8
+1  |22u/25    |CPOL-USE2.5-6         |C1
+1  |100u/10   |CPOL-USE2.5-6         |C5
+1  |100u/25   |CPOL-USE2.5-6         |C4
+2  |1N4001    |DIODE-DO41-7          |D1, D2, D3
+1  |1N5817    |DIODE-DO41-7          |D4
+1  |IRL510    |PMOSFET_NTO220BV      |Q1
+1  |RESET     |TAC_SWITCHPTH         |S1
+1  |BC337     |BC337                 |Q2
+1  |7805      |7805TV                |Q3
+1  |MCP1700-33|MCP1700TRI            |Q4
+1  |GRN       |LED3MM                |LED1
+1  |RFM12B    |RFM12B                |U$1
+1  |POW       |POWER_JACKPTH         |J5
+2  |BLW       |PINHD-1X2             |J4, J3 (BLW, BTN)
+1  |POW       |PINHD-1X2/90          |J7
+1  |FTDI      |PINHD-1X6             |J8
+1  |LCD       |PINHD-1X16            |J1
+1  |PROBE     |PINHD-1X5             |J2
+1  |RTR       |PINHD-1X5/90          |P5
+1  |ICSP      |PINHD-2X3             |J6
+
