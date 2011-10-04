@@ -44,11 +44,13 @@ Items roughly in the order I may get to them
     * ProbeName, Offset, Rknown, steinhart[3]
     * /set?pc0=8.98053228e-4,2.49263324e-4,2.04047542e-7,022000,B6  = 60 bytes
     * Alarm High, Alarm Low, High Enabled, Low Enabled
+* Touch-friendly setpoint setting using vertical ... spin ... grid
 * Alarms
     * Serial notification
     * Chrome To Phone / C2DM message
     * Temperature Cut mode.  Option to have the pit temperature drop when food reaches done point
         * Can be an alarm option.  When AlarmRinging && !AlarmSilenced -> SetPoint = AlarmHigh, AlarmSilenced = true
+* Use server-sent events for status updates instead of polling on supported browsers
 * Unknown probe Steinhart calculations
     * Set slave probes to mode "resist" where they just output their resistance. Add "raw" for raw ADC value, and "metric" for celcius output. Expand datatype / rename?
     * LUA implementation of Levenberg–Marquardt algorithm for a 2-pass (rough estimate, refine) multi-iteration determination off coeffs
