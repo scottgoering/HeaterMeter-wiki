@@ -18,11 +18,13 @@ Standalone HeaterMeter adds a barrel power jack and can omit the pinhead power j
 
 The HM for LM (HM4LM) configuration doesn't need the barrel power jack, and adds a pinhead power jack, router serial output, and self-reset circuit. HM4LM still runs the ATmega microcontroller at 5V supply, however the design can be adapted for pure 3.3V supply, which runs off the 3.3V from the router. 5V is used for better ADC resolution and for use with a 5V LCD display, which seem to be more prevalent than their 3.3V counterparts.
 
-== Wireless Probe Support ==
+## Wireless Probe Support
 
 To use wireless probes, a RFM12B receiver needs to be added to the design. The default code assumes a 915MHz transceiver, which is only legal in the United States, but a one-line code change facilitates using 433MHz or 868MHz bands to comply with other local regulations. In the Standalone HeaterMeter configuration, an additional 3.3V power supply needs to be added to power the transceiver. The 3.3V regulator is not needed in the HM4LM configuration.
 
 ## Parts List
+
+### Parts Complete Build
 
 |Qty|Value     |Device                |Parts|
 |---|----------|----------------------|-----|
@@ -74,3 +76,7 @@ To use wireless probes, a RFM12B receiver needs to be added to the design. The d
 1  |FOOD2     |DCJ0202               |JP5
 1  |FOOD3/AMB |DCJ0202               |JP6
 
+### Parts HeaterMeter Standalone
+
+* Enclosure [Mouser](https://www.mouser.com/Search/ProductDetail.aspx?R=131-GRAYvirtualkey63500000virtualkey635-131-G)
+* 12VDC/600mA power brick 5.5x2.1mm barrel jack. 500mA may be ok [Sparkfun](http://www.sparkfun.com/products/9442)
