@@ -6,6 +6,7 @@
     * [[OpenWrt Packages]]
     * [[Building OpenWrt from Source]] (not necessary if using pre-built image)
 * User Guide
+    * [[Heatermeter Operation]]
     * [[LinkMeter Home]] A guide what the heck you are looking at
     * [[URLs and Commands]] List of all supported commands
 * Upgrading
