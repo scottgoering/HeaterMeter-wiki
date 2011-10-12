@@ -5,6 +5,8 @@
 * [[Installation]]
     * [[OpenWrt Packages]]
     * [[Building OpenWrt from Source]] (not necessary if using pre-built image)
+* User Guide
+    * [[URLs and Commands]] List of all supported commands
 * Upgrading
     * [[Upgrading LinkMeter 1to2]]
 
