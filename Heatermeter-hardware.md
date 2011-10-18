@@ -29,7 +29,7 @@ To use wireless probes, a RFM12B receiver needs to be added to the design. The d
 |Qty|Value     |Device                |Parts|
 |---|----------|----------------------|-----|
 1  |ATmega328P|AVR-MEGA8-PPTH        |IC2
-1  |74HC164N  |74HC164N              |IC1
+1  |74LS164N  |74LS164N              |IC1
 1  |16Mz      |RESONATOR-PTH         |Y1
 1  |0         |R-US_0204/7           |R7
 1  |390       |R-US_0204/7           |BTN-R7   
@@ -45,8 +45,8 @@ To use wireless probes, a RFM12B receiver needs to be added to the design. The d
 5  |0.1u      |C-US025-025X050       |C2, C3, C6, C9, C10
 1  |22u/6.3   |CPOL-USE2.5-6         |C8
 1  |22u/25    |CPOL-USE2.5-6         |C1
-1  |100u/10   |CPOL-USE2.5-6         |C5
-1  |100u/25   |CPOL-USE2.5-6         |C4
+1  |47u/10   |CPOL-USE2.5-6          |C5
+1  |47u/25   |CPOL-USE2.5-6          |C4
 2  |1N4001    |DIODE-DO41-7          |D1, D2, D3
 1  |1N5817    |DIODE-DO41-7          |D4
 1  |IRL510    |PMOSFET_NTO220BV      |Q1
