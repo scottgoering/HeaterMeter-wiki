@@ -43,4 +43,22 @@ Due to the large number of changes to the base system, it is recommended you fla
     rm /etc/config/linkmeter
     sysupgrade http://capnbry.net/linkmeter/release/2/linkmeter-brcm47xx-squashfs.trx && reboot
 
-After the upgrade completes, you'll want to upgrade the AVR Firmware as well via the web interface using [this HEX file](http://capnbry.net/linkmeter/release/2/heatermeter.cpp.hex)
+**IMPORTANT** Due to a bug in the OpenWrt build process, after the upgrade completes, linkmeterd will still not be configured. To add the configuration to ```/etc/config/lucid```, execute this script:
+
+```
+uci batch << EOF
+set lucid.main.threadlimit=2
+set lucid.lmserver=daemon
+set lucid.lmserver.enabled=1
+set lucid.lmserver.slave=linkmeter
+set lucid.linkmeter=linkmeterd
+set lucid.linkmeter.serial_device=/dev/ttyS1
+set lucid.linkmeter.serial_baud=115200
+set lucid.linkmeter.rrd_file=/tmp/hm.rrd
+set lucid.linkmeter.stashpath=/root
+commit lucid
+EOF
+/etc/init.d/lucid restart
+```
+
+Finally, you'll want to upgrade the AVR Firmware as well via the web interface using [this HEX file](http://capnbry.net/linkmeter/release/2/heatermeter.cpp.hex)
