@@ -71,6 +71,8 @@ To use wireless probes, a RFM12B receiver needs to be added to the design. The d
 4  |Mono 2.5mm female jack      |JP3(PIT), JP4(FOOD1), JP5(FOOD2), JP6(FOOD3/AMB)|xxx
 1  | Crimp pins female x100     | N/A | [Pololu](http://www.pololu.com/catalog/product/1930)
 
+[Mouser Project](http://www.mouser.com:80/ProjectManager/ProjectDetail.aspx?AccessID=17a758cf63) for all Mouser parts listed above $26.44
+
 ### Parts HeaterMeter Standalone
 
 * Enclosure [Mouser](https://www.mouser.com/Search/ProductDetail.aspx?R=131-GRAYvirtualkey63500000virtualkey635-131-G)
