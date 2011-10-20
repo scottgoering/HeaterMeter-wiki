@@ -59,6 +59,8 @@ To use wireless probes, a RFM12B receiver needs to be added to the design. The d
 1  |RFM12B    |RFM12B                |U$1|[ModernDevice](http://shop.moderndevice.com/products/rfm12b-radio)
 1  |LCD_16X2  |TUXGR_16X2_R2         |DIS1|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=NHD-0216K1Z-NSW-FBW-Lvirtualkey66010000virtualkey763-0216K1Z-NSW-FBW)
 
+### Interconnects
+
 |Qty|Device                |Parts|Link|
 |---|----------------------|-----|----|
 1  |Male PINHD single row       |J1(LCD), J2(PROBE), J3(BTN), J4(BLW), J8(FTDI) |[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=68016-236HLFvirtualkey64910000virtualkey649-68016-236HLF)
