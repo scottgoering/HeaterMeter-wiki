@@ -47,7 +47,7 @@ To use wireless probes, a RFM12B receiver needs to be added to the design. The d
 1  |22u/25    |CPOL-USE2.5-6         |C1|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=UPW1E220MDD6virtualkey64700000virtualkey647-UPW1E220MDD6)
 1  |47u/10   |CPOL-USE2.5-6          |C5|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=UHC1A470MDDvirtualkey64700000virtualkey647-UHC1A470MDD)
 1  |47u/25   |CPOL-USE2.5-6          |C4|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=UHC1E470MDDvirtualkey64700000virtualkey647-UHC1E470MDD)
-2  |1N4001    |DIODE-DO41-7          |D1, D2, D3|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=1N4001GP-E3%2f73virtualkey61370000virtualkey625-1N4001GP-E3%2f73)
+3  |1N4001    |DIODE-DO41-7          |D1, D2, D3|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=1N4001GP-E3%2f73virtualkey61370000virtualkey625-1N4001GP-E3%2f73)
 1  |1N5817    |DIODE-DO41-7          |D4|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=VS-1N5817virtualkey61370000virtualkey844-1N5817)
 1  |IRL510    |PMOSFET_NTO220BV      |Q1|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=FDP7030BLvirtualkey51210000virtualkey512-FDP7030BL)
 1  |RESET     |TAC_SWITCHPTH         |S1|[Mouser](http://www.mouser.com/ProductDetail/Mountain-Switch/101-TS6111T1602-EV/?qs=tOxFRg%2fqIe3Emt9e4hH6fA%3d%3d)
