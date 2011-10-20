@@ -40,7 +40,7 @@ To use wireless probes, a RFM12B receiver needs to be added to the design. The d
 5  |10k       |R-US_0204/7           |R20, R21, R25, R26, R27|Use %1 below
 4  |10k 1%    |R-US_0204/7           |R5, R16, R17, R18|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=MF1%2f4DC1002Fvirtualkey66000000virtualkey660-MF1%2f4DC1002F)
 1  |10k       |TRIM_US-CT6           |R6|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=T73YE103KT20virtualkey61330000virtualkey72-T70YE-10K)
-1  |10k       |THERMISTOR_R-2,5      |TR1|xxx
+1  |10k       |THERMISTOR_R-2,5      |TR1|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=NTCLE203E3103FB0virtualkey59420000virtualkey594-2381-640-55103)
 1  |0.01u     |C-US025-025X050       |C7|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=K103K15X7RF53L2virtualkey59420000virtualkey594-K103K15X7RF53L2)
 5  |0.1u      |C-US025-025X050       |C2, C3, C6, C9, C10|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=K104K15X7RF53L2virtualkey59420000virtualkey594-K104K15X7RF53L2)
 1  |22u/6.3   |CPOL-USE2.5-6         |C8|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=UMR0J220MCD2virtualkey64700000virtualkey647-UMR0J220MCD2)
@@ -73,7 +73,7 @@ To use wireless probes, a RFM12B receiver needs to be added to the design. The d
 4  |Mono 2.5mm female jack      |JP3(PIT), JP4(FOOD1), JP5(FOOD2), JP6(FOOD3/AMB)|xxx
 1  | Crimp pins female x100     | N/A | [Pololu](http://www.pololu.com/catalog/product/1930)
 
-[Mouser Project](http://www.mouser.com:80/ProjectManager/ProjectDetail.aspx?AccessID=17a758cf63) for all Mouser parts listed above $26.44
+[Mouser Project](http://www.mouser.com:80/ProjectManager/ProjectDetail.aspx?AccessID=17a758cf63) for all Mouser parts listed above $27.34
 
 ### Parts HeaterMeter Standalone
 
