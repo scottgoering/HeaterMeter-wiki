@@ -63,17 +63,24 @@ To use wireless probes, a RFM12B receiver needs to be added to the design. The d
 
 |Qty|Device                |Parts|Link|
 |---|----------------------|-----|----|
-1  |Male PINHD single row       |J1(LCD), J2(PROBE), J3(BTN), J4(BLW), J8(FTDI) |[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=68016-236HLFvirtualkey64910000virtualkey649-68016-236HLF)
+1  |Male PINHD single row       |J1(LCD), J2(PROBE), J3(BTN), J4(BLW), J8(FTDI) |[Mouser](http://www.mouser.com/ProductDetail/FCI/68001-236HLF/?qs=sGAEpiMZZMtsLRyDR9nM14Vjyw4ze%252bjt57BsII4P7vM%3d) 0.23" mate/0.12" tail/15u gold
 3  |CONHOUSE single row 5-pin |P1(LCD 2x),P2(PROBE)|[Pololu](http://www.pololu.com/catalog/product/1904)
 2  |CONHOUSE single row 2-pin |P3(BTN),P4(BLW)|[Pololu](http://www.pololu.com/catalog/product/1901)
 1  |Female PINHD 1X6/90       |P5(RTR)|xxx
 1  |Male PINHD 2x3             |J6(ICSP)|[Mouser](http://www.mouser.com/ProductDetail/3M/961206-6404-AR/?qs=A%252btsDZJT%252bi%2ft%2f4aaelvU3g%3d%3d)
-1  |Male PINHD single row/90   |J7(POW)|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=68423-236virtualkey64910000virtualkey649-68423-236)
-1  |2.1mm POWER_JACKPTH         |J9(POW)|xxx
-4  |Mono 2.5mm female jack      |JP3(PIT), JP4(FOOD1), JP5(FOOD2), JP6(FOOD3/AMB)|xxx
+1  |Male PINHD single row/90   |J7(POW)|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=68016-236HLFvirtualkey64910000virtualkey649-68016-236HLF)
 1  | Crimp pins female x100     | N/A | [Pololu](http://www.pololu.com/catalog/product/1930)
+1  |2.1mm POWER_JACKPTH         |J9(POW)|[Mouser](http://www.mouser.com/ProductDetail/Kobiconn/163-7620-E/?qs=8xMK%252bwDsXhcfMNb%2fYnnwLQ%3d%3d)
+4  |Mono 2.5mm female jack      |JP3(PIT), JP4(FOOD1), JP5(FOOD2), JP6(FOOD3/AMB)|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=161-0250-Evirtualkey11180000virtualkey161-0250-E)
+1  |RCA Female jack             |JX4(BLOWER External)|[Mouser](http://www.mouser.com/ProductDetail/Kobiconn/161-2052/?qs=sGAEpiMZZMvlX3nhDDO4AKpXrDFhuRMhW4e%252blHGol2Q%3d)
 
-[Mouser Project](http://www.mouser.com:80/ProjectManager/ProjectDetail.aspx?AccessID=17a758cf63) for all Mouser parts listed above $27.34
+### Probes and Fan
+|Qty|Description|Link|
+|---|-----------|----|
+1 | Blower-style fan 12VDC 5-10CFM | [DigiKey](http://search.digikey.com/us/en/products/BFB0612H/603-1117-ND/1014448)
+1-4 | Maverick BBQ Thermistor Probes (3ft or High Heat) | [Maverick](http://www.maverickhousewares.com/parts_and_service.htm)
+
+[Mouser Project](http://www.mouser.com:80/ProjectManager/ProjectDetail.aspx?AccessID=17a758cf63) for all Mouser parts listed above $31.68
 
 ### Parts HeaterMeter Standalone
 
