@@ -1,5 +1,3 @@
-(Still working on this page)
-
 As a reminder, HeaterMeter refers to the ATmega (Arduino) based microcontroller board that runs the LCD, reads button and temperature probe inputs, and controls the blower motor. This document describes the configurations and design of the HeaterMeter board, which may optionally be installed into an OpenWrt-compatible router to become a LinkMeter.
 
 Official hardware is still being determined pending sample circuit boards coming back from the PCB manufacturer (design sent 2011-9-26). The approximate design can be found in the git /eagle/ directory, however this will get a couple tweaks possibly. 
@@ -66,7 +64,7 @@ To use wireless probes, a RFM12B receiver needs to be added to the design. The d
 1  |Male PINHD single row       |J1(LCD), J2(PROBE), J3(BTN), J4(BLW), J8(FTDI) |[Mouser](http://www.mouser.com/ProductDetail/FCI/68001-236HLF/?qs=sGAEpiMZZMtsLRyDR9nM14Vjyw4ze%252bjt57BsII4P7vM%3d) 0.23" mate/0.12" tail/15u gold
 3  |CONHOUSE single row 5-pin |P1(LCD 2x),P2(PROBE)|[Pololu](http://www.pololu.com/catalog/product/1904)
 2  |CONHOUSE single row 2-pin |P3(BTN),P4(BLW)|[Pololu](http://www.pololu.com/catalog/product/1901)
-1  |Female PINHD 1X6/90       |P5(RTR)|xxx
+1  |Female PINHD 1X6/90       |P5(RTR)|[DigiKey](http://search.digikey.com/us/en/products/PPTC051LGBN-RC/S5441-ND/775899)
 1  |Male PINHD 2x3             |J6(ICSP)|[Mouser](http://www.mouser.com/ProductDetail/3M/961206-6404-AR/?qs=A%252btsDZJT%252bi%2ft%2f4aaelvU3g%3d%3d)
 1  |Male PINHD single row/90   |J7(POW)|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=68016-236HLFvirtualkey64910000virtualkey649-68016-236HLF)
 1  | Crimp pins female x100     | N/A | [Pololu](http://www.pololu.com/catalog/product/1930)
