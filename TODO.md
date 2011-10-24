@@ -1,8 +1,6 @@
 # TODO list
 Items roughly in the order I may get to them
 
-* Hardware Parts List to wiki
-* Fix out-of-order firmware install messing up /etc/config/lucid
 * Security
     * Still possibly getting silently logged out? Could be double-cookie. Should modify to use old cookie after privilege escalation.
 * BUG: If the JSON update occurs while you have an in-place edit control open, you'll lose the ability to edit that item.
@@ -58,5 +56,4 @@ Items roughly in the order I may get to them
     * 2.7V 8MHz internal clock?  Can be powered from solar path light
 * New enclosure?
 * Inkject PCB printing
-* BatchPCB / DorkbotPDX linkmeter design
 * ASUS RT-N12 GPIO points/design
