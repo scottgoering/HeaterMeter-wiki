@@ -66,7 +66,7 @@ To use wireless probes, a RFM12B receiver needs to be added to the design. The d
 2  |CONHOUSE single row 2-pin |P3(BTN),P4(BLW)|[Pololu](http://www.pololu.com/catalog/product/1901)
 1  |Female PINHD 1X6/90       |P5(RTR)|[DigiKey](http://search.digikey.com/us/en/products/PPTC051LGBN-RC/S5441-ND/775899)
 1  |Male PINHD 2x3             |J6(ICSP)|[Mouser](http://www.mouser.com/ProductDetail/3M/961206-6404-AR/?qs=A%252btsDZJT%252bi%2ft%2f4aaelvU3g%3d%3d)
-1  |Male PINHD single row/90   |J7(POW)|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=68016-236HLFvirtualkey64910000virtualkey649-68016-236HLF)
+1  |Male PINHD single row/90   |J7(POW), PX5(RTR External)|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=68016-236HLFvirtualkey64910000virtualkey649-68016-236HLF)
 1  | Crimp pins female x100     | N/A | [Pololu](http://www.pololu.com/catalog/product/1930)
 1  |2.1mm POWER_JACKPTH         |J9(POW)|[Mouser](http://www.mouser.com/ProductDetail/Kobiconn/163-7620-E/?qs=8xMK%252bwDsXhcfMNb%2fYnnwLQ%3d%3d)
 4  |Mono 2.5mm female jack      |JP3(PIT), JP4(FOOD1), JP5(FOOD2), JP6(FOOD3/AMB)|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=161-0250-Evirtualkey11180000virtualkey161-0250-E)
