@@ -1,5 +1,10 @@
 # Installation
 ## Installation of HeaterMeter
+
+### HeaterMeter bootloader
+The ATmega328P chip **must have a bootloader** in order to load the HeaterMeter software via the serial interface. The standard Optiboot is used, however the Optiboot that ships with Arduino-0022 has a bug in it which can prevent HeaterMeter from fully booting properly. If you have an ICSP programmer, I'd recommend using the version from Arduino-1.0. If you do not have an ISCP programmer you **must buy an ATmega328P with the bootloader already installed**.
+
+### HeaterMeter software
 HeaterMeter is simply compiled using the Arduino IDE and uploaded to an AVR.  The source path is /arduino/ and it contains both the heatermeter source directory (open the pde file in the Arduino IDE) and the libraries needed.  The libraries may need to be copied / linked to your Arduino library directory depending on where you installed the source.  On Windows this is under %USERPROFILE%/Documents/Arduino/Libraries. 
 
 It may be convenient to simply link the library directories using the Windows mklink command (Win7), which must be run as Administrator.  For example (substitute sourcepath with where your HeaterMeter source is)
@@ -25,6 +30,17 @@ If you still have the Arduino IDE open, close it and re-open it.  Now under File
 Connect your Arduino / AVR and select the proper model from Tools -> Board. If you bought a current ATmega328PU with Optiboot, that is an "Arduino Uno".  Note than an ATmega328 is not the same thing as an "Arduino Mega", which is actually an ATmega2560. Also make sure the proper serial port from Tools -> Serial Port is selected.  If you have multiple serial devices, it may be hard to tell which is which, but it doesn't hurt to try them all (unless you happen to have another serial device which is an ATMega with Optiboot in which case you're going to reprogram that instead).  Select File -> Upload and the code should compile in 30 seconds or so then upload to the microcontroller.
 
 If you get errors about missing files, verify you have *Documents/Arduino/libraries* with the folders Ports, RF12, and ShiftRegLCD and each of those contains .cpp and .h files.
+
+### Installing HeaterMeter from the router
+If you have your ATmega328P with a bootloader and don't have an FTDI USB cable to load HeaterMeter from the Arduino IDE, you can load it from the router once it is connected.  The first time you load HeaterMeter, you can't use the web interface though so telnet/SSH into the router:
+
+```
+cd /tmp
+wget wget http://capnbry.net/linkmeter/snapshots/trunk/hm.hex
+avrupdate
+```
+
+Before you press enter on the ```avrupdate``` line, press and hold the RESET button on the HeaterMeter board, and press enter.  After you see ```Stopping LinkMeter OK``` release the RESET button. Avrdude needs to start within about half a second of release of the RESET button. It make take a couple times of running ```avrupdate``` with the RESET button to get the timing right.
 
 ## Installation of LinkMeter
 You can either build from source, use a pre-built OpenWrt image and add the needed packages, or use a pre-built LinkMeter OpenWrt image. LinkMeter currently follows OpenWrt trunk until their next release.  The pre-built image contains all the necessary prerequisites as well as the LinkMeter package, so this should be all that is needed to get up and running.  See [[OpenWrt Packages]] for more information about what is included.  
