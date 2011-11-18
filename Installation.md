@@ -36,7 +36,7 @@ If you have your ATmega328P with a bootloader and don't have an FTDI USB cable t
 
 ```
 cd /tmp
-wget wget http://capnbry.net/linkmeter/snapshots/trunk/hm.hex
+wget http://capnbry.net/linkmeter/snapshots/trunk/hm.hex
 avrupdate
 ```
 
