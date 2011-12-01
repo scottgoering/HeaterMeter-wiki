@@ -27,6 +27,22 @@ Both HeaterMeter and LinkMeter accept commands via URL-type form.
   <td>Y</td><td>N</td>
 </tr>
 
+<tr><td><code>/lm/hmstatus</code></td>
+  <td>Get last HeaterMeter status update in JSON format.</td>
+  <td>Y</td><td>N</td>
+
+<tr><td><code>/lm/rfstatus</code></td>
+  <td>Get last RF12 status update in JSON format</td>
+  <td>Y</td><td>N</td>
+
+<tr><td><code>/lm/hist</code></td>
+  <td>Get HeaterMeter history in CSV format, which is used to generate the graph.
+<ul>
+<li>rrd=X use X for the database file instead of the default (may include full path)</li>
+<li>nancnt=X specifies the range of the returned data. Values are subject to change but: Not Present=auto 460=1h 360=6h 240=12h else 24h</li>
+</ul></td>
+  <td>Y</td><td>N</td>
+
 <tr><td><code>/lm/login</code></td>
   <td>Bounce to the LinkMeter login page for authentication.</td>
   <td>Y</td><td>N</td>
