@@ -104,6 +104,8 @@ The definitive source on HeaterMeter set parameters is the [HeaterMeter README](
 |``poA=B``|Set probe offset A to integer B.|
 |``pcN=A,B,C,R,TRM``|Set the probe coefficients and type for probe N.<br/>Any of A,B,C,R,TRM set to 0 will not be modified.<br/>A, B, and C are the Steinhart-Hart coeffieicents and R is the fixed side of the probe voltage divider.<br/>A, B, C and R are floating point and should be specified in scienfific noation, e.g. 0.00023067434 -> 2.3067434e-4.<br/>TRM is either the type of probe OR an RF map specifier. If TRM is an integer, it indicates a probe type.  Probe types are 1=Disabled, 2=Internal, 3=RFM12B.  If the first character of TRM is a capital letter A-Z followed by a single digit number 0-5, it is considered an RF Map item <rfSource (letter)><sourcePin>.<br/>e.g. a TRM of B0 sets this probe to use RF Source B pin 0.  If an RF map is present, the probe type is automatically switched to type RFM12B.|
 |``lb=A``|Set the LCD backlight to A.  Range is 0 (off) to 255 (full)|
+|``ld=A``|Set the duration of the Lid Open timer in seconds. You can not set the duration to less than LIDOPEN_MIN_AUTORESUME. Max is 65535 seconds.|
+|``lo=A``|Set the offset of the Lid Open autodetect in % of set point.|
 |``pnXXX``|Retrieve the current probe names (XXX is literally the string "XXX")|
 
 |Probe Number|Description|
