@@ -65,7 +65,8 @@ Both HeaterMeter and LinkMeter accept commands via URL-type form.
 <li>backup=1 backup to stashpath</li>
 <li>restore=1 restore to active</li>
 <li>reset=1 reset active</li>
-<li>rrd=file use file instead of 'hm.rrd' for stashpath file</li>
+<li>rrd=file use file instead of 'hm.rrd' for stashpath file (do not include path)</li>
+<li>delete=1 delete stashpath file and any metadata</li>
 </ul>
 </td>
   <td>A</td><td>N</td>
