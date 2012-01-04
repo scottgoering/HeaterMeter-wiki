@@ -1,6 +1,14 @@
 As a reminder, HeaterMeter refers to the ATmega (Arduino) based microcontroller board that runs the LCD, reads button and temperature probe inputs, and controls the blower motor. This document describes the configurations and design of the HeaterMeter board, which may optionally be installed into an OpenWrt-compatible router to become a LinkMeter.
 
-Official hardware is still being determined pending sample circuit boards coming back from the PCB manufacturer (design sent 2011-9-26). The approximate design can be found in the git /eagle/ directory, however this will get a couple tweaks possibly. 
+Standard HeaterMeter hardware is built on a [HeaterMeter V3.1 PCB](http://capnbry.net/linkmeter/pcb/hm-3.1/)
+
+* [Schematic Image](http://capnbry.net/linkmeter/pcb/hm-3.1/LinkMeterHM.png)
+* EAGLE 5 [schematic](http://capnbry.net/linkmeter/pcb/hm-3.1/LinkMeterHM.sch) and [board](http://capnbry.net/linkmeter/pcb/hm-3.1/LinkMeterHM.brd)
+* [External Connections probes/LCD](http://capnbry.net/linkmeter/pcb/hm-3.1/LinkMeterHM-External.png)
+* [Button Board](http://capnbry.net/linkmeter/pcb/hm-3.1/LinkMeterHM-Button.png)
+* DorkBot [cam job](http://capnbry.net/linkmeter/pcb/hm-3.1/LinkMeter-Dorkbot.cam) or [cam output](http://capnbry.net/linkmeter/pcb/hm-3.1/LinkMeterHM-V3.1-DorkBot.zip). Use cam output if you just want a board made with no modifications
+* [README](http://capnbry.net/linkmeter/pcb/hm-3.1/README-V3.1.txt) description of files
+* [ZIP containing all the above](http://capnbry.net/linkmeter/pcb/hm-3.1/hm-3.1.zip)
 
 ## Configurations 
 
@@ -18,7 +26,7 @@ The HM for LM (HM4LM) configuration doesn't need the barrel power jack, and adds
 
 ## Parts List
 
-### Parts Complete Build
+### Parts Complete Build V3.1 PCB
 
 |Qty|Value     |Device                |Parts|Link|
 |---|----------|----------------------|-----|----|
