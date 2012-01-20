@@ -2,7 +2,7 @@
 ## Installation of HeaterMeter
 
 ### HeaterMeter bootloader
-The ATmega328P chip **must have a bootloader** in order to load the HeaterMeter software via the serial interface. The standard Optiboot is used, however the Optiboot that ships with Arduino-0022 has a bug in it which can prevent HeaterMeter from fully booting properly. If you have an ICSP programmer, I'd recommend using the version from Arduino-1.0. If you do not have an ISCP programmer you **must buy an ATmega328P with the bootloader already installed**.
+The ATmega328P chip **must have a bootloader** in order to load the HeaterMeter software via the serial interface. The standard Optiboot 4.4 or greater is used, which is the one included with Arduino-1.0. The Optiboot 4.4 that ships with Arduino-0022 has a bug in it which can prevent HeaterMeter from fully booting properly. If you have an ICSP programmer, I'd recommend using the version from Arduino-1.0. If you do not have an ISCP programmer you **must buy an ATmega328P with the bootloader already installed**.
 
 ### HeaterMeter software
 HeaterMeter is simply compiled using the Arduino IDE and uploaded to an AVR.  The source path is /arduino/ and it contains both the heatermeter source directory (open the pde file in the Arduino IDE) and the libraries needed.  The libraries may need to be copied / linked to your Arduino library directory depending on where you installed the source.  On Windows this is under %USERPROFILE%/Documents/Arduino/Libraries. 
@@ -16,7 +16,7 @@ If you don't know what elevated command prompts and softlinks are, just skip it 
 ### HeaterMeter software step by step (Windows)
 The greatest thing (sarcasm) about Windows is a a step-by-step guide is a bunch of descriptions of vaguely how things progress from action to action instead of a concise list of steps.
 
-You'll need two things: the Arduino IDE and the HeaterMeter source.  The Arduino IDE contains everything needed to cross-compile an application for the Arduino / AVR as well as GUI editor but it **does require Java** be installed already.  Download it from [their site](http://www.arduino.cc/en/Main/Software).  Extract it and launch the editor (arduino-0022/Arduino.exe) to verify you've got an acceptable version of Java.
+You'll need two things: the Arduino IDE and the HeaterMeter source.  The Arduino IDE contains everything needed to cross-compile an application for the Arduino / AVR as well as GUI editor but it **does require Java** be installed already.  Download it from [their site](http://www.arduino.cc/en/Main/Software).  Extract it and launch the editor (arduino-1.0/Arduino.exe) to verify you've got an acceptable version of Java.
 
 > A word about "Documents": The directory / folder "Documents" used below is your personal My Documents folder, not *"C:\Documents\"*.  Where Documents is and what it is called varies based on your Windows version.
 
