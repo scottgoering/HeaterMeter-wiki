@@ -27,3 +27,6 @@ Because our Integral term can only be accumulated while the fan is running (grea
         PidP * error + 
         PidI * accumulatedError + 
         PidD * (averageTemp - temperature)
+
+### Startup Error Cut
+When you first start up your BBQ or when you raise the setpoint, HeaterMeter accumulates a somewhat large integral term as the fire is gently stoked to the target. The first time the temperature is reached after one of these periods, the integral term is zeroed when the temperature crosses the setpoint. This prevents the temperature from "riding high" for the first few oscillation cycles. This should not be confused with "overshoot protection" which is created by the derivative term as a function of the rising temperature.
