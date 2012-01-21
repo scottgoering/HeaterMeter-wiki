@@ -1,4 +1,5 @@
 * [[An Introduction to LinkMeter / HeaterMeter]]
+    * [[PID Controller Theory]]
 * [Photos](https://picasaweb.google.com/capnbry/HeaterMeter) (Picasa link)
 * Hardware
     * [[HeaterMeter Hardware]]
