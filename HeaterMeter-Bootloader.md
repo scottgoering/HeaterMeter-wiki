@@ -22,11 +22,11 @@ To burn the bootloader using USBtinyISP, assemble the HeaterMeter board and hook
 ### Program from an Arduino
 This technique is most economical for people who already own an Arduino Duemilanove or Diecimila (or possibly an Uno). Set up the circuit as described in [Arduino as ISP](http://arduino.cc/en/Tutorial/ArduinoISP) breadboard section. You can either use a breadboard or an [assembled HeaterMeter board ICSP header](https://lh3.googleusercontent.com/-NJfXjitiqxA/Tx8G8kK9jvI/AAAAAAAAAoo/k9vy10KXHZI/s800/hm-icsp-pins.jpg). 
 
-1. Edit (your Arduino directory)/hardware/arduino/programmers.txt and change arduinoisp.speed=19200 to arduinoisp.speed=9600
+1. Edit (your Arduino directory)/hardware/arduino/programmers.txt and change ```arduinoisp.speed=19200``` to ```arduinoisp.speed=9600```
 1. Close all open Arduino windows, and restart the Arduino IDE
 1. Tools -> Board -> Select your host chip (the Duemilanove or Diecimila)
 1. File -> Examples -> ArduinoISP
-1. Change Serial.begin(19200); to Serial.begin(9600); (around line 69)
+1. Change ```Serial.begin(19200);``` to ```Serial.begin(9600);``` (around line 69)
 1. Upload
 1. Assemble the appropriate flashing circuit
 1. Disable your host chip auto-reset feature by placing a 10u or higher capacitor between RESET and GND.
@@ -44,4 +44,4 @@ You can use the same circuit as above, but instead flash the host chip with the 
 1. Upload Optiloader
 1. Assemble the appropriate flashing circuit
 1. Apply power. Optiloader will immediately begin flashing as soon as it powers up. You can open the Serial Monitor at 19200 baud to watch the progress.
-1. Wait about 5 seconds. Optiloader will tell you when it is done. "Type 'G' or hit RESET for next chip"
+1. Wait about 5 seconds. Optiloader will tell you when it is done. ```Type 'G' or hit RESET for next chip```
