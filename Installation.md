@@ -2,7 +2,7 @@
 ## Installation of HeaterMeter
 
 ### HeaterMeter bootloader
-The ATmega328P chip **must have a bootloader** in order to load the HeaterMeter software via the serial interface. The standard Optiboot 4.4 or greater is used, which is the one included with Arduino-1.0. The Optiboot that ships with Arduino-0022 has a bug in it which can prevent HeaterMeter from fully booting properly. If you have an ICSP programmer, I'd recommend using the version from Arduino-1.0. If you do not have an ISCP programmer you **must buy an ATmega328P with the bootloader already installed**.
+The ATmega328P chip **must have a bootloader** in order to load the HeaterMeter software via the serial interface. See [[HeaterMeter Bootloader]] for more information on installing a microcontroller bootloader.
 
 ### HeaterMeter software
 HeaterMeter is simply compiled using the Arduino IDE and uploaded to an AVR.  The source path is /arduino/ and it contains both the heatermeter source directory (open the pde file in the Arduino IDE) and the libraries needed.  The libraries may need to be copied / linked to your Arduino library directory depending on where you installed the source.  On Windows this is under %USERPROFILE%/Documents/Arduino/Libraries. 
