@@ -5,6 +5,7 @@
     * [[HeaterMeter Hardware]]
     * [[LinkMeter Hardware]] 
 * [[Installation]]
+    * [[HeaterMeter Bootloader]]
     * [[OpenWrt Packages]]
     * [[Building OpenWrt from Source]] (not necessary if using pre-built image)
 * User Guide
