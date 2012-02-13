@@ -45,7 +45,7 @@ The HM for LM (HM4LM) configuration doesn't need the barrel power jack, and adds
 1  |10k       |THERMISTOR_R-2,5      |TR1|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=NTCLE203E3103FB0virtualkey59420000virtualkey594-2381-640-55103)
 1  |0.01u     |C-US025-025X050       |C7|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=K103K15X7RF53L2virtualkey59420000virtualkey594-K103K15X7RF53L2)
 5  |0.1u      |C-US025-025X050       |C2, C3, C6, C9, C10|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=K104K15X7RF53L2virtualkey59420000virtualkey594-K104K15X7RF53L2)
-1  |22u/6.3   |CPOL-USE2.5-6         |C8|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=UMR0J220MCD2virtualkey64700000virtualkey647-UMR0J220MCD2)
+1  |22u/6.3   |CPOL-USE2.5-6         |C8|[Mouser](http://www.mouser.com/ProductDetail/Nichicon/USA0J220MDD/?qs=62ecY7oL%252bWMOv1D%2fKxxjwQ%3d%3d)
 1  |22u/25    |CPOL-USE2.5-6         |C1|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=UPW1E220MDD6virtualkey64700000virtualkey647-UPW1E220MDD6)
 1  |47u/10   |CPOL-USE2.5-6          |C5|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=UHC1A470MDDvirtualkey64700000virtualkey647-UHC1A470MDD)
 1  |47u/25   |CPOL-USE2.5-6          |C4|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=UHC1E470MDDvirtualkey64700000virtualkey647-UHC1E470MDD)
