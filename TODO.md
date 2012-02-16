@@ -30,15 +30,6 @@ Items roughly in the order I may get to them
     * Put the graph data as static in the page?
 * Graph
     * Ability to toggle between absolute time and relative time from start
-* Adjust order of items on tooltip?
-* utils.html 
-    * Split one-time settings from common changed settings
-* probe config 
-    * Disposition=Disabled, Internal, Wireless
-    * Wireless Mapping: Node (B-Z), Pin (0-5), Dest (Probe0-Probe3)
-    * ProbeName, Offset, Rknown, steinhart[3]
-    * /set?pc0=8.98053228e-4,2.49263324e-4,2.04047542e-7,022000,B6  = 60 bytes
-    * Alarm High, Alarm Low, High Enabled, Low Enabled
 * Touch-friendly setpoint setting using vertical ... spin ... grid
 * Alarms
     * Serial notification
