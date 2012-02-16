@@ -1,14 +1,14 @@
 As a reminder, HeaterMeter refers to the ATmega (Arduino) based microcontroller board that runs the LCD, reads button and temperature probe inputs, and controls the blower motor. This document describes the configurations and design of the HeaterMeter board, which may optionally be installed into an OpenWrt-compatible router to become a LinkMeter.
 
-Standard HeaterMeter hardware is built on a [HeaterMeter V3.1 PCB](http://capnbry.net/linkmeter/pcb/hm-3.1/)
+Standard HeaterMeter hardware is built on a [HeaterMeter V3.2 PCB](http://capnbry.net/linkmeter/pcb/hm-3.2/)
 
-* [Schematic Image](http://capnbry.net/linkmeter/pcb/hm-3.1/LinkMeterHM.png)
-* EAGLE 5 [schematic](http://capnbry.net/linkmeter/pcb/hm-3.1/LinkMeterHM.sch) and [board](http://capnbry.net/linkmeter/pcb/hm-3.1/LinkMeterHM.brd)
-* [External Connections probes/LCD](http://capnbry.net/linkmeter/pcb/hm-3.1/LinkMeterHM-External.png)
-* [Button Board](http://capnbry.net/linkmeter/pcb/hm-3.1/LinkMeterHM-Button.png)
-* DorkBot [cam job](http://capnbry.net/linkmeter/pcb/hm-3.1/LinkMeter-Dorkbot.cam) or [cam output](http://capnbry.net/linkmeter/pcb/hm-3.1/LinkMeterHM-V3.1-DorkBot.zip). Use cam output if you just want a board made with no modifications
-* [README](http://capnbry.net/linkmeter/pcb/hm-3.1/README-V3.1.txt) description of files
-* [ZIP containing all the above](http://capnbry.net/linkmeter/pcb/hm-3.1/hm-3.1.zip)
+* [Schematic Image](http://capnbry.net/linkmeter/pcb/hm-3.2/LinkMeterHM.png)
+* EAGLE 5 [schematic](http://capnbry.net/linkmeter/pcb/hm-3.2/LinkMeterHM.sch) and [board](http://capnbry.net/linkmeter/pcb/hm-3.2/LinkMeterHM.brd)
+* [External Connections probes/LCD](http://capnbry.net/linkmeter/pcb/hm-3.2/LinkMeterHM-External.png)
+* [Button Board](http://capnbry.net/linkmeter/pcb/hm-3.2/LinkMeterHM-Button.png)
+* DorkBot [cam job](http://capnbry.net/linkmeter/pcb/hm-3.2/LinkMeter-Dorkbot.cam) or [cam output](http://capnbry.net/linkmeter/pcb/hm-3.1/LinkMeterHM-V3.2-DorkBot.zip). Use cam output if you just want a board made with no modifications
+* [README](http://capnbry.net/linkmeter/pcb/hm-3.1/README-V3.2.txt) description of files
+* [ZIP containing all the above](http://capnbry.net/linkmeter/pcb/hm-3.1/hm-3.2.zip)
 
 ## Configurations 
 
@@ -26,18 +26,18 @@ The HM for LM (HM4LM) configuration doesn't need the barrel power jack, and adds
 
 ## Parts List
 
-### Parts Complete Build V3.1 PCB
+### Parts Complete Build V3.2 PCB
 
 |Qty|Value     |Device                |Parts|Link|
 |---|----------|----------------------|-----|----|
 1  |ATmega328P|AVR-MEGA8-PPTH        |IC2|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=ATMEGA328P-PUvirtualkey55650000virtualkey556-ATMEGA328P-PU)
-1  |74LS164N  |74LS164N              |IC1|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=SN74LS164Nvirtualkey59500000virtualkey595-SN74LS164N)
+1  |74HC595N  |74HC595N              |IC3|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=SN74HC595Nvirtualkey59500000virtualkey595-SN74HC595N)
 1  |16Mz      |RESONATOR-PTH         |Y1|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=AWCR-16.00MDvirtualkey52750000virtualkey815-AWCR-16.00MD)
 1  |0         |R-US_0204/7           |R7|AKA a wire
 1  |390       |R-US_0204/7           |BTN-R7|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=MF1%2f4DC3900Fvirtualkey66000000virtualkey660-MF1%2f4DC3900F)
 1  |680       |R-US_0204/7           |BTN-R8|[Mouser](http://www.mouser.com/ProductDetail/KOA-Speer/MF1-4DC6800F/?qs=sGAEpiMZZMu61qfTUdNhG0RUkTLGOdTMWpMLGFKzzSg%3d)
-5  |1k        |R-US_0204/7           |R1, R3, R4, R15, R19|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=MF1%2f4DC1001Fvirtualkey66000000virtualkey660-MF1%2f4DC1001F)
-3  |2.2k      |R-US_0204/7           |R8, R9, BTN-R9|[Mouser](http://www.mouser.com/ProductDetail/KOA-Speer/MF1-4DC2201F/?qs=sGAEpiMZZMu61qfTUdNhG2r2Nmyl%2fOMiJPrwMFCn50I%3d)
+4  |1k        |R-US_0204/7           |R1, R3, R15, R19|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=MF1%2f4DC1001Fvirtualkey66000000virtualkey660-MF1%2f4DC1001F)
+1  |2.2k      |R-US_0204/7           |BTN-R9|[Mouser](http://www.mouser.com/ProductDetail/KOA-Speer/MF1-4DC2201F/?qs=sGAEpiMZZMu61qfTUdNhG2r2Nmyl%2fOMiJPrwMFCn50I%3d)
 6  |4.7k      |R-US_0204/7           |R2, R13, R22, R23, R24, BTN-R11|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=MF1%2f4DC4701Fvirtualkey66000000virtualkey660-MF1%2f4DC4701F)
 5  |10k       |R-US_0204/7           |R20, R21, R25, R26, R27|Use %1 below
 4  |10k 1%    |R-US_0204/7           |R5, R16, R17, R18|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=MF1%2f4DC1002Fvirtualkey66000000virtualkey660-MF1%2f4DC1002F)
@@ -49,7 +49,7 @@ The HM for LM (HM4LM) configuration doesn't need the barrel power jack, and adds
 1  |22u/25    |CPOL-USE2.5-6         |C1|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=UPW1E220MDD6virtualkey64700000virtualkey647-UPW1E220MDD6)
 1  |47u/10   |CPOL-USE2.5-6          |C5|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=UHC1A470MDDvirtualkey64700000virtualkey647-UHC1A470MDD)
 1  |47u/25   |CPOL-USE2.5-6          |C4|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=UHC1E470MDDvirtualkey64700000virtualkey647-UHC1E470MDD)
-3  |1N4001    |DIODE-DO41-7          |D1, D2, D3|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=1N4001GP-E3%2f73virtualkey61370000virtualkey625-1N4001GP-E3%2f73)
+2  |1N4001    |DIODE-DO41-7          |D1, D3|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=1N4001GP-E3%2f73virtualkey61370000virtualkey625-1N4001GP-E3%2f73)
 1  |1N5817    |DIODE-DO41-7          |D4|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=VS-1N5817virtualkey61370000virtualkey844-1N5817)
 1  |IRL510    |PMOSFET_NTO220BV      |Q1|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=FDP7030BLvirtualkey51210000virtualkey512-FDP7030BL)
 1  |RESET     |TAC_SWITCHPTH         |S1|[Mouser](http://www.mouser.com/ProductDetail/Mountain-Switch/101-TS6111T1602-EV/?qs=tOxFRg%2fqIe3Emt9e4hH6fA%3d%3d)
@@ -82,7 +82,7 @@ The HM for LM (HM4LM) configuration doesn't need the barrel power jack, and adds
 1 | Blower-style fan 12VDC 5-10CFM | [DigiKey](http://search.digikey.com/us/en/products/BFB0612H/603-1117-ND/1014448)
 1-4 | Maverick BBQ Thermistor Probes (3ft or High Heat) | [Maverick](http://www.maverickhousewares.com/parts_and_service.htm)
 
-[Mouser Project](http://www.mouser.com:80/ProjectManager/ProjectDetail.aspx?AccessID=17a758cf63) for all Mouser parts listed above $31.68
+[Mouser Project](http://www.mouser.com:80/ProjectManager/ProjectDetail.aspx?AccessID=675aef15ec) for all Mouser parts listed above $34.08
 
 ### Parts HeaterMeter Standalone
 
@@ -94,7 +94,3 @@ The HM for LM (HM4LM) configuration doesn't need the barrel power jack, and adds
 To use wireless probes, a RFM12B receiver needs to be added to the design. These parts are included in the list above. The default code assumes a 915MHz transceiver, which is only legal in the United States, but a one-line code change facilitates using 433MHz or 868MHz bands to comply with other local regulations. In the Standalone HeaterMeter configuration, an additional 3.3V power supply needs to be added to power the transceiver. The 3.3V regulator is not needed in the HM4LM configuration.
 
 If you do not wish to have wireless probe support you can omit a large number of parts: R22 through R27, U$1, Q4, C8 and C9. R15 and LED1 are also optional but recommended for debugging purposes because LED1 is blinked once before initialization and once after.
-
-![HM4LM v3.1 No RF](https://lh5.googleusercontent.com/-rND46ttUkbE/Tpz1P2upKXI/AAAAAAAAAkU/l4KE4uf__9A/s800/IMG_0593.JPG)
-
-(A HeaterMeter HM4LM on a v3.1 PCB with no RF installed, showing what does not need to be populated)
