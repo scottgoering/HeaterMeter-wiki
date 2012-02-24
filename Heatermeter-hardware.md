@@ -66,7 +66,8 @@ The HM for LM (HM4LM) configuration doesn't need the barrel power jack, and adds
 |Qty|Device                |Parts|Link|
 |---|----------------------|-----|----|
 1  |Male PINHD single row       |J1(LCD), J2(PROBE), J3(BTN), J4(BLW), J8(FTDI) |[Mouser](http://www.mouser.com/ProductDetail/FCI/68001-236HLF/?qs=sGAEpiMZZMtsLRyDR9nM14Vjyw4ze%252bjt57BsII4P7vM%3d) 0.23" mate/0.12" tail/15u gold
-3  |CONHOUSE single row 5-pin |P1(LCD 2x),P2(PROBE)|[Pololu](http://www.pololu.com/catalog/product/1904)
+2  |CONHOUSE single row 6-pin |P1(LCD 2x)|[Pololu](http://www.pololu.com/catalog/product/1905)
+1  |CONHOUSE single row 5-pin |P2(PROBE)|[Pololu](http://www.pololu.com/catalog/product/1904)
 2  |CONHOUSE single row 2-pin |P3(BTN),P4(BLW)|[Pololu](http://www.pololu.com/catalog/product/1901)
 1  |Female PINHD 1X6/90       |P5(RTR)|[DigiKey](http://search.digikey.com/us/en/products/PPTC051LGBN-RC/S5441-ND/775899)
 1  |Male PINHD 2x3             |J6(ICSP)|[Mouser](http://www.mouser.com/ProductDetail/3M/961206-6404-AR/?qs=A%252btsDZJT%252bi%2ft%2f4aaelvU3g%3d%3d)
