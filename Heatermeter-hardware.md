@@ -6,9 +6,9 @@ Standard HeaterMeter hardware is built on a [HeaterMeter V3.2 PCB](http://capnbr
 * EAGLE 5 [schematic](http://capnbry.net/linkmeter/pcb/hm-3.2/LinkMeterHM.sch) and [board](http://capnbry.net/linkmeter/pcb/hm-3.2/LinkMeterHM.brd)
 * [External Connections probes/LCD](http://capnbry.net/linkmeter/pcb/hm-3.2/LinkMeterHM-External.png)
 * [Button Board](http://capnbry.net/linkmeter/pcb/hm-3.2/LinkMeterHM-Button.png)
-* DorkBot [cam job](http://capnbry.net/linkmeter/pcb/hm-3.2/LinkMeter-Dorkbot.cam) or [cam output](http://capnbry.net/linkmeter/pcb/hm-3.1/LinkMeterHM-V3.2-DorkBot.zip). Use cam output if you just want a board made with no modifications
-* [README](http://capnbry.net/linkmeter/pcb/hm-3.1/README-V3.2.txt) description of files
-* [ZIP containing all the above](http://capnbry.net/linkmeter/pcb/hm-3.1/hm-3.2.zip)
+* DorkBot [cam job](http://capnbry.net/linkmeter/pcb/hm-3.2/LinkMeter-Dorkbot.cam) or [cam output](http://capnbry.net/linkmeter/pcb/hm-3.2/LinkMeterHM-V3.2-DorkBot.zip). Use cam output if you just want a board made with no modifications
+* [README](http://capnbry.net/linkmeter/pcb/hm-3.2/README-V3.2.txt) description of files
+* [ZIP containing all the above](http://capnbry.net/linkmeter/pcb/hm-3.2/hm-3.2.zip)
 
 ## Configurations 
 
