@@ -25,11 +25,11 @@ To burn the bootloader using USBtinyISP, assemble the HeaterMeter board and hook
 1. Tools -> Burn Bootloader
 1. Wait about 2 minutes
 
-### Program from any ATmega
-If you have any other ATmega-based device you can upload sketches to, this is your preferred solution. You can use the same circuit as above, but instead flash the host chip with the [Optiloader sketch](https://github.com/WestfW/OptiLoader). Optiloader is a sketch that checks for a chip connected to it via the SPI bus, and flashes Optiboot on it.
+### Program from any ATmega (Optloader)
+If you have any other ATmega-based device you can upload sketches to, this is your preferred solution. Basically, you'll upload a sketch (Optiloader) to your working device, connect 6 wires to your target, and power up the host. Optiloader is a sketch that checks for a chip connected to it via the SPI bus, and flashes Optiboot on it.
 
 1. Tools -> Board -> Select your host chip (the Duemilanove or Diecimila or Uno)
-1. Upload Optiloader
+1. Upload the [Optiloader sketch](https://github.com/WestfW/OptiLoader)
 1. Unplug the host board and assemble the appropriate flashing circuit, 6 wires: [Left](https://picasaweb.google.com/lh/photo/sIp0U6P-ymAEn20Szpws3dMTjNZETYmyPJy0liipFm0?feat=directlink) - [Right](https://picasaweb.google.com/115791887386052258127/HeaterMeter#5708097875420887186) - [Overview](https://picasaweb.google.com/lh/photo/ruAn7DhzuppVRDt6mVwCRtMTjNZETYmyPJy0liipFm0?feat=directlink) or use the [Arduino as ISP](http://arduino.cc/en/Tutorial/ArduinoISP) breadboard section.
 1. Apply power. Optiloader will immediately begin flashing as soon as it powers up. You can open the Serial Monitor at 19200 baud to watch the progress.
 1. Wait about 5 seconds. Optiloader will tell you when it is done. ```Type 'G' or hit RESET for next chip```
