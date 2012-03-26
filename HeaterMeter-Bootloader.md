@@ -9,6 +9,12 @@ Chips which come from Mouser or DigiKey are completely blank, fresh from the fac
 
 [Sparkfun](http://www.sparkfun.com/products/10524)
 
+## Flash it yourself
+
+### Terminology
+ * **Target** the target chip/board is the device you want to put the bootloader on (i.e. the blank HeaterMeter ATmega)
+ * **Host** a host board is a system which already has a bootloader or some means to upload code from your PC / the Arduino IDE. Usually an Arduino Uno, Duemilanove or Diecimila, Boardadino with FTDI cable, etc.
+
 ### Build an ICSP programmer
 The next option is to build a specialized ICSP programmer capable of flashing any program to the ATmega chip, including a bootloader. There are literally hundreds of ICSP programming circuits all over the Internet. One circuit, designed for programming ATmegas is the [USBtinyISP](https://www.adafruit.com/products/46) ($22). This programmer has the advantage of being natively supported by the Arduino development environment. 
 
@@ -19,8 +25,17 @@ To burn the bootloader using USBtinyISP, assemble the HeaterMeter board and hook
 1. Tools -> Burn Bootloader
 1. Wait about 2 minutes
 
+### Program from any ATmega
+If you have any other ATmega-based device you can upload sketches to, this is your preferred solution. You can use the same circuit as above, but instead flash the host chip with the [Optiloader sketch](https://github.com/WestfW/OptiLoader). Optiloader is a sketch that checks for a chip connected to it via the SPI bus, and flashes Optiboot on it.
+
+1. Tools -> Board -> Select your host chip (the Duemilanove or Diecimila or Uno)
+1. Upload Optiloader
+1. Unplug the host board and assemble the appropriate flashing circuit, 6 wires: [Left](https://picasaweb.google.com/lh/photo/sIp0U6P-ymAEn20Szpws3dMTjNZETYmyPJy0liipFm0?feat=directlink) - [Right](https://picasaweb.google.com/115791887386052258127/HeaterMeter#5708097875420887186) - [Overview](https://picasaweb.google.com/lh/photo/ruAn7DhzuppVRDt6mVwCRtMTjNZETYmyPJy0liipFm0?feat=directlink) or use the [Arduino as ISP](http://arduino.cc/en/Tutorial/ArduinoISP) breadboard section.
+1. Apply power. Optiloader will immediately begin flashing as soon as it powers up. You can open the Serial Monitor at 19200 baud to watch the progress.
+1. Wait about 5 seconds. Optiloader will tell you when it is done. ```Type 'G' or hit RESET for next chip```
+
 ### Program from an Arduino
-This technique is most economical for people who already own an Arduino Duemilanove or Diecimila (or possibly an Uno). Set up the circuit as described in [Arduino as ISP](http://arduino.cc/en/Tutorial/ArduinoISP) breadboard section. You can either use a breadboard or an [assembled HeaterMeter board ICSP header](https://lh3.googleusercontent.com/-NJfXjitiqxA/Tx8G8kK9jvI/AAAAAAAAAoo/k9vy10KXHZI/s800/hm-icsp-pins.jpg). 
+This technique is the traditional way to flash a bootloader using an Arduino Duemilanove or Diecimila (or possibly an Uno). Use the circuit above, except 5V on the target should run to 5V on the host. Additional circuit diagrams are shown on the  [Arduino as ISP](http://arduino.cc/en/Tutorial/ArduinoISP) page. This method is much slower than the "Program from any ATmega" method and may require additional capacitors to prevent reset, and gosh there's just so many things that can go wrong I can't imagine why anyone would want to use it. Still, it is the semi-official Arduino way [which is awful] so it is included here for academics.
 
 1. Edit (your Arduino directory)/hardware/arduino/programmers.txt and change ```arduinoisp.speed=19200``` to ```arduinoisp.speed=9600```
 1. Close all open Arduino windows, and restart the Arduino IDE
@@ -36,12 +51,3 @@ This technique is most economical for people who already own an Arduino Duemilan
 1. Wait a couple minutes
 
 Building the circuit can be simplified by using a shield designed for such a purpose, such as the [Evil Mad Science ISP Shield](http://evilmadscience.com/productsmenu/tinykitlist/253)
-
-### Program from any ATmega
-You can use the same circuit as above, but instead flash the host chip with the [Optiloader sketch](https://github.com/WestfW/OptiLoader). Optiloader is a sketch that checks for a chip connected to it via the SPI bus, and flashes Optiboot on it.
-
-1. Tools -> Board -> Select your host chip (the Duemilanove or Diecimila or Uno)
-1. Upload Optiloader
-1. Assemble the appropriate flashing circuit
-1. Apply power. Optiloader will immediately begin flashing as soon as it powers up. You can open the Serial Monitor at 19200 baud to watch the progress.
-1. Wait about 5 seconds. Optiloader will tell you when it is done. ```Type 'G' or hit RESET for next chip```
