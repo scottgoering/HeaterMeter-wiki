@@ -25,7 +25,7 @@ To burn the bootloader using USBtinyISP, assemble the HeaterMeter board and hook
 1. Tools -> Burn Bootloader
 1. Wait about 2 minutes
 
-### Program from any ATmega (Optloader)
+### Program from any ATmega (Optiloader)
 If you have any other ATmega-based device you can upload sketches to, this is your preferred solution. Basically, you'll upload a sketch (Optiloader) to your working device, connect 6 wires to your target, and power up the host. Optiloader is a sketch that checks for a chip connected to it via the SPI bus, and flashes Optiboot on it.
 
 1. Tools -> Board -> Select your host chip (the Duemilanove or Diecimila or Uno)
