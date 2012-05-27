@@ -9,7 +9,7 @@ HeaterMeter is simply compiled using the Arduino IDE and uploaded to an AVR.  Th
 
 It may be convenient to simply link the library directories using the Windows mklink command (Win7), which must be run as Administrator.  For example (substitute sourcepath with where your HeaterMeter source is)
 
-    mklink /D (sourcepath)/arduino/libraries/ShiftRegLCD %USERPROFILE%/Documents/Arduino/Libraries/ShiftRegLCD
+    mklink /D %USERPROFILE%\Documents\Arduino\Libraries\ShiftRegLCD (sourcepath)\arduino\libraries\ShiftRegLCD
 
 If you don't know what elevated command prompts and softlinks are, just skip it and use the step-by-step method.
 
