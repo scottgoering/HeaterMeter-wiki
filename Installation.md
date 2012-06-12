@@ -35,12 +35,11 @@ If you get errors about missing files, verify you have *Documents/Arduino/librar
 If you have your ATmega328P with a bootloader and don't have an FTDI USB cable to load HeaterMeter from the Arduino IDE, you can load it from the router once it is connected.  The first time you load HeaterMeter, you can't use the web interface though so telnet/SSH into the router:
 
 ```
-cd /tmp
-wget http://capnbry.net/linkmeter/snapshots/trunk/hm.hex
+wget -O /tmp/hm.hex http://capnbry.net/linkmeter/snapshots/trunk/heatermeter.cpp.hex
 avrupdate
 ```
 
-Before you press enter on the ```avrupdate``` line, press and hold the RESET button on the HeaterMeter board, and press enter.  After you see ```Stopping LinkMeter OK``` release the RESET button. Avrdude needs to start within about half a second of release of the RESET button. It make take a couple times of running ```avrupdate``` with the RESET button to get the timing right.
+Before you press enter on the ```avrupdate``` line, press and hold the RESET button on the HeaterMeter board, and press enter.  After you see ```Starting sync (release RESET now)...``` release the RESET button. Avrdude needs to start within about half a second of release of the RESET button. It make take a couple times of running ```avrupdate``` with the RESET button to get the timing right.
 
 ## Installation of LinkMeter
 You can either build from source, use a pre-built OpenWrt image and add the needed packages, or use a pre-built LinkMeter OpenWrt image. LinkMeter currently follows OpenWrt trunk until their next release.  The pre-built image contains all the necessary prerequisites as well as the LinkMeter package, so this should be all that is needed to get up and running.  See [[OpenWrt Packages]] for more information about what is included.  
