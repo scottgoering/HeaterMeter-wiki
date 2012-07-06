@@ -58,7 +58,7 @@ The HM for LM (HM4LM) configuration doesn't need the barrel power jack, and adds
 1  |7805      |7805TV                |Q3|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=KA7805AETUvirtualkey51210000virtualkey512-KA7805AETU)
 1  |MCP1700-33|MCP1700TRI            |Q4|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=MCP1700-3302E%2fTOvirtualkey57940000virtualkey579-MCP1700-3302E%2fTO)
 1  |GRN       |LED3MM                |LED1|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=WP7104GDvirtualkey60400000virtualkey604-WP7104GD)
-1  |RFM12B    |RFM12B                |U$1|[ModernDevice](http://shop.moderndevice.com/products/rfm12b-radio)
+1  |RFM12B    |RFM12B                |U$1|[ModernDevice](http://shop.moderndevice.com/products/rfm12b-radio) Extremely optional!
 1  |LCD_16X2  |TUXGR_16X2_R2         |DIS1|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=NHD-0216K1Z-NSW-FBW-Lvirtualkey66010000virtualkey763-0216K1Z-NSW-FBW)
 
 ### Interconnects
