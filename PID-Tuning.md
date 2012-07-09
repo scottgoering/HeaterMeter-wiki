@@ -35,14 +35,14 @@ Effects of increasing a parameter independently
 <tr><th colspan="2">Ziegler-Nichols</th></tr>
 <tr><th>PID Parameter</th><th>Value</th></tr>
 <tr><td>P</td><td>Ku / 1.7</td></tr>
-<tr><td>I</td><td>Pu / 2</td></tr>
-<tr><td>D</td><td>Pu / 8</td></tr>
+<tr><td>I</td><td>Ku / (Pu / 2)</td></tr>
+<tr><td>D</td><td>Ku * (Pu / 8)</td></tr>
 </table>
  * As an alternative to the Ziegler-Nichols parameters, there is an alternative calculation created by two other dudes, Tyreus and Luyblen, often called the TLC tuning rule
 <table>
 <tr><th colspan="2">Tyreus-Luyblen</th></tr>
 <tr><th>PID Parameter</th><th>Value</th></tr>
 <tr><td>P</td><td>Ku / 2.2</td></tr>
-<tr><td>I</td><td>2.2 * Pu</td></tr>
-<tr><td>D</td><td>Pu / 6.3</td></tr>
+<tr><td>I</td><td>Ku / (2.2 * Pu)</td></tr>
+<tr><td>D</td><td>Ku * (Pu / 6.3)</td></tr>
 </table>
