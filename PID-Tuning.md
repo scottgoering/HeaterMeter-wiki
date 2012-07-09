@@ -29,7 +29,7 @@ Effects of increasing a parameter independently
  * From the LinkMeter configuration page, set the controller to Proportional-only mode by setting B=0, I=0, D=0.
  * Watch the temperature which should now start to oscillate. If the error gets larger and larger over time, decrease the P PID parameter. If there is little to no oscillation, increase the P PID parameter. You're looking for oscillations with a fixed amplitude (distance between the min and max temperatures) and period (amount of time it takes to complete one min/max cycle)
 ![Stable PID Oscillations](images/pidtune.png)
- * When a value of P results in a sustained periodic oscillation in the output (or close to it), mark this critical value of P as Ku, the "ultimate gain". Also, measure the period of oscillation in minutes, Pu, referred to as the "ultimate period".
+ * When a value of P results in a sustained periodic oscillation in the output (or close to it), mark this critical value of P as Ku, the "ultimate gain". Also, measure the period of oscillation (in seconds), Pu, referred to as the "ultimate period".
  * Compute the new PID parameters using the Ziegler-Nichols parameters
 <table>
 <tr><th colspan="2">Ziegler-Nichols</th></tr>
