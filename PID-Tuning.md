@@ -46,3 +46,6 @@ Effects of increasing a parameter independently
 <tr><td>I</td><td>Ku / (2.2 * Pu)</td></tr>
 <tr><td>D</td><td>Ku * (Pu / 6.3)</td></tr>
 </table>
+
+## Additional Resources
+ * The osPID people have a good [Google Group, DIY PID Control](https://groups.google.com/forum/?fromgroups#!forum/diy-pid-control) with a lot of tips about manual tuning and accessible PID theory.
