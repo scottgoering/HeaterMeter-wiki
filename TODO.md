@@ -30,6 +30,13 @@ Items roughly in the order I may get to them
     * Put the graph data as static in the page?
 * Graph
     * Ability to toggle between absolute time and relative time from start
+* Add new indicator LEDs to shift register 
+    * Fan is on (fan percent > 0)
+    * Temperature OK (temp within x% of setpoint) / Pit temperature reached
+    * Lid is open
+    * High load / low fuel (average fan speed > x%)
+    * Alarm. One for Pit one for Food? Assignable?
+    * "Food OK". Is that an Anti alarm? 
 * Touch-friendly setpoint setting using vertical ... spin ... grid
 * Alarms
     * Chrome To Phone / C2DM message
@@ -46,5 +53,3 @@ Items roughly in the order I may get to them
     * Must include 12V->5V regulator (buck)
     * SPI flashing procedure (no Optiboot)
     * Need usable WiFi device
-* Inkject PCB printing
-* ASUS RT-N12 GPIO points/design
