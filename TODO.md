@@ -14,6 +14,8 @@ Items roughly in the order I may get to them
     * GZIP it?
     * Only get CFs that are used?
     * Download / upload?
+* Support more precise SRTP ("Long PID") where the output controller operates independently of the the measuring loop. Make the fan run at "MIN SPEED" for percent * 100 ms * MINSPEED/100
+    * Support on-the-fly MIN SPEED configuration and PID period
 * Archive library.  Text file associated with each item
     * Save probe names!
     * Date / Time, duration
