@@ -1,3 +1,6 @@
+## WORK IN PROGRESS
+
+### Main Board
 |Qty|Value     |Device                |Parts|Link|
 |---|----------|----------------------|-----|----|
 1|0|R-US_0204/7|R7|(wire)
@@ -27,10 +30,22 @@
 1|ALARM|SPEAKER/AL11P|SP1|[DigiKey](http://www.digikey.com/product-detail/en/PS1240P02BT/445-2525-1-ND/935930)
 3|GRN|LED3MM|LED1, LED2, LED3|(any ~3mm (T-1) LED, any colors you want) [Mouser](http://www.mouser.com/ProductDetail/Kingbright/WP132XGD/?qs=sGAEpiMZZMs4quMj8r4lmsNxrQ0ZQMdo6SakWq4kwo8%3d)
 1|POW|POWER_JACKPTH|J9|[Mouser](http://www.mouser.com/ProductDetail/Kobiconn/163-7620E-E/?qs=%2fha2pyFaduipJSLWTjADy4YYaTeQAmrHvwEfLULTtmcjsFvpXHYyeA%3d%3d)
+1|PINHD|PINHD|J1 (LCD), J2 (PROBE), J4 (BLW), J8 (FTDI)|[Mouser](http://www.mouser.com/ProductDetail/FCI/68001-236HLF/?qs=sGAEpiMZZMtsLRyDR9nM14Vjyw4ze%252bjt57BsII4P7vM%3d)
+
+### Probes and Blower
+|Qty|Description|Link|
+|---|-----------|----|
+1 | Blower-style fan 12VDC 5-10CFM | [DigiKey](http://search.digikey.com/us/en/products/BFB0612H/603-1117-ND/1014448)
+1-4 | Maverick BBQ Thermistor Probes (3ft or High Heat) | [Maverick](http://www.maverickhousewares.com/parts_and_service.htm)
+
+### Probes and Blower Connectors
+These are the "built in" connectors, there is space on the PCB for them. External connectors can be used by attaching to the J2 and J4 pin headers.
+
+|Qty|Value     |Device                |Parts|Link|
+|---|----------|----------------------|-----|----|
 1|RCAPOWER|RCAPOWER|J5|[DigiKey](http://www.digikey.com/product-detail/en/PJRAN1X1U01X/PJRAN1X1U01X-ND/1288632)
 1|Pi|PINHD-2X13|JP1|[DigiKey](http://www.digikey.com/product-detail/en/PPPC132LFBN-RC/S7116-ND/810252)
 1|Probes|AUDIO-MONO|JP3, JP4, JP5, JP6|[DigiKey](http://www.digikey.com/product-detail/en/MJ-2508N/CP-2508N-ND/281260)
-1|PINHD|PINHD|J1 (LCD), J2 (PROBE), J4 (BLW), J8 (FTDI)|[Mouser](http://www.mouser.com/ProductDetail/FCI/68001-236HLF/?qs=sGAEpiMZZMtsLRyDR9nM14Vjyw4ze%252bjt57BsII4P7vM%3d)
 
 ### Optional Parts
 |Qty|Value     |Device                |Parts|Link|Reason|
