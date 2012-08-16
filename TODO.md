@@ -1,6 +1,8 @@
 # TODO list
 Items roughly in the order I may get to them
 
+* Add MAX, MIN fanspeed to serial/web configuration. called "pid output range"? Also update period?
+* Consider 1 second PID period, leave serial updates going out every 2 seconds though.
 * Option to LuCId to reject X-Purpose|Purpose: preload to prevent Chrome from raping the server
 * RF probe status information
     * Added voltage to tooltip.  Need a probe status / config page still (below)
