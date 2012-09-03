@@ -45,7 +45,7 @@ These are the "built in" connectors, there is space on the PCB for them. Externa
 |---|----------|----------------------|-----|----|
 1|RCAPOWER|RCAPOWER|J5|[DigiKey](http://www.digikey.com/product-detail/en/PJRAN1X1U01X/PJRAN1X1U01X-ND/1288632)
 1|Pi|PINHD-2X13|JP1|[DigiKey](http://www.digikey.com/product-detail/en/PPPC132LFBN-RC/S7116-ND/810252)
-1|Probes|AUDIO-MONO|JP3, JP4, JP5, JP6|[DigiKey](http://www.digikey.com/product-detail/en/MJ-2508N/CP-2508N-ND/281260)
+1-4|Probes|AUDIO-MONO|JP3, JP4, JP5, JP6|[DigiKey](http://www.digikey.com/product-detail/en/MJ-2508N/CP-2508N-ND/281260)
 
 ### Optional Parts
 |Qty|Value     |Device                |Parts|Link|Reason|
