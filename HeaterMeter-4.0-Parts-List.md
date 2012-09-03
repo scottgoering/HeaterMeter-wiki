@@ -16,7 +16,6 @@
 1|22u/25|CPOL-USE2.5-6|C1|[DigiKey](http://www.digikey.com/product-detail/en/UPW1E220MDD/493-1811-ND/589552)
 2|100u/10|CPOL-USE2.5-6|C5, C6|[DigiKey](http://www.digikey.com/product-detail/en/UPW1A101MDD/493-1736-ND/589477)
 1|100u/25|CPOL-USE2.5-6|C4|[DigiKey](http://www.digikey.com/product-detail/en/UPW1E101MED/493-1820-ND/589561)
-1|MCP1700-33|MCP1700-33|IC4|[DigiKey](http://www.digikey.com/product-detail/en/MCP1700-3302E%2FTO/MCP1700-3302E%2FTO-ND/652680)
 1|OKI-78SR-5|OKI-78SR-05H|IC1|[DigiKey](http://www.digikey.com/product-detail/en/OKI-78SR-5%2F1.5-W36H-C/811-2692-ND/3438675) [Mouser](http://www.mouser.com/ProductDetail/Murata-Power-Solutions/OKI-78SR-5-15-W36H-C/?qs=sGAEpiMZZMtwaiKVUtQsNa9RSQZ1iZ%2fUZeDy49qqIt4%3d)
 2|1N4001|DIODE-DO41-7|D1, D3|[DigiKey](http://www.digikey.com/product-detail/en/1N4001/1N4001FSCT-ND/1532742)
 1|ATmega328P|AVR-MEGA8-PPTH|IC2|[DigiKey](http://www.digikey.com/product-detail/en/ATMEGA328P-PU/ATMEGA328P-PU-ND/1914589)
@@ -52,4 +51,5 @@ These are the "built in" connectors, there is space on the PCB for them. Externa
 |---|----------|----------------------|-----|----|------|
 1|Ambient|THERMISTOR_R-2,5|TR1|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=NTCLE203E3103FB0virtualkey59420000virtualkey594-2381-640-55103)|Only if you want an onboard 'ambient' temperature sensor 
 1|RFM12B|RFM12B|U$1|[ModernDevice](http://shop.moderndevice.com/products/rfm12b-radio)|Only if building wireless probes
+1|MCP1700-33|MCP1700-33|IC4|[DigiKey](http://www.digikey.com/product-detail/en/MCP1700-3302E%2FTO/MCP1700-3302E%2FTO-ND/652680)|Only for standalone HeaterMeter
 1|ICSP|PINHD-2X3|J6|[Mouser](http://www.mouser.com/ProductDetail/3M/961206-6404-AR/?qs=A%252btsDZJT%252bi%2ft%2f4aaelvU3g%3d%3d)|Only if flashing the AVR outside of the Pi
