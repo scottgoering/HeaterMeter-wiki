@@ -1,4 +1,4 @@
-As a reminder, HeaterMeter refers to the ATmega (Arduino) based microcontroller board that runs the LCD, reads button and temperature probe inputs, and controls the blower motor. This document describes the configurations and design of the HeaterMeter board, which may optionally be attached to a Raspberry Pi. For connecting directly to a Linksys router, use the HeaterMeter v3.0 design.
+As a reminder, HeaterMeter refers to the ATmega (Arduino) based microcontroller board that runs the LCD, reads button and temperature probe inputs, and controls the blower motor. This document describes the configurations and design of the HeaterMeter board, which may optionally be attached to a Raspberry Pi. For connecting directly to a Linksys router, use [[HeaterMeter 3.0 Hardware]].
 
 Standard HeaterMeter hardware is built on a [HeaterMeter v4.0 PCB](http://capnbry.net/linkmeter/pcb/hm-4.0/)
 
