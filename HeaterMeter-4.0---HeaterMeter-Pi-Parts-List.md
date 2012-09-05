@@ -1,5 +1,3 @@
-## WORK IN PROGRESS
-
 ### Main Board
 |Qty|Value     |Device                |Parts|Link|
 |---|----------|----------------------|-----|----|
