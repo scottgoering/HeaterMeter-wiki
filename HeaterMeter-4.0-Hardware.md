@@ -1,3 +1,15 @@
+As a reminder, HeaterMeter refers to the ATmega (Arduino) based microcontroller board that runs the LCD, reads button and temperature probe inputs, and controls the blower motor. This document describes the configurations and design of the HeaterMeter board, which may optionally be attached to a Raspberry Pi. For connecting directly to a Linksys router, use the HeaterMeter v3.0 design.
+
+Standard HeaterMeter hardware is built on a [HeaterMeter v4.0 PCB](http://capnbry.net/linkmeter/pcb/hm-4.0/)
+
+* [Schematic Image](http://capnbry.net/linkmeter/pcb/hm-4.0/HeaterMeterPI.png)
+* EAGLE 5 [schematic](http://capnbry.net/linkmeter/pcb/hm-4.0/HeaterMeterPI.sch) and [board](http://capnbry.net/linkmeter/pcb/hm-4.0/HeaterMeterPI.brd)
+* DorkBot [cam job](http://capnbry.net/linkmeter/pcb/hm-4.0/HeaterMeter-Dorkbot.cam) or [cam output](http://capnbry.net/linkmeter/pcb/hm-4.0/HeterMeter-v4.0-DorkBot.zip). Use cam output if you just want a board made with no modifications
+
+## Configurations 
+
+HeaterMeter can be built either as a standalone or for integration with a Raspberry Pi. The only difference between the two is the population of the Pi socket JP1. The 3.3V voltage regulator is not _required_ when connecting to the Pi, but it is when operating standalone. Both configurations provide automatic grill control, and LCD display. Set Point, manual fan mode, probe offsets, open lid detect and max fan speed configurable via buttons. The standalone requires initial configuration via serial commands. There is integrated **no web access or graphs** in standalone mode, but there is a serial status output to allow you to roll your own solution.
+
 ### Main Board
 |Qty|Value     |Device                |Parts|Link|
 |---|----------|----------------------|-----|----|
@@ -29,13 +41,14 @@
 1|POW|POWER_JACKPTH|J9|[Mouser](http://www.mouser.com/ProductDetail/Kobiconn/163-7620E-E/?qs=%2fha2pyFaduipJSLWTjADy4YYaTeQAmrHvwEfLULTtmcjsFvpXHYyeA%3d%3d)
 1|PINHD|PINHD|J1 (LCD), J2 (PROBE), J4 (BLW), J8 (FTDI)|[Mouser](http://www.mouser.com/ProductDetail/FCI/68001-236HLF/?qs=sGAEpiMZZMtsLRyDR9nM14Vjyw4ze%252bjt57BsII4P7vM%3d)
 
-### Probes and Blower
+### Power, Probes and Blower
 |Qty|Description|Link|
 |---|-----------|----|
+1 | 12VDC/1A power brick 5.5x2.1mm barrel jack | Generic
 1 | Blower-style fan 12VDC 5-10CFM | [DigiKey](http://search.digikey.com/us/en/products/BFB0612H/603-1117-ND/1014448)
 1-4 | Maverick BBQ Thermistor Probes (3ft or High Heat) | [Maverick](http://www.maverickhousewares.com/parts_and_service.htm)
 
-### Probes and Blower Connectors
+### Probe and Blower Connectors
 These are the "built in" connectors, there is space on the PCB for them. External connectors can be used by attaching to the J2 and J4 pin headers.
 
 |Qty|Value     |Device                |Parts|Link|
