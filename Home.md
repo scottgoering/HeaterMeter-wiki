@@ -3,8 +3,8 @@
     * [[PID Tuning]]
 * [Photos](https://picasaweb.google.com/capnbry/HeaterMeter) (Picasa link)
 * Hardware
-    * [[HeaterMeter Hardware]]
-    * [[HeaterMeter 4.0   HeaterMeter Pi Parts List]]
+    * [[HeaterMeter 4.0 Hardware]]
+    * [[HeaterMeter 3.0 Hardware]]
     * [[LinkMeter Hardware]] 
 * [[Installation]]
     * [[HeaterMeter Bootloader]]
