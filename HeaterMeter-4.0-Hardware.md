@@ -40,6 +40,7 @@ HeaterMeter can be built either as a standalone or for integration with a Raspbe
 3|GRN|LED3MM|LED1, LED2, LED3|(any ~3mm (T-1) LED, any colors you want) [Mouser](http://www.mouser.com/ProductDetail/Kingbright/WP132XGD/?qs=sGAEpiMZZMs4quMj8r4lmsNxrQ0ZQMdo6SakWq4kwo8%3d)
 1|POW|POWER_JACKPTH|J9|[Mouser](http://www.mouser.com/ProductDetail/Kobiconn/163-7620E-E/?qs=%2fha2pyFaduipJSLWTjADy4YYaTeQAmrHvwEfLULTtmcjsFvpXHYyeA%3d%3d)
 1|PINHD|PINHD|J1 (LCD), J2 (PROBE), J4 (BLW), J8 (FTDI)|[Mouser](http://www.mouser.com/ProductDetail/FCI/68001-236HLF/?qs=sGAEpiMZZMtsLRyDR9nM14Vjyw4ze%252bjt57BsII4P7vM%3d)
+1|DIP28|DIP28|IC2-SOCK|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=1-390261-9virtualkey57100000virtualkey571-1-390261-9)
 
 ### Power, Probes and Blower
 |Qty|Description|Link|
