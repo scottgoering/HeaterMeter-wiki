@@ -7,17 +7,17 @@
 
 ## Parts
 
-Everything from the Mouser project
-Everything from the DigiKey project
-A HeaterMeter v4.0 PCB - see below
-12V 1A (or greater) power adapter with 2.1mm barrel jack (tip positive)
-An old RCA cable, such as composite video (yellow) or stereo audio (red/white)
-Maverick digital temperature probes, minimum 1, up to 4
-Full sized SD card (not microSD or miniSD) 32MB or larger
-Optional components listed in wiki if desired
-More details and alternative links are also available in the wiki
-Some sort of enclosure
-Some sort of fan-attaching mechanism for your grill
+* Everything from the Mouser project
+* Everything from the DigiKey project
+* A HeaterMeter v4.0 PCB - see below
+* 12V 1A (or greater) power adapter with 2.1mm barrel jack (tip positive)
+* An old RCA cable, such as composite video (yellow) or stereo audio (red/white)
+* Maverick digital temperature probes, minimum 1, up to 4
+* Full sized SD card (not microSD or miniSD) 32MB or larger
+* Optional components listed in wiki if desired
+* More details and alternative links are also available in the wiki
+* Some sort of enclosure
+* Some sort of fan-attaching mechanism for your grill
 
 ### HeaterMeter v4.0 PCB
 
