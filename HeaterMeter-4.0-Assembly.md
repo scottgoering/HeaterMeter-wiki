@@ -7,7 +7,7 @@
 
 ## Parts
 
-* Everything from the Mouser project
+* Everything from the [Mouser project](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0dba74d92d)
 * Everything from the DigiKey project
 * A HeaterMeter v4.0 PCB - see below
 * 12V 1A (or greater) power adapter with 2.1mm barrel jack (tip positive)
