@@ -73,9 +73,11 @@ Install R6 (LCD contrast adjustment potentiometer).
 
 Snap off 16 pins from the 36 pin header strip and install them in J1. If you're going to connect the LCD with a ribbon cable of some sort, I'd recommend the short ends be installed into the PCB and leave the long ends sticking up. If you're going to mount the LCD directly, I'd recommend the opposite-- with the long ends through the PCB and the short ends left sticking up. 
 
-At this point you can install your LEDs (LED1, LED2, LED3) but bear in mind that if you mount them flush with the board, they will be lower than the button and LCD face. You can either mount them with long leads, or mount them and bend them over to the left so they'd be exposed out the side of the case rather than on the front panel.
+** You might want to pause here **. Everything on the top of the board beyond this point needs to be installed at the height appropriate for whatever enclosure you're going to put this in. The LEDs, LCD and buttons will be easier to get their height right if you're soldering them in place while trial-fitting the system into a case.
 
-Finally install the button into the large square position in the center of the board. This should only fit in one orientation, but I'm sure if you try really hard you can force it in the wrong way. Don't try that hard.
+At this point you can install your LEDs (LED1, LED2, LED3) but bear in mind that if you mount them flush with the board, they will be lower than the button and LCD face. You can either mount them with long leads, or mount them and bend them over to the left so they'd be exposed out the side of the case rather than on the front panel. The longer lead on the LED (the +/anode) is inserted into the hole closest to you. There's a little + sign to indicate this on LED1 but not the others, as that would get confusing with them all so close together.
+
+Finally install the button into the large square position in the center of the board. This should only fit in one orientation, but I'm sure if you try really hard you can force it in the wrong way. Don't try that hard. To get my button height right, I straightened the pins on it and slid a 3mm spacer under the button before soldering it from the front.
 
 [![Image](https://lh3.googleusercontent.com/-Os2j-rg-ya0/UDlM7KPVAfI/AAAAAAAAAyo/2fPX4qO6k0Y/s640/IMG_1066.JPG)](https://picasaweb.google.com/lh/photo/vTLgZ7ebgSrFBtmNq1O_JNMTjNZETYmyPJy0liipFm0?feat=embedwebsite "PHOTO46")
 
