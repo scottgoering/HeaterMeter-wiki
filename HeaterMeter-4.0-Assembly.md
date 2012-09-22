@@ -15,6 +15,7 @@
 * [RaspberryPi](http://www.raspberrypi.org/) Model B *$35*
 * An old RCA cable, such as composite video (yellow) or stereo audio (red/white)
 * Full sized SD card (not microSD or miniSD) 32MB (yes, megs) or larger
+* [WiFi Adapater](http://www.amazon.com/Edimax-EW-7811Un-Wireless-Adapter-Wizard/dp/B005CLMJLU/ref=sr_1_1?ie=UTF8&qid=1346544740&sr=8-1&keywords=edimax+ew-7811un) (optional) *$10*
 * [Optional components](https://github.com/CapnBry/HeaterMeter/wiki/HeaterMeter-4.0-Hardware) if desired
 * Some sort of enclosure
 * Some sort of fan-attaching mechanism for your grill
