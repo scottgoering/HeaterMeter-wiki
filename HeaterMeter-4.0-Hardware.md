@@ -47,7 +47,7 @@ HeaterMeter can be built either as a standalone or for integration with a Raspbe
 |---|-----------|----|
 1 | 12VDC/1A power brick 5.5x2.1mm barrel jack | Generic
 1 | Blower-style fan 12VDC 5-10CFM | [DigiKey](http://search.digikey.com/us/en/products/BFB0612H/603-1117-ND/1014448)
-1-4 | Maverick BBQ Thermistor Probes (3ft or High Heat) | [Maverick](http://www.maverickhousewares.com/parts_and_service.htm)
+1-4 | Maverick BBQ Thermistor Probes for ET-72/ET-73 (3ft or High Heat) | [Maverick](http://maverickhousewares.bigcartel.com/)
 
 ### Probe and Blower Connectors
 These are the "built in" connectors, there is space on the PCB for them. External connectors can be used by attaching to the J2 and J4 pin headers.
