@@ -7,15 +7,15 @@
 
 ## Parts
 
-* Everything from the [Mouser project](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0dba74d92d)
-* Everything from the DigiKey project
-* A HeaterMeter v4.0 PCB - see below
+* Everything from the [Mouser project](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0dba74d92d) *$31*
+* Everything from DigiKey: 1x[Blower](http://search.digikey.com/us/en/products/BFB0612H/603-1117-ND/1014448) 1x[Socket](http://www.digikey.com/product-detail/en/PPPC132LFBN-RC/S7116-ND/810252) 4x[Jacks](http://www.digikey.com/product-detail/en/MJ-2508N/CP-2508N-ND/281260) *$19*
+* A HeaterMeter v4.0 PCB - see below *$13*
 * 12V 1A (or greater) power adapter with 2.1mm barrel jack (tip positive)
+* Maverick digital temperature probes, minimum 1, up to 4 *$10ea*
+* [RaspberryPi](http://www.raspberrypi.org/) Model B *$35*
 * An old RCA cable, such as composite video (yellow) or stereo audio (red/white)
-* Maverick digital temperature probes, minimum 1, up to 4
-* Full sized SD card (not microSD or miniSD) 32MB or larger
-* Optional components listed in wiki if desired
-* More details and alternative links are also available in the wiki
+* Full sized SD card (not microSD or miniSD) 32MB (yes, megs) or larger
+* [Optional components](https://github.com/CapnBry/HeaterMeter/wiki/HeaterMeter-4.0-Hardware) if desired
 * Some sort of enclosure
 * Some sort of fan-attaching mechanism for your grill
 
