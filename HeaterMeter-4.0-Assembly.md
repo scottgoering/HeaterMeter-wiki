@@ -73,7 +73,7 @@ Install R6 (LCD contrast adjustment potentiometer).
 
 Snap off 16 pins from the 36 pin header strip and install them in J1. If you're going to connect the LCD with a ribbon cable of some sort, I'd recommend the short ends be installed into the PCB and leave the long ends sticking up. If you're going to mount the LCD directly, I'd recommend the opposite-- with the long ends through the PCB and the short ends left sticking up. 
 
-** You might want to pause here **. Everything on the top of the board beyond this point needs to be installed at the height appropriate for whatever enclosure you're going to put this in. The LEDs, LCD and buttons will be easier to get their height right if you're soldering them in place while trial-fitting the system into a case.
+**You might want to pause here**. Everything on the top of the board beyond this point needs to be installed at the height appropriate for whatever enclosure you're going to put this in. The LEDs, LCD and buttons will be easier to get their height right if you're soldering them in place while trial-fitting the system into a case.
 
 At this point you can install your LEDs (LED1, LED2, LED3) but bear in mind that if you mount them flush with the board, they will be lower than the button and LCD face. You can either mount them with long leads, or mount them and bend them over to the left so they'd be exposed out the side of the case rather than on the front panel. The longer lead on the LED (the +/anode) is inserted into the hole closest to you. There's a little + sign to indicate this on LED1 but not the others, as that would get confusing with them all so close together.
 
