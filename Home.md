@@ -4,6 +4,7 @@
 * [Photos](https://picasaweb.google.com/capnbry/HeaterMeter) (Picasa link)
 * Hardware
     * [[HeaterMeter 4.0 Hardware]]
+    * [[HeaterMeter 4.0 Assembly]]
     * [[HeaterMeter 3.0 Hardware]]
     * [[LinkMeter Hardware]] 
 * [[Installation]]
