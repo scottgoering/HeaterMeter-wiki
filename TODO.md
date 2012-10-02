@@ -1,11 +1,7 @@
 # TODO list
 Items roughly in the order I may get to them
 
-* Add MAX, MIN fanspeed to serial/web configuration. called "pid output range"? Also update period?
-* Consider 1 second PID period, leave serial updates going out every 2 seconds though.
 * Option to LuCId to reject X-Purpose|Purpose: preload to prevent Chrome from raping the server
-* RF probe status information
-    * Added voltage to tooltip.  Need a probe status / config page still (below)
 * Optimize LuCI node() generation to speed page loads and reduce memory usage
     * Entire tree is generated on every page call, taking at least 300ms and peaking at 1.1MB of RAM per process
 * Should modify to use old cookie after privilege escalation.
@@ -17,7 +13,7 @@ Items roughly in the order I may get to them
     * Only get CFs that are used?
     * Download / upload?
 * Support more precise SRTP ("Long PID") where the output controller operates independently of the the measuring loop. Make the fan run at "MIN SPEED" for percent * 100 ms * MINSPEED/100
-    * Support on-the-fly MIN SPEED configuration and PID period
+    * Support on-the-fly PID period
 * Archive library.  Text file associated with each item
     * Save probe names!
     * Date / Time, duration
@@ -53,7 +49,3 @@ Items roughly in the order I may get to them
 * Remote node
     * 2.7V 8MHz internal clock?  Can be powered from solar path light
 * New enclosure?
-* RaspberryPi-based board
-    * Must include 12V->5V regulator (buck)
-    * SPI flashing procedure (no Optiboot)
-    * Need usable WiFi device
