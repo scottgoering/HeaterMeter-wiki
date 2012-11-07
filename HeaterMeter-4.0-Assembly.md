@@ -25,7 +25,7 @@
 This can be obtained either by finding someone who has an extra (they're usually ordered in 3s and you probably only need one) or by ordering your own set. To order your own set, use any online PCB fab service which supports gerber files. [OSH Park](http://oshpark.com) is the preferred online service for the U.S., due to their quick turnaround, impeccable output, friendly service, and reasonable prices. Just upload the "dorkbot" zip file to their service and pay them. You'll have boards in your hands in about two weeks.
 [PCB 4.0 Snapshot](http://capnbry.net/linkmeter/pcb/hm-4.0/)
 
-OSH Park also now has PCB 4.0 board singles available in their store. [OS Park PCB 4.0 Singles](http://store.oshpark.com/products/heatermeter-v4-0) 
+OSH Park also now has PCB 4.0 board singles available in their store. [OSH Park PCB 4.0 Singles](http://store.oshpark.com/products/heatermeter-v4-0) 
 
 ## Hardware Assembly
 
