@@ -1,7 +1,8 @@
 # What is a bootloader?
 The HeaterMeter bootloader is the bit of software that runs on the ATmega microcontroller before the HeaterMeter software does. A blank from the factory ATmega chip used can only be programmed via the SPI bus, generally using the ICSP header. Because most communication with the microcontroller takes place over the Serial UART, either via an FTDI USB Serial Converter or the Router's TTL Serial ports, a bootloader is usually added which adds the ability to flash a program over this Serial UART. Optiboot is a 512 byte bootloader which converts a serial variant of the stk500v1 protocol to the necessary page_fill()/page_write() commands to program the ATmega.
 
-**Note:  Bootloader is not required with HeaterMeter 4 when used with a Raspberry Pi :**  When used with the RaspberryPi, the ATmega328P-PU without the bootloader is fine. The chip is programmed using the rPi's GPIO lines as an SPI programmer so any bootloader on it will actually be erased when HeaterMeter is flashed from the web interface / avrupdate. It's one of the bigger features of the new HM4+rPi platform; no ISP programmer / bootloader needed!
+**Note:  Bootloader is not required with HeaterMeter 4 when used with a Raspberry Pi**<br />
+When used with the RaspberryPi, the ATmega328P-PU without the bootloader is fine. The chip is programmed using the rPi's GPIO lines as an SPI programmer so any bootloader on it will actually be erased when HeaterMeter is flashed from the web interface / avrupdate. It's one of the bigger features of the new HM4+rPi platform; no ISP programmer / bootloader needed!
 
 ## Getting Optiboot on ATmega
 Because we want to be able to flash programs over serial, we need to either get a chip with a bootloader on it or install it ourselves. There are a lot more ways to do this than are presented here. Our ultimate goal is to have a chip with the Optiboot 4.4 bootloader or above, which is the one included with Arduino-1.0. The Optiboot that ships with Arduino-0022 has a bug in it which can prevent HeaterMeter from fully booting properly.
@@ -9,7 +10,7 @@ Because we want to be able to flash programs over serial, we need to either get 
 ### Buy a chip with the bootloader already installed
 Chips which come from Mouser or DigiKey are completely blank, fresh from the factory. As a service to folks who are looking to use them in Arduino-style projects, hobbyist stores provide ATmega chips with the Optiboot bootloader on them already for a small markup. (~$3.50 Mouser cost, ~$4.30 Sparkfun cost, ~$5.50 Sparkfun preloded cost) This is usually the most economical solution for users who aren't going to be building a lot of projects.
 
-[Sparkfun](http://www.sparkfun.com/products/10524)
+[Sparkfun](http://www.sparkfun.com/products/10524) <br />
 [Virtuabotix](http://www.amazon.com/gp/product/B007SH0D0A/ref=oh_details_o01_s00_i00)
 
 ## Flash it yourself
