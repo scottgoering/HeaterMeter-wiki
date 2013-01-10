@@ -6,7 +6,7 @@ The LinkMeter Home or Status page displays the current temperature, fan speed an
 | Letter | Name | Description |
 |--------|------|-------------|
 | A | Last Update | The status page automatically updates and this time indicates the last update time. If the number is gray it indicates communication between the browser and LinkMeter is working, and the time is the last time LinkMeter received data from HeaterMeter. If the time is in red, it indicates communication to LinkMeter has failed and the time is the time of the last connection attempt. LinkMeter runs on UTC so the time displayed here is adjusted for your local time. Hovering your mouse over the time will display the full date. |
-| B | Lid Open | If HeaterMeter is in lid open detect mode, the duration remaining is displayed here. |
+| B | Lid Open | If HeaterMeter is in lid open detect mode, the duration remaining is displayed here. Click to toggle lid open mode. |
 | C | Graph Temperature | This axis is for the temperature of probes degrees. |
 | D | Graph Fan Speed | This axis is the fan speed percent. |
 | E | Fan Speed | Current / Average fan speed. The current fan speed percent is indicated by the size of the bar and the label. The exponential moving average of the fan sped is displayed as a translucent rectangle at the correct percentage |
@@ -24,6 +24,6 @@ Active regions indicated in green on the example image are interactable. Anythin
 | 1 | Setpoint | Click to modify the target temperature. Press ENTER to submit, ESC to cancel. |
 | 2 | Probe Name | Click to change the probe's name on both the HeaterMeter and web interface. Press ENTER to submit, ESC to cancel. |
 | 3 | Graph Legend | Click the box next to the probe name to toggle displaying its data in the graph. Pit and Setpoint can not be removed from the graph |
-| 4 | Graph Tooltip | Mouse over or click the graph to display information from that time. The tooltip snaps to the closest probe point (not setpoint or fan speed). Click on the tooltip to dismiss it. |
+| 4 | Graph Tooltip | Mouse over or click the graph to display information from that time. The tooltip snaps to the closest probe point (not setpoint or fan speed). |
 | 5 | Overview Graph | Zoom in on the top graph by dragging a selection on the lower overview graph. If the selection extends to the right edge of the overview graph, new points added while zoomed will be included in the selection automatically. Single click the overview graph to reset the selection. |
 | 6 | Stuff | Toggle fan display of fan speed, set graph range, login (and return to home screen) or configuration (login and go to configuration page) |
