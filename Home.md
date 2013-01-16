@@ -15,6 +15,8 @@
     * [[Heatermeter Operation]]
     * [[LinkMeter Home]] A guide what the heck you are looking at
     * [[URLs and Commands]] List of all supported commands
+* FAQ
+    * [How do I enable HTTP basic authentication instead of using the login page?](Basic Auth)
 * Upgrading
     * [[Upgrading LinkMeter 1to2]]
 
