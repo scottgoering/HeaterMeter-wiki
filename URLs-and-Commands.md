@@ -35,6 +35,10 @@ Both HeaterMeter and LinkMeter accept commands via URL-type form.
   <td>Get last RF12 status update in JSON format</td>
   <td>Y</td><td>N</td>
 
+<tr><td><code>/lm/stream</code></td>
+  <td>Get streaming HeaterMeter status updates in HTTP server-sent events format. The individual events are in JSON format.</td>
+  <td>Y</td><td>N</td>
+
 <tr><td><code>/lm/hist</code></td>
   <td>Get HeaterMeter history in CSV format, which is used to generate the graph.
 <ul>
@@ -99,15 +103,16 @@ The definitive source on HeaterMeter set parameters is the [HeaterMeter README](
 
 | Name | Description |
 |------|-------------|
-|``sp=A``|Set the setpoint to integer A|
+|``sp=AU``|Set the setpoint to integer A with optional units U. Supported Units are (F)ahrenheit , (C)elcius, and (R)esistance|
 |``pidA=B``|Tune PID parameter A to value float B. A can be b (bias), p (proportional), i (integral), or d (derivative)|
 |``pnA=B``|Set probe name A to string B.|
 |``poA=B``|Set probe offset A to integer B.|
-|``pcN=A,B,C,R,TRM``|Set the probe coefficients and type for probe N.<br/>Any of A,B,C,R,TRM set to 0 will not be modified.<br/>A, B, and C are the Steinhart-Hart coeffieicents and R is the fixed side of the probe voltage divider.<br/>A, B, C and R are floating point and should be specified in scienfific noation, e.g. 0.00023067434 -> 2.3067434e-4.<br/>TRM is either the type of probe OR an RF map specifier. If TRM is an integer, it indicates a probe type.  Probe types are 1=Disabled, 2=Internal, 3=RFM12B.  If the first character of TRM is a capital letter A-Z followed by a single digit number 0-5, it is considered an RF Map item <rfSource (letter)><sourcePin>.<br/>e.g. a TRM of B0 sets this probe to use RF Source B pin 0.  If an RF map is present, the probe type is automatically switched to type RFM12B.|
-|``lb=A``|Set the LCD backlight to A.  Range is 0 (off) to 255 (full)|
-|``ld=A``|Set the duration of the Lid Open timer in seconds. You can not set the duration to less than LIDOPEN_MIN_AUTORESUME. Max is 65535 seconds.|
-|``lo=A``|Set the offset of the Lid Open autodetect in % of set point.|
-|``pnXXX``|Retrieve the current probe names (XXX is literally the string "XXX")|
+|``pcN=A,B,C,R,TRM``|Set the probe coefficients and type for probe N.  A, B, and C are the Steinhart-Hart coeffieicents and R is the fixed side of the probe voltage divider.  A, B, C and R are floating point and can be specified in scienfific noation, e.g. 0.00023067434 -> 2.3067434e-4.  TRM is either the type of probe OR an RF map specifier.  If TRM is less than 128, it indicates a probe type.  Probe types are 0=Disabled, 1=Internal, 2=RFM12B.  Probe types of 128 and above are implicitly of type RFM12B and indicate the transmitter ID of the remote node (0-63) + 128. e.g. Transmitter ID 2 would be passed as 130. The value of 255 (transmitter ID 127) means "any" transmitter and can be used if only one transmitter is used.  Any of A,B,C,R,TRM set to blank will not be modified. Probe numbers are 0=pit 1=food1 2=food2 3=ambient|
+|``lb=A,B``|Set the LCD backlight to A.  Range is 0 (off) to 255 (full). B sets the home screen mode. 255 for two-line display, or probe number (0-30 for bignum display |
+|``ld=A,B,C``|Set the offset of the Lid Open autodetect in % of set point to A. Set the duration of the Lid Open timer in seconds to B. You can not set the duration to less than LIDOPEN_MIN_AUTORESUME. Max is 65535 seconds. C is used to enable or disable a currently running lid detect mode. Non-zero will enter lid open mode, zero will disable lid open mode|
+|``al=L,H[,L,H...]``|Set probe alarms thresholds. Setting to a negative number will disable the alarm, setting to 0 will force the current set value negative (disabling the alarm but retaining the set value)|
+|``fn=L,H,I``|Set the fan output parameters. L = min fan speed before "long PID" mode, H = max fan speed, I = Invert PWM polarity so that 100% actually outputs 0% and 0% outputs 100%|
+|``tt=XXX[,YYY]``|Display a "toast" message on the LCD which is temporarily displayed over any other menu and is cleared either by timeout or any button press. XXX and YYY are the two lines to displau and can be up to 16 characters each.|
 
 |Probe Number|Description|
 |--------------|-------------|
