@@ -22,6 +22,7 @@ It may be preferred to retain the default interstitial login site but add a seco
   * Edit the /etc/config/lucid configuration adding a new handler section
 ```
 config LuciWebPublisher 'luciwebauth'
+        option name 'LinkMeter Authentication'
         list virtual '/luci-auth'
         list exec 'root'
 ```
