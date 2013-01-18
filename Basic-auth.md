@@ -1,5 +1,7 @@
 # HTTP Basic Realm Authentication
 
+** WARNING: ** This is a tremendous security risk as it allows someone to perform [Cross-Site Request Forgery](http://en.wikipedia.org/wiki/Cross-site_request_forgery) using login information stored in your browser while visiting another site. Use at your own risk!
+
 By default LuCI uses an interstitial login page to pass from the public LinkMeter home page to the authenticated area where configuration changes may be made. Some may prefer restricting access via a "basic realm authentication" username / password popup. You must disable cookies for this to work more than once.
 
 ## Enabling on the default site
