@@ -1,6 +1,6 @@
 # HTTP Basic Realm Authentication
 
-By default LuCI uses an interstitial login page to pass from the public LinkMeter home page to the authenticated area where configuration changes may be made. Some may prefer restricting access via a "basic realm authentication" username / password popup.
+By default LuCI uses an interstitial login page to pass from the public LinkMeter home page to the authenticated area where configuration changes may be made. Some may prefer restricting access via a "basic realm authentication" username / password popup. 
 
 ## Enabling on the default site
 
@@ -35,3 +35,7 @@ config daemon 'https'
         list publisher 'luciwebauth'
 ```
   * Restart lucid for the changes to take effect `/etc/init.d/lucid restart`
+
+## Double Login Forms
+
+If you're not getting the basic realm authentication prompt or you get the authentication prompt followed by the interstitial login page, you must delete the LinkMeter site's "sysauth" cookie from your web browser. The sysauth cookie can muck up the logic determining which login method is to be used.
