@@ -75,6 +75,10 @@ Both HeaterMeter and LinkMeter accept commands via URL-type form.
 </td>
   <td>A</td><td>N</td>
 
+<tr><td><code>/admin/lm/alarms</code></td>
+  <td>LinkMeter simple alarm script editor</code></td>
+  <td>A</td><td>N</td>
+
 <tr><td><code>/admin/lm/archive</code></td>
   <td>LinkMeter database archive. Front-end to <code>/admin/lm/stashdb</code></td>
   <td>A</td><td>N</td>
