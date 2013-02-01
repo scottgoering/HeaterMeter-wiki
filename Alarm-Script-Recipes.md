@@ -115,10 +115,10 @@ account default
 host smtp.gmail.com
 port 465
 auth on
-from yourname@gmail.com
-user yourname@gmail.com
-password password
 tls on
 tls_certcheck off
 tls_starttls off
+from yourname@gmail.com
+user yourname@gmail.com
+password password
 ~~~
