@@ -14,6 +14,7 @@
 * User Guide
     * [[Heatermeter Operation]]
     * [[LinkMeter Home]] A guide what the heck you are looking at
+    * [[Alarm Script Recipes]] Some example scripts for alarm recipes
     * [[URLs and Commands]] List of all supported commands
 * FAQ
     * [[Basic Auth]] - How do I enable HTTP basic authentication instead of using the login page?
