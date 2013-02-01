@@ -105,3 +105,20 @@ else
   # Do whatever you want here, using another recipe
 fi
 ~~~
+
+## MSMTP Configuration
+The mail transfer agent "msmtp" must be configured before any of the sendmail (email/SMS) commands will work. Edit /etc/msmtprc with the information appropriate for your mail server
+
+### SMTP over SSL / Gmail
+~~~
+account default
+host smtp.gmail.com
+port 465
+auth on
+from yourname@gmail.com
+user yourname@gmail.com
+password password
+tls on
+tls_certcheck off
+tls_starttls off
+~~~
