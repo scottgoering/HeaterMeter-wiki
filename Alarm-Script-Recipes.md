@@ -7,7 +7,7 @@ From the LinkMeter configuration website navigate to LinkMeter -> Alarm Scripts.
 ### Manually
 First of all, alarm scripts are located in /usr/share/linkmeter/. Do not edit the script named "alarm", as this file will be replaced every time LinkMeter is upgraded and you will lose all changes. Instead, create new files for your scripts. The system first looks for alarm-all, and executes that. If the return value of that script is non-zero, the system looks for a file named alarm-{probeidx}{alarmtype}. For example if the Pit probe high alarm is going off, it will look for alarm-0H. These files can be a shell scripts, lua scripts, or a regular ARM ELF binaries. These recipes can be used for either an alarm-specific or alarm-all file. The files must be executable, i.e. `chmod +x` or they will not be run.
 
-There are many variables available to use in your scripts. From a command prompt execute `lmclient LMCF` for a list. In addition, the alarm system adds al_probe, al_type, al_thresh, pn (alarm probe name), pcurr (alarm probe current value) variables.
+There are many variables available to use in your scripts. From a command prompt execute `lmclient LMCF` for a list. In addition, the alarm system adds al_probe, al_type, al_thresh, pn (alarm probe name), pcurr (alarm probe current value) variables. The `al_set` function can be used to change the value of the current alarm.
 
 ## Recipes
 ### All scripts
@@ -19,8 +19,8 @@ There are many variables available to use in your scripts. From a command prompt
 
 ### Turn the alarm off
 ~~~
-# Silence all alarms
-lmclient LMST,al,0,0,0,0,0,0,0,0
+# Silence this alarm
+al_set 0
 ~~~
 
 ### Sending an Email
@@ -66,8 +66,7 @@ case $al_thresh in
 esac
 
 lmclient LMST,sp,$NEWSP
-# Assumes food probe 1 is the alarm generator
-lmclient LMST,al,,,$NEWAL
+al_set $NEWAL
 ~~~
 
 ### HeaterMeter Control - Super Ramp Down
@@ -82,8 +81,7 @@ fi
 NEWSP=$((sp-1)
 NEWAL=$((al_thresh+1))
 lmclient LMST,sp,$NEWSP
-# Assumes food probe 1 is the alarm generator
-lmclient LMST,al,,,$NEWAL
+al_set $NEWAL
 ~~~
 
 ### Time Delays (UNTESTED)
