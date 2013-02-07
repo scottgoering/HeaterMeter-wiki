@@ -120,3 +120,16 @@ from yourname@gmail.com
 user yourname@gmail.com
 password password
 ~~~
+
+### Hotmail / Windows Live Mail
+~~~
+account default
+host smtp.live.com
+port 587
+tls on
+tls_certcheck off
+auth on
+from yourname@hotmail.com
+user yourname@hotmail.com
+password password
+~~~
