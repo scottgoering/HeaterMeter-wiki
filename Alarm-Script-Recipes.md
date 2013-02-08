@@ -48,6 +48,17 @@ SMS relies on going through your cell provider's email to SMS gateway so, again,
 ~~~
 echo "$pn Alert -- $pcurr \($al_type\)" | sendmail 2125551212@messaging.sprintpcs.com
 ~~~
+#### Provider SMS Email Gateways
+A full list of global SMS gateways can be found at Wikipedia's [List of SMS gateways](http://en.wikipedia.org/wiki/List_of_SMS_gateways).
+
+Provider | Address 
+-----|-----
+AT&T | phonenumber@txt.att.net
+Nextel | phonenumber@messaging.nextel.com 
+Sprint | phonenumber@messaging.sprintpcs.com
+T-Mobile | phonenumber@tmomail.net
+Verizon | phonenumber@vtext.com
+Virgin Mobile | phonenumber@vmobl.com
 
 ### HeaterMeter Control - Shutdown
 Often you want to turn off the Pit when your food is done. This is easily done using lmclient to send a command to HeaterMeter to change the setpoint.
