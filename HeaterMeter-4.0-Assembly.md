@@ -103,7 +103,7 @@ At this point you can install the ATmega328P into the DIP-28 socket IC2.
 
 ## Software Installation
 
-Download and unzip [Win32 Disk Imager](https://launchpad.net/win32-image-writer/+download) (binary)
+Download and unzip [Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager/files/latest/download?source=files) (binary)
 
 Download and unzip [the OpenWrt firmware image](http://capnbry.net/linkmeter/snapshots/bcm2708/) (Temporary Home)
 
@@ -119,7 +119,7 @@ If this is the first time you've booted the rPi using the prepared SD card, the 
 
 ## Configuration
 
-By default the rPi's ethernet is set to the IP address 192.168.1.1. The configuration website is available at http://192.168.1.1/ username "root" with no password. A monitor and keyboard can also be connected. If editing configuration via the console, network configuration is in /etc/config/network
+By default the rPi's ethernet is set to the IP address 192.168.200.1. The configuration website is available at http://192.168.200.1/ username "root" with no password. A monitor and keyboard can also be connected. If editing configuration via the console, network configuration is in /etc/config/network
 
 ## Wireless (WiFi)
 
