@@ -39,7 +39,7 @@ Items roughly in the order I may get to them
     * "Food OK". Is that an Anti alarm? 
 * Touch-friendly setpoint setting using vertical ... spin ... grid
 * Alarms
-    * Chrome To Phone / C2DM message
+    * Chrome To Phone / C2DM / GCM message
     * Temperature Cut mode.  Option to have the pit temperature drop when food reaches done point
         * Can be an alarm option.  When AlarmRinging && !AlarmSilenced -> SetPoint = AlarmHigh, AlarmSilenced = true
     * Elaped time notify
