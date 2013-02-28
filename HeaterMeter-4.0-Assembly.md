@@ -123,6 +123,6 @@ By default the rPi's ethernet is set to the IP address 192.168.200.1. The config
 
 ## Wireless (WiFi)
 
-The stock image includes a driver for any rtl8192cu-based USB wifi adapter. Most testing has occurred using an Edimax EW-7811Un model, [available from Amazon for $10](http://www.amazon.com/Edimax-EW-7811Un-Wireless-Adapter-Wizard/dp/B005CLMJLU/ref=sr_1_1?ie=UTF8&qid=1346544740&sr=8-1&keywords=edimax+ew-7811un)
+The stock image includes a driver for any rtl8192cu-based USB wifi adapter. Most testing has occurred using an Edimax EW-7811Un model, [available from Amazon for $10](http://www.amazon.com/gp/product/B005CLMJLU/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B005CLMJLU&linkCode=as2&tag=httpcapnbrnet-20)
 
 The adapter should be recognized if inserted before booting and be shown in the System -> Network -> Wifi web configuration pages. At this time, only joining an existing wifi network is supported. AP mode is technically supported but the DHCP server is not included in the OpenWrt image yet, so you'll have to assign addresses manually.
