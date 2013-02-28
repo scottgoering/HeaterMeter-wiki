@@ -11,7 +11,7 @@ The LinkMeter Home or Status page displays the current temperature, fan speed an
 | D | Graph Fan Speed | This axis is the fan speed percent. |
 | E | Fan Speed | Current / Average fan speed. The current fan speed percent is indicated by the size of the bar and the label. The exponential moving average of the fan sped is displayed as a translucent rectangle at the correct percentage |
 | F | RF Status | If a probe is of type RF Wireless, the status of the remote connection is indicated in this area. Mouse over the connection icon for more information |
-| G | Degrees Per Hour | If a probe has more than one hour's worth of data, and the current temperature is at least 1 degree higher than it was an hour ago, the number of degrees per hour is indicated here. If the temerature is below 180 or 200, duration remaining until those temperatures are reached are also shown. |
+| G | Degrees Per Hour | If a probe has more than one hour's worth of data, and the current temperature is at least 1 degree higher than it was an hour ago, the number of degrees per hour is indicated here. If the temperature is below the high alarm point, duration remaining until that temperature is reached is also shown. |
 | X | Not Shown | Orange regions in the upper graph indicate periods where the system was in lid open mode |
 
 
