@@ -1,5 +1,21 @@
 LinkMeter on the RaspberryPi has the ability to fire off user scripts when an alarm goes off. This is in addition to beeping the piezo buzzer. This requires some degree of Linux shell scripting expertise, but using some of these recipes might make things a little easier to understand.
 
+# A Note About Alarm Arming
+To prevent alarms from turning on and off every time the temperature bounces back and forth across the alarm point there is a _hysteresis_. This means that the temperature must be outside of the alarm range by more than 1 degree before the alarm will "arm" and be capable of sounding.
+
+Example: Your current temperature is 99.9, and you set the high alarm for 100 at this time. Your alarm is not armed yet and will not arm until is is a degree from the alarm threshold, that is below 99, say 98.9. Even if the temperature rises to 500 the alarm will not go off, as it was never armed.
+
+Now assume the current temperature is 98.9, and you set the high alarm for 100. When it hits 100, the alarm will fire. Even if it drops back below 100, it will keep ringing until silenced. Silencing the alarm only silences the alarm. If the temperature drops below 99 again, the alarm will rearm, and then goes back over 100, the alarm fires again.
+
+Action | Will Ring Again? | Must Re-Arm?
+-------|------------------|-------------
+Press any button on HeaterMeter unit | Yes | Yes
+Unplug the alarming probe | Yes | Yes
+Clicking 'Silence' on web popup | Yes | Yes
+Open the lid until lid detect activates | Yes | No
+Un-ticking Alarm 'On' in web config page | No | Yes
+Setting the trigger point negative with al_set | No | Yes
+
 ## Editing Scripts
 ### Via Web
 From the LinkMeter configuration website navigate to LinkMeter -> Alarm Scripts. Each script has its own reset / save button! Do not try to edit multiple scripts without saving each in between. The script will only run if the "Execute on alarm" box is checked at the time the alarm goes off (currently ringing alarms have no effect).
@@ -21,8 +37,13 @@ There are many variables available to use in your scripts. From a command prompt
 
 ### Turn the alarm off
 ~~~
-# Silence this alarm
+# Silence this alarm, it will ring again if re-armed
 al_set 0
+~~~
+or
+~~~
+# Disable this alarm, it will not ring again
+al_set -$al_thresh
 ~~~
 
 ### Sending an Email
