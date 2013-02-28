@@ -8,7 +8,7 @@ Example: Your current temperature is 99.9, and you set the high alarm for 100 at
 Now assume the current temperature is 98.9, and you set the high alarm for 100. When it hits 100, the alarm will fire. Even if it drops back below 100, it will keep ringing until silenced. Silencing the alarm only silences the alarm. If the temperature drops below 99 again, the alarm will rearm, and then goes back over 100, the alarm fires again.
 
 Action | Will Ring Again? | Must Re-Arm?
--------|------------------|-------------
+-------|:----------------:|:-----------:
 Press any button on HeaterMeter unit | Yes | Yes
 Unplug the alarming probe | Yes | Yes
 Clicking 'Silence' on web popup | Yes | Yes
