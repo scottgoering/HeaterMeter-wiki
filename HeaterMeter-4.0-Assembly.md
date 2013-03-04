@@ -10,12 +10,12 @@
 * Everything from the [Mouser project](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0dba74d92d) *$31*
 * Everything from DigiKey: 1x[Blower](http://search.digikey.com/us/en/products/BFB0612H/603-1117-ND/1014448) 1x[Socket](http://www.digikey.com/product-detail/en/PPPC132LFBN-RC/S7116-ND/810252) 4x[Jacks](http://www.digikey.com/product-detail/en/MJ-2508N/CP-2508N-ND/281260) *$19*
 * A HeaterMeter v4.0 PCB - see below *$13*
-* 12V 1A (or greater) power adapter with 2.1mm barrel jack (tip positive)
-* [Maverick temperature probes](http://maverickhousewares.bigcartel.com/) (ET-72 or ET-73), minimum 1, up to 4 *$10ea*
-* [RaspberryPi](http://www.raspberrypi.org/) Model B *$35*
+* [12V 1A](http://www.amazon.com/gp/product/B006GEPUYA/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B006GEPUYA&linkCode=as2&tag=httpcapnbrnet-20) (or greater) power adapter with 2.1mm barrel jack (tip positive) 
+* [Maverick temperature probes](http://maverickhousewares.bigcartel.com/) (ET-72 or ET-73) or [Amazon](http://www.amazon.com/gp/product/B004W8B3PC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B004W8B3PC&linkCode=as2&tag=httpcapnbrnet-20), minimum 1, up to 4 *$10ea*
+* [RaspberryPi](http://www.raspberrypi.org/) Model B *$35*, or more accurately [closer to $45](http://www.amazon.com/gp/product/B009SQQF9C/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009SQQF9C&linkCode=as2&tag=httpcapnbrnet-20)
 * An old RCA cable, such as composite video (yellow) or stereo audio (red/white)
 * Full sized SD card (not microSD or miniSD) 32MB (yes, megs) or larger
-* [WiFi Adapter](http://www.amazon.com/Edimax-EW-7811Un-Wireless-Adapter-Wizard/dp/B005CLMJLU/ref=sr_1_1?ie=UTF8&qid=1346544740&sr=8-1&keywords=edimax+ew-7811un) (optional) *$10*
+* [WiFi Adapter](http://www.amazon.com/gp/product/B005CLMJLU/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B005CLMJLU&linkCode=as2&tag=httpcapnbrnet-20) (optional) *$10*
 * [Optional components](https://github.com/CapnBry/HeaterMeter/wiki/HeaterMeter-4.0-Hardware) if desired
 * Some sort of enclosure
 * Some sort of fan-attaching mechanism for your grill
