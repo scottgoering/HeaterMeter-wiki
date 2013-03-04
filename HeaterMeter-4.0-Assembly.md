@@ -1,6 +1,6 @@
 ## Tools
 
-* Soldering Iron & Solder - I use 60/40 0.032” rosin core solder from Radio Shack
+* Soldering Iron & Solder - I use 60/40 0.032” rosin core solder and an [AOYUE 936 Soldering Station](http://www.amazon.com/gp/product/B000VINMRO/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000VINMRO&linkCode=as2&tag=httpcapnbrnet-20) although even a cheapie soldering iron from Radio Shack should get the job done easily
 * Diagonal wire cuttters
 * Needle nose pliers
 * A computer with an SD card reader
