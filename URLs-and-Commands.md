@@ -51,7 +51,7 @@ Both HeaterMeter and LinkMeter accept commands via URL-type form.
   <td>Bounce to the LinkMeter login page for authentication.</td>
   <td>Y</td><td>N</td>
 
-<tr><td><code>/lm/set</code></td>
+<tr><td><code>/admin/lm/set</code></td>
   <td>Passed through to HeaterMeter one parameter at a time. See HeaterMeter Set Parameter list.</td>
   <td>A</td><td>Y</td>
 
@@ -60,7 +60,7 @@ Both HeaterMeter and LinkMeter accept commands via URL-type form.
   <td>A</td><td>N</td>
 
 <tr><td><code>/admin/lm/home</code></td>
-  <td>Bounce to <code>/lm/</code></td>
+  <td>The authenticated version of the home page, which allows modification of setpoint, probe names, etc.</td>
   <td>A</td><td>N</td>
 
 <tr><td><code>/admin/lm/stashdb</code></td>
@@ -75,8 +75,12 @@ Both HeaterMeter and LinkMeter accept commands via URL-type form.
 </td>
   <td>A</td><td>N</td>
 
+<tr><td><code>/admin/lm/reboot</code></td>
+  <td>Passthrough AVR reboot command</td>
+  <td>A</td><td>N</td>
+
 <tr><td><code>/admin/lm/alarms</code></td>
-  <td>LinkMeter simple alarm script editor</code></td>
+  <td>LinkMeter simple alarm script editor</td>
   <td>A</td><td>N</td>
 
 <tr><td><code>/admin/lm/archive</code></td>
