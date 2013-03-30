@@ -19,7 +19,7 @@ uci commit lucid
 
 It may be preferred to retain the default interstitial login site but add a secondary site which uses basic realm authentication. 
 
-  * Set a login password using the default website. If a password is not set you will no longer be able to log in once basic auth is enabled!
+  * Set a login password using the default website.
   * SSH into the LinkMeter
   * Edit the /etc/config/lucid configuration adding a new handler section
 ```
