@@ -27,3 +27,9 @@ Active regions indicated in green on the example image are interactable. Anythin
 | 4 | Graph Tooltip | Mouse over or click the graph to display information from that time. The tooltip snaps to the closest probe point (not setpoint or fan speed). |
 | 5 | Overview Graph | Zoom in on the top graph by dragging a selection on the lower overview graph. If the selection extends to the right edge of the overview graph, new points added while zoomed will be included in the selection automatically. Single click the overview graph to reset the selection. |
 | 6 | Stuff | Toggle fan display of fan speed, set graph range, login (and return to home screen) or configuration (login and go to configuration page) |
+
+### Hotkeys
+
+| Key | Date added | Description | 
+|:---:|------------|-------------|
+| P | 2013-04-19 | Toggle the Pid Internals display
