@@ -16,6 +16,7 @@
     * [[LinkMeter Home]] A guide what the heck you are looking at
     * [[Alarm Script Recipes]] Some example scripts for alarm recipes
     * [[URLs and Commands]] List of all supported commands
+    * [[Configuration Autobackup]] Description of how the autobackup works
 * FAQ
     * [[Basic Auth]] - How do I enable HTTP basic authentication instead of using the login page?
 * Upgrading
