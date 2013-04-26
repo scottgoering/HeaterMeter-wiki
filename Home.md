@@ -7,6 +7,7 @@
     * [[HeaterMeter 4.0 Assembly]]
     * [[HeaterMeter 3.0 Hardware]]
     * [[LinkMeter Hardware]] 
+    * [[Servo Mode]]
 * [[Installation]]
     * [[HeaterMeter Bootloader]]
     * [[OpenWrt Packages]]
