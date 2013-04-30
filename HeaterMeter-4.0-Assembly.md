@@ -12,7 +12,9 @@
 * A HeaterMeter v4.0 PCB - see below *$13*
 * [12V 1A](http://www.amazon.com/gp/product/B006GEPUYA/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B006GEPUYA&linkCode=as2&tag=httpcapnbrnet-20) (or greater) power adapter with 2.1mm barrel jack (tip positive) 
 * [Maverick temperature probes](http://maverickhousewares.bigcartel.com/) (ET-72 or ET-73) or [Amazon](http://www.amazon.com/gp/product/B004W8B3PC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B004W8B3PC&linkCode=as2&tag=httpcapnbrnet-20), minimum 1, up to 4 *$10ea*
-* [RaspberryPi](http://www.raspberrypi.org/) Model B *$35*, or more accurately [closer to $45](http://www.amazon.com/gp/product/B009SQQF9C/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009SQQF9C&linkCode=as2&tag=httpcapnbrnet-20)
+* [RaspberryPi](http://www.raspberrypi.org/)
+  * Model A (no Ethernet, 1x USB) *$25*, or more accurately [closer to $33](https://www.amazon.com/dp/B00BC0ZL88/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B00BC0ZL88&adid=0CWS9RQQA9Z6YJJ8PFF1&) shipped
+  * Model B (with Wired Ethernet, 2x USB) *$35*, usually [closer to $45] (http://www.amazon.com/gp/product/B009SQQF9C/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009SQQF9C&linkCode=as2&tag=httpcapnbrnet-20) shipped
 * An old RCA cable, such as composite video (yellow) or stereo audio (red/white)
 * Full sized SD card (not microSD or miniSD) 32MB (yes, megs) or larger
 * [WiFi Adapter](http://www.amazon.com/gp/product/B005CLMJLU/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B005CLMJLU&linkCode=as2&tag=httpcapnbrnet-20) (optional) *$10*
