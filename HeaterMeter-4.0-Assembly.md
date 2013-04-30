@@ -108,6 +108,12 @@ At this point you can install the ATmega328P into the DIP-28 socket IC2.
 
 **Wireless Probe Support** HeaterMeter supports receiving ambient temperature from LaCrosse Technology IT+915 protocol weather stations as well as custom-built "lmremote" probe transmitters. If this is desired, install a RFM12B transceiver board. A short piece (78mm) of insulated solid-core wire should be installed into the hole marked ANT as an antenna.
 
+### Mount on Raspberry Pi
+
+Mount your HeaterMeter board onto the Raspberry Pi by mating the rPi's GPIO header with the HeaterMeter socket. It should mount with the RCA blower jack and power plug facing you. It will be a bit of a tight fit between the rPi's RCA jack and the 5V regulator board on the HeaterMeter. If needed the 5V regulator can be adjusted slightly sideways by holding your thumb against it and applying a little pressure while heating each of its pins on the other side with a soldering iron. The composite RCA jack can also be removed entirely from the rPi, which will allow for a much better fit overall. The RCA jack needs to be removed if you want to use the [[HeaterMeter 4.0 case]].
+
+[![Image](https://lh3.googleusercontent.com/-Sb53AI7UAUE/UDlM96xaU6I/AAAAAAAAAzI/_XwWe8WFUwo/s640/IMG_1078.JPG)](https://picasaweb.google.com/lh/photo/l2VPscp3eDhF20jcTcO53dMTjNZETYmyPJy0liipFm0?feat=embedwebsite "PHOTO50")
+
 ## Software Installation
 
 See: [[HeaterMeter 4.0 Software]]
