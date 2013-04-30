@@ -9,6 +9,7 @@
     * [[LinkMeter Hardware]] 
     * [[Servo Mode]]
 * [[Installation]]
+    * [[HeaterMeter 4.0 Software]]
     * [[HeaterMeter Bootloader]]
     * [[OpenWrt Packages]]
     * [[Building OpenWrt from Source]] (not necessary if using pre-built image)
