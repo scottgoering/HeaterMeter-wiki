@@ -5,6 +5,7 @@
 * Hardware
     * [[HeaterMeter 4.0 Hardware]]
     * [[HeaterMeter 4.0 Assembly]]
+    * [[HeaterMeter 4.0 Case]]
     * [[HeaterMeter 3.0 Hardware]]
     * [[LinkMeter Hardware]] 
     * [[Servo Mode]]
