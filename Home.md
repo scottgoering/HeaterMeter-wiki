@@ -22,6 +22,7 @@
     * [[Configuration Autobackup]] Description of how the autobackup works
 * FAQ
     * [[Basic Auth]] - How do I enable HTTP basic authentication instead of using the login page?
+    * [[Network Ports]] - What ports do I need to forward to access the web site from outside my network?
 * Upgrading
     * [[Upgrading LinkMeter 1to2]]
 
