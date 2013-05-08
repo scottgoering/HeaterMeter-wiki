@@ -21,8 +21,9 @@
     * [[URLs and Commands]] List of all supported commands
     * [[Configuration Autobackup]] Description of how the autobackup works
 * FAQ
-    * [[Basic Auth]] - How do I enable HTTP basic authentication instead of using the login page?
-    * [[Network Ports]] - What ports do I need to forward to access the web site from outside my network?
+    * How do I enable HTTP basic authentication instead of using the login page? [[Basic Auth]]
+    * What ports do I need to forward to access the web site from outside my network? [[Network Ports]]
+    * The console on my RaspberryPi hangs after booting? [[Console Hang]]
 * Upgrading
     * [[Upgrading LinkMeter 1to2]]
 
