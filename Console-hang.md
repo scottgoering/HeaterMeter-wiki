@@ -1,6 +1,6 @@
 ### The console on my RaspberryPi hangs after booting
 
-When plugged into an HDMI monitor, boot messages are seen on the console but then the system appears to hang, the log ending with the following lines
+When plugged into an HDMI monitor, boot messages are seen on the console but then the system appears to hang, the log ending with some variation on this
 
 ```
 [    5.565063] usbcore: registered new interface driver rtl8192cu
@@ -12,6 +12,7 @@ When plugged into an HDMI monitor, boot messages are seen on the console but the
 [   12.736843] ndev=  (null)
 [   17.854496] EXT4-fs (mmcblk0p4): warning: mounting unchecked fs, running e2fsck is recommended
 [   17.880577] EXT4-fs (mmcblk0p4): mounted filesystem without journal. Opts: (null)
+(stops here)
 ```
 
 Your system is not hung, that is generally the last thing that appears in the kernel log unless there's a wifi adapter connecting.  If you look several lines before that you should see a line
