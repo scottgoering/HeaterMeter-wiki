@@ -32,4 +32,4 @@ Active regions indicated in green on the example image are interactable. Anythin
 
 | Key | Date added | Description | 
 |:---:|------------|-------------|
-| P | 2013-04-19 | Toggle the Pid Internals display
+| P | 2013-04-19 | Toggle the Pid Internals display (not in Internet Explorer)
