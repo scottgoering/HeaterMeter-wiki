@@ -104,7 +104,7 @@ al_set $NEWAL
 ~~~
 
 ### HeaterMeter Control - Super Ramp Down
-10 degrees too much? That's ok you can ramp down one degree for every degree the meat climbs if you like
+10 degrees too much? That's ok you can ramp down two degrees for every two degrees the meat climbs if you like
 ~~~
 if [ "$al_thresh" -gt 199 ] ; then
   # done
@@ -112,8 +112,8 @@ if [ "$al_thresh" -gt 199 ] ; then
   exit
 fi
 
-NEWSP=$((sp-1)
-NEWAL=$((al_thresh+1))
+NEWSP=$((sp-2)
+NEWAL=$((al_thresh+2))
 lmclient LMST,sp,$NEWSP
 al_set $NEWAL
 ~~~
@@ -139,7 +139,7 @@ fi
 ~~~
 
 ## MSMTP Configuration
-The mail transfer agent "msmtp" must be configured before any of the sendmail (email/SMS) commands will work. Edit `/etc/msmtprc` with the information appropriate for your mail server
+The mail transfer agent "msmtp" must be configured before any of the sendmail (email/SMS) commands will work. The web interface for this is under Services -> SMTP. If you prefer editing files, edit `/etc/msmtprc` with the information appropriate for your mail server
 
 ### SMTP over SSL / Gmail
 ~~~
