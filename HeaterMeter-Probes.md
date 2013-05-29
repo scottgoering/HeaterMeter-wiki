@@ -14,6 +14,8 @@ Available in two varieties, both "smoker probe" and "food probe" are the same in
  * Standard 3ft length, rated to 410F maximum temperature
  * High Heat 6ft length, rated to 716F maximum temperature although some are only rated to 570F working temperature
 
+![ET72 Response](images/therm-et72.png)
+
 Recommended HeaterMeter resistance: 10kohm (standard)
 
 ## Maverick ET-732
@@ -26,6 +28,8 @@ These are also available in both "smoker probe" and "food probe"
   * High Heat 6ft length, rated to 716F maximum temperature. 3ft low heat probes are no longer available.
 
 These probes are also subject to more _mysterious errors_ than the ET-72/73 probes, making the temperatures fluctuate for no apparent reason. The only solution is to ground the probe's braided shielding.
+
+![ET732 Response](images/therm-et732.png)
 
 The response curve of these probes bottoms out around room temperature when used with the standard 10kohm HeaterMeter resistance, which causes them to read as "off". To get more usable range, replace the standard 10k resistors with 22k or even 47k 1% tolerance resistors.
 
