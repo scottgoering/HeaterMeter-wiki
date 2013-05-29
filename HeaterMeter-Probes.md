@@ -42,3 +42,7 @@ If you already have ET-732 probes, you can use them, but because of the problems
 These probes can be used, but they are wired backwards so the PCB mount probe jacks can not be used. They are also subject to the same floating _mysterious errors_ as the ET-732 probes. Their measurement device actually uses the probe resistance to charge and discharge a capacitor and measure how long it takes, then switches polarity and measures again.
 
  * Rated to 428F maximum temperature
+
+## Thermocouples
+
+Thermocouples have a higher maximum temperature rating, but their low voltage change per degree requires special amplifier circuitry or special purpose thermocouple-reading chips. HeaterMeter does not have this circuitry so thermocouples are not supported.
