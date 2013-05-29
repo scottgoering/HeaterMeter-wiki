@@ -7,6 +7,7 @@
     * [[HeaterMeter 4.0 Assembly]]
     * [[HeaterMeter 4.0 Case]]
     * [[HeaterMeter 3.0 Hardware]]
+    * [[HeaterMeter Probes]]
     * [[LinkMeter Hardware]] 
     * [[Servo Mode]]
 * [[Installation]]
