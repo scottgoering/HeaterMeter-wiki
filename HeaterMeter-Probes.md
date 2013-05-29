@@ -18,6 +18,11 @@ Available in two varieties, both "smoker probe" and "food probe" are the same in
 
 Recommended HeaterMeter resistance: 10kohm (standard)
 
+ * High Heat Smoker Probe [Amazon](https://www.amazon.com/dp/B008OWZMMW/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B008OWZMMW&adid=1EE7Q885EA7E7N0DT955)
+ * Standard Smoker Probe [Maverick](http://maverickhousewares.bigcartel.com/product/et-73-smoker-probe)
+ * High Heat Food Probe [Maverick](http://maverickhousewares.bigcartel.com/product/et-72-73-high-heat-6ft-food-probe)
+ * Standard Food Probe [Amazon](https://www.amazon.com/dp/B00B8NBL2O/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B00B8NBL2O&adid=0NBFHY6JQDTCA1J3XBQ6&) [Maverick](http://maverickhousewares.bigcartel.com/product/et-7-et-72-et-902-probe)
+
 ## Maverick ET-732
 
 **Acceptable**
@@ -34,6 +39,9 @@ These probes are also subject to more _mysterious errors_ than the ET-72/73 prob
 The response curve of these probes bottoms out around room temperature when used with the standard 10kohm HeaterMeter resistance, which causes them to read as "off". To get more usable range, replace the standard 10k resistors with 22k or even 47k 1% tolerance resistors.
 
 If you already have ET-732 probes, you can use them, but because of the problems listed above, they are not recommended for new purchases.
+
+ * Food Probe [Amazon](https://www.amazon.com/dp/B00684ZYNK/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B00684ZYNK&adid=061W9X7NN6KRC8XK1DXX&) [Maverick](http://maverickhousewares.bigcartel.com/product/et-732-food-probe)
+ * Smoker Probe [Amazon](https://www.amazon.com/dp/B006XLWL7K/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B006XLWL7K&adid=18BES922G0WB0PVSCJN0&) [Maverick](http://maverickhousewares.bigcartel.com/product/et-732-smoker-probe)
 
 ## IKEA Fantast
 
