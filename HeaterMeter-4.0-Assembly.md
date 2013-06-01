@@ -16,7 +16,7 @@
   * Model A (no Ethernet, 1x USB) *$25*, or more accurately [closer to $33](https://www.amazon.com/dp/B00BC0ZL88/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B00BC0ZL88&adid=0CWS9RQQA9Z6YJJ8PFF1&) shipped
   * Model B (with Wired Ethernet, 2x USB) *$35*, usually [closer to $45] (http://www.amazon.com/gp/product/B009SQQF9C/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009SQQF9C&linkCode=as2&tag=httpcapnbrnet-20) shipped
 * An old RCA cable, such as composite video (yellow) or stereo audio (red/white)
-* Full sized SD card (not microSD or miniSD) 32MB (yes, megs) or larger
+* Full sized SD card (not microSD or miniSD) 128MB or larger
 * A WiFi Adapter based on rtl8192cu chipset [Edimax EW-7811Un](https://www.amazon.com/dp/B003MTTJOY/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B003MTTJOY&adid=1N96MP959RE94P97QVD6&) (optional) *$11*
 * [Optional components](https://github.com/CapnBry/HeaterMeter/wiki/HeaterMeter-4.0-Hardware) if desired
 * Some sort of enclosure
