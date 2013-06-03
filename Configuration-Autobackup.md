@@ -6,6 +6,13 @@ The `/etc/init.d/config_restore` script creates a new 64MB partition (partition 
 ### How often is it stored?
 The backup is created near the end of every boot. If you make any configuration changes, be sure to boot OpenWrt with these changes at least once before reimaging (i.e. don't change configuration and the image in a single boot)
 
+### How do I prevent config restoration?
+If you've messed up your configuration so badly that your device become inaccessible, you probably don't want that configuration restored when you reflash the SD card. To prevent the restore operation, add the flag `norestore` to the kernel command line (_Requires LinkMeter v8 or above_). This can be done after flashing the SD card, eject the card, then reinsert it and you should see a small FAT filesystem which contains a cmdline.txt file. Open this in any text editor and append `norestore` to the existing line:
+```
+dwc_otg.lpm_enable=0 root=/dev/mmcblk0p2 rootfstype=ext4 rootwait norestore
+```
+Configuration backup will still occur when the `norestore` option is specified on the command line.
+
 ### How does my configuration survive getting wiped by the disk imager?
 When a default image is flashed, the partition table (the first 512 bytes of the device) is reset to the original state. However, the data is still there because the disk imaging utility only writes to the first ~40MB. On any boot where there isn't a partition 4 defined, the config_restore script will create one exactly 64MB from the end of the device and attempt to check the filesystem located there. If the check succeeds, and there's a backup.tar.gz there, then this configuration will be restored and OpenWrt will reboot. 
 
