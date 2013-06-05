@@ -33,6 +33,7 @@
     * Temperature OK (temp within x% of setpoint). Pit probe only or for any probe?
     * High load / low fuel (average fan speed > x%)
     * "Food OK". Not sure what this one was
+    * Any Alarm
 * Touch-friendly setpoint setting using vertical ... spin ... grid
 * Alarms
     * Chrome To Phone / C2DM / GCM message
@@ -46,8 +47,9 @@
     * Set initial wifi to AP mode. dnsmasq needs to run when in this configuration but not once in client mode. Can it switch automatically?
     * Captive portal if in AP mode.
     * eth0/wlan bridging. Needs 4addr support at the AP.
+* Easier SMTP / SMS configuration  stored in separate uci file with fixed textfile for message
+* Ability to set the colors of the LEDs in the web interface? Can store in uci file
 * Remote node
-    * 2.7V 8MHz internal clock?  Can be powered from solar path light
 
 ### HeaterMeter PCB
 
