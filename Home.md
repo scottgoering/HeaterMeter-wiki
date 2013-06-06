@@ -22,6 +22,7 @@
     * [[URLs and Commands]] List of all supported commands
     * [[Configuration Autobackup]] Description of how the autobackup works
 * FAQ
+    * [[Donations]] Can I send you a few wingwangs for your hard work?
     * [[Basic Auth]] How do I enable HTTP basic authentication instead of using the login page?
     * [[Network Ports]] What ports do I need to forward to access the web site from outside my network?
     * [[Console Hang]] The console on my RaspberryPi hangs after booting.
