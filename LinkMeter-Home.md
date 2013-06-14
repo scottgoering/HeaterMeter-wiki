@@ -21,7 +21,7 @@ Active regions indicated in green on the example image are interactable. Anythin
 
 | Number | Name | Decription |
 |--------|------|------------|
-| 1 | Setpoint | Click to modify the target temperature. Press ENTER to submit, ESC to cancel. |
+| 1 | Setpoint | Click to modify the target temperature. A number between 0 and -100 (negative 100) puts the fan into manual mode. Press ENTER to submit, ESC to cancel. |
 | 2 | Probe Name | Click to change the probe's name on both the HeaterMeter and web interface. Press ENTER to submit, ESC to cancel. |
 | 3 | Graph Legend | Click the box next to the probe name to toggle displaying its data in the graph. Pit and Setpoint can not be removed from the graph |
 | 4 | Graph Tooltip | Mouse over or click the graph to display information from that time. The tooltip snaps to the closest probe point (not setpoint or fan speed). |
