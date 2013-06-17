@@ -36,7 +36,7 @@ These probes are also subject to more _mysterious errors_ than the ET-72/73 prob
 
 ![ET732 Response](images/therm-et732.png)
 
-The response curve of these probes bottoms out around room temperature when used with the standard 10kohm HeaterMeter resistance, which causes them to read as "off". To get more usable range, replace the standard 10k resistors with 22k or even 47k 1% tolerance resistors.
+The response curve of these probes bottoms out around room temperature when used with the standard 10kohm HeaterMeter resistance, which causes them to read as "off". To get more usable range, replace the standard 10k resistors (R5, R16, R17, R18) with 22k or even 47k 1% tolerance resistors.
 
 If you already have ET-732 probes, you can use them, but because of the problems listed above, they are not recommended for new purchases.
 
