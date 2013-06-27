@@ -26,6 +26,7 @@
     * [[Basic Auth]] How do I enable HTTP basic authentication instead of using the login page?
     * [[Network Ports]] What ports do I need to forward to access the web site from outside my network?
     * [[Console Hang]] The console on my RaspberryPi hangs after booting.
+    * [[Thermistor]] The 'Ambient' temperature sensor is way off.
 * Upgrading
     * [[Upgrading LinkMeter 1to2]]
 
