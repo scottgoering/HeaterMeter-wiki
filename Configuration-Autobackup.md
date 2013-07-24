@@ -57,7 +57,7 @@ etc/config/dropbear
 ```
 
 ### What about my LinkMeter database stash!
-The stash data files are not included in the backup. It is safe for you to move your stashpath to the safe partition by moving your rrd files to a directory under `/mnt/mmcblk0p4/` for example `/mnt/mmcblk0p4/stash`. Then set the linkmeter stashpath to that directory.
+The stash data files are not included in the backup. It is safe for you to move your stashpath to the safe partition by moving your rrd files to a directory under `/mnt/mmcblk0p4/` for example `/mnt/mmcblk0p4/stash`. Then set the linkmeter stashpath to that directory. This is the default under LinkMeter v8 and above.
 ```
 uci set lucid.linkmeter.stashpath=/mnt/mmcblk0p4/stash
 uci commit lucid
