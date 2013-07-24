@@ -62,4 +62,4 @@
 * Add "AUX" port. Use the old SOFTRESET pin as an output that runs through a mosfet that can either supply 3.3V, 5V or 12V as one of the configurable LEDs
 * Integrate switching power supply into PCB, the Murata is great but often out of stock
 * Capacitors on analog inputs
-
+* Drive alarm with 12V through transistor or mosfet.
