@@ -47,6 +47,7 @@
     * eth0/wlan bridging. Needs 4addr support at the AP.
 * Easier SMTP / SMS configuration  stored in separate uci file with fixed textfile for message
 * Ability to set the colors of the LEDs in the web interface? Can store in uci file
+* HeaterMeter configuration profiles. Defaults, A, B. Selectable from "Reset Config?" on HeaterMeter. A and B could be names?
 * Remote node
 * Optimize LuCI node() generation to speed page loads and reduce memory usage
     * Entire tree is generated on every page call, taking at least 300ms and peaking at 1.1MB of RAM per process
