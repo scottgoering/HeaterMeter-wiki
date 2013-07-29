@@ -1,7 +1,5 @@
 ### Software TODO list
 
-* Optimize LuCI node() generation to speed page loads and reduce memory usage
-    * Entire tree is generated on every page call, taking at least 300ms and peaking at 1.1MB of RAM per process
 * avrupdate 
     * Better integration and update-from-web.  Part of larger automatic update process?
 * Better interactivity with linkmeterd socket, ability to do actual query/response to HeaterMeter
@@ -50,6 +48,8 @@
 * Easier SMTP / SMS configuration  stored in separate uci file with fixed textfile for message
 * Ability to set the colors of the LEDs in the web interface? Can store in uci file
 * Remote node
+* Optimize LuCI node() generation to speed page loads and reduce memory usage
+    * Entire tree is generated on every page call, taking at least 300ms and peaking at 1.1MB of RAM per process
 
 ### HeaterMeter PCB
 
@@ -63,3 +63,5 @@
 * Integrate switching power supply into PCB, the Murata is great but often out of stock
 * Capacitors on analog inputs
 * Drive alarm with 12V through transistor or mosfet.
+* Physical rPi switch to allow booting in multiple network configurations.
+  * Maybe a button to load the default config backup?
