@@ -12,10 +12,44 @@ If this is the first time you've booted the rPi using the prepared SD card, the 
 
 ## Configuration
 
-By default the rPi's ethernet is set to the IP address 192.168.200.1. The configuration website is available at http://192.168.200.1/ username "root" with no password. A monitor and keyboard can also be connected. If editing configuration via the console, network configuration is in /etc/config/network
+By default the rPi's ethernet is set to both the IP address 192.168.200.1 and DHCP. If the device gets a DHCP address from your network, it will be displayed for 20 seconds on the HeaterMeter LCD. The configuration website is available at http://192.168.200.1/ (or the DHCP address) username "root" with no password. A monitor and keyboard can also be connected. If editing configuration via the console, network configuration is in /etc/config/network
 
 ## Wireless (WiFi)
 
 The stock image includes a driver for any rtl8192cu-based USB wifi adapter. Most testing has occurred using an [Edimax EW-7811Un](https://www.amazon.com/dp/B003MTTJOY/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B003MTTJOY&adid=12GCAFY5NMYZX003C6ED&) model, but the [Airlink AWLL5099](https://www.amazon.com/dp/B006ZZUK5Y/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B006ZZUK5Y&adid=0PSWHJ1WNA3GS17W0WW7&) also works. Both around $11.
 
-The adapter should be recognized if inserted before booting and be shown in the System -> Network -> Wifi web configuration pages. At this time, only joining an existing wifi network is supported. Access point mode is technically supported but the DHCP server is not included in the OpenWrt image yet, so you'll have to assign addresses manually.
+The adapter should be recognized if inserted before booting and be shown in the System -> Network -> Wifi web configuration pages. Both AP and client mode are supported.
+
+### Wireless Client Setup step-by-step
+
+**Step 1**: Use a web browser to go to http://ip-address-shown-on-heatermeter/ which should land you on the HeaterMeter home page. It's blue. It has flaaaaames. It's pretty American. (No photo, you'll know it when you see it)
+
+**Step 2**: Click the configuration link on the bottom of the page then navigate to Network -> WiFi and click Scan. If there is no WiFi listed, either your WiFi adapter is not supported or you don't have a power supply capable of providing enough power to the wireless adapter.
+
+![Image](http://capnbry.net/~bmayland/fi/bbq/hm-wifi-1.png)
+
+**Step 3**: Find your wireless network and click Join. My name is lame. Yours I'm sure is hilarious and expresses your individuality.
+
+![Image](http://capnbry.net/~bmayland/fi/bbq/hm-wifi-2.png)
+
+**Step 4**: Enter your wireless password. I'm guessing it is "12345"!
+
+![Image](http://capnbry.net/~bmayland/fi/bbq/hm-wifi-3.png)
+
+**Step 5**: Don't touch a cotton pickin' thing on the page that comes up. You're not smarter than the defaults or else you wouldn't need this guide. Just press "Save and Apply"
+
+![Image](http://capnbry.net/~bmayland/fi/bbq/hm-wifi-4.png)
+
+**Step 6**: This is where you think things have gone wrong because the "Waiting for changes to be applied..." never goes away. I don't know what it is waiting for, perhaps a new pope to be elected. I've never waited that long. Just wait 15 seconds and move on.
+
+![Image](http://capnbry.net/~bmayland/fi/bbq/hm-wifi-5.png)
+
+**Step 7**: Navigate to Network -> Interfaces. You should see you're on your wifi network now and you can see the IP address on your home network you can use to see the LinkMeter site. I'm not good with numbers so I like to use a name. To use a name, click "Edit" on the wireless network
+
+![Image](http://capnbry.net/~bmayland/fi/bbq/hm-wifi-6.png)
+
+**Step 8**: Enter a name. I like short names "hm", "hmpi", or "bob". "Save and Apply" to commit the change. You'll get our old friend the "Waiting for changes..." pope-watcher but rest assured next time this puppy boots it will register on your home network with that name. Not all routers support named DHCP registration so if it doesn't work, use the IP address from the previous step 7.
+
+![Image](http://capnbry.net/~bmayland/fi/bbq/hm-wifi-7.png)
+
+**IMPORTANT** Once you configure your wifi to be a client on your network, you must reboot to switch from wired to wireless connectivity. That is, you can not boot with ethernet plugged in then configure the wifi and just unplug the ethernet cable. You must reboot after unplugging the ethernet cable for the wifi to be accessible.
