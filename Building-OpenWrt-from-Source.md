@@ -1,20 +1,32 @@
-# Building OpenWrt
-If you don't want to use a the pre-built LinkMeter OpenWrt image, you can build it yourself from source.  LinkMeter is targeting the Attitude Adjustment release of OpenWrt, which is currently on trunk.  In these examples, it is assumed your heatermeter git repository lives at ~/heatermeter and you'll be building OpenWrt at ~/openwrt
+# Building OpenWrt (for RaspberryPi)
+If you don't want to use a the pre-built LinkMeter OpenWrt image, you can build it yourself from source.  LinkMeter is built on the Attitude Adjustment release of OpenWrt.  In these examples, it is assumed your heatermeter git repository lives at ~/heatermeter and you'll be building OpenWrt at ~/openwrt
 
     cd ~
-    svn co svn://svn.openwrt.org/openwrt/trunk openwrt
+    svn co svn://svn.openwrt.org/openwrt/tags/attitude_adjustment_12.09 openwrt
     cd ~/heatermeter/openwrt
-    ./install.sh ~/openwrt
+    ./install.sh BCM2708 ~/openwrt
     cd ~/openwrt
     make menuconfig (exit and save)
     make
 
-The firmware image will be built to ~/openwrt/bin/brcm47xx/
+The firmware image will be built to `~/openwrt/bin/brcm2708/`
 
 ## Building just the LinkMeter package
 You'll still need the full OpenWrt build environment created from the above steps, but recompiling just the LinkMeter package can be done (from ~/openwrt)
 
     make package/linkmeter/compile
 
-The package will be built to ~/openwrt/bin/brcm47xx/package/linkmeter_*_brcm47xx.ipk
-    
+The package will be built to `~/openwrt/bin/brcm2708/package/linkmeter_*_brcm2708.ipk`
+
+# Building OpenWrt (for WRT54GL)
+The Linksys WRT54GL target had to be frozen during the OpenWrt development cycle. The release version of Attitude Adjustment requires too much memory to run in the 16MB available on the device. You can however build  it using the same method, however the platform and SVN source URL are different
+
+    cd ~
+    svn co svn://svn.openwrt.org/openwrt/trunk@29665 openwrt
+    cd ~/heatermeter/openwrt
+    ./install.sh BCM47XX ~/openwrt
+    cd ~/openwrt
+    make menuconfig (exit and save)
+    make
+
+The firmware image will be built to `~/openwrt/bin/brcm47xx/`.
