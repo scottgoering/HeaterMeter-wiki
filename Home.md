@@ -6,13 +6,11 @@
     * [[HeaterMeter 4.0 Hardware]]
     * [[HeaterMeter 4.0 Assembly]]
     * [[HeaterMeter 4.0 Case]]
-    * [[HeaterMeter 3.0 Hardware]]
     * [[HeaterMeter Probes]]
     * [[LinkMeter Hardware]] 
     * [[Servo Mode]]
 * [[Installation]]
     * [[HeaterMeter 4.0 Software]]
-    * [[HeaterMeter Bootloader]]
     * [[OpenWrt Packages]]
     * [[Building OpenWrt from Source]] (not necessary if using pre-built image)
 * User Guide
@@ -27,7 +25,11 @@
     * [[Network Ports]] What ports do I need to forward to access the web site from outside my network?
     * [[Console Hang]] The console on my RaspberryPi hangs after booting.
     * [[Thermistor]] The 'Ambient' temperature sensor is way off.
-* Upgrading
+
+* Outdated Information
+These are all pages which refer to the previous hardware iterations.
+    * [[HeaterMeter Bootloader]]
+    * [[HeaterMeter 3.0 Hardware]]
     * [[Upgrading LinkMeter 1to2]]
 
 [[TODO]]
