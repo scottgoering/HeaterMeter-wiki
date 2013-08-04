@@ -27,6 +27,7 @@
     * Ability to toggle between absolute time and relative time from start
     * Ability to save PNG from home screen
       * Auto upload png to imgur / facebook / twitter / Google+
+    * Add annotations
 * Add new indicator LEDs to shift register 
     * Temperature OK (temp within x% of setpoint). Pit probe only or for any probe?
     * High load / low fuel (average fan speed > x%)
