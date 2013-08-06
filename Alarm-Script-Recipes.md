@@ -12,6 +12,7 @@ Action | Will Ring Again? | Must Re-Arm?
 Press any button on HeaterMeter unit | Yes | Yes
 Unplug the alarming probe | Yes | Yes
 Clicking 'Silence' on web popup | Yes | Yes
+Setting the trigger point to 0 with al_set | Yes | Yes
 Open the lid until lid detect activates | Yes | No
 Un-ticking Alarm 'On' in web config page | No | Yes
 Setting the trigger point negative with al_set | No | Yes
