@@ -1,5 +1,9 @@
 ### Software TODO list
 
+* Easier email / sms integration
+    * User enters to address/name for email, (from address comes from msmtp), sms number, provider, then there's a bunch of checkboxes: Alarm 0 Low: AutoSilence, SMS, Email, UserScripts
+    * Text boxes for SMS message to send, email text
+    * Button to send test email
 * avrupdate 
     * Better integration and update-from-web.  Part of larger automatic update process?
 * Better interactivity with linkmeterd socket, ability to do actual query/response to HeaterMeter
@@ -40,14 +44,13 @@
         * Can be an alarm option.  When AlarmRinging && !AlarmSilenced -> SetPoint = AlarmHigh, AlarmSilenced = true
     * Elaped time notify
 * Unknown probe Steinhart calculations
-    * Set slave probes to mode "resist" where they just output their resistance. Add "raw" for raw ADC value, and "metric" for celcius output. Expand datatype / rename?
     * LUA implementation of Levenberg–Marquardt algorithm for a 2-pass (rough estimate, refine) multi-iteration determination off coeffs
 * Easier initial setup
     * Set initial wifi to AP mode. dnsmasq needs to run when in this configuration but not once in client mode. Can it switch automatically?
     * Captive portal if in AP mode.
     * eth0/wlan bridging. Needs 4addr support at the AP.
-* Easier SMTP / SMS configuration  stored in separate uci file with fixed textfile for message
 * Ability to set the colors of the LEDs in the web interface? Can store in uci file
+* Ability to set light webpage to autorefresh. Javascript only?
 * HeaterMeter configuration profiles. Defaults, A, B. Selectable from "Reset Config?" on HeaterMeter. A and B could be names?
 * Remote node
 * Optimize LuCI node() generation to speed page loads and reduce memory usage
@@ -64,6 +67,7 @@
 * Add "AUX" port. Use the old SOFTRESET pin as an output that runs through a mosfet that can either supply 3.3V, 5V or 12V as one of the configurable LEDs
 * Integrate switching power supply into PCB, the Murata is great but often out of stock
 * Capacitors on analog inputs
-* Drive alarm with 12V through transistor or mosfet.
+* Drive alarm with 12V through transistor or mosfet (maybe not easily doable)
 * Physical rPi switch to allow booting in multiple network configurations.
   * Maybe a button to load the default config backup?
+* P-Channel MOSFET to drive blower to combine GND for servo
