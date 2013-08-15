@@ -65,6 +65,6 @@ These are the "built in" connectors, there is space on the PCB for them. Externa
 |Qty|Value     |Device                |Parts|Link|Reason|
 |---|----------|----------------------|-----|----|------|
 1|Ambient|THERMISTOR_R-2,5|TR1|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=NTCLE203E3103FB0virtualkey59420000virtualkey594-2381-640-55103)|Only if you want an onboard 'ambient' temperature sensor 
-1|RFM12B|RFM12B|U$1|[ModernDevice](http://shop.moderndevice.com/products/rfm12b-radio)|Only if building wireless probes
+1|RFM12B|RFM12B|U$1|[ModernDevice](http://shop.moderndevice.com/products/rfm12b-radio)|Only if building wireless probes. 915MHz only (433MHz and 868MHz supported if you compile your own firmware). Surface mount, not the kind with pins and not one on any sort of breakout board.
 1|MCP1700-33|MCP1700-33|IC4|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=MCP1700-3302E%2fTOvirtualkey57940000virtualkey579-MCP1700-3302E%2fTO) [DigiKey](http://www.digikey.com/product-detail/en/MCP1700-3302E%2FTO/MCP1700-3302E%2FTO-ND/652680)|Only for standalone HeaterMeter
 1|ICSP|PINHD-2X3|J6|[Mouser](http://www.mouser.com/ProductDetail/3M/961206-6404-AR/?qs=A%252btsDZJT%252bi%2ft%2f4aaelvU3g%3d%3d)|Only if flashing the AVR outside of the Pi
