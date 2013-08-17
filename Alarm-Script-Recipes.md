@@ -66,7 +66,7 @@ $pn3: $pcurr3
 http://your.heatermeter.address/luci/lm/
 EOF
 ~~~
-### Sending an Email With IP in URL
+### Sending an Email With IP in URL (Not Fully Tested)
 This expands on the previous example (same restrictions apply) and automatically determines ip address of wireless network and puts that in url link as well as a link to silence alarm.  To use the silence link replace pw with your admin password in url. To get ip of ethernet connection replace wlan0 with eth0 in 1st line.
 ~~~
 ip_addr=$(/sbin/ifconfig wlan0 | grep "inet addr" | awk -F: '{print $2}' | awk '{print $1}')
