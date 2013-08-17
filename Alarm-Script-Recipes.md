@@ -66,7 +66,26 @@ $pn3: $pcurr3
 http://your.heatermeter.address/luci/lm/
 EOF
 ~~~
+### Sending an Email With IP in URL
+This expands on the previous example (same restrictions apply) and automatically determines ip address of wireless network and puts that in url link as well as a link to silence alarm.  To use the silence link replace pw with your admin password in url. To get ip of ethernet connection replace wlan0 with eth0 in 1st line.
+~~~
+ip_addr=$(/sbin/ifconfig wlan0 | grep "inet addr" | awk -F: '{print $2}' | awk '{print $1}')
+sendmail bmayland@myemail.net << EOF
+From: Bryan Mayland <bmayland@myemail.net>
+To: Bryan Mayland <bmayland@myemail.net>
+Subject: [HM] $pn Alert
 
+Alarm $al_type outside threshold $al_thresh, currently $pcurr.
+
+$pn0: $pcurr0
+$pn1: $pcurr1
+$pn2: $pcurr2
+$pn3: $pcurr3
+
+--
+Manage:  http://$ip_addr/luci/lm/
+Silence: http://$ip_addr/luci/admin/lm/set?username=root&password=pw&al=0,0,0,0,0,0,0,0
+~~~
 ### SMS Message
 SMS relies on going through your cell provider's email to SMS gateway so, again, the /etc/msmtprc must be configured for proper email delivery.
 ~~~
