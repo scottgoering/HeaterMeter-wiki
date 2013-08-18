@@ -2,7 +2,7 @@
 Dynamic DNS is a service that will associate your public ip address with a domain name.  Additional information on DDNS can be found [here](http://en.wikipedia.org/wiki/Dynamic_DNS).  The steps outlined below will get your HeaterMeter up and running with a configurable DDNS client that will keep your registered domain name updated with its current public ip address. All testing was performed using a Dyn DNS pro account, but there are free alternatives.
 
 ## Prerequisites
-* In order for this to work you must have a domain name service that allows for dynamic updating.  There are pre-configured services in the software package we'll be adding that are supported out of the box. All testing was performed with [DynDNS](http://dyn.com/dns/).
+* In order for this to work you must have a domain name service that allows for dynamic updating.  There are pre-configured services in the software package we'll be adding that are supported out of the box. All testing was performed with [DynDNS](http://dyn.com/dns/). An outdated list of providers can be found [here](http://dnslookup.me/dynamic-dns/).
 * A working HeaterMeter 4 with Raspberry Pi running most recent OpenWRT Packages.
 * Network port forwarding configured as outlined [here](https://github.com/CapnBry/HeaterMeter/wiki/Network-ports).
 
