@@ -20,4 +20,4 @@ When opening the lid on the grill, the temperature wiil drop and HeaterMeter wil
 Lid open mode may also be manually triggered by pressing the Left button from the Home Status Screen at any time the pit temperature is below the set point.  (This is because Lid Open mode ends once the pit temperature returns to the set point).  Lid Open mode may also be canceled by pressing the Left button again during the countdown, but it is generally not necessary to manually exit this mode unless it was entered accidentally.
 
 ### Low Fan Speed (below 10%)
-When operating in automatic mode at fan speeds below 10%, the fan will run in a partial duty cycle.  The fan will run one second out of every ten for each percent required.  This special low speed mode extends the life of the fan and reduces noise.
+When operating in automatic mode at fan speeds below 10%, the fan will run in a partial duty cycle.  The fan will run one second out of every ten for each percent required.  This special low speed mode extends the life of the fan and reduces noise. The 10% threshold can be changed via the "minimum fan speed" setting.
