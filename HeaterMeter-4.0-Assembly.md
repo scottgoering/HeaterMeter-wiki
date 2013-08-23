@@ -61,7 +61,7 @@ Install the electrolytic capacitors (the "cans"). The capacitor is marked with a
 
 [![Image](https://lh3.googleusercontent.com/-TcDFsuAvQRM/UDlM499CiaI/AAAAAAAAAyQ/aptmq7UZWjE/s640/IMG_1055.JPG)](https://picasaweb.google.com/lh/photo/QnSvdU9A24hLZHhw9aBuBNMTjNZETYmyPJy0liipFm0?feat=embedwebsite "PHOTO43")
 
-Install the 5V regulator board, power barrel jack, and blower RCA jack in that order.
+Install the 5V regulator board (IC1), power barrel jack (J9), and blower RCA jack (J4) in that order.
 
 [![Image](https://lh3.googleusercontent.com/-nUFq78d0pa0/UDlM5iFHkpI/AAAAAAAAAyY/APgZS-CjHhw/s640/IMG_1059.JPG)](https://picasaweb.google.com/lh/photo/jpngljFHuPAeY3DAFAHYRdMTjNZETYmyPJy0liipFm0?feat=embedwebsite "PHOTO44")
 
@@ -69,7 +69,7 @@ We're now done with the bottom components aside from the probe jacks. Note that 
 
 [![Image](https://lh3.googleusercontent.com/-PvlTkiDz_LY/UDlM6YpMhRI/AAAAAAAAAyg/6jiGceHtDDY/s640/IMG_1063.JPG)](https://picasaweb.google.com/lh/photo/piiCnTQBcXM5fUOavWJUGdMTjNZETYmyPJy0liipFm0?feat=embedwebsite "PHOTO45")
 
-Finally, install as many probe jacks as you'll have probes connected.
+Finally, install as many probe jacks as you'll have probes connected (JP3, JP4, JP5, JP6).
 
 ### Top Components
 
