@@ -1,11 +1,12 @@
 ## Quick Setup Configuration
-**DO THIS FIRST** Connecting a servo while HeaterMeter is set to fan mode could possibly damage your servo due to the high frequency and long pulse widths of that PWM mode stressing the motor.
 
-From the web configuration page, set the output mode from "Fan" to "Servo" and adjust the pulse width. The minimum and maximum pulse width depends on the specifications of your servo, and are listed on the datasheet as "pulse width range".
+**Requires LinkMeter v9 or above**
+
+From the web configuration page, sero pulse width. The minimum and maximum pulse width depends on the specifications of your servo, and are listed on the datasheet as "pulse width range".
 
 ![servo-angle-schematic](images/servo-angle-schematic.jpg)
 
-Generally servos are centered at 1500us (sometimes listed as 1.5ms), so if the pulse range isn't known, just start with 500us on each side of that center. The web interface takes ranges in 10x microseconds so a 1000us to 2000us range would be entered as 100 to 200. Maximum supported values are ~20us to 2550us.
+Generally servos are centered at 1500us (sometimes listed as 1.5ms), so if the pulse range isn't known, just start with 500us on each side of that center. Maximum supported values are ~20us to 2550us.
 
 ![servo-config](images/servo-config.png)
 
