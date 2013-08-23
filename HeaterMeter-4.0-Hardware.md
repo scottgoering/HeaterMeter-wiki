@@ -57,7 +57,7 @@ These are the "built in" connectors, there is space on the PCB for them. Externa
 
 |Qty|Value     |Device                |Parts|Link|
 |---|----------|----------------------|-----|----|
-1|RCAPOWER|RCAPOWER|J5|[Mouser](http://www.mouser.com/ProductDetail/Switchcraft/PJRAN1X1U01X/?qs=%2fha2pyFaduhA2dCbClozE0M8thHp4IZMpitol3BhLqRLppD9blRIxA%3d%3d) [DigiKey](http://www.digikey.com/product-detail/en/PJRAN1X1U01X/PJRAN1X1U01X-ND/1288632)
+1|RCAPOWER|RCAPOWER|J5|[Mouser](http://www.mouser.com/ProductDetail/Switchcraft/PJRAN1X1U01X/?qs=%2fha2pyFaduhA2dCbClozE0M8thHp4IZMpitol3BhLqRLppD9blRIxA%3d%3d) [DigiKey](http://www.digikey.com/product-detail/en/PJRAN1X1U01X/PJRAN1X1U01X-ND/1288632) or reuse rPi compsite video jack
 1|Pi|PINHD-2X13|JP1|[DigiKey](http://www.digikey.com/product-detail/en/PPPC132LFBN-RC/S7116-ND/810252) (alt [DigiKey](http://www.digikey.com/product-detail/en/PPTC132LFBN-RC/S7081-ND/810219))
 1-4|Probes|AUDIO-MONO|JP3, JP4, JP5, JP6|[DigiKey](http://www.digikey.com/product-detail/en/MJ-2508N/CP-2508N-ND/281260)
 
