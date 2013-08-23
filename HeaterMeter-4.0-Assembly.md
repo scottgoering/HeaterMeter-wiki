@@ -108,7 +108,7 @@ At this point you can install the ATmega328P into the DIP-28 socket IC2.
 
 [![Image](https://lh5.googleusercontent.com/-llmS0PD7dMQ/UEKibZc5uuI/AAAAAAAAAz0/9msqKAfNfYo/s640/IMG_1094.JPG)](https://picasaweb.google.com/lh/photo/zpPmHbWERDCEXAi0YaRwLdMTjNZETYmyPJy0liipFm0?feat=embedwebsite "PHOTO51")
 
-**Wireless Probe Support** HeaterMeter supports receiving ambient temperature from LaCrosse Technology IT+915 protocol weather stations as well as custom-built "lmremote" probe transmitters. If this is desired, install a RFM12B transceiver board. A short piece (78mm) of insulated solid-core wire should be installed into the hole marked ANT as an antenna.
+**Wireless Probe Support** HeaterMeter supports receiving ambient temperature from LaCrosse Technology IT+915 protocol weather stations as well as custom-built "lmremote" probe transmitters (although HeaterMeter is limited to four total probes wired+wireless). If this is desired, install a RFM12B transceiver board. The board is oriented so that the oval crystal on the RF board is over the oval drawing on the HeaterMeter PCB. A short piece (78mm) of insulated solid-core wire should be installed into the hole marked ANT as an antenna.
 
 ### Mount on Raspberry Pi
 
