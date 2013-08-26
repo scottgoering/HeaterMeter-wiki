@@ -4,6 +4,8 @@
     * User enters to address/name for email, (from address comes from msmtp), sms number, provider, then there's a bunch of checkboxes: Alarm 0 Low: AutoSilence, SMS, Email, UserScripts
     * Text boxes for SMS message to send, email text
     * Button to send test email
+* Temperature ramp down mode. Select food probe as source and a percent to start at, then LERP down to it.
+* Adaptive setpoint mode, set a target time and have the setpoint vary to meet that time?
 * avrupdate 
     * Better integration and update-from-web.  Part of larger automatic update process?
 * Better interactivity with linkmeterd socket, ability to do actual query/response to HeaterMeter
@@ -36,7 +38,6 @@
     * Temperature OK (temp within x% of setpoint). Pit probe only or for any probe?
     * High load / low fuel (average fan speed > x%)
     * "Food OK". Not sure what this one was
-    * Any Alarm
 * Touch-friendly setpoint setting using vertical ... spin ... grid
 * Alarms
     * Chrome To Phone / C2DM / GCM message
