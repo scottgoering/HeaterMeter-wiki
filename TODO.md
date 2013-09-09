@@ -72,3 +72,4 @@
 * Physical rPi switch to allow booting in multiple network configurations.
   * Maybe a button to load the default config backup?
 * P-Channel MOSFET to drive blower to combine GND for servo
+* AD8495 thermocouple footprint
