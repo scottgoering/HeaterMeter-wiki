@@ -5,6 +5,7 @@
     * Text boxes for SMS message to send, email text
     * Button to send test email
 * Temperature ramp down mode. Select food probe as source and a percent to start at, then LERP down to it.
+* Blower kickstart. When enabling the blower 0% to any%, set it to 100% for N milliseconds to allow it to spin up more reliably.
 * Adaptive setpoint mode, set a target time and have the setpoint vary to meet that time?
 * avrupdate 
     * Better integration and update-from-web.  Part of larger automatic update process?
