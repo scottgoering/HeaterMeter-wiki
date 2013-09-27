@@ -32,11 +32,15 @@ Both HeaterMeter and LinkMeter accept commands via URL-type form.
   <td>Y</td><td>N</td>
 
 <tr><td><code>/lm/rfstatus</code></td>
-  <td>Get last RF12 status update in JSON format</td>
+  <td>Get last RF12 status update in JSON format.</td>
   <td>Y</td><td>N</td>
 
 <tr><td><code>/lm/stream</code></td>
   <td>Get streaming HeaterMeter status updates in HTTP server-sent events format. The individual events are in JSON format.</td>
+  <td>Y</td><td>N</td>
+
+<tr><td><code>/lm/conf</code></td>
+  <td>Retrieve HeaterMeter configuration in JSON format.</td>
   <td>Y</td><td>N</td>
 
 <tr><td><code>/lm/hist</code></td>
