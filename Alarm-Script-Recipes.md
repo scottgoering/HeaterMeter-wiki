@@ -47,64 +47,8 @@ or
 al_set -$al_thresh
 ~~~
 
-### Sending an Email
-This requires that /etc/msmtprc be configured with the proper email server information. Note that many ISPs will block regular email traffic (on port 25) so you'll probably need to use SMTP over SSL on port 465.
-~~~
-sendmail bmayland@myemail.net << EOF
-From: Bryan Mayland <bmayland@myemail.net>
-To: Bryan Mayland <bmayland@myemail.net>
-Subject: [HM] $pn Alert
-
-Alarm $al_type outside threshold $al_thresh, currently $pcurr.
-
-$pn0: $pcurr0
-$pn1: $pcurr1
-$pn2: $pcurr2
-$pn3: $pcurr3
-
---
-http://your.heatermeter.address/luci/lm/
-EOF
-~~~
-### Sending an Email With IP in URL (Not Fully Tested)
-This expands on the previous example (same restrictions apply) and automatically determines ip address of wireless network and puts that in url link as well as a link to silence alarm.  To use the silence link replace pw with your admin password in url. To get ip of ethernet connection replace wlan0 with eth0 in 1st line.
-~~~
-ip_addr=$(/sbin/ifconfig wlan0 | grep "inet addr" | awk -F: '{print $2}' | awk '{print $1}')
-sendmail bmayland@myemail.net << EOF
-From: Bryan Mayland <bmayland@myemail.net>
-To: Bryan Mayland <bmayland@myemail.net>
-Subject: [HM] $pn Alert
-
-Alarm $al_type outside threshold $al_thresh, currently $pcurr.
-
-$pn0: $pcurr0
-$pn1: $pcurr1
-$pn2: $pcurr2
-$pn3: $pcurr3
-
---
-Manage:  http://$ip_addr/luci/lm/
-Silence: http://$ip_addr/luci/admin/lm/set?username=root&password=pw&al=0,0,0,0,0,0,0,0
-~~~
-### SMS Message
-SMS relies on going through your cell provider's email to SMS gateway so, again, the /etc/msmtprc must be configured for proper email delivery.
-~~~
-echo "$pn Alert -- $pcurr \($al_type\)" | sendmail 2125551212@messaging.sprintpcs.com
-~~~
-#### Provider SMS Email Gateways
-A full list of global SMS gateways can be found at Wikipedia's [List of SMS gateways](http://en.wikipedia.org/wiki/List_of_SMS_gateways).
-
-Provider | Address 
------|-----
-AT&T | phonenumber@txt.att.net
-Nextel | phonenumber@messaging.nextel.com 
-Sprint | phonenumber@messaging.sprintpcs.com
-T-Mobile | phonenumber@tmomail.net
-Verizon | phonenumber@vtext.com
-Virgin Mobile | phonenumber@vmobl.com
-
 ### HeaterMeter Control - Shutdown
-Often you want to turn off the Pit when your food is done. This is easily done using lmclient to send a command to HeaterMeter to change the setpoint.
+Often you want to turn off the Pit when your food is done, this can be done automatically from the Alarms configuration page. However, this is also easily done using lmclient to send a command to HeaterMeter to change the setpoint.
 ~~~
 # Lower the setpoint to 100
 lmclient LMST,sp,100
@@ -157,6 +101,45 @@ else
   # Do whatever you want here, using another recipe
 fi
 ~~~
+
+## Alarm Script Variables
+
+### Common Variables
+Variable | Description
+|:-------:|----------------|
+al_prep |  Preposition describing alarm (above/below)
+al_probe |  Index of ringing alarm (0-3)
+al_set | *FUNCTION* change current alarm threshold
+al_thresh |  Threshold of ringing alarm
+al_type |  Type (L/H) of ringing alarm
+sp |  Setpoint
+pcurr |  Current temperature of ringing alarm
+pcurr0, pcurr1, pcurr2, pcurr3 |  Current temperatures
+pn0, pn1, pn2, pn3 |  Probe names
+
+### Configuration Variables
+Variable | Description
+|:-------:|----------------|
+fmin, fmax |  Blower min/max
+ip |  IP adddress of LinkMeter
+lb |  LCD Backlight
+lbn |  Home Mode
+ld |  Lid detect duration
+le0, le1, le2, le3 |  LED trigger/invert
+lo |  Lid detect offset %
+oflag |  PID output flags
+palh0, palh1, palh2, palh3 |  Alarm high triggers
+pall0, pall1, pall2, pall3 |  Alarm low triggers
+pca0, pca1, pca2, pca3 |  Steinheart A coefficients
+pcb0, pcb1, pcb2, pcb3 |  Steinheart B coefficients
+pcc0, pcc1, pcc2, pcc3 |  Steinheart C coefficients
+pcr0, pcr1, pcr2, pcr3 |  Steinheart resistances or thermocouple scale
+pidb, pidp, pidi, pidd |  PID constants
+po0, po1, po2, po3 |  Probe temperature offset (config)
+prfn0, prfn1, prfn2, prfn3 |  Probe RF mapping
+pt0, pt1, pt2, pt3 |  Probe type
+smin, smax |  Servo min/max position (10us)
+ucid |  HeaterMeter version
 
 ## MSMTP Configuration
 The mail transfer agent "msmtp" must be configured before any of the sendmail (email/SMS) commands will work. The web interface for this is under Services -> SMTP. If you prefer editing files, edit `/etc/msmtprc` with the information appropriate for your mail server
