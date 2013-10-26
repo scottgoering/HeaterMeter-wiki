@@ -33,6 +33,7 @@ Thermoworks probes for their ChefAlarm system work well, and respond faster than
   * Maximum cable temperature: 700F
 
 Recommended HeaterMeter resistance: 10k ohm (standard)
+
 Manually enter these coefficients (built-in are wrong)
 `6.6853001e-04,2.2231022e-04,9.9680632e-08`
 
