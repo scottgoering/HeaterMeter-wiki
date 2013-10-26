@@ -23,6 +23,21 @@ Recommended HeaterMeter resistance: 10kohm (standard)
  * High Heat Food Probe [Maverick](http://maverickhousewares.bigcartel.com/product/et-72-73-high-heat-6ft-food-probe)
  * Standard Food Probe [Amazon](https://www.amazon.com/dp/B00B8NBL2O/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B00B8NBL2O&adid=0NBFHY6JQDTCA1J3XBQ6&) [Maverick](http://maverickhousewares.bigcartel.com/product/et-7-et-72-et-902-probe)
 
+## Thermoworks TX-1001X-OP
+
+**Highly Recommended**
+
+Thermoworks probes for their ChefAlarm system work well, and respond faster than ET-72/73 due to their smaller probe tips. Note these are thermistor-based probes, and not the high-precision Thermoworks thermocouple-based design. These probes are well built with better moisture resistance and larger temperature range too. The coefficients in LinkMeter may not be completely accurate because they are correlated off a ET-72/73 probe.
+  * Cable length: 47 inches
+  * Maximum working temperature: 644F
+  * Maximum cable temperature: 700F
+
+Recommended HeaterMeter resistance: 10k ohm (standard)
+Manually enter these coefficients (built-in are wrong): 6.6853001e-04,2.2231022e-04,9.9680632e-08
+
+  * Thermoworks [TX-1001X-OP](http://www.thermoworks.com/products/alarm/chefalarm.html#AccessoriesTab)
+  * Thermoworks Needle Probe (500F max cable temperature) [TX-1002X-NP](http://www.thermoworks.com/products/alarm/chefalarm.html#AccessoriesTab)
+
 ## Maverick ET-732
 
 **Acceptable**
@@ -53,4 +68,4 @@ These probes can be used, but they are wired backwards so the PCB mount probe ja
 
 ## Thermocouples
 
-Thermocouples have a higher maximum temperature rating, but their low voltage change per degree requires special amplifier circuitry or special purpose thermocouple-reading chips. HeaterMeter does not have this circuitry so thermocouples are not supported.
+Thermocouples have a higher maximum temperature rating, but their low voltage change per degree requires special amplifier circuitry or special purpose thermocouple-reading chips. HeaterMeter does not have this circuitry so thermocouples are not supported in hardware. However, analog output thermocouple amplifiers can be used and HeaterMeter will convert this to temperature using the mV/C rating of the amplifier. Building the appropriate circuit is an exercise for the reader.
