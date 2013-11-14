@@ -32,6 +32,8 @@ Thermoworks probes for their ChefAlarm system work well, and respond faster than
   * Maximum working temperature: 644F
   * Maximum cable temperature: 700F
 
+![TX1001X Response](images/therm-tx1001x.png)
+
 Recommended HeaterMeter resistance: 10k ohm (standard)
 
 Manually enter these coefficients (built-in are wrong)
