@@ -50,6 +50,7 @@
 * Remote node
 * Optimize LuCI node() generation to speed page loads and reduce memory usage
     * Entire tree is generated on every page call, taking at least 300ms and peaking at 1.1MB of RAM per process
+* Periodic Email/SMS updates (every hour, etc) with current status
 
 ### HeaterMeter PCB
 
