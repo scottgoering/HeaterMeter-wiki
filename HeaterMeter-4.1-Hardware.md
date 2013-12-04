@@ -5,7 +5,7 @@ Standard HeaterMeter hardware is built on a [HeaterMeter v4.1 PCB](http://capnbr
 * [Buy direct](http://store.oshpark.com/products/heatermeter-v4-1) from OSH Park
 * [Schematic Image](http://capnbry.net/linkmeter/pcb/hm-4.1/HeaterMeterPI.png)
 * EAGLE 5 [schematic](http://capnbry.net/linkmeter/pcb/hm-4.1/HeaterMeterPI.sch) and [board](http://capnbry.net/linkmeter/pcb/hm-4.1/HeaterMeterPI.brd)
-* DorkBot/OSH Park [cam job](http://capnbry.net/linkmeter/pcb/hm-4.1/HeaterMeter-Dorkbot.cam) or [cam output](http://capnbry.net/linkmeter/pcb/hm-4.0/HeterMeter-v4.1-DorkBot.zip). Use cam output if you just want a board made with no modifications
+* DorkBot/OSH Park [cam job](http://capnbry.net/linkmeter/pcb/hm-4.1/HeaterMeter-Dorkbot.cam) or [cam output](http://capnbry.net/linkmeter/pcb/hm-4.1/HeterMeter-v4.1-DorkBot.zip). Use cam output if you just want a board made with no modifications
 
 ## Configurations 
 
