@@ -39,8 +39,8 @@ Recommended HeaterMeter resistance: 10k ohm (standard)
 Manually enter these coefficients (built-in are wrong)
 `6.6853001e-04,2.2231022e-04,9.9680632e-08`
 
-  * Thermoworks [TX-1001X-OP](http://www.thermoworks.com/products/alarm/chefalarm.html#AccessoriesTab)
-  * Thermoworks Needle Probe (500F max cable temperature) [TX-1002X-NP](http://www.thermoworks.com/products/alarm/chefalarm.html#AccessoriesTab)
+  * Thermoworks [TX-1001X-OP](http://www.thermoworks.com/products/alarm/chefalarm.html#AccessoriesTab) [Amazon](https://www.amazon.com/dp/B00EZB8W0K/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B00EZB8W0K&adid=03P1SGNDWFZ85JC5W569&)
+  * Thermoworks Needle Probe (500F max cable temperature) [TX-1002X-NP](http://www.thermoworks.com/products/alarm/chefalarm.html#AccessoriesTab) [Amazon](https://www.amazon.com/dp/B00EZBB8AQ/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B00EZBB8AQ&adid=0J280WDZFM7N5XZM4XF3&)
 
 ## Maverick ET-732
 
