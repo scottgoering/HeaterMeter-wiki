@@ -52,8 +52,7 @@ HeaterMeter can be built either as a standalone or for integration with a Raspbe
 |---|-----------|----|
 1 | 12VDC/1A power brick 5.5x2.1mm barrel jack | [Generic](http://www.amazon.com/gp/product/B006GEPUYA/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B006GEPUYA&linkCode=as2&tag=httpcapnbrnet-20)
 1 | Blower-style fan 12VDC 5-10CFM | [DigiKey](http://search.digikey.com/us/en/products/BFB0612H/603-1117-ND/1014448)
-1-4 | Maverick BBQ Thermistor Probes for ET-72/ET-73 (3ft or High Heat) | [Maverick](http://maverickhousewares.bigcartel.com/) [Amazon](http://www.amazon.com/gp/product/B004W8B3PC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B004W8B3PC&linkCode=as2&tag=httpcapnbrnet-20)
-
+1-4 | Thermistor Probes -- ThermoWorks Pro-Series (Std or Needle) / Maverick ET-72/ET-73 (3ft or High Heat)| [Amazon-T-Std](http://www.amazon.com/dp/B00EZB8W0K/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B00EZB8W0K&adid=03P1SGNDWFZ85JC5W569) [Amazon-T-Needle](https://www.amazon.com/dp/B00EZBB8AQ/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B00EZBB8AQ&adid=0J280WDZFM7N5XZM4XF3&) [Amazon-M-3ft](http://www.amazon.com/gp/product/B004W8B3PC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B004W8B3PC&linkCode=as2&tag=httpcapnbrnet-20) [Amazon-M-High](https://www.amazon.com/dp/B008OWZMMW?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B008OWZMMW&adid=02TKF6EJVRJFR2HC0FXT&)
 ### Probe and Blower Connectors
 These are the "built in" connectors, there is space on the PCB for them. External connectors can be used for probes by attaching to the J2 pin header.
 
