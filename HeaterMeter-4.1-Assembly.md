@@ -26,7 +26,7 @@
 This can be obtained either by finding someone who has an extra (they're usually ordered in 3s and you probably only need one) or by ordering your own set. To order your own set, use any online PCB fab service which supports gerber files. [OSH Park](http://oshpark.com) is the preferred online service for the U.S., due to their quick turnaround, impeccable output, friendly service, and reasonable prices. Just upload the "dorkbot" zip file to their service and pay them. You'll have boards in your hands in about two weeks.
 [PCB 4.1 Snapshot](http://capnbry.net/linkmeter/pcb/hm-4.1/)
 
-OSH Park also now has PCB 4.0 board singles available in their store. [OSH Park PCB 4.1 Singles](http://store.oshpark.com/products/heatermeter-v4-1) 
+OSH Park also now has PCB board singles available in their store. [OSH Park PCB 4.1 Singles](http://store.oshpark.com/products/heatermeter-v4-1) 
 
 ## Hardware Assembly
 
@@ -38,35 +38,35 @@ All directions in this section refer to the board being bottom side up. That is,
 
 Cut a piece off one one of your component leads and bend it to fit into the position marked "0" and solder it into place. This is a "0 ohm resistor" needed for the LCD backlight. If you did not use the recommended Newhaven Display LCD, you'd instead place the proper current-limiting resistor needed for your backlight here. The Newhaven model is nice in that the current-limiting resistor is integrated into the display itself.
 
-[![Image](https://lh4.googleusercontent.com/-5e8n0oD2Vto/UFCRNsaVsyI/AAAAAAAAA0M/_PkD5L0Y_oQ/s640/IMG_0971.JPG)](https://picasaweb.google.com/lh/photo/0PJ6XKXALFJnPrR6r93tFNMTjNZETYmyPJy0liipFm0?feat=embedwebsite "PHOTO52")
+[![Image](https://lh6.googleusercontent.com/-ZKRkPSywOC4/Uqnn3-79JeI/AAAAAAAABnA/xAMXtAv3SZw/s640/IMG_1761.JPG)](https://picasaweb.google.com/lh/photo/TUeGbSHTwAuOfOSClEr5xdMTjNZETYmyPJy0liipFm0?feat=embedwebsite)
 
 Solder the rest of the resistors. The orientation on these does not matter either side can go in either hole, as long as the body of the resistor is on the right side of the board. The placements are sized such that you should be able to fold the leads of the resistor against the body at a right angle and have them just fit into the holes. It is easiest to insert a couple resistors at a time and flip the whole board over, resting the board on the resistors to hold them in place while you solder them and clip the extra leads off. When you're done soldering all the resistors, it should look like this.
 
-[![Image](https://lh6.googleusercontent.com/-QvB5LnnE4vM/UDlM2TB7NeI/AAAAAAAAAx0/HD79PBCa7vw/s640/IMG_1039.JPG)](https://picasaweb.google.com/lh/photo/dNrgmVi5mGaye0cJ5QpnfdMTjNZETYmyPJy0liipFm0?feat=embedwebsite "PHOTO39")
+[![Image](https://lh5.googleusercontent.com/-1YBbu1nn2iQ/Uqnn4a5-Z9I/AAAAAAAABnM/Gn8TYu_YXXU/s640/IMG_1762.JPG)](https://picasaweb.google.com/lh/photo/nDIX71bzDvJ6zh80ObbizNMTjNZETYmyPJy0liipFm0?feat=embedwebsite)
 
 Ceramic capacitors (small yellow blobs) Again, the orientation does not matter as these have no polarity.
 
-[![Image](https://lh4.googleusercontent.com/-AjujxSiUo3E/UDlM2nzkzfI/AAAAAAAAAx4/V5b1IFJVDes/s640/IMG_1042.JPG)](https://picasaweb.google.com/lh/photo/15AX-FiAwzHT4QSITQ9BgdMTjNZETYmyPJy0liipFm0?feat=embedwebsite "PHOTO40")
+[![Image](https://lh3.googleusercontent.com/-ZlNH8mYS-sc/Uqnn00cmgMI/AAAAAAAABmY/jJwK64j1sRQ/s640/IMG_1764.JPG)](https://picasaweb.google.com/lh/photo/203Eu2YzPjvxbCh0-BvVS9MTjNZETYmyPJy0liipFm0?feat=embedwebsite)
 
-The rectifier diodes have a white line on them to indicate their polarity and should be installed so their white line matches the white line marking on the PCB. Q3 (the fan driver MOSFET) should also be placed. To form its leads, just insert it into the holes and bend it down into position so it stays inside the component outline and the holes match up then flip the board and solder it into place.
+The rectifier diodes have a white line on them to indicate their polarity and should be installed so their white line matches the white line marking on the PCB. Q3 (the fan driver MOSFET) should also be placed. To form its leads, just insert it into the holes and bend it down into position so it stays inside the component outline then flip the board and solder it into place. The tab can be soldered to the PCB for extra heatsinking, but it isn't required.
 
-XXX
+[![Image](https://lh4.googleusercontent.com/-5yMn0zuK-hU/Uqnn1KQ6IvI/AAAAAAAABmg/fK7LxrKzhYQ/s640/IMG_1767.JPG)](https://picasaweb.google.com/lh/photo/ptz1djt-bAFcK0-8hPbOvtMTjNZETYmyPJy0liipFm0?feat=embedwebsite)
 
 The tiny black water towers: 3x BC337 transistors and the MCP1700 3.3V regulator are installed next. The flat front of these should match the flat front on the silkscreen.
 
-XXX
+[![Image](https://lh6.googleusercontent.com/-NVtesVrkoIE/Uqnn1yCphbI/AAAAAAAABmo/pZKa9MSfq5A/s640/IMG_1770.JPG)](https://picasaweb.google.com/lh/photo/mC2CocWIvxdC6g8QPpmUQdMTjNZETYmyPJy0liipFm0?feat=embedwebsite)
 
 Then, solder the DIP-28 socket (IC2) and the DIP-16 74HC595 (IC3). Both of these parts have a notch on one side of them which indicates the direction they need to be placed. Do not install the ATmega328P chip into socket IC2 at this time.
 
-[![Image](https://lh3.googleusercontent.com/-sRlyyQJu6fw/UDlM3vFfdXI/AAAAAAAAAyA/xSWeagmbrPs/s640/IMG_1048.JPG)](https://picasaweb.google.com/lh/photo/Vejhy0c2FNbQ-8BVBCFh9dMTjNZETYmyPJy0liipFm0?feat=embedwebsite "PHOTO41")
+[![Image](https://lh4.googleusercontent.com/-uPD_PqtVXEs/Uqnn2fsxbiI/AAAAAAAABnI/bgUGKWZvoDA/s640/IMG_1772.JPG)](https://picasaweb.google.com/lh/photo/fjQYD4rABmQYh9YC4eZCbNMTjNZETYmyPJy0liipFm0?feat=embedwebsite)
 
 Install the piezobuzzer (SP1) and 5V regulator sub-board (IC1), followed by the electrolytic capacitors. The capacitor "cans" have a line going down the side which indicates the negative side, the PCB has a teeny plus symbol to indicate the positive side. Use deductive reasoning to ascertain the correct orientation.
 
-XXX
+[![Image](https://lh4.googleusercontent.com/-gc5r_MNOnkU/Uqnn2xTHVRI/AAAAAAAABm4/o_rL-4DEwns/s640/IMG_1776.JPG)](https://picasaweb.google.com/lh/photo/QBr5HV5Mkrph5aNJo3aVFtMTjNZETYmyPJy0liipFm0?feat=embedwebsite)
 
 Install the 16MHz resonator (the larger yellow orange blob) in the unlabeled oval by the IC2 DIP socket. Install the RaspberryPi GPIO header (2x13), the Phone/Ethernet jack, and the barrel power connector in their giant unmistakable footprints.
 
-XXX
+[![Image](https://lh4.googleusercontent.com/-bIEddkeAvo0/Uqnn3TCRZAI/AAAAAAAABnE/D9sIKJPrW2Y/s640/IMG_1781.JPG)](https://picasaweb.google.com/lh/photo/yQbfcgcfpK-25tSkEx3Lj9MTjNZETYmyPJy0liipFm0?feat=embedwebsite)
 
 Install as many probe jacks as you'll have probes connected (JP3, JP4, JP5, JP6). We're now done with the bottom components.
 
@@ -82,7 +82,7 @@ When installing your LEDs (LED1, LED2, LED3) bear in mind that if you mount them
 
 The web UI has a red icon for LED1, yellow for LED2, green for LED3. Any arrangement can be used, but the web interface is fixed to displaying these colors.
 
-[![Image](https://lh3.googleusercontent.com/-Os2j-rg-ya0/UDlM7KPVAfI/AAAAAAAAAyo/2fPX4qO6k0Y/s640/IMG_1066.JPG)](https://picasaweb.google.com/lh/photo/vTLgZ7ebgSrFBtmNq1O_JNMTjNZETYmyPJy0liipFm0?feat=embedwebsite "PHOTO46")
+XXX
 
 The LCD can now be installed by soldering all 16 pins in place on the lower of the two connectors on the LCD itself. The LCD extends away from you and hangs off the board.
 
