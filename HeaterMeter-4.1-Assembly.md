@@ -74,7 +74,7 @@ Install as many probe jacks as you'll have probes connected (JP3, JP4, JP5, JP6)
 
 Install R6 (LCD contrast adjustment potentiometer). Snap off 16 pins from the 36 pin header strip and install them in J1. Finally install the button into the large square position in the center of the board **this has an orientation**. Note the middle set of pins is closer to one side than the other. Put it in the way it is supposed to go in, not the way where you force it in because you thought it was symmetrical.
 
-XXX
+[![Image](https://lh6.googleusercontent.com/-vowouHt_dRU/UqnqycOPeUI/AAAAAAAABnY/Y5fN40TdNyk/s640/IMG_1782.JPG)](https://picasaweb.google.com/lh/photo/Lw5hUTmu9ErCnUKyidkeEdMTjNZETYmyPJy0liipFm0?feat=embedwebsite)
 
 **You might want to pause here**. The LEDs and LCD may be easier to get their height right if you're soldering them in place while trial-fitting the system into a case.
 
@@ -90,13 +90,13 @@ Do not populate J2 (PROBE), J6 (ICSP), or J8 (FTDI) unless you need them. These 
 
 At this point you can install the ATmega328P into the DIP-28 socket IC2.
 
-[![Image](https://lh6.googleusercontent.com/-hEatntLaa_U/UDlM7wjlStI/AAAAAAAAAyw/6pRQdfjefdU/s640/IMG_1069.JPG)](https://picasaweb.google.com/lh/photo/VO7IJMtWG143LdyMFK620NMTjNZETYmyPJy0liipFm0?feat=embedwebsite "PHOTO47")
-[![Image](https://lh6.googleusercontent.com/-aU5i6h41aDY/UDlM8v9WmII/AAAAAAAAAy4/pIjaHHqaMqU/s640/IMG_1074.JPG)](https://picasaweb.google.com/lh/photo/c_fSUT5iCas7D_CzBpk7b9MTjNZETYmyPJy0liipFm0?feat=embedwebsite "PHOTO48")
-[![Image](https://lh4.googleusercontent.com/-7ipZyv5Hg8c/UDlM88zr7XI/AAAAAAAAAzA/5Pluii-uSW8/s640/IMG_1075.JPG)](https://picasaweb.google.com/lh/photo/D_kYvcoXWKFj6fpvRrtdFdMTjNZETYmyPJy0liipFm0?feat=embedwebsite "PHOTO49")
+XXX
+YYY
+ZZZ
 
 ### Optional Components
 
-**Ambient Temperature Thermistor** A thermistor can be attached to one of the probe jacks to allow for ambient temperature measurement when a probe is not inserted into the jack. When looking at the board from the top, solder the thermistor between the far right pin and the close pin of the jack. Remember, the probe coefficients in the configuration need to be set for the proper probe type connected. That is, when you have no probe inserted the configuration should be set for the thermistor coefficients and when a probe is inserted they should be set to match the probe type. This modification can be seen on the Food3 jack here
+**Ambient Temperature Thermistor** A thermistor can be attached to one of the probe jacks to allow for ambient temperature measurement when a probe is not inserted into the jack. When looking at the board from the top, solder the thermistor between the far right pin and the close pin of the jack. Remember, the probe coefficients in the configuration need to be set for the proper probe type connected. That is, when you have no probe inserted the configuration should be set for the thermistor coefficients and when a probe is inserted they should be set to match the probe type. This modification can be seen on the Food3 jack here on a v4.0 board.
 
 [![Image](https://lh5.googleusercontent.com/-llmS0PD7dMQ/UEKibZc5uuI/AAAAAAAAAz0/9msqKAfNfYo/s640/IMG_1094.JPG)](https://picasaweb.google.com/lh/photo/zpPmHbWERDCEXAi0YaRwLdMTjNZETYmyPJy0liipFm0?feat=embedwebsite "PHOTO51")
 
@@ -104,9 +104,11 @@ At this point you can install the ATmega328P into the DIP-28 socket IC2.
 
 ### Mount on Raspberry Pi
 
-Mount your HeaterMeter board onto the Raspberry Pi by mating the rPi's GPIO header with the HeaterMeter socket. It should mount with the RCA blower jack and power plug facing you. It will be a bit of a tight fit between the rPi's RCA jack and the 5V regulator board on the HeaterMeter. If needed the 5V regulator can be adjusted slightly sideways by holding your thumb against it and applying a little pressure while heating each of its pins on the other side with a soldering iron. The composite RCA jack can also be removed entirely from the rPi, which will allow for a much better fit overall. The RCA jack needs to be removed if you want to use the [[HeaterMeter 4.0 case]].
+Remove the Raspberry Pi RCA composite video output jack by snipping it off where it meets the board. If you have the skills, it can be desoldered but after doing half a dozen of them I realized it wasn't worth the time. What are you going to connect it to, your 1995 CRT television?
 
-[![Image](https://lh3.googleusercontent.com/-Sb53AI7UAUE/UDlM96xaU6I/AAAAAAAAAzI/_XwWe8WFUwo/s640/IMG_1078.JPG)](https://picasaweb.google.com/lh/photo/l2VPscp3eDhF20jcTcO53dMTjNZETYmyPJy0liipFm0?feat=embedwebsite "PHOTO50")
+Mount your HeaterMeter board onto the Raspberry Pi by mating the rPi's GPIO header with the HeaterMeter 13x2 socket. The HeaterMeter LCD is over the Raspberry Pi, power inpult on the left, probe jacks will be on the right.
+
+XXX
 
 ## Software Installation
 
