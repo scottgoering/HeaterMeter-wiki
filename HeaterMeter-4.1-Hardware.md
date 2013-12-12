@@ -44,6 +44,7 @@ HeaterMeter can be built either as a standalone or for integration with a Raspbe
 3|GRN|LED3MM|LED1, LED2, LED3|(any ~3mm LED, any colors you want) [MouserR](http://www.mouser.com/ProductDetail/Kingbright/WP710A10SRD-E/?qs=sGAEpiMZZMs4quMj8r4lmsjEjMC4bfpUeUpboelRnWU%3d) [MouserY](http://www.mouser.com/ProductDetail/Kingbright/WP710A10SYD/?qs=sGAEpiMZZMs4quMj8r4lmsjEjMC4bfpUUbW71NEUWBk%3d) [MouserG](http://www.mouser.com/ProductDetail/Kingbright/WP710A10SGD/?qs=sGAEpiMZZMs4quMj8r4lmsjEjMC4bfpUWqs%252bGoI7SdI%3d)
 1|POW|POWER_JACKPTH|J9|[Mouser](http://www.mouser.com/ProductDetail/Kobiconn/163-7620E-E/?qs=%2fha2pyFaduipJSLWTjADy4YYaTeQAmrHvwEfLULTtmcjsFvpXHYyeA%3d%3d) [MouserAlt](http://www.mouser.com/ProductDetail/Kobiconn/163-179PH-EX/?qs=%2fha2pyFadujsO45cTDeafnb8UTTjqBiiaL9T7NPB7rV7ulYyk%2fdYxw%3d%3d)
 1|PINHD|PINHD|J1 (LCD), J2 (PROBE), J4 (CSW), J8 (FTDI)|[Mouser](http://www.mouser.com/ProductDetail/FCI/68001-236HLF/?qs=sGAEpiMZZMtsLRyDR9nM14Vjyw4ze%252bjt57BsII4P7vM%3d)
+1|Pi|PINHD-2X13|JP1|[DigiKey](http://www.digikey.com/product-detail/en/PPPC132LFBN-RC/S7116-ND/810252) (alt [DigiKey](http://www.digikey.com/product-detail/en/PPTC132LFBN-RC/S7081-ND/810219)) (alt [Mouser](http://www.mouser.com/ProductDetail/TE-Connectivity/1-215307-3/?qs=%2fha2pyFadugJp%2f0oQpeWgdlLOqmXGnSXHAkr2wdKJgMBirFMB5SQuQ%3d%3d))
 1|DIP28|DIP28|IC2-SOCK|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=1-390261-9virtualkey57100000virtualkey571-1-390261-9)
 
 ### Power, Probes and Blower
@@ -54,12 +55,11 @@ HeaterMeter can be built either as a standalone or for integration with a Raspbe
 1-4 | Maverick BBQ Thermistor Probes for ET-72/ET-73 (3ft or High Heat) | [Maverick](http://maverickhousewares.bigcartel.com/) [Amazon](http://www.amazon.com/gp/product/B004W8B3PC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B004W8B3PC&linkCode=as2&tag=httpcapnbrnet-20)
 
 ### Probe and Blower Connectors
-These are the "built in" connectors, there is space on the PCB for them. External connectors can be used by attaching to the J2 and J4 pin headers.
+These are the "built in" connectors, there is space on the PCB for them. External connectors can be used for probes by attaching to the J2 pin header.
 
 |Qty|Value     |Device                |Parts|Link|
 |---|----------|----------------------|-----|----|
 1|RJ45-8|RJ45-8|JP2|[Mouser](http://www.mouser.com/ProductDetail/Amphenol-Commercial-Products/RJHSE-5080/?qs=sGAEpiMZZMvQhAhQbXdbBuidMRPVpG5q%252bZ1tFY96Whg%3d) [DigiKey](http://www.digikey.com/product-detail/en/RJHSE-5080/RJHSE-5080-ND/1242687)
-1|Pi|PINHD-2X13|JP1|[DigiKey](http://www.digikey.com/product-detail/en/PPPC132LFBN-RC/S7116-ND/810252) (alt [DigiKey](http://www.digikey.com/product-detail/en/PPTC132LFBN-RC/S7081-ND/810219)) (alt [Mouser](http://www.mouser.com/ProductDetail/TE-Connectivity/1-215307-3/?qs=%2fha2pyFadugJp%2f0oQpeWgdlLOqmXGnSXHAkr2wdKJgMBirFMB5SQuQ%3d%3d))
 1-4|Probes|AUDIO-MONO|JP3, JP4, JP5, JP6|[DigiKey](http://www.digikey.com/product-detail/en/MJ-2508N/CP-2508N-ND/281260)
 
 ### Optional Parts
