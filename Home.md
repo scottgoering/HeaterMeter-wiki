@@ -3,8 +3,8 @@
     * [[PID Tuning]]
 * [Photos](https://picasaweb.google.com/capnbry/HeaterMeter) (Picasa link)
 * Hardware
-    * [[HeaterMeter 4.0 Hardware]]
-    * [[HeaterMeter 4.0 Assembly]]
+    * [[HeaterMeter 4.1 Hardware]]
+    * [[HeaterMeter 4.1 Assembly]]
     * [[HeaterMeter 4.0 Case]]
     * [[HeaterMeter Probes]]
     * [[LinkMeter Hardware]] 
@@ -25,6 +25,10 @@
     * [[Network Ports]] What ports do I need to forward to access the web site from outside my network?
     * [[Console Hang]] The console on my RaspberryPi hangs after booting.
     * [[Thermistor]] The 'Ambient' temperature sensor is way off.
+
+* Older but Still-Relevant Information
+    * [[HeaterMeter 4.0 Hardware]]
+    * [[HeaterMeter 4.0 Assembly]]
 
 * Outdated Information
 These are all pages which refer to the previous hardware iterations.
