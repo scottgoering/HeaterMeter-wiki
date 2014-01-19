@@ -57,7 +57,7 @@ Install the RaspberryPi GPIO header, piezo buzzer, and Q2 (LCD backlight driver)
 
 [![Image](https://lh4.googleusercontent.com/-CdiY1y110cw/UDlM4O8iaqI/AAAAAAAAAyI/nK-JFdhkzoc/s640/IMG_1053.JPG)](https://picasaweb.google.com/lh/photo/mYz1gXbgZ6SPif7AClZcfNMTjNZETYmyPJy0liipFm0?feat=embedwebsite "PHOTO42")
 
-Install the electrolytic capacitors (the "cans"). The capacitor is marked with a white line on its negative side and the PCB is marked with a teeny plus sign on the positive side. You want the white line on the capacitor to be opposite the hole marked with a plus sign on the PCB. If that's too confusing, the white line on all the capacitors should be closest to you when installed. Also install the 16MHz resonator (the larger yellow blob) in the unlabeled oval closest to you by the DIP socket.
+Install the electrolytic capacitors (the "cans"). The capacitor is marked with a white line on its negative side and the PCB is marked with a teeny plus sign on the positive side. You want the white line on the capacitor to be opposite the hole marked with a plus sign on the PCB. If that's too confusing, the white line on all the capacitors should be closest to you when installed. Also install the 16MHz resonator (the larger yellow blob) in the unlabeled oval closest to you by the DIP socket, the orientation does not matter.
 
 [![Image](https://lh3.googleusercontent.com/-TcDFsuAvQRM/UDlM499CiaI/AAAAAAAAAyQ/aptmq7UZWjE/s640/IMG_1055.JPG)](https://picasaweb.google.com/lh/photo/QnSvdU9A24hLZHhw9aBuBNMTjNZETYmyPJy0liipFm0?feat=embedwebsite "PHOTO43")
 
