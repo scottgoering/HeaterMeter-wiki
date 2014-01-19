@@ -64,7 +64,7 @@ Install the piezobuzzer (SP1) and 5V regulator sub-board (IC1), followed by the 
 
 [![Image](https://lh4.googleusercontent.com/-gc5r_MNOnkU/Uqnn2xTHVRI/AAAAAAAABm4/o_rL-4DEwns/s640/IMG_1776.JPG)](https://picasaweb.google.com/lh/photo/QBr5HV5Mkrph5aNJo3aVFtMTjNZETYmyPJy0liipFm0?feat=embedwebsite)
 
-Install the 16MHz resonator (the larger yellow orange blob) in the unlabeled oval by the IC2 DIP socket. Install the RaspberryPi GPIO header (2x13), the Phone/Ethernet jack, and the barrel power connector in their giant unmistakable footprints.
+Install the 16MHz resonator (the larger yellow orange blob) in the unlabeled oval by the IC2 DIP socket, the orientation doesn't matter. Install the RaspberryPi GPIO header (2x13), the Phone/Ethernet jack, and the barrel power connector in their giant unmistakable footprints.
 
 [![Image](https://lh4.googleusercontent.com/-bIEddkeAvo0/Uqnn3TCRZAI/AAAAAAAABnE/D9sIKJPrW2Y/s640/IMG_1781.JPG)](https://picasaweb.google.com/lh/photo/yQbfcgcfpK-25tSkEx3Lj9MTjNZETYmyPJy0liipFm0?feat=embedwebsite)
 
