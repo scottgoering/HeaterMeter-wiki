@@ -9,6 +9,7 @@
     * [[HeaterMeter Probes]]
     * [[LinkMeter Hardware]] 
     * [[Servo Mode]]
+    * [[LCD Color Gallery]]
 * [[Installation]]
     * [[HeaterMeter 4.0 Software]]
     * [[OpenWrt Packages]]
