@@ -1,5 +1,7 @@
 HeaterMeter uses resistive thermistor-based probes due to their availability and the fact that most BBQers already have some sort of meat thermometer. Maverick Industries makes several models of digital thermometers using thermistor probes with 2.5mm mono headphone jack connectors.
 
+Use the [Probe Range Comparison Tool](http://capnbry.net/linkmeter/adctherm/) to compare ranges of the probe types. The standard HeaterMeter build uses 10000 (10k) ohm resist.
+
 ## Maverick ET-72/73
 
 Labeled as
