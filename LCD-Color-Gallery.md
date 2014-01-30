@@ -7,6 +7,8 @@ Transreflective LCDs reflect ambient light to illuminate the display, like class
 ### Newhaven "Red" NHD-0216K1Z-FSR-GBW
 ![Red](https://lh4.googleusercontent.com/-JMO_ZoXf7ho/Ut1Gq4Cn45I/AAAAAAAABtM/kLnCSaAhnCU/s400/IMG_1928.JPG)
 
+### Newhaven "Black on White" NHD-0216K1Z-FSW-FBW-L
+![Black on White](https://lh3.googleusercontent.com/-MhyxMTj-16I/UuqHDpQ-OOI/AAAAAAAABto/UiBJLDyEf1s/s800/LCD-BlackWhite.jpg)
 ## Transmissive
 Transmissive LCDs require the backlight to be on for the characters to be visible, as no ambient light is used to illuminate the display. This also means if ambient light is bright (full sunlight), the characters will be difficult to see.
 
