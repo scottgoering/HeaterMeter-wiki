@@ -115,7 +115,7 @@ The definitive source on HeaterMeter set parameters is the [HeaterMeter README](
 
 | Name | Description |
 |------|-------------|
-|``sp=AU``|Set the setpoint to integer A with optional units U. Supported Units are (F)ahrenheit , (C)elcius, and (R)esistance|
+|``sp=AU``|Set the setpoint to integer A with optional units U. Supported Units are (A)DC Raw, (F)ahrenheit , (C)elcius, and (R)esistance. Setting the setpoint to a negative value switches to "manual mode" where the output percentage is set directly (-0 for 0%).|
 |``pidA=B``|Tune PID parameter A to value float B. A can be b (bias), p (proportional), i (integral), or d (derivative)|
 |``pnA=B``|Set probe name A to string B.|
 |``poA=B``|Set probe offset A to integer B.|
