@@ -123,7 +123,7 @@ The definitive source on HeaterMeter set parameters is the [HeaterMeter README](
 |``lb=A,B``|Set the LCD backlight to A.  Range is 0 (off) to 255 (full). B sets the home screen mode. 255 for two-line display, or probe number (0-30 for bignum display |
 |``ld=A,B,C``|Set the offset of the Lid Open autodetect in % of set point to A. Set the duration of the Lid Open timer in seconds to B. You can not set the duration to less than LIDOPEN_MIN_AUTORESUME. Max is 65535 seconds. C is used to enable or disable a currently running lid detect mode. Non-zero will enter lid open mode, zero will disable lid open mode|
 |``al=L,H[,L,H...]``|Set probe alarms thresholds. Setting to a negative number will disable the alarm, setting to 0 will force the current set value negative (disabling the alarm but retaining the set value)|
-|``fn=L,H,I``|Set the fan output parameters. L = min fan speed before "long PID" mode, H = max fan speed, I = Invert PWM polarity so that 100% actually outputs 0% and 0% outputs 100%|
+|``fn=FL,FH,SL,SH,Flags``|Set the fan output parameters. FL = min fan speed before "long PID" mode, FH = max fan speed, SL = Servo Low (in 10x usec), SH = Servo High (in 10x usec). Flags = Bitfield 0=Invert Fan, 1=Invert Servo, 2=Fan at max only, 3=Servo mix/max only|
 |``tt=XXX[,YYY]``|Display a "toast" message on the LCD which is temporarily displayed over any other menu and is cleared either by timeout or any button press. XXX and YYY are the two lines to displau and can be up to 16 characters each.|
 
 |Probe Number|Description|
