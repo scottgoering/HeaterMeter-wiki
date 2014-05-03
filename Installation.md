@@ -1,5 +1,6 @@
-# Installation
-## Installation of HeaterMeter
+# OUTDATED INFORMATION - See 4.0 Software
+## HeaterMeter 3.0 Software Installation
+
 
 ### HeaterMeter bootloader
 The ATmega328P chip **must have a bootloader** in order to load the HeaterMeter software via the serial interface. See [[HeaterMeter Bootloader]] for more information on installing a microcontroller bootloader.
