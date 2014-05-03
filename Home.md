@@ -10,7 +10,7 @@
     * [[LinkMeter Hardware]] 
     * [[Servo Mode]]
     * [[LCD Color Gallery]]
-* [[Installation]]
+* Installation
     * [[HeaterMeter 4.0 Software]]
     * [[OpenWrt Packages]]
     * [[Building OpenWrt from Source]] (not necessary if using pre-built image)
@@ -35,6 +35,7 @@
 These are all pages which refer to the previous hardware iterations.
     * [[HeaterMeter Bootloader]]
     * [[HeaterMeter 3.0 Hardware]]
+    * HeaterMeter 3.0 Software [[Installation]]
     * [[Upgrading LinkMeter 1to2]]
 
 [[TODO]]
