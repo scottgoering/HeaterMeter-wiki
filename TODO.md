@@ -1,5 +1,8 @@
 ### Software TODO list
-
+* Use "%" as a setpoint in addition to "-". This could be webui only or in luci.
+  * Output manual fan percentage instead of setpoint in serial stream?
+* Home page should store what range you've selected. Cookie?
+* Make one of the food probes into the control probe
 * Light web page setpoint setting going to login page again
 * Ability to set the colors of the LEDs in the web interface? Can store in uci file
 * Alarm webui per-alarm silence setting: Keep Ringing, Silence Once, Disable
@@ -33,6 +36,9 @@
     * Ability to save PNG from home screen
       * Auto upload png to imgur / facebook / twitter / Google+
     * Add annotations
+    * Ability to trim the database
+      * Can maybe do rrdtool dump | some sort of filter | rrdtool import
+      * Will need to invalidate the browser cache using some sort of unique request. File mod date/time?
 * Indicator LEDs triggers
     * Temperature OK (temp within x% of setpoint). Pit probe only or for any probe?
     * High load / low fuel (average fan speed > x%)
@@ -58,4 +64,3 @@
 * Integrate switching power supply into PCB?
 * Physical rPi switch to allow booting in multiple network configurations.
   * Maybe a button to load the default config backup?
-* AD8495 thermocouple integration
