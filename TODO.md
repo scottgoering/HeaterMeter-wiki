@@ -1,7 +1,6 @@
 ### Software TODO list
 * Use "%" as a setpoint in addition to "-". This could be webui only or in luci.
   * Output manual fan percentage instead of setpoint in serial stream?
-* Home page should store what range you've selected. Cookie?
 * Make one of the food probes into the control probe
 * Light web page setpoint setting going to login page again
 * Ability to set the colors of the LEDs in the web interface? Can store in uci file
