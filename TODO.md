@@ -1,4 +1,5 @@
 ### Software TODO list
+* Hide the coefficients on the conf page unless "manaul" is selected
 * Output manual fan percentage instead of setpoint in serial stream?
 * Make one of the food probes into the control probe
 * Light web page setpoint setting going to login page again
