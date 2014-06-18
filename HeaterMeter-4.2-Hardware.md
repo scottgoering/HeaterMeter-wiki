@@ -74,6 +74,7 @@ These are the "built in" connectors, there is space on the PCB for them. Externa
 
 ### Thermocouple Support
 Thermocouple support relies on surface mount soldering an 8 pin 3mm x 3mm chip and some 0805 passive components. Any 'ole capacitors (20%/16V) and resistors (10%/0.125W) will do fine.
+
 |Qty|Value     |Device                |Parts|Link|
 |---|----------|----------------------|-----|----|
 1|AD849X|AD849X|IC5|[Mouser](http://www.mouser.com/ProductDetail/Analog-Devices/AD8495ARMZ/?qs=sGAEpiMZZMucenltShoSnoiUfjKGVRv2eLdHM33a4xM%3d)
