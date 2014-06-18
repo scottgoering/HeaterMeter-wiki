@@ -38,17 +38,17 @@ HeaterMeter can be built either as a standalone or for integration with a Raspbe
 1|MCP1700-33|MCP1700-33|IC4|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=MCP1700-3302E%2fTOvirtualkey57940000virtualkey579-MCP1700-3302E%2fTO) [DigiKey](http://www.digikey.com/product-detail/en/MCP1700-3302E%2FTO/MCP1700-3302E%2FTO-ND/652680)|Only for standalone HeaterMeter
 1|1N4001|DIODE-DO41-7|D3|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=1N4001GP-E3%2f73virtualkey61370000virtualkey625-1N4001GP-E3%2f73) [DigiKey](http://www.digikey.com/product-detail/en/1N4001/1N4001FSCT-ND/1532742)
 1|1N5819|DIODE-DO41-7|D2|[Mouser](http://www.mouser.com/ProductDetail/Fairchild-Semiconductor/1N5819/?qs=sGAEpiMZZMtQ8nqTKtFS%2fCJFZUIIOyzjQ1kqwoJUBVU%3d) [DigiKey](http://www.digikey.com/product-detail/en/1N5819/1N5819FSCT-ND/965482)
+1|220u|INDUCTOR|L1|[Mouser](http://www.mouser.com/ProductDetail/Bourns/RLB9012-221KL/?qs=%2fha2pyFadujBRYZ98dwyHSd5PoMezoWpW69ZaH9jnX0DdcAyrTljqg%3d%3d)
 1|16MHz|RESONATORRESONATOR-PTH|Y1|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=AWCR-16.00MDvirtualkey52750000virtualkey815-AWCR-16.00MD) [DigiKey](http://www.digikey.com/product-detail/en/ZTT-16.00MX/X908-ND/170095)
-
-3|BC337|BC337|Q1, Q2, Q4|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=BC33725BUvirtualkey51210000virtualkey512-BC33725BU) [DigiKey](http://www.digikey.com/product-detail/en/BC33725BU/BC33725BU-ND/975529)
+4|BS170|BS170|Q1, Q2, Q4, Q5|[Mouser](http://www.mouser.com/ProductDetail/Fairchild-Semiconductor/BS170/?qs=sGAEpiMZZMshyDBzk1%2fWi9bHELEahoDnARtHPVtZEPQ%3d) [DigiKey](http://www.digikey.com/product-detail/en/BS170_D27Z/BS170_D27ZCT-ND/1532791)
 1|FQU11P06TU|MOSFET-P|Q3|[Mouser](http://www.mouser.com/ProductDetail/Fairchild-Semiconductor/FQU11P06TU/?qs=%2fha2pyFaduiEiRTZzI6qLHjOfaLovEUv3u%2fBJwcExVo%3d) [DigiKey](http://www.digikey.com/product-search/en?x=-1022&y=-73&KeyWords=FQU11P06TU)
 1|LCD|PINHD-1X16|J1|[Mouser Gray/Grn](http://www.mouser.com/ProductDetail/Newhaven-Display/NHD-0216K1Z-FSPG-GBW-L/?qs=%2fha2pyFaduhTBhPvdpeAM9D03IEbbQL1IE2m6zfs2VS2HBUnb6jPdAoXMQglJO2a) [[LCD Color Gallery]]
 1|TACTILE-4|TACTILE-4|S1|[Mouser](http://www.mouser.com/ProductDetail/ALPS/SKQUAAA010/?qs=oKW7zmyQiO62qWuFl5QVBw%3d%3d)
-1|TACTILE-4-CAP|TACTILE-4-CAP|S1-CAP|[Mouser Rnd](http://www.mouser.com/ProductDetail/Omron/B32-1610/?qs=%2fha2pyFadugTZwGy1pbX9lynsJkYTUxoixVgJzt2NHzmD2o0%252bVfIiw%3d%3d) [Mouser Sqr](http://www.mouser.com/ProductDetail/Omron/B32-1310/?qs=%2fha2pyFadugTZwGy1pbX9hpSGIzKezvIUacN5%252bFCuhNjpogdop5w7w%3d%3d)
+1|TACTILE-4-CAP|TACTILE-4-CAP|S1-CAP|[Mouser Rnd](http://www.mouser.com/ProductDetail/Omron/B32-1610/?qs=%2fha2pyFadugTZwGy1pbX9lynsJkYTUxoixVgJzt2NHzmD2o0%252bVfIiw%3d%3d)
 1|ALARM|SPEAKER/AL11P|SP1|[Mouser](http://www.mouser.com/ProductDetail/TDK/PS1240P02BT/?qs=sGAEpiMZZMuNFJjvCI6tQria9NagYYusd%2fjnLlD6%252bxU%3d) [DigiKey](http://www.digikey.com/product-detail/en/PS1240P02BT/445-2525-1-ND/935930)
 3|GRN|LED3MM|LED1, LED2, LED3|(any ~3mm LED, any colors you want) [MouserR](http://www.mouser.com/ProductDetail/Kingbright/WP710A10SRD-E/?qs=sGAEpiMZZMs4quMj8r4lmsjEjMC4bfpUeUpboelRnWU%3d) [MouserY](http://www.mouser.com/ProductDetail/Kingbright/WP710A10SYD/?qs=sGAEpiMZZMs4quMj8r4lmsjEjMC4bfpUUbW71NEUWBk%3d) [MouserG](http://www.mouser.com/ProductDetail/Kingbright/WP710A10SGD/?qs=sGAEpiMZZMs4quMj8r4lmsjEjMC4bfpUWqs%252bGoI7SdI%3d)
 1|POW|POWER_JACKPTH|J9|[Mouser](http://www.mouser.com/ProductDetail/Kobiconn/163-7620E-E/?qs=%2fha2pyFaduipJSLWTjADy4YYaTeQAmrHvwEfLULTtmcjsFvpXHYyeA%3d%3d) [MouserAlt](http://www.mouser.com/ProductDetail/Kobiconn/163-179PH-EX/?qs=%2fha2pyFadujsO45cTDeafnb8UTTjqBiiaL9T7NPB7rV7ulYyk%2fdYxw%3d%3d)
-1|PINHD|PINHD|J1 (LCD), J2 (PROBE), J4 (CSW), J8 (FTDI)|[Mouser](http://www.mouser.com/ProductDetail/FCI/68001-236HLF/?qs=sGAEpiMZZMtsLRyDR9nM14Vjyw4ze%252bjt57BsII4P7vM%3d)
+1|PINHD|PINHD|J1 (LCD), J2 (PROBE), J1 (ISCP), J8 (FTDI)|[Mouser](http://www.mouser.com/ProductDetail/FCI/68001-236HLF/?qs=sGAEpiMZZMtsLRyDR9nM14Vjyw4ze%252bjt57BsII4P7vM%3d)
 1|Pi|PINHD-2X13|JP1|[DigiKey](http://www.digikey.com/product-detail/en/PPPC132LFBN-RC/S7116-ND/810252) (alt [DigiKey](http://www.digikey.com/product-detail/en/PPTC132LFBN-RC/S7081-ND/810219)) (alt [Mouser](http://www.mouser.com/ProductDetail/TE-Connectivity/1-215307-3/?qs=%2fha2pyFadugJp%2f0oQpeWgdlLOqmXGnSXHAkr2wdKJgMBirFMB5SQuQ%3d%3d))
 1|DIP28|DIP28|IC2-SOCK|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=1-390261-9virtualkey57100000virtualkey571-1-390261-9)
 
@@ -58,6 +58,7 @@ HeaterMeter can be built either as a standalone or for integration with a Raspbe
 1 | 12VDC/1A power brick 5.5x2.1mm barrel jack | [Generic](http://www.amazon.com/gp/product/B006GEPUYA/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B006GEPUYA&linkCode=as2&tag=httpcapnbrnet-20)
 1 | Blower-style fan 12VDC 5-10CFM | [DigiKey](http://search.digikey.com/us/en/products/BFB0612H/603-1117-ND/1014448)
 1-4 | Thermistor Probes -- ThermoWorks Pro-Series (Std or Needle) / Maverick ET-72/ET-73 (3ft or High Heat)| [Amazon-T-Std](http://www.amazon.com/dp/B00EZB8W0K/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B00EZB8W0K&adid=03P1SGNDWFZ85JC5W569) [Amazon-T-Needle](https://www.amazon.com/dp/B00EZBB8AQ/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B00EZBB8AQ&adid=0J280WDZFM7N5XZM4XF3&) [Amazon-M-3ft](http://www.amazon.com/gp/product/B004W8B3PC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B004W8B3PC&linkCode=as2&tag=httpcapnbrnet-20) [Amazon-M-High](https://www.amazon.com/dp/B008OWZMMW?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B008OWZMMW&adid=02TKF6EJVRJFR2HC0FXT&)
+
 ### Probe and Blower Connectors
 These are the "built in" connectors, there is space on the PCB for them. External connectors can be used for probes by attaching to the J2 pin header.
 
@@ -70,5 +71,15 @@ These are the "built in" connectors, there is space on the PCB for them. Externa
 |Qty|Value     |Device                |Parts|Link|Reason|
 |---|----------|----------------------|-----|----|------|
 1|Ambient|THERMISTOR_R-2,5|TR1|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=NTCLE203E3103FB0virtualkey59420000virtualkey594-2381-640-55103)|Only if you want an onboard 'ambient' temperature sensor 
-1|RFM12B|RFM12B|U$1|[ModernDevice](http://shop.moderndevice.com/products/rfm12b-radio)|Only if building wireless probes. 915MHz only (433MHz and 868MHz supported if you compile your own firmware). Surface mount, not the kind with pins and not one on any sort of breakout board.
-1|ICSP|PINHD-2X3|J6|[Mouser](http://www.mouser.com/ProductDetail/3M/961206-6404-AR/?qs=A%252btsDZJT%252bi%2ft%2f4aaelvU3g%3d%3d)|Only if flashing the AVR outside of the Pi
+
+### Thermocouple Support
+Thermocouple support relies on surface mount soldering an 8 pin 3mm x 3mm chip and some 0805 passive components. Any 'ole capacitors (20%/16V) and resistors (10%/0.125W) will do fine.
+|Qty|Value     |Device                |Parts|Link|
+|---|----------|----------------------|-----|----|
+1|AD849X|AD849X|IC5|[Mouser](http://www.mouser.com/ProductDetail/Analog-Devices/AD8495ARMZ/?qs=sGAEpiMZZMucenltShoSnoiUfjKGVRv2eLdHM33a4xM%3d)
+2|1n|C-USC0805|C8, C11|[Mouser](http://www.mouser.com/ProductDetail/Vishay/VJ0805Y102JXJCW1BC/?qs=%2fha2pyFaduhF2nQ94KIYvU%252bJKqcfKPRKfarNiDzeOaeA3G6BawyHMQ%3d%3d)
+1|10n|C-USC0805|C9|[Mouser](http://www.mouser.com/ProductDetail/Vishay/VJ0805Y103JXJCW1BC/?qs=%2fha2pyFaduhF2nQ94KIYvTUaKx1TOqbuizaeJMhCalFkD8vCJYNgKQ%3d%3d)
+1|0.1u|C-USC0805|C13|[Mouser](http://www.mouser.com/ProductDetail/Vishay/VJ0805Y104MXXAC/?qs=%2fha2pyFaduhF2nQ94KIYvbBprhnZE5TJ67qQr3Q1WgZh0yiFLH%2fGlA%3d%3d)
+2|10k|R-US_R0805|R25, R26|[Mouser](http://www.mouser.com/ProductDetail/Panasonic/ERJ-6GEYJ103V/?qs=sGAEpiMZZMu61qfTUdNhGzRxdwze5h8ZVHioc%2fD1YKQ%3d)
+1|1k|R-US_R0805|R24|[Mouser](http://www.mouser.com/ProductDetail/Panasonic/ERJ-6GEYJ102V/?qs=%2fha2pyFaduiXHwl36i8QX1Is8RUpW4zS7XPMZn%2fLDmVYYw7P67RQlQ%3d%3d)
+
