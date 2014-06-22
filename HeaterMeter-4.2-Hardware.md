@@ -83,3 +83,4 @@ Thermocouple support relies on surface mount soldering an 8 pin 3mm x 3mm chip a
 1|0.1u|C-USC0805|C13|[Mouser](http://www.mouser.com/ProductDetail/Vishay/VJ0805Y104MXXAC/?qs=%2fha2pyFaduhF2nQ94KIYvbBprhnZE5TJ67qQr3Q1WgZh0yiFLH%2fGlA%3d%3d)
 2|10k|R-US_R0805|R25, R26|[Mouser](http://www.mouser.com/ProductDetail/Panasonic/ERJ-6GEYJ103V/?qs=sGAEpiMZZMu61qfTUdNhGzRxdwze5h8ZVHioc%2fD1YKQ%3d)
 1|1k|R-US_R0805|R24|[Mouser](http://www.mouser.com/ProductDetail/Panasonic/ERJ-6GEYJ102V/?qs=%2fha2pyFaduiXHwl36i8QX1Is8RUpW4zS7XPMZn%2fLDmVYYw7P67RQlQ%3d%3d)
+1|PCC-SMP|PCC-SMP-K|J4|[Newark](http://www.newark.com/newport-electronics/pcc-smp-k/thermocouple-connector-type-k/dp/01H0905)
