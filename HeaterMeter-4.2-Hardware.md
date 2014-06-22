@@ -11,7 +11,7 @@ Standard HeaterMeter hardware is built on a [HeaterMeter v4.2 PCB](http://capnbr
 
 HeaterMeter can be built either as a standalone or for integration with a Raspberry Pi. The only difference between the two is the population of the Pi socket JP1. Both configurations provide automatic grill control, and LCD display. Set Point, manual fan mode, probe offsets, open lid detect and max fan speed configurable via buttons. The standalone requires initial configuration via serial commands. There is integrated **no web access or graphs** in standalone mode, but there is a serial status output to allow you to roll your own solution.
 
-**Quick and Easy**: [Mouser parts](xxx). Does not include DigiKey-only parts 1x[Blower](http://search.digikey.com/us/en/products/BFB0612H/603-1117-ND/1014448) 1x[Socket](http://www.digikey.com/product-detail/en/PPPC132LFBN-RC/S7116-ND/810252) 4x[Jacks](http://www.digikey.com/product-detail/en/MJ-2508N/CP-2508N-ND/281260)
+**Quick and Easy**: [Mouser parts](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=53542c9200). Does not include DigiKey-only parts 1x[Blower](http://search.digikey.com/us/en/products/BFB0612H/603-1117-ND/1014448) 1x[Socket](http://www.digikey.com/product-detail/en/PPPC132LFBN-RC/S7116-ND/810252) 4x[Jacks](http://www.digikey.com/product-detail/en/MJ-2508N/CP-2508N-ND/281260)
 
 ### Main Board
 |Qty|Value     |Device                |Parts|Link|
@@ -20,7 +20,7 @@ HeaterMeter can be built either as a standalone or for integration with a Raspbe
 4|390|R-US_0204|R2, R10, R12, R15|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=MF1%2f4DC3900Fvirtualkey66000000virtualkey660-MF1%2f4DC3900F) [DigiKey](http://www.digikey.com/product-detail/en/CF14JT390R/CF14JT390RCT-ND/1830340)
 1|680|R-US_0204/7|R8|[Mouser](http://www.mouser.com/ProductDetail/KOA-Speer/MF1-4DC6800F/?qs=sGAEpiMZZMu61qfTUdNhG0RUkTLGOdTMWpMLGFKzzSg%3d) [DigiKey](http://www.digikey.com/product-detail/en/CF14JT680R/CF14JT680RCT-ND/1830346)
 3|1k|R-US_0204|R1, R3, R21|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=MF1%2f4DC1001Fvirtualkey66000000virtualkey660-MF1%2f4DC1001F) [DigiKey](http://www.digikey.com/product-detail/en/CF14JT1K00/CF14JT1K00CT-ND/1830350)
-9|2k2|R-US_0204|R9, R14|[Mouser](http://www.mouser.com/ProductDetail/KOA-Speer/MF1-4DC2201F/?qs=sGAEpiMZZMu61qfTUdNhG2r2Nmyl%2fOMiJPrwMFCn50I%3d) [DigiKey](http://www.digikey.com/product-detail/en/CF14JT2K20/CF14JT2K20CT-ND/1830358)
+2|2k2|R-US_0204|R9, R14|[Mouser](http://www.mouser.com/ProductDetail/KOA-Speer/MF1-4DC2201F/?qs=sGAEpiMZZMu61qfTUdNhG2r2Nmyl%2fOMiJPrwMFCn50I%3d) [DigiKey](http://www.digikey.com/product-detail/en/CF14JT2K20/CF14JT2K20CT-ND/1830358)
 1|4k7|R-US_0204/7|R11|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=MF1%2f4DC4701Fvirtualkey66000000virtualkey660-MF1%2f4DC4701F) [DigiKey](http://www.digikey.com/product-detail/en/CF14JT4K70/CF14JT4K70CT-ND/1830366)
 1|10k|R-US_0204|R20|(use below)
 4|10k 1%|R-US_0204|R5, R16, R17, R18|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=MF1%2f4DC1002Fvirtualkey66000000virtualkey660-MF1%2f4DC1002F) [DigiKey](http://www.digikey.com/product-detail/en/RNF14FTD10K0/RNF14FTD10K0CT-ND/1975090)
@@ -37,7 +37,7 @@ HeaterMeter can be built either as a standalone or for integration with a Raspbe
 1|74HC595N|74LS595N|IC3|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=SN74HC595Nvirtualkey59500000virtualkey595-SN74HC595N) [DigiKey](http://www.digikey.com/product-detail/en/SN74HC595N/296-1600-5-ND/277246)
 1|MCP1700-33|MCP1700-33|IC4|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=MCP1700-3302E%2fTOvirtualkey57940000virtualkey579-MCP1700-3302E%2fTO) [DigiKey](http://www.digikey.com/product-detail/en/MCP1700-3302E%2FTO/MCP1700-3302E%2FTO-ND/652680)|Only for standalone HeaterMeter
 1|1N4001|DIODE-DO41-7|D3|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=1N4001GP-E3%2f73virtualkey61370000virtualkey625-1N4001GP-E3%2f73) [DigiKey](http://www.digikey.com/product-detail/en/1N4001/1N4001FSCT-ND/1532742)
-1|1N5819|DIODE-DO41-7|D2|[Mouser](http://www.mouser.com/ProductDetail/Fairchild-Semiconductor/1N5819/?qs=sGAEpiMZZMtQ8nqTKtFS%2fCJFZUIIOyzjQ1kqwoJUBVU%3d) [DigiKey](http://www.digikey.com/product-detail/en/1N5819/1N5819FSCT-ND/965482)
+1|1N5819|DIODE-DO41-7|D2|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=1N5819virtualkey51120000virtualkey511-1N5819) [Mouser Alt](http://www.mouser.com/ProductDetail/Fairchild-Semiconductor/1N5819/?qs=sGAEpiMZZMtQ8nqTKtFS%2fCJFZUIIOyzjQ1kqwoJUBVU%3d) [DigiKey](http://www.digikey.com/product-detail/en/1N5819/1N5819FSCT-ND/965482)
 1|220u|INDUCTOR|L1|[Mouser](http://www.mouser.com/ProductDetail/Bourns/RLB9012-221KL/?qs=%2fha2pyFadujBRYZ98dwyHSd5PoMezoWpW69ZaH9jnX0DdcAyrTljqg%3d%3d)
 1|16MHz|RESONATORRESONATOR-PTH|Y1|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=AWCR-16.00MDvirtualkey52750000virtualkey815-AWCR-16.00MD) [DigiKey](http://www.digikey.com/product-detail/en/ZTT-16.00MX/X908-ND/170095)
 4|BS170|BS170|Q1, Q2, Q4, Q5|[Mouser](http://www.mouser.com/ProductDetail/Fairchild-Semiconductor/BS170/?qs=sGAEpiMZZMshyDBzk1%2fWi9bHELEahoDnARtHPVtZEPQ%3d) [DigiKey](http://www.digikey.com/product-detail/en/BS170_D27Z/BS170_D27ZCT-ND/1532791)
@@ -83,4 +83,3 @@ Thermocouple support relies on surface mount soldering an 8 pin 3mm x 3mm chip a
 1|0.1u|C-USC0805|C13|[Mouser](http://www.mouser.com/ProductDetail/Vishay/VJ0805Y104MXXAC/?qs=%2fha2pyFaduhF2nQ94KIYvbBprhnZE5TJ67qQr3Q1WgZh0yiFLH%2fGlA%3d%3d)
 2|10k|R-US_R0805|R25, R26|[Mouser](http://www.mouser.com/ProductDetail/Panasonic/ERJ-6GEYJ103V/?qs=sGAEpiMZZMu61qfTUdNhGzRxdwze5h8ZVHioc%2fD1YKQ%3d)
 1|1k|R-US_R0805|R24|[Mouser](http://www.mouser.com/ProductDetail/Panasonic/ERJ-6GEYJ102V/?qs=%2fha2pyFaduiXHwl36i8QX1Is8RUpW4zS7XPMZn%2fLDmVYYw7P67RQlQ%3d%3d)
-
