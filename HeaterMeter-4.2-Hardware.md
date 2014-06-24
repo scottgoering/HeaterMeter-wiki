@@ -11,7 +11,7 @@ Standard HeaterMeter hardware is built on a [HeaterMeter v4.2 PCB](http://capnbr
 
 HeaterMeter can be built either as a standalone or for integration with a Raspberry Pi. The only difference between the two is the population of the Pi socket JP1. Both configurations provide automatic grill control, and LCD display. Set Point, manual fan mode, probe offsets, open lid detect and max fan speed configurable via buttons. The standalone requires initial configuration via serial commands. There is integrated **no web access or graphs** in standalone mode, but there is a serial status output to allow you to roll your own solution.
 
-**Quick and Easy**: [Mouser parts](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=53542c9200). Does not include DigiKey-only parts 1x[Blower](http://search.digikey.com/us/en/products/BFB0612H/603-1117-ND/1014448) 1x[Socket](http://www.digikey.com/product-detail/en/PPPC132LFBN-RC/S7116-ND/810252) 4x[Jacks](http://www.digikey.com/product-detail/en/MJ-2508N/CP-2508N-ND/281260)
+**Quick and Easy**: [Mouser parts](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=89e0e74d25). Does not include thermocouple or DigiKey-only parts 1x[Blower](http://search.digikey.com/us/en/products/BFB0612H/603-1117-ND/1014448) 1x[Socket](http://www.digikey.com/product-detail/en/PPPC132LFBN-RC/S7116-ND/810252) 4x[Jacks](http://www.digikey.com/product-detail/en/MJ-2508N/CP-2508N-ND/281260)
 
 ### Main Board
 |Qty|Value     |Device                |Parts|Link|
@@ -73,7 +73,7 @@ These are the "built in" connectors, there is space on the PCB for them. Externa
 1|Ambient|THERMISTOR_R-2,5|TR1|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=NTCLE203E3103FB0virtualkey59420000virtualkey594-2381-640-55103)|Only if you want an onboard 'ambient' temperature sensor 
 
 ### Thermocouple Support
-Thermocouple support relies on surface mount soldering an 8 pin 3mm x 3mm chip and some 0805 passive components. Any 'ole capacitors (20%/16V) and resistors (10%/0.125W) will do fine.
+Thermocouple support relies on surface mount soldering an 8 pin 3mm x 3mm chip and some 0805 passive components. Any 'ole capacitors (20%/16V) and resistors (10%/0.125W) will do fine. [Mouser Project](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=89e0e74d25) (does not include jack)
 
 |Qty|Value     |Device                |Parts|Link|
 |---|----------|----------------------|-----|----|
