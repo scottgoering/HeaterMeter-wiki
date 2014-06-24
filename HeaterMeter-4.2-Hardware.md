@@ -73,7 +73,7 @@ These are the "built in" connectors, there is space on the PCB for them. Externa
 1|Ambient|THERMISTOR_R-2,5|TR1|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=NTCLE203E3103FB0virtualkey59420000virtualkey594-2381-640-55103)|Only if you want an onboard 'ambient' temperature sensor 
 
 ### Thermocouple Support
-Thermocouple support relies on surface mount soldering an 8 pin 3mm x 3mm chip and some 0805 passive components. Any 'ole capacitors (20%/16V) and resistors (10%/0.125W) will do fine. [Mouser Project](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=89e0e74d25) (does not include jack)
+Thermocouple support relies on surface mount soldering an 8 pin 3mm x 3mm chip and some 0805 passive components. Any 'ole capacitors (20%/16V) and resistors (10%/0.125W) will do fine. [Mouser Project](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=89e0e74d25) (does not include jack J4)
 
 |Qty|Value     |Device                |Parts|Link|
 |---|----------|----------------------|-----|----|
