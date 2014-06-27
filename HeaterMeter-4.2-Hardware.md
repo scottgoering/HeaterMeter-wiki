@@ -11,7 +11,7 @@ Standard HeaterMeter hardware is built on a [HeaterMeter v4.2 PCB](http://capnbr
 
 HeaterMeter can be built either as a standalone or for integration with a Raspberry Pi. The only difference between the two is the population of the Pi socket JP1. Both configurations provide automatic grill control, and LCD display. Set Point, manual fan mode, probe offsets, open lid detect and max fan speed configurable via buttons. The standalone requires initial configuration via serial commands. There is integrated **no web access or graphs** in standalone mode, but there is a serial status output to allow you to roll your own solution.
 
-**Quick and Easy**: [Mouser parts](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=89e0e74d25). Does not include thermocouple or DigiKey-only parts 1x[Blower](http://search.digikey.com/us/en/products/BFB0612H/603-1117-ND/1014448) 1x[Socket](http://www.digikey.com/product-detail/en/PPPC132LFBN-RC/S7116-ND/810252) 4x[Jacks](http://www.digikey.com/product-detail/en/MJ-2508N/CP-2508N-ND/281260)
+**Quick and Easy**: [Mouser parts](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=505243fa51). Does not include thermocouple or DigiKey-only parts 1x[Blower](http://search.digikey.com/us/en/products/BFB0612H/603-1117-ND/1014448) 1x[Socket](http://www.digikey.com/product-detail/en/PPPC132LFBN-RC/S7116-ND/810252) 4x[Jacks](http://www.digikey.com/product-detail/en/MJ-2508N/CP-2508N-ND/281260)
 
 ### Main Board
 |Qty|Value     |Device                |Parts|Link|
