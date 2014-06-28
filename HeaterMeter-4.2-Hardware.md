@@ -1,3 +1,5 @@
+# PRELIMINARY DOCUMENTATION - DO NOT BUILD
+
 As a reminder, HeaterMeter refers to the ATmega (Arduino) based microcontroller board that runs the LCD, reads button and temperature probe inputs, and controls the servo and blower motor. This document describes the configurations and design of the HeaterMeter board, which may optionally be attached to a Raspberry Pi.
 
 Standard HeaterMeter hardware is built on a [HeaterMeter v4.2 PCB](http://capnbry.net/linkmeter/pcb/hm-4.2/)
