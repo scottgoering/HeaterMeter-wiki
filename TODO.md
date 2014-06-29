@@ -38,6 +38,7 @@
       * Can maybe do rrdtool dump | some sort of filter | rrdtool import
       * Will need to invalidate the browser cache using some sort of unique request. File mod date/time?
 * Indicator LEDs triggers
+    * Probe degrees per hour above/below threshold (alarm when entering/leaving stall)
     * Temperature OK (temp within x% of setpoint). Pit probe only or for any probe?
     * High load / low fuel (average fan speed > x%)
     * "Food OK". Not sure what this one was
