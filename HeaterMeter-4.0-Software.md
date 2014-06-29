@@ -2,7 +2,7 @@
 
 Download and unzip [Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager/files/latest/download?source=files) (binary)
 
-Download and unzip [the OpenWrt firmware image](http://capnbry.net/linkmeter/snapshots/bcm2708/) (Temporary Home)
+Download and unzip [the OpenWrt firmware image](http://capnbry.net/linkmeter/release/bcm2708/10/) (v10)
 
 Insert your SD card into your computer, launch Win32 Disk Imager, select the SD card drive, browse for the openwrt IMG file (not the ZIP!), and hit the "Write" button. Writing to the SD card should take only a few seconds. 
 
