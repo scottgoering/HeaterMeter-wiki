@@ -12,7 +12,7 @@
 
 ## LinkMeter v11 and above
 
-### Ralink RT5370 Tested
+### Ralink RT5370 (rt2800usb) Tested
 * RIF6 Mini 150Mbps
 
 ## Do not work
