@@ -46,6 +46,10 @@ Do this to **all four edges** of the board to prevent any issues down the road. 
 
 The HeaterMeter v4.2 PCB has two sides and components go on both sides. The silkscreen outlines indicate on which side components should be placed, but in general most of the components go on the underside of the board. The easiest way to assemble the board is to start with the flattest components and work your way to the larger pieces. 
 
+## Thermocouple Installation
+
+If building the Thermocouple Pit Probe variant of the HeaterMeter, the surface mount components should be assembled and tested ([[Thermocouple Amplifier Testing]]) before starting the through-hole assembly. Note that you will not install the standard Pit jack (2.5mm audio) or the 10k 1% pullup resistor (R18) closest to the Pit jack.
+
 ## Software Installation
 
 See: [[HeaterMeter 4.0 Software]]
