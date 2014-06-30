@@ -7,7 +7,7 @@
 
 ## Parts
 
-* Everything from the [Mouser project](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=xxxxx) *$31*
+* Everything from the [Mouser project](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=xxxxx) *$35*
 * Everything from DigiKey: 1x[Blower](http://search.digikey.com/us/en/products/BFB0612H/603-1117-ND/1014448) 1x[Socket](http://www.digikey.com/product-detail/en/PPPC132LFBN-RC/S7116-ND/810252) 4x[Jacks](http://www.digikey.com/product-detail/en/MJ-2508N/CP-2508N-ND/281260) *$19*
 * A HeaterMeter v4.2 PCB - see below *$15*
 * [12V 1A](http://www.amazon.com/gp/product/B006GEPUYA/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B006GEPUYA&linkCode=as2&tag=httpcapnbrnet-20) (or greater) power adapter with 2.1mm barrel jack (tip positive) 
@@ -16,7 +16,7 @@
   * Model A (no Ethernet, 1x USB) *$25*, or more accurately [closer to $35](https://www.amazon.com/dp/B00BC0ZL88/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B00BC0ZL88&adid=0CWS9RQQA9Z6YJJ8PFF1&) shipped
   * Model B (with Wired Ethernet, 2x USB) *$35*, usually [closer to $37] (http://www.amazon.com/gp/product/B009SQQF9C/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009SQQF9C&linkCode=as2&tag=httpcapnbrnet-20) shipped
 * Full sized SD card (not microSD or miniSD) 128MB or larger
-* A [[supported WiFi Adapter]](Wireless Adapters)
+* A [[supported WiFi Adapter|Wireless Adapters]]
 * Phone or ethernet cable you won't mind cutting an end off of
 * Some sort of fan-attaching mechanism for your grill
 * Some sort of enclosure
