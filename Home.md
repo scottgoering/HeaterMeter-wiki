@@ -7,7 +7,8 @@
     * [[HeaterMeter 4.1 Assembly]]
     * [[HeaterMeter 4.0 Case]]
     * [[HeaterMeter Probes]]
-    * [[LinkMeter Hardware]] 
+    * [[LinkMeter Hardware]]
+    * [[Wireless Adapters]] for RapsberryPi
     * [[Servo Mode]]
     * [[LCD Color Gallery]]
 * Installation
