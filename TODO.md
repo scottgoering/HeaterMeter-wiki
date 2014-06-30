@@ -52,10 +52,19 @@
     * Captive portal if in AP mode.
     * eth0/wlan bridging. Needs 4addr support at the AP.
 * HeaterMeter configuration profiles. Defaults, A, B. Selectable from "Reset Config?" on HeaterMeter. A and B could be names?
+* Wifi Status LED
 * Remote node
 * Optimize LuCI node() generation to speed page loads and reduce memory usage
     * Entire tree is generated on every page call, taking at least 300ms and peaking at 1.1MB of RAM per process
 * Periodic Email/SMS updates (every hour, etc) with current status
+
+### HeaterMeter LIVE
+* Integration into webui a place to "register" your HeaterMeter. Optional Country/Postal Code
+* "Public" checkbox to include your heatermeter on the "Live" list
+* Include dyndns service to access heatermeter from the internet
+    * upnp firewall?
+* User CSS gallery
+* Store graph images? Photos?
 
 ### HeaterMeter PCB
 
