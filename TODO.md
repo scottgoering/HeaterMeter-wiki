@@ -1,6 +1,7 @@
 ### Software TODO list
 * Output manual fan percentage instead of setpoint in serial stream?
 * Make one of the food probes into the control probe
+* Make one probe a "Wet bulb" temperature for [calculating humidity](http://easycalculation.com/weather/dewpoint-humidity-calculator.php)
 * Light web page setpoint setting going to login page again
 * Ability to set the colors of the LEDs in the web interface? Can store in uci file
 * Alarm webui per-alarm silence setting: Keep Ringing, Silence Once, Disable
