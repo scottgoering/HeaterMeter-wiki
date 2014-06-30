@@ -9,7 +9,7 @@ See the [[PID Controller Theory]] wiki page for definitions of the PID constants
 
 [![Image](https://lh6.googleusercontent.com/-SdXwvfwSjnY/U3d1ZIaiYnI/AAAAAAAABz0/8ZQ0GGs3368/s640/pulsevoltage.png)](https://picasaweb.google.com/lh/photo/SVenkUh3tFC6MGBx4Ll6Y9MTjNZETYmyPJy0liipFm0?feat=embedwebsite)
 
-Attempting to use voltage mode on hardware without support for it will result in the blower turning on and off randomly!
+Attempting to use voltage mode on hardware without support for it will result in the blower turning on and off randomly! Also beware of using voltage mode in combination with a min blower speed which is below the operating voltage of your blower.
 
 * **min** - Minimum blower speed. If the desired speed is below this, the output will be pulsed between OFF and MIN proportional to the desired speed over a 10 second period.
 * **max** - Maximum blower speed. The PID output is scaled between 0 and MAX. For example, if the PID output is 100% and the MAX is set to 50, the blower output is 50%. The scaling is computed before comparing with MIN. That is, 10% MIN is always 10% blower speed and not affected by changing MAX.
