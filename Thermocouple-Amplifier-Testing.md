@@ -8,7 +8,7 @@ Apply any voltage source (3V-36V), such as a 9V battery, to the through-holes sh
 
 [![Image](https://lh5.googleusercontent.com/-tzSIMYeJ5fc/U67YFVvNZoI/AAAAAAAAB5c/b1tfShFSBd4/s640/IMG_2178.JPG)](https://picasaweb.google.com/lh/photo/5j-yXLAi8KqRpkfs5NWmJdMTjNZETYmyPJy0liipFm0?feat=embedwebsite)
 
-Now short the two thermocouple input pins together with a piece of wire. The output should drop to room temperature (in Celsius) * 5mV or about 0.10V-0.15V. If the AD8495 is still warm from soldering, it will affect this reading slightly.
+Now short the two thermocouple input pins together with a piece of wire. The output should drop to room temperature (in Celsius) * 5mV or about 0.10V-0.15V. If the AD8495 is still warm from soldering, it will affect this reading slightly. Ignore the fact that this image says "Thermopcouple", I'm not re-making it.
 
 [![Image](https://lh3.googleusercontent.com/-0rt6xKf4kgE/U7FtumnXQvI/AAAAAAAAB90/Ow9Nng21Xak/s640/IMG_2178.JPG)](https://picasaweb.google.com/lh/photo/lzmhqbW1Ol1GYJtHS0wjINMTjNZETYmyPJy0liipFm0?feat=embedwebsite)
 
