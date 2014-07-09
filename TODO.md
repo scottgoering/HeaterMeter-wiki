@@ -1,5 +1,6 @@
 ### Software TODO list
 * Output manual fan percentage instead of setpoint in serial stream?
+* Change Pid.PitTemperatureReached to enum. NormalOperation, SetpointChangedRecovery, LidModeRecovery. Then one could have different max blower speed for pit startup vs coming back from lid mode.
 * Make one of the food probes into the control probe
 * Make one probe a "Wet bulb" temperature for [calculating humidity](http://easycalculation.com/weather/dewpoint-humidity-calculator.php)
 * Light web page setpoint setting going to login page again
