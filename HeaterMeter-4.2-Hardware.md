@@ -13,7 +13,7 @@ Standard HeaterMeter hardware is built on a [HeaterMeter v4.2 PCB](http://capnbr
 
 HeaterMeter can be built either as a standalone or for integration with a Raspberry Pi. The only difference between the two is the population of the Pi socket JP1. Both configurations provide automatic grill control, and LCD display. Set Point, manual fan mode, probe offsets, open lid detect and max fan speed configurable via buttons. The standalone requires initial configuration via serial commands. There is integrated **no web access or graphs** in standalone mode, but there is a serial status output to allow you to roll your own solution.
 
-**Quick and Easy**: [Mouser parts](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=505243fa51). Does not include thermocouple or DigiKey-only parts 1x[Blower](http://search.digikey.com/us/en/products/BFB0612H/603-1117-ND/1014448) 1x[Socket](http://www.digikey.com/product-detail/en/PPPC132LFBN-RC/S7116-ND/810252) 4x[Jacks](http://www.digikey.com/product-detail/en/MJ-2508N/CP-2508N-ND/281260)
+**Quick and Easy**: [Mouser parts](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=405078cd39). Does not include thermocouple or DigiKey-only parts 1x[Blower](http://search.digikey.com/us/en/products/BFB0612H/603-1117-ND/1014448) 1x[Socket](http://www.digikey.com/product-detail/en/PPPC132LFBN-RC/S7116-ND/810252) 4x[Jacks](http://www.digikey.com/product-detail/en/MJ-2508N/CP-2508N-ND/281260)
 
 ### Main Board
 |Qty|Value     |Device                |Parts|Link|
@@ -47,7 +47,7 @@ HeaterMeter can be built either as a standalone or for integration with a Raspbe
 1|100u/25|CPOL-USE2.5-6|C4|[Mouser](http://www.mouser.com/ProductDetail/Nichicon/UPW1E101MED/?qs=sGAEpiMZZMtZ1n0r9vR22RH2kZvTh%252b0acPUJvx0bRqc%3d) [DigiKey](http://www.digikey.com/product-detail/en/UPW1E101MED/493-1820-ND/589561)
 4|10k 1%|R-US_0204|R5, R16, R17, R18|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=MF1%2f4DC1002Fvirtualkey66000000virtualkey660-MF1%2f4DC1002F) [DigiKey](http://www.digikey.com/product-detail/en/RNF14FTD10K0/RNF14FTD10K0CT-ND/1975090)
 1|10k|TRIM_US-CT6|R6|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=T73YE103KT20virtualkey61330000virtualkey72-T70YE-10K) [DigiKey](http://www.digikey.com/product-detail/en/3362P-1-103LF/3362P-103LF-ND/1088412)
-1|LCD|PINHD-1X16|J1|[Mouser Gray/Grn](http://www.mouser.com/ProductDetail/Newhaven-Display/NHD-0216K1Z-FSPG-GBW-L/?qs=%2fha2pyFaduhTBhPvdpeAM9D03IEbbQL1IE2m6zfs2VS2HBUnb6jPdAoXMQglJO2a) [[LCD Color Gallery]]
+1|LCD|PINHD-1X16|J1|[Mouser Gray/Amber](http://www.mouser.com/ProductDetail/Newhaven-Display/NHD-0216K1Z-FSPG-GBW-L/?qs=%2fha2pyFaduhTBhPvdpeAM9D03IEbbQL1IE2m6zfs2VS2HBUnb6jPdAoXMQglJO2a) [[LCD Color Gallery]]
 1|TACTILE-4|TACTILE-4|S1|[Mouser](http://www.mouser.com/ProductDetail/ALPS/SKQUAAA010/?qs=oKW7zmyQiO62qWuFl5QVBw%3d%3d)
 1|TACTILE-4-CAP|TACTILE-4-CAP|S1-CAP|[Mouser Rnd](http://www.mouser.com/ProductDetail/Omron/B32-1610/?qs=%2fha2pyFadugTZwGy1pbX9lynsJkYTUxoixVgJzt2NHzmD2o0%252bVfIiw%3d%3d)
 1|ATmega328P|AVR-MEGA8-PPTH|IC2|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=ATMEGA328P-PUvirtualkey55650000virtualkey556-ATMEGA328P-PU) [DigiKey](http://www.digikey.com/product-detail/en/ATMEGA328P-PU/ATMEGA328P-PU-ND/1914589) [Mouser Non-P](http://www.mouser.com/ProductDetail/Atmel/ATMEGA328-PU/?qs=sGAEpiMZZMuHCAZ7U3Ea2vH90mYkP45F)
