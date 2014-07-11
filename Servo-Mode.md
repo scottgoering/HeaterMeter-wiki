@@ -1,3 +1,5 @@
+Servo Mode is included standard on HeaterMeter v4.1 and above via pins on the RJ45 output connector.
+
 ## Quick Setup Configuration
 
 **Requires LinkMeter v9 or above**
