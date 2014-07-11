@@ -46,6 +46,77 @@ Do this to **all four edges** of the board to prevent any issues down the road. 
 
 The HeaterMeter v4.2 PCB has two sides and components go on both sides. The silkscreen outlines indicate on which side components should be placed, but in general most of the components go on the underside of the board. The easiest way to assemble the board is to start with the flattest components and work your way to the larger pieces. 
 
+***
+
+|Qty|Value     |Device                |Parts|
+|---|----------|----------------------|-----|
+1|0|R-US_0204|R7|
+
+*Step 1* This may sound a little confusing but the first part to install isn't a part at all. This '0 ohm resistor' connects the LCD backlight and allows for alternative LCDs with different backlight power circuitry. The standard HeaterMeter build does not use this so just clip a piece of lead off another component and solder it in the hole marked 0 on your PCB (0 marking not shown in photo, but is on the PCB)
+[![Image](https://lh3.googleusercontent.com/-KerH2T_mBWE/U67YFvO60HI/AAAAAAAAB5k/kayadpswrbk/s640/IMG_2180.JPG)](https://picasaweb.google.com/lh/photo/GCjIEEJX6zypfM-2x47QedMTjNZETYmyPJy0liipFm0?feat=embedwebsite)
+
+***
+
+|Qty|Value     |Device                |Parts|
+|---|----------|----------------------|-----|
+4|390|R-US_0204|R2, R10, R12, R15
+1|680|R-US_0204/7|R8
+3|1k|R-US_0204|R1, R3, R21
+2|2k2|R-US_0204|R9, R14
+1|4k7|R-US_0204/7|R11
+1|10k|R-US_0204|R20
+5|100k|R-US_0204|R19, R22, R23, R28, R29
+1|68k|R-US_0204|R13
+1|22k|R-US_0204|R14
+
+*Step 2* Horizontally-mounted resistors. The orientation on these does not matter either side can go in either hole, as long as the body of the resistor is on the right side of the board. The placements are sized such that you should be able to fold the leads of the resistor against the body at a right angle and have them just fit into the holes. It is easiest to insert a couple resistors at a time and flip the whole board over, resting the board on the resistors to hold them in place while you solder them and clip the extra leads off. All the standard resistors will have blue bodies, but the color bands should match what is seen here.
+
+[![Image](https://lh3.googleusercontent.com/-lUOCgxA-Y6Y/U67YGE90JnI/AAAAAAAAB5s/wPdvYmhag8Y/s640/IMG_2184.JPG)](https://picasaweb.google.com/lh/photo/lpNvfD7-fEVhoqr8FLwgu9MTjNZETYmyPJy0liipFm0?feat=embedwebsite)
+
+***
+
+|Qty|Value     |Device                |Parts|
+|---|----------|----------------------|-----|
+9|0.1u|C-US025-025X050|C1, C2, C3, C7, C10, C15, C16, C17, C18
+
+*Step 3* Ceramic capacitors. These are small yellow blobs and also have no polarity, so their orientation does not matter.
+
+[![Image](https://lh6.googleusercontent.com/-L9LYIBcubxI/U67YGpLZuSI/AAAAAAAAB50/m8jivB3hIVs/s640/IMG_2186.JPG)](https://picasaweb.google.com/lh/photo/k0w_9TNsYk_e7Bbn68u4W9MTjNZETYmyPJy0liipFm0?feat=embedwebsite)
+
+***
+
+|Qty|Value     |Device                |Parts|
+|---|----------|----------------------|-----|
+1|1N4001|DIODE-DO41-7|D3
+1|1N5819|DIODE-DO41-7|D2
+
+*Step 4* Diodes. The rectifier diodes have a white line on them to indicate their polarity and should be installed so their white line matches the white line marking on the PCB. There are two different diodes that look identical once installed so be sure to put the right diode in the right place.
+
+[![Image](https://lh6.googleusercontent.com/-759JrbdBLEw/U67YHDOHoVI/AAAAAAAAB54/PUwcf773v4M/s640/IMG_2187.JPG)](https://picasaweb.google.com/lh/photo/Cwv8LaaUEculV24xZQsvk9MTjNZETYmyPJy0liipFm0?feat=embedwebsite)
+
+***
+
+|Qty|Value     |Device                |Parts|
+|---|----------|----------------------|-----|
+4|BS170|BS170|Q1, Q2, Q4, Q5
+1|MCP1700-33|MCP1700-33|IC4
+
+*Step 5* Signal MOSFETs and 3.3V regulator. These are the pieces that look like tiny black water towers with 3 legs. Bend the center lead back at a right angle to the body and then bend it down using your needle nose pliers. The flat front of these devices should be matched to the flat front on the silkscreen of the PCB.
+
+[![Image](https://lh4.googleusercontent.com/-3kCmB7O2Odc/U68bJ77ZbWI/AAAAAAAAB7k/C1smNpcqQE8/s640/IMG_2204.JPG)](https://picasaweb.google.com/lh/photo/HLtZLpmOL5Sc5C0EPV6w4NMTjNZETYmyPJy0liipFm0?feat=embedwebsite)
+
+***
+
+|Qty|Value     |Device                |Parts|
+|---|----------|----------------------|-----|
+1|FQU11P06TU|MOSFET-P|Q3
+1|74HC595N|74LS595N|IC3
+1|DIP28|DIP28|IC2-SOCK
+
+*Step 6* The power MOSFET Q3's leads can be easily formed to the right dimensions by simply inserting it into its hole then bending it down into position. Soldering the tab to the PCB is not required for the standard blower. Also install the 16 pin shift register (IC3) and the 28 pin DIP socket (IC2) for the microcontroller.  Both of these parts have a notch on one side of them which indicates the direction they need to be placed. Do not install the ATmega328P chip into socket IC2 at this time.
+
+
+
 ## Thermocouple Installation
 
 If building the Thermocouple Pit Probe variant of the HeaterMeter, the surface mount components should be assembled and tested ([[Thermocouple Amplifier Testing]]) before starting the through-hole assembly. Note that you will not install the standard Pit jack (2.5mm audio) or the 10k 1% pullup resistor (R18) closest to the Pit jack.
