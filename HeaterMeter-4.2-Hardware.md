@@ -40,12 +40,12 @@ HeaterMeter can be built either as a standalone or for integration with a Raspbe
 1|ALARM|SPEAKER/AL11P|SP1|[Mouser](http://www.mouser.com/ProductDetail/TDK/PS1240P02BT/?qs=sGAEpiMZZMuNFJjvCI6tQria9NagYYusd%2fjnLlD6%252bxU%3d) [DigiKey](http://www.digikey.com/product-detail/en/PS1240P02BT/445-2525-1-ND/935930)
 1|OKI-78SR-5|OKI-78SR-05H|IC1|[Mouser](http://www.mouser.com/ProductDetail/Murata-Power-Solutions/OKI-78SR-5-15-W36H-C/?qs=sGAEpiMZZMtwaiKVUtQsNa9RSQZ1iZ%2fUZeDy49qqIt4%3d) [DigiKey](http://www.digikey.com/product-detail/en/OKI-78SR-5%2F1.5-W36H-C/811-2692-ND/3438675)
 1|16MHz|RESONATORRESONATOR-PTH|Y1|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=AWCR-16.00MDvirtualkey52750000virtualkey815-AWCR-16.00MD) [DigiKey](http://www.digikey.com/product-detail/en/ZTT-16.00MX/X908-ND/170095)
-1|PINHD|PINHD|J1 (LCD), J2 (PROBE), J7 (ISCP), J8 (FTDI)|[Mouser](http://www.mouser.com/ProductDetail/FCI/68001-236HLF/?qs=sGAEpiMZZMtsLRyDR9nM14Vjyw4ze%252bjt57BsII4P7vM%3d)
+4|10k 1%|R-US_0204|R5, R16, R17, R18|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=MF1%2f4DC1002Fvirtualkey66000000virtualkey660-MF1%2f4DC1002F) [DigiKey](http://www.digikey.com/product-detail/en/RNF14FTD10K0/RNF14FTD10K0CT-ND/1975090)
 1|220u|INDUCTOR|L1|[Mouser](http://www.mouser.com/ProductDetail/Bourns/RLB9012-221KL/?qs=%2fha2pyFadujBRYZ98dwyHSd5PoMezoWpW69ZaH9jnX0DdcAyrTljqg%3d%3d)
 2|100u/10|CPOL-USE2.5-5|C5, C6|[Mouser](http://www.mouser.com/ProductDetail/Nichicon/UPW1A101MDD/?qs=sGAEpiMZZMtZ1n0r9vR22S0KxkuIgpi%2fX1J5JW69KRs%3d) [DigiKey](http://www.digikey.com/product-detail/en/UPW1A101MDD/493-1736-ND/589477)
 1|47u/25|CPOL-USE2.5-5|C12|[Mouser](http://www.mouser.com/ProductDetail/Nichicon/UPW1E470MDD/?qs=sGAEpiMZZMtZ1n0r9vR22RH2kZvTh%252b0aZAYBTdQVA9s%3d) [DigiKey](http://www.digikey.com/product-detail/en/UPW1E470MDD/493-1817-ND/589558)
 1|100u/25|CPOL-USE2.5-6|C4|[Mouser](http://www.mouser.com/ProductDetail/Nichicon/UPW1E101MED/?qs=sGAEpiMZZMtZ1n0r9vR22RH2kZvTh%252b0acPUJvx0bRqc%3d) [DigiKey](http://www.digikey.com/product-detail/en/UPW1E101MED/493-1820-ND/589561)
-4|10k 1%|R-US_0204|R5, R16, R17, R18|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=MF1%2f4DC1002Fvirtualkey66000000virtualkey660-MF1%2f4DC1002F) [DigiKey](http://www.digikey.com/product-detail/en/RNF14FTD10K0/RNF14FTD10K0CT-ND/1975090)
+1|PINHD|PINHD|J1 (LCD), J2 (PROBE), J7 (ISCP), J8 (FTDI)|[Mouser](http://www.mouser.com/ProductDetail/FCI/68001-236HLF/?qs=sGAEpiMZZMtsLRyDR9nM14Vjyw4ze%252bjt57BsII4P7vM%3d)
 1|10k|TRIM_US-CT6|R6|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=T73YE103KT20virtualkey61330000virtualkey72-T70YE-10K) [DigiKey](http://www.digikey.com/product-detail/en/3362P-1-103LF/3362P-103LF-ND/1088412)
 1|LCD|PINHD-1X16|J1|[Mouser Gray/Amber](http://www.mouser.com/ProductDetail/Newhaven-Display/NHD-0216K1Z-FSPG-GBW-L/?qs=%2fha2pyFaduhTBhPvdpeAM9D03IEbbQL1IE2m6zfs2VS2HBUnb6jPdAoXMQglJO2a) [[LCD Color Gallery]]
 1|TACTILE-4|TACTILE-4|S1|[Mouser](http://www.mouser.com/ProductDetail/ALPS/SKQUAAA010/?qs=oKW7zmyQiO62qWuFl5QVBw%3d%3d)
@@ -80,7 +80,7 @@ Thermocouple support relies on surface mount soldering an 8 pin 3mm x 3mm chip a
 |Qty|Value     |Device                |Parts|Link|
 |---|----------|----------------------|-----|----|
 1|AD849X|AD849X|IC5|[Mouser](http://www.mouser.com/ProductDetail/Analog-Devices/AD8495ARMZ/?qs=sGAEpiMZZMucenltShoSnoiUfjKGVRv2eLdHM33a4xM%3d)
-2|1n|C-USC0805|C8, C11|[Mouser](http://www.mouser.com/ProductDetail/Vishay/VJ0805Y102JXJCW1BC/?qs=%2fha2pyFaduhF2nQ94KIYvU%252bJKqcfKPRKfarNiDzeOaeA3G6BawyHMQ%3d%3d)
+2|1n (1000 pF)|C-USC0805|C8, C11|[Mouser](http://www.mouser.com/ProductDetail/Vishay/VJ0805Y102JXJCW1BC/?qs=%2fha2pyFaduhF2nQ94KIYvU%252bJKqcfKPRKfarNiDzeOaeA3G6BawyHMQ%3d%3d)
 1|10n|C-USC0805|C9|[Mouser](http://www.mouser.com/ProductDetail/Vishay/VJ0805Y103JXJCW1BC/?qs=%2fha2pyFaduhF2nQ94KIYvTUaKx1TOqbuizaeJMhCalFkD8vCJYNgKQ%3d%3d)
 1|0.1u|C-USC0805|C13|[Mouser](http://www.mouser.com/ProductDetail/Vishay/VJ0805Y104MXXAC/?qs=%2fha2pyFaduhF2nQ94KIYvbBprhnZE5TJ67qQr3Q1WgZh0yiFLH%2fGlA%3d%3d)
 2|10k|R-US_R0805|R25, R26|[Mouser](http://www.mouser.com/ProductDetail/Panasonic/ERJ-6GEYJ103V/?qs=sGAEpiMZZMu61qfTUdNhGzRxdwze5h8ZVHioc%2fD1YKQ%3d)
