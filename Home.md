@@ -9,7 +9,6 @@
     * [[HeaterMeter Probes]]
     * [[LinkMeter Hardware]]
     * [[Wireless Adapters]] for RapsberryPi
-    * [[Servo Mode]]
     * [[LCD Color Gallery]]
 * Installation
     * [[HeaterMeter 4.0 Software]]
@@ -31,12 +30,8 @@
 * Older but Still-Relevant Information
     * [[HeaterMeter 4.0 Hardware]]
     * [[HeaterMeter 4.0 Assembly]]
+    * [[Servo Mode]]
 
-* Outdated Information
-These are all pages which refer to the previous hardware iterations.
-    * [[HeaterMeter Bootloader]]
-    * [[HeaterMeter 3.0 Hardware]]
-    * HeaterMeter 3.0 Software [[Installation]]
-    * [[Upgrading LinkMeter 1to2]]
+* [[Outdated Information]]
 
 [[TODO]]
