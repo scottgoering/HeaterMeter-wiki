@@ -217,6 +217,14 @@ The LEDs need to be installed once you have a case ready. They are **not mounted
 
 The web UI has a red icon for LED1, yellow for LED2, green for LED3. Any arrangement can be used, but the web interface is fixed to displaying these colors.
 
+***
+
+|Qty|Value     |Device                |Parts|
+|---|----------|----------------------|-----|
+1|ATmega328P|AVR-MEGA8-PPTH|IC2
+
+Insert the ATmega328 into the IC2 socket by slightly bending all the legs against a flat surface then pressing into the socket. Be sure to match the direction using notch on the IC with the notch on the socket.
+
 ## Preparing RaspberryPi for mating
 
 The composite RCA jack on the RaspberryPi interferes with the HeaterMeter PCB in a way that is most unsatisfactory. It can be removed by desoldering it, but doing so chances damaging the nearby components with the amount of heat required to remove all the RCA jack solder. Simply clip the RCA jack off with wire cutters. It feels wrong to deface a brand new tiny computer like this but FFS, just save yourself the hassle. If you later decide you hate HeaterMeter and would rather have your composite video output (and you can find a display with composite in somehow), [Mouser carries RCA jacks in any color for 80 cents](http://www.mouser.com/ProductDetail/Switchcraft/PJRAN1X1U01X/?qs=%2fha2pyFaduhA2dCbClozE0M8thHp4IZMpitol3BhLqRLppD9blRIxA%3d%3d).
