@@ -16,7 +16,7 @@
 ### Ralink RT5370 (rt2800usb) Tested
 * RIF6 Mini 150Mbps
 * Generic "niceEshop" 150Mbps with antenna [$7 Amazon](https://www.amazon.com/niceEshop-Wireless-802-11-Adapter-Antenna/dp/B008IZQCGK/ref=as_sl_pc_ss_til?tag=httpcapnbrnet-20&linkCode=w01&linkId=TGY2BE5SIP4OMLOQ&creativeASIN=B008IZQCGK) Note that many of these look alike and most will ship from China
-* WU715N 150Mbps Mini (found on eBay)
+* WU715N 150Mbps Mini (found on [eBay](http://www.ebay.com/sch/i.html?_trksid=p2050601.m570.l1313.TR0.TRC0.H0.XWU715N&_nkw=WU715N&_sacat=0&_from=R40))
 
 ## Do not work
 * TP-LINK TL-WN725N Wireless N Nano USB Adapter (8188eu does not support cfg80211)
