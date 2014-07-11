@@ -183,7 +183,43 @@ Do the same procedure with soldering just pin 16 (and pin 1) to align the other 
 
 [![Image](https://lh5.googleusercontent.com/-OSCYMZqSR1U/U68bNXZgfsI/AAAAAAAAB8c/C1-wqTv5bWA/s640/IMG_2224.JPG)](https://picasaweb.google.com/lh/photo/H51bSeMeikaJbcuK9UsKgNMTjNZETYmyPJy0liipFm0?feat=embedwebsite)
 
-Just squeeze the two parts and touch pin 16 with the tip of the soldering iron and they'll pop right together. 
+Just squeeze the two parts and touch pin 16 with the tip of the soldering iron and they'll pop right together. Straighten the LCD so it is flat and you're good to go with soldering the rest of the LCD pins.
+
+[![Image](https://lh5.googleusercontent.com/-zRLJvfVPdrE/U68bOLG5jQI/AAAAAAAAB8k/QnZU6antWdU/s640/IMG_2228.JPG)](https://picasaweb.google.com/lh/photo/vk6G3fwlHihGnZlmQA0-ztMTjNZETYmyPJy0liipFm0?feat=embedwebsite)
+
+***
+
+|Qty|Value     |Device                |Parts|
+|---|----------|----------------------|-----|
+1|TACTILE-4|TACTILE-4|S1
+
+**Step 12** Install the 4-way button on the top of the HeaterMeter PCB. The pins on this button are asymmetrical, which means it is designed to only go in one way. See how one set of pins is closer to one edge than the other? Make sure you put it in the PCB in the proper orientation.
+
+[![Image](https://lh6.googleusercontent.com/-RIw3c32fwuA/U68bO1536OI/AAAAAAAAB8s/kG2k5T1f96s/s640/IMG_2230.JPG)](https://picasaweb.google.com/lh/photo/Cy4Wl0tAOz-Chibi0l8ggNMTjNZETYmyPJy0liipFm0?feat=embedwebsite)
+
+***
+
+|Qty|Value     |Device                |Parts|
+|---|----------|----------------------|-----|
+1|10k|TRIM_US-CT6|R6
+
+**Step 13** The blue square LCD contrast potentiometer. Install this also on the top side of the board. Once the HeaterMeter software is installed on the AVR, you will need to adjust this until you can read the LCD. This corresponds to about 1.0V on pin 3 of the LCD connector. Aside from the LEDs, you're done soldering!
+
+[![Image](https://lh6.googleusercontent.com/-Z1YfAiYhAAY/U68bPqHcgrI/AAAAAAAAB8w/OMmqVLMxxh8/s640/IMG_2233.JPG)](https://picasaweb.google.com/lh/photo/-6AqaKEpYogjr-OX4WBZAdMTjNZETYmyPJy0liipFm0?feat=embedwebsite)
+
+***
+
+|Qty|Value     |Device                |Parts|
+|---|----------|----------------------|-----|
+3|GRN|LED3MM|LED1, LED2, LED3
+
+The LEDs need to be installed once you have a case ready. They are **not mounted flush with the PCB**. Insert the LEDs into the HeaterMeter case, place the PCB upside down on top of them, and solder. This guarantees they are the proper height with no measurement needed. The longer lead on the LED (the +/anode) is inserted into the hole closest to you. There's a little + sign to indicate this on LED1 but not the others, as that would get confusing with them all so close together.
+
+The web UI has a red icon for LED1, yellow for LED2, green for LED3. Any arrangement can be used, but the web interface is fixed to displaying these colors.
+
+## Preparing RaspberryPi for mating
+
+The composite RCA jack on the RaspberryPi interferes with the HeaterMeter PCB in a way that is most unsatisfactory. It can be removed by desoldering it, but doing so chances damaging the nearby components with the amount of heat required to remove all the RCA jack solder. Simply clip the RCA jack off with wire cutters. It feels wrong to deface a brand new tiny computer like this but FFS, just save yourself the hassle. If you later decide you hate HeaterMeter and would rather have your composite video output (and you can find a display with composite in somehow), [Mouser carries RCA jacks in any color for 80 cents](http://www.mouser.com/ProductDetail/Switchcraft/PJRAN1X1U01X/?qs=%2fha2pyFaduhA2dCbClozE0M8thHp4IZMpitol3BhLqRLppD9blRIxA%3d%3d).
 
 ## Software Installation
 
