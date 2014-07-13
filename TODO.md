@@ -59,6 +59,7 @@
 * Optimize LuCI node() generation to speed page loads and reduce memory usage
     * Entire tree is generated on every page call, taking at least 300ms and peaking at 1.1MB of RAM per process
 * Periodic Email/SMS updates (every hour, etc) with current status
+* See who is connected to your HeaterMeter (netstat -an | grep :80 | grep ESTABLISHED) and be able to iptables ban someone. 
 
 ### HeaterMeter LIVE
 * Integration into webui a place to "register" your HeaterMeter. Optional Country/Postal Code
