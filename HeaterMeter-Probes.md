@@ -74,4 +74,7 @@ These probes can be used, but they are wired backwards so the PCB mount probe ja
 
 ## Thermocouples
 
-Thermocouples have a higher maximum temperature rating, but their low voltage change per degree requires special amplifier circuitry or special purpose thermocouple-reading chips. HeaterMeter does not have this circuitry so thermocouples are not supported in hardware. However, analog output thermocouple amplifiers can be used and HeaterMeter will convert this to temperature using the mV/C rating of the amplifier. Building the appropriate circuit is an exercise for the reader.
+Thermocouples have a higher maximum temperature rating, but their low voltage change per degree requires special amplifier circuitry or special purpose thermocouple-reading chips. HeaterMeter hardware v4.2 and above has optional support for a thermocouple pit probe. Any K-type thermocouple is supported, and the HeaterMeter jack is a standard miniature type connector. Thermocouples with spade connectors can be used by clipping them to fit into the jack, although this isn't the most secure of connections.
+[Auber Instruments](http://www.auberins.com/) -> Temperature Sensors -> Thermocouple Sensors
+[Thermoworks](http://thermoworks.com/) -> Probes -> Thermocouple 
+[Amazon](http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&field-keywords=k%20thermocouple&linkCode=ur2&rh=i%3Aaps%2Ck%3Ak%20thermocouple&sprefix=k%20therm%2Caps%2C202&tag=httpcapnbrnet-20&url=search-alias%3Daps&linkId=A64FD5UPDR7NLWJ7)
