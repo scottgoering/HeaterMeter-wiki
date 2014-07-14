@@ -14,4 +14,4 @@ Now short the two thermocouple input pins together with a piece of wire. The out
 
 [![Image](https://lh3.googleusercontent.com/-0rt6xKf4kgE/U7FtumnXQvI/AAAAAAAAB90/Ow9Nng21Xak/s640/IMG_2178.JPG)](https://picasaweb.google.com/lh/photo/lzmhqbW1Ol1GYJtHS0wjINMTjNZETYmyPJy0liipFm0?feat=embedwebsite)
 
-If both these readings check out, your thermocouple amplifier is fully operational and you may continue HeaterMeter v4.2 Assembly.
+If both these readings check out, your thermocouple amplifier is fully operational and you may continue [[HeaterMeter 4.2 Assembly]].
