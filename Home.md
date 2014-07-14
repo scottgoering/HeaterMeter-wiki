@@ -3,8 +3,10 @@
     * [[PID Tuning]]
 * [Photos](https://picasaweb.google.com/capnbry/HeaterMeter) (Picasa link)
 * Hardware
-    * [[HeaterMeter 4.1 Hardware]]
-    * [[HeaterMeter 4.1 Assembly]]
+    * [[HeaterMeter 4.2 Hardware]]
+    * [[HeaterMeter 4.2 Assembly]]
+      * [[Thermocouple Amplifier Testing]] (optional)
+      * [[Preparing LCD for v4.2 Installation]]
     * [[HeaterMeter 4.0 Case]]
     * [[HeaterMeter Probes]]
     * [[LinkMeter Hardware]]
@@ -28,6 +30,8 @@
     * [[Thermistor]] The 'Ambient' temperature sensor is way off.
 
 * Older but Still-Relevant Information
+    * [[HeaterMeter 4.1 Hardware]]
+    * [[HeaterMeter 4.1 Assembly]]
     * [[HeaterMeter 4.0 Hardware]]
     * [[HeaterMeter 4.0 Assembly]]
     * [[Servo Mode]]
