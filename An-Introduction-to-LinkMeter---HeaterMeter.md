@@ -6,7 +6,7 @@ HeaterMeter can also refer to the project as a whole, including all the software
 [![Image](https://lh6.googleusercontent.com/-zNWDU0QO2_k/UWlyI-Jh_hI/AAAAAAAABJE/dRAlgRWU_-4/s640/IMG_1534.JPG)](https://picasaweb.google.com/lh/photo/17mo9yJedPl_wEQmEzimmNMTjNZETYmyPJy0liipFm0?feat=embedwebsite)
 
 **LinkMeter** (LM) extends the functionality of the HeaterMeter by mounting the microcontroller inside an OpenWrt-compatible SoC device.  The OpenWrt software provides a web server for monitoring and configuration as well as the storage necessary to provide history data in the form of a CSV log, or a javascript-generated graph. Host systems include:
-*  RaspberryPi computer (HeaterMeter v4.0) Easiest, smallest, and most powerful current solution. Recommended for all new builds.
+*  RaspberryPi computer (HeaterMeter v4.0 - v4.2) Easiest, smallest, and most powerful current solution. Recommended for all new builds.
 *  Linksys WRT54GL router (HeaterMeter v3.0 - v3.2) Original concept, still supported but difficult to set up, requires extra hardware to flash chips, and not enough RAM/storage to incorporate new features.
 
 **LinkMeter Remote** (LMR) is an additional external device comprised of one or more temperature probes, a ATmega microcontroller, and an RFM12B 434/868/915MHz wireless transmitter. LMR transmits temperature data back to a HeaterMeter which has been built with the optional RFM12B receiver section. The temperature information replaces an internal HeaterMeter probe. This is useful for transmitting the temperature of a rotisserie (where  a cabled sensor would just get tangled up) or receiving the ambient temperature from a LaCrosse IT+ Wireless Weather Station.
