@@ -1,4 +1,4 @@
-[b]NOTE[/b] Thermocouple support is optional
+**NOTE** Thermocouple support is optional
 
 After surface mount soldering the thermocouple amplifier and passive support components to the HeaterMeter PCB it is helpful to perform testing before completing the entire build.
 
