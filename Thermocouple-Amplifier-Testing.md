@@ -1,3 +1,5 @@
+[b]NOTE[/b] Thermocouple support is optional
+
 After surface mount soldering the thermocouple amplifier and passive support components to the HeaterMeter PCB it is helpful to perform testing before completing the entire build.
 
 Before applying any power, check for shorts and good connections on the amplifier IC. 1 to 1, 2s to 2s, 4s are not connected to 5, and so on. N is not connected to anything.
