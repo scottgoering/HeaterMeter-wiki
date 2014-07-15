@@ -231,4 +231,4 @@ The composite RCA jack on the RaspberryPi interferes with the HeaterMeter PCB in
 
 ## Software Installation
 
-Proceed to [[HeaterMeter 4.0 Software]]
+Proceed to [[HeaterMeter 4.x Software]]
