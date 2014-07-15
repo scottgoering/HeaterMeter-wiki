@@ -120,3 +120,5 @@ Cookie: sysauth=9b735437932ce9486dccc6345ec18a0b;
 
 sp=225
 ~~~
+
+For a list of URLs and settable parameters see, [[URLs and Commands]]
