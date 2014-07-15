@@ -2,7 +2,7 @@
 
 Download and unzip [Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager/files/latest/download?source=files) (binary)
 
-Download and unzip [the OpenWrt firmware image](http://capnbry.net/linkmeter/release/bcm2708/10/) (v10)
+Download and unzip [the OpenWrt firmware image](http://capnbry.net/linkmeter/release/bcm2708/11/) (v11)
 
 Insert your SD card into your computer, launch Win32 Disk Imager, select the SD card drive, browse for the openwrt IMG file (not the ZIP!), and hit the "Write" button. Writing to the SD card should take only a few seconds. 
 
@@ -16,9 +16,7 @@ By default the rPi's ethernet is set to both the IP address 192.168.200.1 and DH
 
 ## Wireless (WiFi)
 
-The stock image includes a driver for any rtl8192cu-based USB wifi adapter. Most testing has occurred using an [Edimax EW-7811Un](https://www.amazon.com/dp/B003MTTJOY/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B003MTTJOY&adid=12GCAFY5NMYZX003C6ED&) model, but the [Airlink AWLL5099](https://www.amazon.com/dp/B006ZZUK5Y/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B006ZZUK5Y&adid=0PSWHJ1WNA3GS17W0WW7&) also works. Both around $11.
-
-The adapter should be recognized if inserted before booting and be shown in the System -> Network -> Wifi web configuration pages. Both AP and client mode are supported.
+The stock image includes drivers for any rtl8192cu-based or RT5370 USB wifi adapters. See [[Wireless Adapters]] for a more complete listing. The adapter should be recognized if inserted before booting and be shown in the System -> Network -> Wifi web configuration pages. Both AP and client mode are supported, and starting with LinkMeter v11 the device will be configured as an open Access Point with the name (SSID) "heatermeter", on IP address http://192.168.201.1/ or http://OpenWrt.local/ (only if connecting through the wifi!)
 
 ### Wireless Client Setup step-by-step
 
