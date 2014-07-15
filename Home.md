@@ -13,7 +13,7 @@
     * [[Wireless Adapters]] for RapsberryPi
     * [[LCD Color Gallery]]
 * Installation
-    * [[HeaterMeter 4.0 Software]]
+    * [[HeaterMeter 4.x Software]]
     * [[OpenWrt Packages]]
     * [[Building OpenWrt from Source]] (not necessary if using pre-built image)
 * User Guide
