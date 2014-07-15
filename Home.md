@@ -21,6 +21,7 @@
     * [[LinkMeter Home]] A guide what the heck you are looking at
     * [[Alarm Script Recipes]] Some example scripts for alarm recipes
     * [[URLs and Commands]] List of all supported commands
+      * [[Accessing Raw Data Remotely]]
     * [[Configuration Autobackup]] Description of how the autobackup works
 * FAQ
     * [[Donations]] Can I send you a few wingwangs for your hard work?
