@@ -20,6 +20,7 @@ The current status (probe temperatures, etc) in JSON format can be fetched from 
       "n":"Probe 0",
       "c":78.6,
       "dph":1.3,
+      "rf":{"s":1,"b":0},
       "a":{"l":-40,"h":200,"r":null}
     },
     ...
@@ -40,6 +41,8 @@ The current status (probe temperatures, etc) in JSON format can be fetched from 
 |temps[X].a.l|-40|Probe alarm low trigger. Negative numbers indicate alarm is disabled|
 |temps[X].a.h|200|Probe alarm high trigger. Negative numbers indicate alarm is disabled|
 |temps[X].a.r|null|Probe alarm ringing. "L" or "H" if the alarm is currently triggered or null if no alarm ringing|
+|temps[X].rf.s|1|Assigned RF node signal strength 0-3. The RF object is not present if the probe is not of type "RF"|
+|temps[X].rf.b|0|Assigned RF node battery low (0=OK, 1=Low). The RF object is not present if the probe is not of type "RF"|
 
 ## Streaming Status
 
