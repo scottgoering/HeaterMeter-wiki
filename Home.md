@@ -19,6 +19,7 @@
 * User Guide
     * [[Heatermeter Operation]]
     * [[LinkMeter Home]] A guide what the heck you are looking at
+    * [[Configuration WebUI Documentation]] Description of some HeaterMeter parameters
     * [[Alarm Script Recipes]] Some example scripts for alarm recipes
     * [[URLs and Commands]] List of all supported commands
       * [[Accessing Raw Data Remotely]]
