@@ -79,3 +79,16 @@ Thermocouples have a higher maximum temperature rating, but their low voltage ch
 * [Auber Instruments](http://www.auberins.com/) -> Temperature Sensors -> Thermocouple Sensors
 * [Thermoworks](http://thermoworks.com/) -> Probes -> Thermocouple 
 * [Amazon](http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&field-keywords=k%20thermocouple&linkCode=ur2&rh=i%3Aaps%2Ck%3Ak%20thermocouple&sprefix=k%20therm%2Caps%2C202&tag=httpcapnbrnet-20&url=search-alias%3Daps&linkId=A64FD5UPDR7NLWJ7)
+
+### Themocouple Advantages
+
+* Higher maximum temperature - over 1000C possible (HeaterMeter only reads up to 500C). Best thermistor probe we know of only does 570F (300C).
+* Generally more durable than the thermistor probes we use, which are cheap consumer-grade parts. 
+* More resistant to moisture (although you should not dunk your exposed thermocouple in water).
+* Available in a variety of shapes, wire sheaths, and attachment mechanisms. Clips, through-hole screw in, washer mount, bare, penetration probe, pick what works best for your grill.
+* Probes can be cheap, as low as a couple of dollars.
+
+### Thermistor Advantages
+
+* HeaterMeter hardware is cheaper to implement, no amplifier or special connector required.
+* Can use a food probe as a pit probe if the pit probe becomes damaged.
