@@ -17,10 +17,14 @@
 
 **RT5370 chips are recommended for wifi AP mode**
 
-* Panda Ultra Wireless N 150Mbps PAU03 [$11 Amazon](https://www.amazon.com/Panda-Ultra-Wireless-Adapter-150Mbps/dp/B00762YNMG/ref=as_sl_pc_ss_til?tag=httpcapnbrnet-20&linkCode=w01&linkId=3I46JE4C6DOYRM6F&creativeASIN=B00762YNMG)
 * RIF6 Mini 150Mbps
 * Generic "niceEshop" 150Mbps with antenna [$7 Amazon](https://www.amazon.com/niceEshop-Wireless-802-11-Adapter-Antenna/dp/B008IZQCGK/ref=as_sl_pc_ss_til?tag=httpcapnbrnet-20&linkCode=w01&linkId=TGY2BE5SIP4OMLOQ&creativeASIN=B008IZQCGK) Note that many of these look alike and most will ship from China
 * WU715N 150Mbps Mini (found on [eBay](http://www.ebay.com/sch/i.html?_trksid=p2050601.m570.l1313.TR0.TRC0.H0.XWU715N&_nkw=WU715N&_sacat=0&_from=R40))
+
+### Ralink RT5370 Assumed
+
+* Panda Ultra Wireless N 150Mbps PAU03 [$11 Amazon](https://www.amazon.com/Panda-Ultra-Wireless-Adapter-150Mbps/dp/B00762YNMG/ref=as_sl_pc_ss_til?tag=httpcapnbrnet-20&linkCode=w01&linkId=3I46JE4C6DOYRM6F&creativeASIN=B00762YNMG)
+* Panda Mid-Range 150Mbps [$14 Amazon](https://www.amazon.com/Panda-Mid-Range-150Mbps-802-11B-adapter/dp/B004AC0L4Y/ref=as_sl_pc_ss_til?tag=httpcapnbrnet-20&linkCode=w01&linkId=5NHEOM3HCN42SCIW&creativeASIN=B004AC0L4Y)
 
 ## Do not work
 * TP-LINK TL-WN725N Wireless N Nano USB Adapter (8188eu does not support cfg80211)
