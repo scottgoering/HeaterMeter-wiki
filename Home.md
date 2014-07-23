@@ -30,6 +30,7 @@
     * [[Network Ports]] What ports do I need to forward to access the web site from outside my network?
     * [[Console Hang]] The console on my RaspberryPi hangs after booting.
     * [[Thermistor]] The 'Ambient' temperature sensor is way off.
+    * [[Serial checksum errors]] How many serial errors is too many errors?
 
 * Older but Still-Relevant Information
     * [[HeaterMeter 4.1 Hardware]]
