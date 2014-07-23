@@ -2,7 +2,7 @@ On the LinkMeter configuration page there is an indicator of how many times the 
 
 ![serial-checksum-errors](images/serial-checksum-errors.png)
 
-HeaterMeter transmits more than one data packet per second, so unless the number goes up every time you refresh the page, odds are serial errors aren't degrading your performance in any measurable fashion. When linkmeterd starts up, it almost always will get one checksum error as HeaterMeter is already sending data when the server starts. After that, one getting corrupted every hour isn't too bad, that's more than 99.9982% success! The only time you should be worried is if the number is continuously increasing.
+HeaterMeter transmits more than one data packet per second, so unless the number goes up every time you refresh the page, odds are serial errors aren't degrading your performance in any measurable fashion. When linkmeterd starts up, it frequently will get one checksum error as HeaterMeter is already sending data when the server starts. After that, one getting corrupted every hour isn't too bad, that's more than 99.9982% success! The only time you should be worried is if the number is continuously increasing.
 
 ### What happens to bad data?
 
