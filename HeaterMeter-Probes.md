@@ -38,8 +38,8 @@ Thermoworks probes for their ChefAlarm system work well, and respond faster than
 
 Recommended HeaterMeter resistance: 10k ohm (standard)
 
-Manually enter these coefficients (built-in are wrong)
-`6.6853001e-04,2.2231022e-04,9.9680632e-08`
+For LinkMeter v10 manually enter these coefficients (built-in are wrong)
+`6.6853001e-04,2.2231022e-04,9.9680632e-08`. LinkMeter v11 has the correct coefficients loaded into the preset.
 
   * TX-1001X-OP [Amazon](https://www.amazon.com/dp/B00EZB8W0K/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B00EZB8W0K&adid=03P1SGNDWFZ85JC5W569&) [Themoworks](http://www.thermoworks.com/products/alarm/chefalarm.html#AccessoriesTab) 
   * TX-1002X-NP Needle Probe (500F max cable temperature) [Amazon](https://www.amazon.com/dp/B00EZBB8AQ/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B00EZBB8AQ&adid=0J280WDZFM7N5XZM4XF3&) [Thermoworks](http://www.thermoworks.com/products/alarm/chefalarm.html#AccessoriesTab)
