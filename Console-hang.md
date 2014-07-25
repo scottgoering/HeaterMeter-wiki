@@ -21,7 +21,7 @@ Your system is not hung, that is generally the last thing that appears in the ke
 Please press Enter to activate this console
 ```
 
-To activate the console, press Enter. You'll need to use a USB HID keyboard, as that is the only keyboard driver included in the installation. Many Logitech wireless keyboards are not HID compliant.
+To activate the console, press Enter. You'll need to use a USB HID keyboard, as that is the only keyboard driver included in the installation. Many Logitech wireless keyboards are not HID compliant. Apple keyboards are hit or miss.
 
 #### What about the unchecked filesystem warning?
 
