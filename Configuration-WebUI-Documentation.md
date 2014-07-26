@@ -13,6 +13,7 @@ Attempting to use voltage mode on hardware without support for it will result in
 
 * **min** - Minimum blower speed. If the desired speed is below this, the output will be pulsed between OFF and MIN proportional to the desired speed over a 10 second period.
 * **max** - Maximum blower speed. The PID output is scaled between 0 and MAX. For example, if the PID output is 100% and the MAX is set to 50, the blower output is 50%. The scaling is computed before comparing with MIN. That is, 10% MIN is always 10% blower speed and not affected by changing MAX.
+* **startup max** (v12+) - The time between changing the temperature and the first time the temperature is reached, HeaterMeter is in "startup mode". Startup max is the maximum blower speed until the first time the temperature is reached, which allows for accelerated startup by providing more air to the pit.
 * **Invert output** - Set the blower to be 100% output at 0% PID output and vice-versa. Use if using the HeaterMeter in a cooling mode rather than a heating mode.
 * **On at max only** - Only use the blower when PID output is 100% (at which point the blower output will be set to MAX).
 
