@@ -22,7 +22,7 @@ After your HeaterMeter is assembled and fully operational, calibrating the therm
 
 **Step 1** In the configuration webui, set the thermocouple mV/C to the reference 5 mv/C.
 
-**Step 2** Allow your HeaterMeter to warm up to operating temperature in its case for 10-15 minutes. If you don't have a case, this is optional as the temperature error is only 50 parts per million (ppm) per degree Celsius.
+**Step 2** Allow your HeaterMeter to warm up to operating temperature in its case for 10-15 minutes. If you don't have a case, this is optional as the temperature error is only 50 parts per million (ppm) per degree Celsius of ambient temerature.
 
 **Step 3** Insert the thermocouple into boiling water and allow it to settle at temperature.
 
