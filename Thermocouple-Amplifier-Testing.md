@@ -18,7 +18,7 @@ If both these readings check out, your thermocouple amplifier is fully operation
 
 ## Thermocouple Calibration
 
-After your HeaterMeter is assembled and fully operational, calibrating the thermocouple input may marginally improve its accuracy. Because HeaterMeter does not use a precision analog voltage reference, there's an inherent error in the measurement. Luckily this error is relatively constant for a build so it an be calibrated out.
+After your HeaterMeter is assembled and fully operational, calibrating the thermocouple input may marginally improve its accuracy. Because HeaterMeter does not use a precision analog voltage reference, there's an inherent error in the measurement. Luckily this error is relatively constant for a build so it an be calibrated out. A point point calibration is all that is needed to determine an accurate reference voltage.
 
 **Step 1** In the configuration webui, set the thermocouple mV/C to the reference 5 mv/C.
 
@@ -27,3 +27,5 @@ After your HeaterMeter is assembled and fully operational, calibrating the therm
 **Step 3** Insert the thermocouple into boiling water and allow it to settle at temperature.
 
 **Step 4** Calculate your error using the [boiling point of water for your altitude](http://www.engineeringtoolbox.com/boiling-points-water-altitude-d_1344.html). 5 * (heatermeter temperature / boiling point) = mv/C
+
+**Step 5** Enter this new value into the configuration webui and verify that the temperature reported by HeaterMeter now matches the boiling point of water.
