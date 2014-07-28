@@ -32,13 +32,15 @@
     * [[Thermistor]] The 'Ambient' temperature sensor is way off.
     * [[Serial checksum errors]] How many serial errors is too many errors?
 
-* Older but Still-Relevant Information
-    * [[HeaterMeter 4.1 Hardware]]
-    * [[HeaterMeter 4.1 Assembly]]
-    * [[HeaterMeter 4.0 Hardware]]
-    * [[HeaterMeter 4.0 Assembly]]
-    * [[Servo Mode]]
+### Forums
+The HeaterMeter online community is hosted on [The Virtual Weber Bulletin Board tvwbb.com](http://tvwbb.com/forumdisplay.php?85-LinkMeter-v2-Homebrew-BBQ-Controller).
 
-* [[Outdated Information]]
+### Older but Still-Relevant Information
+  * [[HeaterMeter 4.1 Hardware]]
+  * [[HeaterMeter 4.1 Assembly]]
+  * [[HeaterMeter 4.0 Hardware]]
+  * [[HeaterMeter 4.0 Assembly]]
+  * [[Servo Mode]]
+  * [[Outdated Information]]
 
 [[TODO]]
