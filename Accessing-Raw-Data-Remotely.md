@@ -13,7 +13,7 @@ The current status (probe temperatures, etc) in JSON format can be fetched from 
   "time":1405429467,
   "set":65,
   "lid":38,
-  "fan":{"c":0,"a":13},
+  "fan":{"c":0,"a":13,"f":10},
   "adc":[0,0,0,0,0,3],
   "temps":[
     {
