@@ -34,6 +34,7 @@ The current status (probe temperatures, etc) in JSON format can be fetched from 
 |lid|38|Lid Open countdown timer. Number of seconds remaining in lid mode or 0 if lid mode is off|
 |fan.c|0|Current PID output percentage|
 |fan.a|13|Average PID output percentage over last few minutes|
+|fan.f|10|Current fan output percentage (restricted by min/max fan speed)|
 |adc[]|0,0,0,0,0,3|ADC noise range indicator. Probe 0 is adc[5], Probe 1 is adc[4], etc. May be absent if not supported.|
 |temps[X].n|Probe 0|Name assigned to probe|
 |temps[X].c|78.6|Current probe temperature|
