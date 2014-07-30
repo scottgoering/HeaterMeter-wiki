@@ -37,7 +37,8 @@
       * Auto upload png to imgur / facebook / twitter / Google+
     * Add annotations
     * Ability to trim the database
-      * Can maybe do rrdtool dump | some sort of filter | rrdtool import
+      * Can maybe do rrdtool dump | `awk '/<row>/{if ($6 > 1406726460) print; next}{print}'` | rrdtool restore
+      * rrdtool needs restore functionality which needs libxml-2.0. That's what you get for using fsking XML!
       * Will need to invalidate the browser cache using some sort of unique request. File mod date/time?
 * Indicator LEDs triggers
     * Probe degrees per hour above/below threshold (alarm when entering/leaving stall)
