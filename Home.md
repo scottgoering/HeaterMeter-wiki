@@ -7,6 +7,7 @@
     * [[HeaterMeter 4.2 Assembly]]
       * [[Thermocouple Amplifier Testing]] (optional)
       * [[Preparing LCD for v4.2 Installation]]
+      * [[Blower and Servo Wiring]]
     * [[HeaterMeter 4.0 Case]]
     * [[HeaterMeter Probes]]
     * [[LinkMeter Hardware]]
