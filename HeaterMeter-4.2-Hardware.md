@@ -2,7 +2,7 @@ As a reminder, HeaterMeter refers to the ATmega (Arduino) based microcontroller 
 
 Standard HeaterMeter hardware is built on a [HeaterMeter v4.2 PCB](http://capnbry.net/linkmeter/pcb/hm-4.2/)
 
-* [Surface Mount](https://www.tindie.com/products/CapnBry/heatermeter-v42-pcb-w-thermocouple/) a PCB with the optional thermocouple parts already soldered and tested
+* [Surface Mount](https://www.tindie.com/products/CapnBry/heatermeter-v42-pcb-w-thermocouple/) a PCB with the optional thermocouple parts already soldered and tested or the [HeaterMeter kit](https://www.tindie.com/products/CapnBry/heatermeter-v42-kit/)
 * [Buy direct](https://www.oshpark.com/shared_projects/nRnQe9JQ) from OSH Park (minimum quantity 3), or [singles](http://store.oshpark.com/products/heatermeter)
 * [Schematic Image](http://capnbry.net/linkmeter/pcb/hm-4.2/HeaterMeterPi.png)
 * EAGLE 5 [schematic](http://capnbry.net/linkmeter/pcb/hm-4.2/HeaterMeterPI.sch) and [board](http://capnbry.net/linkmeter/pcb/hm-4.2/HeaterMeterPI.brd)
@@ -12,7 +12,7 @@ Standard HeaterMeter hardware is built on a [HeaterMeter v4.2 PCB](http://capnbr
 
 HeaterMeter can be built either as a standalone or for integration with a Raspberry Pi. The only difference between the two is the population of the Pi socket JP1. Both configurations provide automatic grill control, and LCD display. Set Point, manual fan mode, probe offsets, open lid detect and max fan speed configurable via buttons. The standalone requires initial configuration via serial commands. There is integrated **no web access or graphs** in standalone mode, but there is a serial status output to allow you to roll your own solution.
 
-**Quick and Easy**: [Mouser parts](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=405078cd39). Does not include thermocouple or DigiKey-only parts 1x[Blower](http://search.digikey.com/us/en/products/BFB0612H/603-1117-ND/1014448) 1x[Socket](http://www.digikey.com/product-detail/en/PPPC132LFBN-RC/S7116-ND/810252) 4x[Jacks](http://www.digikey.com/product-detail/en/MJ-2508N/CP-2508N-ND/281260)
+**Quick and Easy**: [Mouser parts](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=405078cd39). Does not include thermocouple or DigiKey-only parts 1x[Blower](http://search.digikey.com/us/en/products/BFB0612H/603-1117-ND/1014448) 1x[Socket](http://www.digikey.com/product-detail/en/PPPC132LFBN-RC/S7116-ND/810252) 4x[Jacks](http://www.digikey.com/product-detail/en/MJ-2508N/CP-2508N-ND/281260). Alternatively, [HeaterMeter kits](https://www.tindie.com/products/CapnBry/heatermeter-v42-kit/) are available from Tindie which include all the Mouser and Digikey parts as well as a PCB.
 
 ### Main Board
 |Qty|Value     |Device                |Parts|Link|
