@@ -15,6 +15,7 @@
 * [RaspberryPi](http://www.raspberrypi.org/)
   * Model A (no Ethernet, 1x USB) *$25*, or more accurately [closer to $35](https://www.amazon.com/dp/B00BC0ZL88/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B00BC0ZL88&adid=0CWS9RQQA9Z6YJJ8PFF1&) shipped
   * Model B (with Wired Ethernet, 2x USB) *$35*, usually [closer to $37] (http://www.amazon.com/gp/product/B009SQQF9C/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009SQQF9C&linkCode=as2&tag=httpcapnbrnet-20) shipped
+  * **NOT** a Model B+ (not supported)
 * Full sized SD card (not microSD or miniSD) 128MB or larger
 * A [[supported WiFi Adapter|Wireless Adapters]]
 * Phone or ethernet cable you won't mind cutting an end off of
