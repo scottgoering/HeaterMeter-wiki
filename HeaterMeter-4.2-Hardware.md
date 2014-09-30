@@ -80,7 +80,7 @@ Thermocouple support relies on surface mount soldering an 8 pin 3mm x 3mm chip a
 |---|----------|----------------------|-----|----|
 1|AD849X|AD849X|IC5|[Mouser](http://www.mouser.com/ProductDetail/Analog-Devices/AD8495ARMZ/?qs=sGAEpiMZZMucenltShoSnoiUfjKGVRv2eLdHM33a4xM%3d)
 2|1n (1000 pF)|C-USC0805|C8, C11|[Mouser](http://www.mouser.com/ProductDetail/Vishay/VJ0805Y102JXJCW1BC/?qs=%2fha2pyFaduhF2nQ94KIYvU%252bJKqcfKPRKfarNiDzeOaeA3G6BawyHMQ%3d%3d)
-1|10n|C-USC0805|C9|[Mouser](http://www.mouser.com/ProductDetail/Vishay/VJ0805Y103JXJCW1BC/?qs=%2fha2pyFaduhF2nQ94KIYvTUaKx1TOqbuizaeJMhCalFkD8vCJYNgKQ%3d%3d)
+1|10n (0.01 uF)|C-USC0805|C9|[Mouser](http://www.mouser.com/ProductDetail/Vishay/VJ0805Y103JXJCW1BC/?qs=%2fha2pyFaduhF2nQ94KIYvTUaKx1TOqbuizaeJMhCalFkD8vCJYNgKQ%3d%3d)
 1|0.1u|C-USC0805|C13|[Mouser](http://www.mouser.com/ProductDetail/Vishay/VJ0805Y104MXXAC/?qs=%2fha2pyFaduhF2nQ94KIYvbBprhnZE5TJ67qQr3Q1WgZh0yiFLH%2fGlA%3d%3d)
 2|10k|R-US_R0805|R25, R26|[Mouser](http://www.mouser.com/ProductDetail/Panasonic/ERJ-6GEYJ103V/?qs=sGAEpiMZZMu61qfTUdNhGzRxdwze5h8ZVHioc%2fD1YKQ%3d)
 1|1k|R-US_R0805|R24|[Mouser](http://www.mouser.com/ProductDetail/Panasonic/ERJ-6GEYJ102V/?qs=%2fha2pyFaduiXHwl36i8QX1Is8RUpW4zS7XPMZn%2fLDmVYYw7P67RQlQ%3d%3d)
