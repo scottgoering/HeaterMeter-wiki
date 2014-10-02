@@ -12,6 +12,10 @@ Because of the interaction between the Raspberry Pi's ethernet jack and any wifi
 
 Each box represents a HeaterMeter device, labeled with the hostname as set in the webui. Each potential connection address gets its own line. The `Status` column indicates if data has ever been sent or received on the connection. `Address` is the IP address which might be accessible from your network. `Available` is the result of a query for HeaterMeter at that address. A HeaterMeter is available if it accepts the connection and responds with its version information. If the address is available, the address will become a link which can be clicked to take you to that HeaterMeter's home page.
 
+### It says there are no HeaterMeter (sad nugget)
+
+On a brand new fresh firmware install, it may take a few minutes before the HeaterMeter registers for the first time. If no HeaterMeter are found, the page will automatically refresh itself until a device is found. If nothing shows up after five minutes, there's almost certainly a problem with your HeaterMeter not getting on the network.
+
 ### Will the world be able to connect to my HeaterMeter?
 
 No. The device addresses listed are the private addresses, accessible only from your local network. Some are so private they're not even accessible from your network!
