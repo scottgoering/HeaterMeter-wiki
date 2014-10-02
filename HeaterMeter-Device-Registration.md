@@ -2,6 +2,8 @@
 
 Simple answer: a list of all the HeaterMeters on your LAN, available at [http://heatermeter.com/devices/](http://heatermeter.com/devices/)
 
+![HeaterMeter Device Manager](Images/hm-device-manager.png)
+
 ### Why?
 
 To make it easy to find your new HeaterMeter!
