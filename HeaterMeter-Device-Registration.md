@@ -16,7 +16,7 @@ Each box represents a HeaterMeter device, labeled with the hostname as set in th
 
 ### It says there are no HeaterMeter (sad nugget)
 
-On a brand new fresh firmware install, it may take a few minutes before the HeaterMeter registers for the first time. If no HeaterMeter are found, the page will automatically refresh itself until a device is found. If nothing shows up after five minutes, there's almost certainly a problem with your HeaterMeter not getting on the network.
+On a brand new fresh firmware install (LinkMeter v12 and above), it may take a few minutes before the HeaterMeter registers for the first time. If no HeaterMeter are found, the page will automatically refresh itself until a device is found. If nothing shows up after five minutes, there's almost certainly a problem with your HeaterMeter not getting on the network.
 
 ### Will the world be able to connect to my HeaterMeter?
 
