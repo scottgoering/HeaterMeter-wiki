@@ -2,7 +2,7 @@
 
 Simple answer: a list of all the HeaterMeters on your LAN, available at [http://heatermeter.com/devices/](http://heatermeter.com/devices/)
 
-![HeaterMeter Device Manager](hm-device-manager.png)
+[![Image](https://lh4.googleusercontent.com/-jJ_pd0oKNuk/VC2kT7EjUVI/AAAAAAAACUA/_qHjKOAEeJk/s640/hm-device-manager.png)](https://picasaweb.google.com/lh/photo/_YVb7fjnasLfZlNp8socU9MTjNZETYmyPJy0liipFm0?feat=embedwebsite)
 
 ### Why?
 
