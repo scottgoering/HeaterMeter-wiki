@@ -2,7 +2,7 @@
 
 Download and unzip [Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager/files/latest/download?source=files) (binary)
 
-Download and unzip [the OpenWrt firmware image](http://capnbry.net/linkmeter/release/bcm2708/11/) (v11)
+Download and unzip [the OpenWrt firmware image](http://capnbry.net/linkmeter/release/bcm2708/12/) (v12)
 
 Insert your SD card into your computer, launch Win32 Disk Imager, select the SD card drive, browse for the openwrt IMG file (not the ZIP!), and hit the "Write" button. Writing to the SD card should take only a few seconds. 
 
@@ -12,11 +12,13 @@ If this is the first time you've booted the rPi using the prepared SD card, the 
 
 ## Configuration
 
+Once the device boots, if it has internet access, simply use a browser to navigate to [http://heatermeter.com/devices/](http://heatermeter.com/devices/) and your HeaterMeter should be listed automatically. For more information about device registration see [[HeaterMeter Device Registration]]. If registration is not successful, continue reading.
+
 By default the rPi's ethernet is set to both the IP address 192.168.200.1 and DHCP. If the device gets a DHCP address from your network, it will be displayed for 20 seconds on the HeaterMeter LCD. The configuration website is available at http://192.168.200.1/ (or the DHCP address) username "root" with no password. A monitor and keyboard can also be connected. If editing configuration via the console, network configuration is in /etc/config/network
 
 ## Wireless (WiFi)
 
-The stock image includes drivers for any rtl8192cu-based or RT5370 USB wifi adapters. See [[Wireless Adapters]] for a more complete listing. The adapter should be recognized if inserted before booting and be shown in the System -> Network -> Wifi web configuration pages. Both AP and client mode are supported, and starting with LinkMeter v11 the device will be configured as an open Access Point with the name (SSID) "heatermeter", on IP address http://192.168.201.1/ or http://OpenWrt.local/ (only if connecting through the wifi!)
+The stock image includes drivers for any rtl8192cu-based or RT5370 USB wifi adapters. See [[Wireless Adapters]] for a more complete listing. The adapter should be recognized if inserted before booting and be shown in the System -> Network -> Wifi web configuration pages. Both AP and client mode are supported, and starting with LinkMeter v12 the device will be configured as an open Access Point with the name (SSID) "heatermeter", on IP address http://192.168.201.1/ or http://OpenWrt.local/ (only if connecting through the wifi!)
 
 ### Wireless Client Setup step-by-step
 
