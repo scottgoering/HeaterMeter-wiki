@@ -24,7 +24,8 @@
 
 ### Ralink RT5370 Assumed
 
-* Panda Mid-Range 150Mbps [$14 Amazon](https://www.amazon.com/Panda-Mid-Range-150Mbps-802-11B-adapter/dp/B004AC0L4Y/ref=as_sl_pc_ss_til?tag=httpcapnbrnet-20&linkCode=w01&linkId=5NHEOM3HCN42SCIW&creativeASIN=B004AC0L4Y)
+* NONE
 
 ## Do not work
 * TP-LINK TL-WN725N Wireless N Nano USB Adapter (8188eu does not support cfg80211)
+* Panda Mid-Range 150Mbps [$14 Amazon](https://www.amazon.com/Panda-Mid-Range-150Mbps-802-11B-adapter/dp/B004AC0L4Y/ref=as_sl_pc_ss_til?tag=httpcapnbrnet-20&linkCode=w01&linkId=5NHEOM3HCN42SCIW&creativeASIN=B004AC0L4Y) (Fails to connect?)
