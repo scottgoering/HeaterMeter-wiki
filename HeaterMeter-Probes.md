@@ -16,7 +16,7 @@ Available in two varieties, both "smoker probe" and "food probe" are the same in
  * Standard 3ft length, rated to 410F maximum temperature
  * High Heat 6ft length, rated to 716F maximum temperature although some are only rated to 570F working temperature
 
-![ET72 Response](images/therm-et72.png)
+![](http://i.imgur.com/S3HMC8E.png)
 
 Recommended HeaterMeter resistance: 10kohm (standard)
 
@@ -25,24 +25,28 @@ Recommended HeaterMeter resistance: 10kohm (standard)
  * High Heat Food Probe [Maverick](http://maverickhousewares.bigcartel.com/product/et-72-73-high-heat-6ft-food-probe)
  * Standard Food Probe [Amazon](https://www.amazon.com/dp/B00B8NBL2O/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B00B8NBL2O&adid=0NBFHY6JQDTCA1J3XBQ6&) [Maverick](http://maverickhousewares.bigcartel.com/product/et-7-et-72-et-902-probe)
 
-## Thermoworks TX-1001X-OP
+## Thermoworks Pro Series
 
 **Highly Recommended**
 
-Thermoworks probes for their ChefAlarm system work well, and respond faster than ET-72/73 due to their smaller probe tips. Note these are thermistor-based probes, and not the high-precision Thermoworks thermocouple-based design. These probes are well built with better moisture resistance and larger temperature range too. The coefficients in LinkMeter may not be completely accurate because they are correlated off a ET-72/73 probe.
+Thermoworks Pro Series probes for their ChefAlarm system work well, and respond faster than ET-72/73 due to their smaller probe tips. Note these are thermistor-based probes, and not the high-precision Thermoworks thermocouple-based design. These probes are well built with better moisture resistance and larger temperature range too. The coefficients in LinkMeter may not be completely accurate because they are correlated off a ET-72/73 probe.
   * Cable length: 47 inches
   * Maximum working temperature: 644F
   * Maximum cable temperature: 700F
 
-![TX1001X Response](images/therm-tx1001x.png)
+![](http://i.imgur.com/eMb3xMK.png)
 
 Recommended HeaterMeter resistance: 10k ohm (standard)
 
 For LinkMeter v10 manually enter these coefficients (built-in are wrong)
 `6.6853001e-04,2.2231022e-04,9.9680632e-08`. LinkMeter v11 has the correct coefficients loaded into the preset.
 
-  * TX-1001X-OP [Amazon](https://www.amazon.com/dp/B00EZB8W0K/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B00EZB8W0K&adid=03P1SGNDWFZ85JC5W569&) [Themoworks](http://www.thermoworks.com/products/alarm/chefalarm.html#AccessoriesTab) 
-  * TX-1002X-NP Needle Probe (500F max cable temperature) [Amazon](https://www.amazon.com/dp/B00EZBB8AQ/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B00EZBB8AQ&adid=0J280WDZFM7N5XZM4XF3&) [Thermoworks](http://www.thermoworks.com/products/alarm/chefalarm.html#AccessoriesTab)
+  * Models all available from [Thermoworks](http://www.thermoworks.com/products/alarm/chefalarm.html#AccessoriesTab)
+  * TX-1001X-OP [Amazon](https://www.amazon.com/dp/B00EZB8W0K/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B00EZB8W0K&adid=03P1SGNDWFZ85JC5W569&)
+  * TX-1002X-NP Needle Probe (500F max cable temperature) [Amazon](https://www.amazon.com/dp/B00EZBB8AQ/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B00EZBB8AQ&adid=0J280WDZFM7N5XZM4XF3&)
+  * TX-1003X-AP Air Probe with Grate Clip
+  * TX-1004X-SP Straight Penetration Probe
+  * TX-1005X-12 12 Inch Probe
 
 ## Maverick ET-732
 
@@ -55,7 +59,7 @@ These are also available in both "smoker probe" and "food probe"
 
 These probes are also subject to more _mysterious errors_ than the ET-72/73 probes, making the temperatures fluctuate for no apparent reason. The only solution is to ground the probe's braided shielding.
 
-![ET732 Response](images/therm-et732.png)
+![](http://i.imgur.com/uJYKaAQ.png)
 
 The response curve of these probes bottoms out around room temperature when used with the standard 10kohm HeaterMeter resistance, which causes them to read as "off". To get more usable range, replace the standard 10k resistors (R5, R16, R17, R18) with 22k or even 47k 1% tolerance resistors.
 
@@ -80,7 +84,7 @@ Thermocouples have a higher maximum temperature rating, but their low voltage ch
 * [Thermoworks](http://thermoworks.com/) -> Probes -> Thermocouple 
 * [Amazon](http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&field-keywords=k%20thermocouple&linkCode=ur2&rh=i%3Aaps%2Ck%3Ak%20thermocouple&sprefix=k%20therm%2Caps%2C202&tag=httpcapnbrnet-20&url=search-alias%3Daps&linkId=A64FD5UPDR7NLWJ7)
 
-### Themocouple Advantages
+### Thermocouple Advantages
 
 * Higher maximum temperature - over 1000C possible (HeaterMeter only reads up to 500C). Best thermistor probe we know of only does 570F (300C).
 * Generally more durable than the thermistor probes we use, which are cheap consumer-grade parts. 
