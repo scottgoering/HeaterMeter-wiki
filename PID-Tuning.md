@@ -30,8 +30,7 @@ Effects of increasing a parameter independently
  * Watch the temperature which should now start to oscillate. If the error gets larger and larger over time, decrease the P PID parameter. If there is little to no oscillation, increase the P PID parameter. You're looking for oscillations with a fixed amplitude (distance between the min and max temperatures) and period (amount of time it takes to complete one min/max cycle)
 ![Stable PID Oscillations](images/pidtune.png)
  * When a value of P results in a sustained periodic oscillation in the output (or close to it), mark this critical value of P as Ku, the "ultimate gain". Also, measure the period of oscillation (in seconds), Pu, referred to as the "ultimate period".
- * PD is the constant representing the period of the Derivative lookback. In HeaterMeter it is an 30 point exponential moving average, so this value is approximately 30.
- * Compute the new PID parameters using the Ziegler-Nichols parameters
+ * Compute the new PID parameters using the Ziegler-Nichols parameters. PD is the constant representing the period of the Derivative lookback. In HeaterMeter it is an 30 point exponential moving average, so this value is approximately 30.
 <table>
 <tr><th colspan="2">Ziegler-Nichols</th></tr>
 <tr><th>PID Parameter</th><th>Value</th></tr>
