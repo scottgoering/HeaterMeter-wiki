@@ -30,13 +30,14 @@ Effects of increasing a parameter independently
  * Watch the temperature which should now start to oscillate. If the error gets larger and larger over time, decrease the P PID parameter. If there is little to no oscillation, increase the P PID parameter. You're looking for oscillations with a fixed amplitude (distance between the min and max temperatures) and period (amount of time it takes to complete one min/max cycle)
 ![Stable PID Oscillations](images/pidtune.png)
  * When a value of P results in a sustained periodic oscillation in the output (or close to it), mark this critical value of P as Ku, the "ultimate gain". Also, measure the period of oscillation (in seconds), Pu, referred to as the "ultimate period".
+ * PD is the constant representing the period of the Derivative lookback. In HeaterMeter it is an 30 point exponential moving average, so this value is approximately 30.
  * Compute the new PID parameters using the Ziegler-Nichols parameters
 <table>
 <tr><th colspan="2">Ziegler-Nichols</th></tr>
 <tr><th>PID Parameter</th><th>Value</th></tr>
 <tr><td>P</td><td>Ku / 1.7</td></tr>
 <tr><td>I</td><td>Ku / (Pu / 2)</td></tr>
-<tr><td>D</td><td>Ku * (Pu / 8)</td></tr>
+<tr><td>D</td><td>Ku * (Pu / 8) / PD</td></tr>
 </table>
  * As an alternative to the Ziegler-Nichols parameters, there is an alternative calculation created by two other dudes, Tyreus and Luyblen, often called the TLC tuning rule
 <table>
@@ -44,7 +45,7 @@ Effects of increasing a parameter independently
 <tr><th>PID Parameter</th><th>Value</th></tr>
 <tr><td>P</td><td>Ku / 2.2</td></tr>
 <tr><td>I</td><td>Ku / (2.2 * Pu)</td></tr>
-<tr><td>D</td><td>Ku * (Pu / 6.3)</td></tr>
+<tr><td>D</td><td>Ku * (Pu / 6.3) / PD</td></tr>
 </table>
 
 ## Experimental Tuning
