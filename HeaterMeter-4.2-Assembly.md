@@ -16,7 +16,7 @@
   * Model A (no Ethernet, 1x USB) *$25*, or more accurately [closer to $35](https://www.amazon.com/dp/B00BC0ZL88/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B00BC0ZL88&adid=0CWS9RQQA9Z6YJJ8PFF1&) shipped
   * Model B (with Wired Ethernet, 2x USB) *$35*, usually [closer to $50] (http://www.amazon.com/gp/product/B009SQQF9C/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009SQQF9C&linkCode=as2&tag=httpcapnbrnet-20) shipped
   * **NOT** a Model B+ (not supported)
-  * Model A+ (no Ethernet, 1x USB) *$20*, requires [[Pi A+ Modifications]] build [closer to $30](https://www.amazon.com/Raspberry-Pi-Model-A-256MB/dp/B00PEX05TO/ref=as_sl_pc_ss_til?tag=httpcapnbrnet-20&linkCode=w01&linkId=TH4ENGMP2GHQUQIJ&creativeASIN=B00PEX05TO) shipped
+  * Model A+ (no Ethernet, 1x USB) *$20*, requires [[Pi APlus Modifications]] build [closer to $30](https://www.amazon.com/Raspberry-Pi-Model-A-256MB/dp/B00PEX05TO/ref=as_sl_pc_ss_til?tag=httpcapnbrnet-20&linkCode=w01&linkId=TH4ENGMP2GHQUQIJ&creativeASIN=B00PEX05TO) shipped
 * Full sized SD card (not microSD or miniSD) 128MB or larger
 * A [[supported WiFi Adapter|Wireless Adapters]]
 * Phone or ethernet cable you won't mind cutting an end off of
@@ -77,7 +77,7 @@ The HeaterMeter v4.2 PCB has two sides and components go on both sides. The silk
 
 **Step 2** Horizontally-mounted resistors. The orientation on these does not matter either side can go in either hole, as long as the body of the resistor is on the right side of the board. The placements are sized such that you should be able to fold the leads of the resistor against the body at a right angle and have them just fit into the holes. It is easiest to insert a couple resistors at a time and flip the whole board over, resting the board on the resistors to hold them in place while you solder them and clip the extra leads off. All the standard resistors will have blue bodies, but the color bands should match what is seen here. You will have 4x 100k resistors and 4x 10k resistors left over to be used later.
 
-**Raspberry Pi A+** Do not install R3 1k resistor at this time. See [[Pi A+ Modifications]]
+**Raspberry Pi A+** Do not install R3 1k resistor at this time. See [[Pi APlus Modifications]]
 
 [![Image](https://lh4.googleusercontent.com/-ozk2pNsWwvY/VDk1qdWxwcI/AAAAAAAACWg/1PV7Vlh6u18/s640/HeaterMeter424Kit-1.png)](https://picasaweb.google.com/lh/photo/gz28-yCSzQAFGd2XHTp_19MTjNZETYmyPJy0liipFm0?feat=embedwebsite)
 [![Image](https://lh3.googleusercontent.com/-lUOCgxA-Y6Y/U67YGE90JnI/AAAAAAAAB5s/wPdvYmhag8Y/s640/IMG_2184.JPG)](https://picasaweb.google.com/lh/photo/lpNvfD7-fEVhoqr8FLwgu9MTjNZETYmyPJy0liipFm0?feat=embedwebsite)
@@ -112,7 +112,7 @@ The HeaterMeter v4.2 PCB has two sides and components go on both sides. The silk
 
 **Step 5** Signal MOSFETs and 3.3V regulator. These are the pieces that look like tiny black water towers with 3 legs. Bend the center lead back at a right angle to the body and then bend it down using your needle nose pliers. The flat front of these devices should be matched to the flat front on the silkscreen of the PCB.
 
-**Raspberry Pi A+** Do not install Q2 at this time. See [[Pi A+ Modifications]]
+**Raspberry Pi A+** Do not install Q2 at this time. See [[Pi APlus Modifications]]
 
 [![Image](https://lh4.googleusercontent.com/-3kCmB7O2Odc/U68bJ77ZbWI/AAAAAAAAB7k/C1smNpcqQE8/s640/IMG_2204.JPG)](https://picasaweb.google.com/lh/photo/HLtZLpmOL5Sc5C0EPV6w4NMTjNZETYmyPJy0liipFm0?feat=embedwebsite)
 
@@ -137,7 +137,7 @@ The HeaterMeter v4.2 PCB has two sides and components go on both sides. The silk
 
 **Step 7** Install these components in this order. The 26 pin RaspberryPi connector (PJ1), the piezo buzzer (SP1), the 5V regulator sub-board (IC1) and the larger 3 pin yellow blob 16MHz resonator. The orientation only matters on the 5V regulator.
 
-**Raspberry Pi A+** Do not install SP1 at this time. See [[Pi A+ Modifications]]
+**Raspberry Pi A+** Do not install SP1 at this time. See [[Pi APlus Modifications]]
 
 [![Image](https://lh3.googleusercontent.com/-5Jthj9U9ehc/U68bKwB02cI/AAAAAAAAB70/_gTpsFh5QaE/s640/IMG_2211.JPG)](https://picasaweb.google.com/lh/photo/wBtPlrG5jtYI-P67PKRUGtMTjNZETYmyPJy0liipFm0?feat=embedwebsite)
 
@@ -236,7 +236,7 @@ Insert the ATmega328 into the IC2 socket by slightly bending all the legs agains
 
 ## Raspberry Pi A+ Finishing
 
-If building for the Raspberry Pi Model A+, the steps at [[Pi A+ Modifications]] should be completed now.
+If building for the Raspberry Pi Model A+, the steps at [[Pi APlus Modifications]] should be completed now.
 
 ## Preparing RaspberryPi for mating
 
