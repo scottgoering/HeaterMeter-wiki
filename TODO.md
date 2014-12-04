@@ -72,6 +72,7 @@
 
 ### HeaterMeter PCB
 
+* Solder pads for the unused output pins.
 * Add "AUX" port. An output that runs through a mosfet that can either supply 3.3V, 5V or 12V as one of the configurable LEDs
 * Integrate switching power supply into PCB?
 * Physical rPi switch to allow booting in multiple network configurations.
