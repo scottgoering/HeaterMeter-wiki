@@ -12,7 +12,7 @@
     * [[HeaterMeter 4.0 Case]]
     * [[HeaterMeter Probes]]
     * [[LinkMeter Hardware]]
-    * [[Wireless Adapters]] for RapsberryPi
+    * [[Wireless Adapters]] (Wifi) for RapsberryPi
     * [[LCD Color Gallery]]
 * Installation
     * [[HeaterMeter 4.x Software]]
