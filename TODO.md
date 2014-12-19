@@ -1,4 +1,5 @@
 ### Software TODO list
+* Use first non-disabled probe as control probe. Used for control, LCD firstline display, PID status. Web UI and graph stay the same.
 * Output manual fan percentage instead of setpoint in serial stream?
 * Change Pid.PitTemperatureReached to enum. NormalOperation, SetpointChangedRecovery, LidModeRecovery. Then one could have different max blower speed for pit startup vs coming back from lid mode.
 * Make one of the food probes into the control probe
