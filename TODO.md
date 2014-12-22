@@ -1,12 +1,8 @@
 ### Software TODO list
-* Use first non-disabled probe as control probe. Used for control, LCD firstline display, PID status. Web UI and graph stay the same.
 * Output manual fan percentage instead of setpoint in serial stream?
-* Change Pid.PitTemperatureReached to enum. NormalOperation, SetpointChangedRecovery, LidModeRecovery. Then one could have different max blower speed for pit startup vs coming back from lid mode.
-* Make one of the food probes into the control probe
 * Make one probe a "Wet bulb" temperature for [calculating humidity](http://easycalculation.com/weather/dewpoint-humidity-calculator.php)
 * Light web page setpoint setting going to login page again
 * Ability to set the colors of the LEDs in the web interface? Can store in uci file
-* Alarm webui per-alarm silence setting: Keep Ringing, Silence Once, Disable
 * Temperature ramp down mode. Select food probe as source and a percent to start at, then LERP down to it.
 * Adaptive setpoint mode, set a target time and have the setpoint vary to meet that time?
 * avrupdate 
