@@ -1,5 +1,7 @@
 ## Supported wireless adapters
 
+**rt8192cu chips are required for wifi on Raspberry A/A+*
+
 ### Realtek rtl8192cu Tested
 * Edimax EW-7811Un 150Mbps Wireless 11n Nano [$10 Amazon](https://www.amazon.com/Edimax-EW-7811Un-Wireless-Adapter-Wizard/dp/B003MTTJOY/ref=as_sl_pc_ss_til?tag=httpcapnbrnet-20&linkCode=w01&linkId=SL4SHLNCW4FNVOYJ&creativeASIN=B003MTTJOY)
 * Airlink AWLL5099 150Mbps Ultra Mini [$9 Amazon](https://www.amazon.com/Airlink-compatible-Wireless-Mini-USB-AWLL5099/dp/B006ZZUK5Y/ref=as_sl_pc_ss_til?tag=httpcapnbrnet-20&linkCode=w01&linkId=W3FBJEDBKRGP4QOS&creativeASIN=B006ZZUK5Y)
@@ -15,11 +17,10 @@
 
 ### Ralink RT5370 (rt2800usb) Tested
 
-**RT5370 chips are recommended for wifi AP mode**
-
 * RIF6 Mini 150Mbps
 * WU715N 150Mbps Mini (found on [eBay](http://www.ebay.com/sch/i.html?_trksid=p2050601.m570.l1313.TR0.TRC0.H0.XWU715N&_nkw=WU715N&_sacat=0&_from=R40))
 * Panda Ultra Wireless N 150Mbps PAU03 [$11 Amazon](https://www.amazon.com/Panda-Ultra-Wireless-Adapter-150Mbps/dp/B00762YNMG/ref=as_sl_pc_ss_til?tag=httpcapnbrnet-20&linkCode=w01&linkId=3I46JE4C6DOYRM6F&creativeASIN=B00762YNMG)
+* EDUP EP-N8531 Nano 150Mbs [$7 Amazon](https://www.amazon.com/150Mbps-Wireless-Network-Adapter-802-11/dp/B00MO8JL0G/ref=as_sl_pc_ss_til?tag=httpcapnbrnet-20&linkCode=w01&linkId=XPM2BKET4WQDQOOU&creativeASIN=B00MO8JL0G)
 
 ### Ralink RT5370 Sometimes
 
