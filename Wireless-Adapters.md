@@ -3,8 +3,8 @@
 *rt8192cu chips are required for wifi on Raspberry A/A+*
 
 ### Realtek rtl8192cu Tested
-* Edimax EW-7811Un 150Mbps Wireless 11n Nano [$10 Amazon](https://www.amazon.com/Edimax-EW-7811Un-Wireless-Adapter-Wizard/dp/B003MTTJOY/ref=as_sl_pc_ss_til?tag=httpcapnbrnet-20&linkCode=w01&linkId=SL4SHLNCW4FNVOYJ&creativeASIN=B003MTTJOY)
-* Airlink AWLL5099 150Mbps Ultra Mini [$9 Amazon](https://www.amazon.com/Airlink-compatible-Wireless-Mini-USB-AWLL5099/dp/B006ZZUK5Y/ref=as_sl_pc_ss_til?tag=httpcapnbrnet-20&linkCode=w01&linkId=W3FBJEDBKRGP4QOS&creativeASIN=B006ZZUK5Y)
+* Edimax EW-7811Un 150Mbps Wireless 11n Nano [$8 Amazon](https://www.amazon.com/Edimax-EW-7811Un-Wireless-Adapter-Wizard/dp/B003MTTJOY/ref=as_sl_pc_ss_til?tag=httpcapnbrnet-20&linkCode=w01&linkId=SL4SHLNCW4FNVOYJ&creativeASIN=B003MTTJOY)
+* Airlink AWLL5099 150Mbps Ultra Mini [$10 Amazon](https://www.amazon.com/Airlink-compatible-Wireless-Mini-USB-AWLL5099/dp/B006ZZUK5Y/ref=as_sl_pc_ss_til?tag=httpcapnbrnet-20&linkCode=w01&linkId=W3FBJEDBKRGP4QOS&creativeASIN=B006ZZUK5Y)
 * Rosewill RNX-MiniN2
 
 ### Realtek rtl8192cu Assumed
