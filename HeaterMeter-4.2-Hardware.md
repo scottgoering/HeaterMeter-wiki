@@ -2,7 +2,7 @@ As a reminder, HeaterMeter refers to the ATmega (Arduino) based microcontroller 
 
 Standard HeaterMeter hardware is built on a [HeaterMeter v4.2 PCB](http://capnbry.net/linkmeter/pcb/hm-4.2/)
 
-* [Surface Mount](https://www.tindie.com/products/CapnBry/heatermeter-v42-pcb-w-thermocouple/) a PCB with the optional thermocouple parts already soldered and tested or the [HeaterMeter kit](https://www.tindie.com/products/CapnBry/heatermeter-v42-kit/)
+* [Surface Mount](http://store.heatermeter.com/collections/frontpage/products/heatermeter-v4-2-thermocouple-pcb) a PCB with the optional thermocouple parts already soldered and tested or the [HeaterMeter kit](http://store.heatermeter.com/products/heatermeter-v4-2-kit)
 * [Buy direct](https://www.oshpark.com/shared_projects/nRnQe9JQ) from OSH Park (minimum quantity 3), or [singles](http://store.oshpark.com/products/heatermeter)
 * [Schematic Image](http://capnbry.net/linkmeter/pcb/hm-4.2/HeaterMeterPi.png)
 * EAGLE 5 [schematic](http://capnbry.net/linkmeter/pcb/hm-4.2/HeaterMeterPI.sch) and [board](http://capnbry.net/linkmeter/pcb/hm-4.2/HeaterMeterPI.brd)
