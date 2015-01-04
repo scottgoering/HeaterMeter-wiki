@@ -30,7 +30,7 @@ Examine the LCD from the side. If the pins aren't more or less perpendicular to 
 
 The height of the pins isn't terribly important but should at least 2mm but no more than 6.6mm.
 
-**Step 5**: Solder pins 10-16 using the same procedure as Steps 1-4. There should be 4 unpopulated LCD pins in the middle.
+**Step 5**: Solder pins 11-16 using the same procedure as Steps 1-4. There should be 4 unpopulated LCD pins in the middle.
 
 [![Image](https://lh3.googleusercontent.com/-tI69wx2ELS0/U67YLRDnWoI/AAAAAAAAB7E/jsyCpjREzcw/s640/IMG_2198.JPG)](https://picasaweb.google.com/lh/photo/xr6NAqfxCy43ZEXZzHLGP9MTjNZETYmyPJy0liipFm0?feat=embedwebsite)
 
