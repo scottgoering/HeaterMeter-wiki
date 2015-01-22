@@ -20,7 +20,7 @@ If both these readings check out, your thermocouple amplifier is fully operation
 
 After your HeaterMeter is assembled and fully operational, calibrating the thermocouple input may marginally improve its accuracy. Because HeaterMeter does not use a precision analog voltage reference, there's an inherent error in the measurement. Luckily this error is relatively constant for a build so it an be calibrated out. A one point calibration is all that is needed to determine an accurate reference voltage.
 
-**Step 1** In the configuration webui, set the thermocouple mV/C to the reference 5 mv/C.
+**Step 1** In the configuration webui, set the thermocouple mV/C to the reference 5 mv/C and 0 degree offset.
 
 **Step 2** Allow your HeaterMeter to warm up to operating temperature in its case for 10-15 minutes. If you don't have a case, this is optional as the temperature error is only 50 parts per million (ppm) per degree Celsius of ambient temerature.
 
