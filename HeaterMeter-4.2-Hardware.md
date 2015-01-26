@@ -3,7 +3,7 @@ As a reminder, HeaterMeter refers to the ATmega (Arduino) based microcontroller 
 Standard HeaterMeter hardware is built on a [HeaterMeter v4.2 PCB](http://capnbry.net/linkmeter/pcb/hm-4.2/)
 
 * [Surface Mount](http://store.heatermeter.com/collections/frontpage/products/heatermeter-v4-2-thermocouple-pcb) a PCB with the optional thermocouple parts already soldered and tested or the [HeaterMeter kit](http://store.heatermeter.com/products/heatermeter-v4-2-kit)
-* [Buy direct](https://www.oshpark.com/shared_projects/nRnQe9JQ) from OSH Park (minimum quantity 3), or [singles](http://store.oshpark.com/products/heatermeter)
+* [Buy direct](https://www.oshpark.com/shared_projects/nRnQe9JQ) from OSH Park (minimum quantity 3), singles [OSH Park](http://store.oshpark.com/products/heatermeter) or [HeaterMeter](http://heatermeter.myshopify.com/products/heatermeter-v4-2-circuit-board-only)
 * [Schematic Image](http://capnbry.net/linkmeter/pcb/hm-4.2/HeaterMeterPi.png)
 * EAGLE 5 [schematic](http://capnbry.net/linkmeter/pcb/hm-4.2/HeaterMeterPI.sch) and [board](http://capnbry.net/linkmeter/pcb/hm-4.2/HeaterMeterPI.brd)
 * DorkBot/OSH Park [cam job](http://capnbry.net/linkmeter/pcb/hm-4.2/DorkbotBry.cam) or [cam output](http://capnbry.net/linkmeter/pcb/hm-4.2/HeaterMeterPi-424-dorkbot.zip). Use cam output if you just want a board made with no modifications
