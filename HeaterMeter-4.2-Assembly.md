@@ -28,8 +28,8 @@
 This can be obtained either by finding someone who has an extra (they're usually ordered in 3s and you probably only need one) or by ordering your own set. To order your own set, use any online PCB fab service which supports gerber files. [OSH Park](http://oshpark.com) is the preferred online service for the U.S., due to their quick turnaround, impeccable output, friendly service, and reasonable prices. Just upload the "dorkbot" zip file to their service and pay them. You'll have boards in your hands in about two weeks.
 [PCB 4.2 Snapshot](http://capnbry.net/linkmeter/pcb/hm-4.2/)
 
-OSH Park will have PCB board singles available in their store. [OSH Park PCB 4.2 Singles](http://store.oshpark.com/products/heatermeter)
-
+Singles are also available in the [OSH Park](http://store.oshpark.com/products/heatermeter) and [HeaterMeter Store ](http://heatermeter.myshopify.com/products/heatermeter-v4-2-circuit-board-only)
+ 
 ## Prepare the PCB
 
 The PCB may arrive with some scrap material around the edges where it has been de-panelized from other boards in the batch. In a few places, this excess material can cause clearance issues with other parts or the case so it is best to remove them prior to assembly. The most important place to clean up is above the LCD pins, where excess material can prevent the LCD from mating flush.
