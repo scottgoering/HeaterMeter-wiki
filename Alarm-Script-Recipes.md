@@ -38,11 +38,13 @@ There are many variables available to use in your scripts. From a command prompt
 
 ### Turn the alarm off
 ~~~
+#!/bin/sh
 # Silence this alarm, it will ring again if re-armed
 al_set 0
 ~~~
 or
 ~~~
+#!/bin/sh
 # Disable this alarm, it will not ring again
 al_set -$al_thresh
 ~~~
@@ -50,6 +52,7 @@ al_set -$al_thresh
 ### HeaterMeter Control - Shutdown
 Often you want to turn off the Pit when your food is done, this can be done automatically from the Alarms configuration page. However, this is also easily done using lmclient to send a command to HeaterMeter to change the setpoint.
 ~~~
+#!/bin/sh
 # Lower the setpoint to 100
 lmclient LMST,sp,100
 ~~~
@@ -57,6 +60,7 @@ lmclient LMST,sp,100
 ### HeaterMeter Control - Ramp Down
 You can do more complicated setpoint control with a ramp down script.
 ~~~
+#!/bin/sh
 case $al_thresh in
   180) NEWSP=215; NEWAL=190; ;;
   190) NEWSP=205; NEWAL=200; ;;
@@ -70,6 +74,7 @@ al_set $NEWAL
 ### HeaterMeter Control - Super Ramp Down
 10 degrees too much? That's ok you can ramp down two degrees for every two degrees the meat climbs if you like
 ~~~
+#!/bin/sh
 if [ "$al_thresh" -gt 199 ] ; then
   # done
   lmclient LMST,sp,100
@@ -85,6 +90,7 @@ al_set $NEWAL
 ### Time Delays (UNTESTED)
 Often you may not want be notified when the alarm happens but some time after it happens. Cron can be used. Note cron only has per-minute resolution so don't try to make things happen every N seconds.
 ~~~
+#!/bin/sh
 # If no parameter, this is a regular alarm
 if [ -z "$1" ] ; then
   NOW=`date +%s`
