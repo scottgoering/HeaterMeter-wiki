@@ -1,6 +1,9 @@
 ### Transreflective
 Transreflective LCDs reflect ambient light to illuminate the display, like classic [Casio LCD wristwatches](https://www.amazon.com/dp/B000GAYQKY?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B000GAYQKY&adid=03N3JA35NT3Z7QX3XCC3&). The backlight is only needed to illuminate the display in the dark.
 
+## Newhaven "Yellow/Green" NHD-0216K1Z-FL-YBW
+![Black on YG](https://lh5.googleusercontent.com/-iOriz6yXjyM/VOvYTtD7PcI/AAAAAAAAENg/TX-VzYk-v84/s400/IMG_0597.JPG)
+
 ### Newhaven "Pure Green" NHD-0216K1Z-FSPG-GBW
 ![Pure Green](https://lh4.googleusercontent.com/-6DNMW4xfi8g/Ut1GqVhtA3I/AAAAAAAABtI/K9GftFTba-E/s400/IMG_1931.JPG)
 
