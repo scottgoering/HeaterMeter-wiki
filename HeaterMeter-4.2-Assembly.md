@@ -17,7 +17,7 @@
   * Model B (with Wired Ethernet, 2x USB) *$35*, usually [closer to $50] (http://www.amazon.com/gp/product/B009SQQF9C/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009SQQF9C&linkCode=as2&tag=httpcapnbrnet-20) shipped
   * **NOT** a Model B+ (not supported)
   * Model A+ (no Ethernet, 1x USB) *$20*, requires [[Pi APlus Modifications]] build [closer to $30](https://www.amazon.com/Raspberry-Pi-Model-A-256MB/dp/B00PEX05TO/ref=as_sl_pc_ss_til?tag=httpcapnbrnet-20&linkCode=w01&linkId=TH4ENGMP2GHQUQIJ&creativeASIN=B00PEX05TO) shipped
-* Full sized SD card (not microSD or miniSD) 128MB or larger (Check [Raspberry Pi Compatibility](http://www.raspberry-pi.co.uk/2012/06/07/compatible-sd-cards/) )
+* Full sized SD card (not microSD or miniSD) 128MB or larger ([Raspberry Pi SD Compatibility](http://www.raspberry-pi.co.uk/2012/06/07/compatible-sd-cards/) )
 * A [[supported WiFi Adapter|Wireless Adapters]]
 * Phone or ethernet cable you won't mind cutting an end off of
 * Some sort of fan-attaching mechanism for your grill
@@ -51,10 +51,6 @@ If building the Thermocouple Pit Probe variant of the HeaterMeter, the surface m
 ## Hardware Assembly
 
 The HeaterMeter v4.2 PCB has two sides and components go on both sides. The silkscreen outlines indicate on which side components should be placed, but in general most of the components go on the underside of the board. The easiest way to assemble the board is to start with the flattest components and work your way to the larger pieces. 
-***
-**Since the PCB has two sides, make sure your solder goes all the way through the hole and you can see it on the other side.**
-
-***
 
 |Qty|Value     |Device                |Parts|
 |---|----------|----------------------|-----|
