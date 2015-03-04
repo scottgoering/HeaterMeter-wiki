@@ -46,7 +46,7 @@ The stock image includes drivers for any rtl8192cu-based or RT5370 USB wifi adap
 
 ![Image](http://capnbry.net/~bmayland/fi/bbq/hm-wifi-5.png)
 
-**Step 7**: Navigate to Network -> Interfaces. You should see you're on your wifi network now and you can see the IP address on your home network you can use to see the LinkMeter site. I'm not good with numbers so I like to use a name. To use a name, click "Edit" on the wireless network
+**Step 7**: Navigate to Network -> Interfaces. You should see you're on your wifi network now and you can see the IP address on your home network you can use to see the LinkMeter site. *If your wifi never gets an IP address it's likely because you can't have both wired and wireless adapters on the same subnet. See [[Basic Troubleshooting]] for more.* I'm not good with numbers so I like to use a name. To use a name, click "Edit" on the wireless network
 
 ![Image](http://capnbry.net/~bmayland/fi/bbq/hm-wifi-6.png)
 
