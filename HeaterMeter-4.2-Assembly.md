@@ -51,6 +51,8 @@ If building the Thermocouple Pit Probe variant of the HeaterMeter, the surface m
 ## Hardware Assembly
 
 The HeaterMeter v4.2 PCB has two sides and components go on both sides. The silkscreen outlines indicate on which side components should be placed, but in general most of the components go on the underside of the board. The easiest way to assemble the board is to start with the flattest components and work your way to the larger pieces. 
+***
+**Since the PCB has two sides, make sure your solder goes all the way through the hole and you can see it on the other side.**
 
 ***
 
@@ -99,7 +101,7 @@ The HeaterMeter v4.2 PCB has two sides and components go on both sides. The silk
 1|1N4001|DIODE-DO41-7|D3
 1|1N5819|DIODE-DO41-7|D2
 
-**Step 4** Diodes. The rectifier diodes have a white line on them to indicate their polarity and should be installed so their white line matches the white line marking on the PCB. There are two different diodes that look identical once installed so be sure to put the right diode in the right place.
+**Step 4** Diodes. *There are two different diodes that look identical once installed so be sure to put the right diode in the right place.* The rectifier diodes have a white line on them to indicate their polarity and should be installed so their white line matches the white line marking on the PCB.
 
 [![Image](https://lh6.googleusercontent.com/-759JrbdBLEw/U67YHDOHoVI/AAAAAAAAB54/PUwcf773v4M/s640/IMG_2187.JPG)](https://picasaweb.google.com/lh/photo/Cwv8LaaUEculV24xZQsvk9MTjNZETYmyPJy0liipFm0?feat=embedwebsite)
 
