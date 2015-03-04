@@ -7,5 +7,5 @@ For most troubleshooting, using the rPi USB power input is preferred in order to
 * If you can connect to the Raspberry Pi, look at the system log (Configuration -> Status -> System Log) to see if your heatermeter was recognized.
 
 ### openwrt says my heatermeter wasn't found
-* Verify that all of your components are on the board and soldered in the right place. 
-* Ensure sure you pushed solder through every hole so that a connection is made on both sides of the board.
+* Verify that all necessary components are on the board and in the right place.
+* Ensure sure you pushed solder through on every connection so that a connection is made on both sides of the board.
