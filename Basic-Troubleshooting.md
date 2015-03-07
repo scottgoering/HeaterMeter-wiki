@@ -15,3 +15,6 @@ You can't have both the wired and wireless adapters on the same subnet. Even wor
 
 Some people have had success by ensuring the wired interface does not start at boot (go to the advanced tab of the LAN and uncheck the auto start option and reboot the device) 
     * *This is risky if you configure the wifi configuration wrong and don't have a usb keyboard and hdmi output in order to recover.*
+
+### I get an encoding error on the Configuration page
+Set the names of all three probes to override weird characters. Mine are creatively named "Probe 1", "Probe 2", and "Probe 3".
