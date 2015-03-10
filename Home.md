@@ -20,7 +20,7 @@
     * [[Building OpenWrt from Source]] (not necessary if using pre-built image)
 * User Guide
     * [[Heatermeter Operation]]
-    * [[LinkMeter Home]] A guide what the heck you are looking at
+    * [[LinkMeter Home]] A guide to what the heck you are looking at
     * [[Configuration WebUI Documentation]] Description of some HeaterMeter parameters
     * [[Alarm Script Recipes]] Some example scripts for alarm recipes
     * [[URLs and Commands]] List of all supported commands
