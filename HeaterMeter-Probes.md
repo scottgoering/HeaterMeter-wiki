@@ -38,7 +38,7 @@ Thermoworks Pro Series probes for their ChefAlarm system work well, and respond 
 
 Recommended HeaterMeter resistance: 10k ohm (standard)
 
-  * Models all available from [Thermoworks](http://www.thermoworks.com/products/alarm/chefalarm.html#AccessoriesTab)
+  * Models all available from [Thermoworks](http://www.thermoworks.com/products/alarm/chefalarm.html#ProbeTab)
   * TX-1001X-OP [Amazon](https://www.amazon.com/dp/B00EZB8W0K/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B00EZB8W0K&adid=03P1SGNDWFZ85JC5W569&)
   * TX-1002X-NP Needle Probe (500F max cable temperature) [Amazon](https://www.amazon.com/dp/B00EZBB8AQ/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B00EZBB8AQ&adid=0J280WDZFM7N5XZM4XF3&)
   * TX-1003X-AP Air Probe with Grate Clip
