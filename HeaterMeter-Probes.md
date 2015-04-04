@@ -22,7 +22,7 @@ Recommended HeaterMeter resistance: 10kohm (standard)
 
  * High Heat Smoker Probe [Amazon](https://www.amazon.com/dp/B008OWZMMW/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B008OWZMMW&adid=1EE7Q885EA7E7N0DT955)
  * Standard Smoker Probe [Maverick](http://www.maverickhousewares.com/parts/et-73-smoker-probe)
- * High Heat Food Probe [Maverick](http://www.maverickhousewares.com/parts/et-72-73-high-heat-6ft-food-probe)
+ * High Heat Food Probe [Maverick](http://www.maverickhousewares.com/parts/et-7273-high-heat-6ft-food-probe)
  * Standard Food Probe [Amazon](https://www.amazon.com/dp/B00B8NBL2O/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B00B8NBL2O&adid=0NBFHY6JQDTCA1J3XBQ6&) [Maverick](http://www.maverickhousewares.com/parts/et-7-et-72-et-902-probe)
 
 ## Thermoworks Pro Series
