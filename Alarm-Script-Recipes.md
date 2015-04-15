@@ -88,7 +88,7 @@ al_set $NEWAL
 ~~~
 
 ### Time Delays (UNTESTED)
-Often you may not want be notified when the alarm happens but some time after it happens. Cron can be used. Note cron only has per-minute resolution so don't try to make things happen every N seconds.
+Often you may not want be notified when the alarm happens but some time after it happens. Cron can be used. Note cron only has per-minute resolution so don't try to make things happen every N seconds. This example calls the alarm-all script 1 hour after the alarm triggers.
 ~~~
 #!/bin/sh
 # If no parameter, this is a regular alarm
