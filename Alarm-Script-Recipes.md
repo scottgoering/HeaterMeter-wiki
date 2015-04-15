@@ -99,6 +99,9 @@ if [ -z "$1" ] ; then
 
   TARGET=`date -D "%s" -d $WHEN +"%M %H %d %m"`
   echo "$TARGET * /usr/share/linkmeter/alarm-all RING${al_probe}" | crontab -
+
+  # make sure cron is started, it won't start if there is no crontab at boot
+  [ -z "$(pidof crond)" ] && /etc/init.d/cron start
 else
   # This is the cron callback
   # Don't fire again
