@@ -182,7 +182,9 @@ The HeaterMeter v4.2 PCB has two sides and components go on both sides. The silk
 1|LCD|PINHD-1X16|J1
 1|PINHD|PINHD|J1 (LCD), J2 (PROBE), J7 (ISCP), J8 (FTDI)
 
-**Step 11** Preparing the LCD for attachment is involved enough that it has its own page: [[Preparing LCD for v4.2 Installation]]. Insert the LCD pins up through the bottom of the PCB and, just like in the LCD assembly, only solder pin 1. Check the alignment of the LCD: that its PCB is **flush** with the HeaterMeter PCB, and also **straight**. Touch the solder joint at pin 1 with the iron and adjust as necessary to perfection.
+**Step 11** Preparing the LCD for attachment is involved enough that it has its own page: [[Preparing LCD for v4.2 Installation]]. Insert the LCD pins up through the bottom of the PCB and, just like in the LCD assembly, only solder pin 1. Check the alignment of the LCD: that its PCB is **flush** with the HeaterMeter PCB, and also **straight**. Touch the solder joint at pin 1 with the iron and adjust as necessary to perfection. 
+
+### The LCD is installed facing the TOP side of the board, opposite of all the components installed so far
 
 [![Image](https://lh4.googleusercontent.com/-n9I02ju_fb8/U68bMwtVwpI/AAAAAAAAB8U/vypn_sVephw/s640/IMG_2222.JPG)](https://picasaweb.google.com/lh/photo/RINxC6km6MyKr1A0xdm9S9MTjNZETYmyPJy0liipFm0?feat=embedwebsite)
 
