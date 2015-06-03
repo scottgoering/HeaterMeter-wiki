@@ -59,7 +59,7 @@ These are the "built in" connectors, there is space on the PCB for them. Externa
 |---|----------|----------------------|-----|----|
 1|POW|POWER_JACKPTH|J9|[Mouser](http://www.mouser.com/ProductDetail/Kobiconn/163-7620E-E/?qs=%2fha2pyFaduipJSLWTjADy4YYaTeQAmrHvwEfLULTtmcjsFvpXHYyeA%3d%3d) [MouserAlt](http://www.mouser.com/ProductDetail/Kobiconn/163-179PH-EX/?qs=%2fha2pyFadujsO45cTDeafnb8UTTjqBiiaL9T7NPB7rV7ulYyk%2fdYxw%3d%3d)
 1|RJ45-8|RJ45-8|JP2|[Mouser](http://www.mouser.com/ProductDetail/Amphenol-Commercial-Products/RJHSE-5080/?qs=sGAEpiMZZMvQhAhQbXdbBuidMRPVpG5q%252bZ1tFY96Whg%3d) [DigiKey](http://www.digikey.com/product-detail/en/RJHSE-5080/RJHSE-5080-ND/1242687)
-1-4|Probes|AUDIO-MONO|JP3, JP4, JP5, JP6|[DigiKey](http://www.digikey.com/product-detail/en/MJ-2508N/CP-2508N-ND/281260)
+1-4|Probes|AUDIO-MONO|JP3, JP4, JP5, JP6|[Mouser](http://www.mouser.com/ProductDetail/CUI-Inc/MJ-2508N/?qs=%2fha2pyFaduga%2fOxsLoZeddnX29ITbS93306kdE%252bHMeY%3d)[DigiKey](http://www.digikey.com/product-detail/en/MJ-2508N/CP-2508N-ND/281260)
 
 ### Power, Probes and Blower
 |Qty|Description|Link|
