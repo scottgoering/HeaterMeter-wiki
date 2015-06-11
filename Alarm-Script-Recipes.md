@@ -16,6 +16,8 @@ Setting the trigger point to 0 with al_set | Yes | Yes
 Open the lid until lid detect activates | Yes | No
 Un-ticking Alarm 'On' in web config page | No | Yes
 Setting the trigger point negative with al_set | No | Yes
+Alarm Action = Silence | Yes | Yes
+Alarm Action = Disable | No | Yes
 
 ## Editing Scripts
 ### Via Web
