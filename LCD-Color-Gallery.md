@@ -13,6 +13,9 @@ Transreflective LCDs reflect ambient light to illuminate the display, like class
 ### Newhaven "Amber" NHD-0216K1Z-FSA-GBW
 ![Amber](https://lh3.googleusercontent.com/-8qR_hryghrg/U4z-RxnP-LI/AAAAAAAAB04/W2x_31kR-OE/s400/IMG_2098.JPG)
 
+### Newhaven "Blue" NHD-0216K1Z-FSB-GBW-L
+![Blue](https://lh3.googleusercontent.com/-xIowjmxrwkw/VX31hpT0oTI/AAAAAAAAFnY/bg2R3iY1-Ro/s400/IMG_1015.JPG)
+
 ### Newhaven "Black on White" NHD-0216K1Z-FSW-FBW-L
 ![Black on White](https://lh3.googleusercontent.com/-MhyxMTj-16I/UuqHDpQ-OOI/AAAAAAAABto/UiBJLDyEf1s/s800/LCD-BlackWhite.jpg)
 ## Transmissive
