@@ -4,7 +4,7 @@ The HeaterMeter output is a standard RJ45 connector. This interface was chosen d
 
 ### Blower
 
-The center two wires are +12V Blower and Ground, so this connection can be made with a 2 conductor phone cord, 4 conductor phone cord, or ethernet cable. On a standard ethernet cable the center wires are always blue and blue/white. To attach the blower, just cut one end off the cable and connect what were the center two wires to the blower's red (+12V) and black (Ground) wires. A little heatshrink tubing makes a really nice connection. 
+The center two wires are +12V Blower and Ground, so this connection can be made with a 2 conductor phone cord, 4 conductor phone cord, or ethernet cable. On a standard ethernet cable the center wires are always blue and blue/white. To attach the blower, just cut one end off the cable and connect what were the center two wires to the blower's red (+12V) and black (Ground) wires. If you have a third blue wire on your fan (RPM sense) just cut it off as HeaterMeter does not provide RPM monitoring. A little heatshrink tubing makes a really nice connection. 
 
 ### Servo
 
