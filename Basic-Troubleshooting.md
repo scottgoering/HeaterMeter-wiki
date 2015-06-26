@@ -1,6 +1,7 @@
 These are some basic problems. For anything not covered here, go to the HeaterMeter online community on [The Virtual Weber Bulletin Board tvwbb.com](http://tvwbb.com/forumdisplay.php?85-LinkMeter-v2-Homebrew-BBQ-Controller).
 
 For most troubleshooting, using the rPi USB power input is preferred in order to avoid the chance of subjecting the rPi to 12V which will definitely fry components on it.
+[![HM Voltages](https://lh4.googleusercontent.com/-1Sk7bT4tkSw/U9VAbbI1o7I/AAAAAAAACNI/YheMrXYGSO4/s640/hm-424.png)](https://picasaweb.google.com/lh/photo/dWWu3FAzsexs98s1SZpdxNMTjNZETYmyPJy0liipFm0?feat=embedwebsite)
 
 ### I built the whole thing, but nothing happened when I plugged it in.
 * Start by ensuring you can connect to openwrt on your Raspberry Pi [See HeaterMeter 4.x Software](HeaterMeter 4.x Software#configuration)
