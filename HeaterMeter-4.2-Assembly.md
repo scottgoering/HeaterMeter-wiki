@@ -171,9 +171,10 @@ The HeaterMeter v4.2 PCB has two sides and components go on both sides. The silk
 1|RJ45-8|RJ45-8|JP2
 1-4|Probes|AUDIO-MONO|JP3, JP4, JP5, JP6
 
-**Step 10** Rounding out the bottom-side assembly are all the I/O jacks. You're in the home stretch now.
+**Step 10** Rounding out the bottom-side assembly are all the I/O jacks. You're in the home stretch now. Note that solder bridging on the top in the circled areas is fine, the pads are actually connected.
 
 [![Image](https://lh3.googleusercontent.com/-na8IurIYOxg/U68bMr-RNQI/AAAAAAAAB8M/Z76l0QbJPiQ/s640/IMG_2220.JPG)](https://picasaweb.google.com/lh/photo/wk3zlvLTgNcYgoEaIrkghtMTjNZETYmyPJy0liipFm0?feat=embedwebsite)
+[![Image](https://lh3.googleusercontent.com/-w0AjHmr89m8/VZLsYv0N6EI/AAAAAAAAF40/dUgkCTZ1krg/s640/IMG_0819.jpg)](https://picasaweb.google.com/lh/photo/cwfxGF0G3z0M3MDrU2rqRNMTjNZETYmyPJy0liipFm0?feat=embedwebsite)
 
 ***
 
