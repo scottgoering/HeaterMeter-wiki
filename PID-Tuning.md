@@ -1,5 +1,11 @@
 The default PID coefficients work well for a large Big Green Egg with the standard 6.7CFM in the cardboard mounting bracket in a Florida climate with the top vent only slightly open. You may have noted the amount of detail in that statement, which is my way of saying that they probably won't work for everyone. Depending on your cooker, fan size, mounting solution and even weather, the coefficients may need to be adjusted. 
 
+The default PID seetings for 20140630B and above are ([source](http://tvwbb.com/showthread.php?42028-Default-PID-Settings&p=598485&viewfull=1#post598485)):  
+<br>B = 0</br>
+<br>P = 4</br>
+<br>I = 0.02</br>
+<br>D = 5</br>
+
 ## Before you can get started
 
 First things first, the HeaterMeter can only control the temperature if:
