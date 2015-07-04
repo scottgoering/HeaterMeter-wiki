@@ -10,7 +10,7 @@ The default PID settings for 20140630B and above are ([source](http://tvwbb.com/
 <tr><td>D</td><td>5</td>
 </table>  
 
-PID settings for BGE and Offset rotary valve ([source](http://tvwbb.com/showthread.php?45296-3D-Printed-Barrel-Servo-Fan&p=479392&viewfull=1#post479392)):  
+PID settings for BGE and Offset Rotary Valve ([source](http://tvwbb.com/showthread.php?45296-3D-Printed-Barrel-Servo-Fan&p=479392&viewfull=1#post479392)):  
 
 <table>
 <tr><th>Parameter</th><th>Value</th></tr>
