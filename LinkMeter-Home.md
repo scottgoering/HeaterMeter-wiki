@@ -9,7 +9,7 @@ The LinkMeter Home or Status page displays the current temperature, fan speed an
 | B | Lid Open | If HeaterMeter is in lid open detect mode, the duration remaining is displayed here. Click to toggle lid open mode. |
 | C | Graph Temperature | This axis is for the temperature of probes degrees. |
 | D | Graph Fan Speed | This axis is the fan speed percent. |
-| E | Fan Speed | Current / Average fan speed. The current fan speed percent is indicated by the size of the bar and the label. The exponential moving average of the fan speed is displayed as a translucent rectangle at the correct percentage |
+| E | PID Output % | The current PID output percent is indicated by the size of the bar and the label. There may also be a lighter blue bar inside of the main bar indicating the current blower speed, if max fan speed isn't 100%. The exponential moving average of the fan speed is displayed as a translucent rectangle "pip" at the correct percentage |
 | F | RF Status | If a probe is of type RF Wireless, the status of the remote connection is indicated in this area. Mouse over the connection icon for more information |
 | G | Degrees Per Hour | If a probe has more than one hour's worth of data, and the current temperature is at least 1 degree higher than it was an hour ago, the number of degrees per hour is indicated here. If the temperature is below the high alarm point, duration remaining until that temperature is reached is also shown. |
 | X | Not Shown | Orange regions in the upper graph indicate periods where the system was in lid open mode |
