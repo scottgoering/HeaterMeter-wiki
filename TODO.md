@@ -5,7 +5,6 @@
 * Make one probe a "Wet bulb" temperature for [calculating humidity](http://easycalculation.com/weather/dewpoint-humidity-calculator.php)
 * Light web page setpoint setting going to login page again
 * Ability to set the colors of the LEDs in the web interface? Can store in uci file
-* Temperature ramp down mode. Select food probe as source and a percent to start at, then LERP down to it.
 * Adaptive setpoint mode, set a target time and have the setpoint vary to meet that time?
 * avrupdate 
     * Better integration and update-from-web.  Part of larger automatic update process?
