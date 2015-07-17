@@ -1,4 +1,5 @@
 ### Software TODO list
+* Ramp Mode - Control Probe (Disabled, Food1-3), Trigger temp (temperature when ramp mode kicks in), Target Temp (what to ramp down to). Any manual setpoint change set ramp mode to disabled. Line on homepage "Ramping Xdeg to Xdeg" and make the setpoint color match to pair visually.
 * Can Flot color the lines via CSS? Will allow CSS overrides.
 * Output manual fan percentage instead of setpoint in serial stream?
 * Make one probe a "Wet bulb" temperature for [calculating humidity](http://easycalculation.com/weather/dewpoint-humidity-calculator.php)
