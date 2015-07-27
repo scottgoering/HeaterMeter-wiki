@@ -139,8 +139,8 @@ ld |  Lid detect duration
 le0, le1, le2, le3 |  LED trigger/invert
 lo |  Lid detect offset %
 oflag |  PID output flags
-palh0, palh1, palh2, palh3 |  Alarm high triggers
-pall0, pall1, pall2, pall3 |  Alarm low triggers
+palh0, palh1, palh2, palh3 |  Alarm high thresholds
+pall0, pall1, pall2, pall3 |  Alarm low thresholds
 pca0, pca1, pca2, pca3 |  Steinheart A coefficients
 pcb0, pcb1, pcb2, pcb3 |  Steinheart B coefficients
 pcc0, pcc1, pcc2, pcc3 |  Steinheart C coefficients
