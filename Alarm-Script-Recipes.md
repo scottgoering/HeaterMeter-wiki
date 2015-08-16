@@ -83,7 +83,7 @@ if [ "$al_thresh" -gt 199 ] ; then
   exit
 fi
 
-NEWSP=$((sp-2)
+NEWSP=$((sp-2))
 NEWAL=$((al_thresh+2))
 lmclient LMST,sp,$NEWSP
 al_set $NEWAL
