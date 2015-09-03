@@ -1,5 +1,4 @@
 ### Software TODO list
-* Disable servo after it reaches position. Only move servo if: newpos > X% different, newpos set more than X seconds ago.
 * Can Flot color the lines via CSS? Will allow CSS overrides.
 * Output manual fan percentage instead of setpoint in serial stream?
 * Make one probe a "Wet bulb" temperature for [calculating humidity](http://easycalculation.com/weather/dewpoint-humidity-calculator.php)
