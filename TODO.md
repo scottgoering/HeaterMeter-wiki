@@ -1,5 +1,6 @@
 ### Software TODO list
 * Can Flot color the lines via CSS? Will allow CSS overrides.
+* Add ability to upload custom background image via usercss page.
 * Output manual fan percentage instead of setpoint in serial stream?
 * Make one probe a "Wet bulb" temperature for [calculating humidity](http://easycalculation.com/weather/dewpoint-humidity-calculator.php)
 * Light web page setpoint setting going to login page again
