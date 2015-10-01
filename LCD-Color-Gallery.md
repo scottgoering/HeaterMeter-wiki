@@ -26,3 +26,6 @@ Transmissive LCDs require the backlight to be on for the characters to be visibl
 
 ## STN(+) vs STN(-)
 Positive versus negative refers to whether the the dots to create the characters are on and the background is off (STN+) or the character pixels are off and the background is on (STN-).
+
+## RGB LCDs
+[RGB backlight LCDs](http://www.adafruit.com/products/399) look cool but they have 18 pins compared to the 16 pins used in the HeaterMeter design. **They will not work** as the backlight pins are swapped compared to how the board expects them to be laid out.
