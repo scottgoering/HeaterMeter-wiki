@@ -2,7 +2,8 @@
 If you don't want to use a the pre-built LinkMeter OpenWrt image, you can build it yourself from source.  LinkMeter is built on the Attitude Adjustment release of OpenWrt.  In these examples, it is assumed your heatermeter git repository lives at ~/heatermeter and you'll be building OpenWrt at ~/openwrt
 
     cd ~
-    svn co svn://svn.openwrt.org/openwrt/tags/attitude_adjustment_12.09 openwrt
+    git clone git://github.com/CapnBry/HeaterMeter.git heatermeter
+    svn co svn://svn.openwrt.org/openwrt/tags/attitude_adjustment_12.09 -r36422 openwrt
     cd ~/heatermeter/openwrt
     ./install.sh BCM2708 ~/openwrt
     cd ~/openwrt
