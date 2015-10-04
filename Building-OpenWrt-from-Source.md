@@ -28,6 +28,6 @@ The Linksys WRT54GL target had to be frozen during the OpenWrt development cycle
     ./install.sh BCM47XX ~/openwrt
     cd ~/openwrt
     make menuconfig (exit and save)
-    make
+    make V=s ; make package/mac80211/compile V=s ; make V=s
 
 The firmware image will be built to `~/openwrt/bin/brcm47xx/`.
