@@ -8,7 +8,7 @@ If you don't want to use a the pre-built LinkMeter OpenWrt image, you can build 
     ./install.sh BCM2708 ~/openwrt
     cd ~/openwrt
     make menuconfig (exit and save)
-    make
+    make V=s ; make package/mac80211/compile V=s ; make V=s
 
 The firmware image will be built to `~/openwrt/bin/brcm2708/`
 
@@ -28,6 +28,6 @@ The Linksys WRT54GL target had to be frozen during the OpenWrt development cycle
     ./install.sh BCM47XX ~/openwrt
     cd ~/openwrt
     make menuconfig (exit and save)
-    make V=s ; make package/mac80211/compile V=s ; make V=s
+    make
 
 The firmware image will be built to `~/openwrt/bin/brcm47xx/`.
