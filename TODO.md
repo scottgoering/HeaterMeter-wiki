@@ -1,4 +1,6 @@
 ### Software TODO list
+* Add servo max ceil - A PID output % where the servo will be fully open. Allows servo to go to full before fan comes on. Would be nice to have a graph that shows where which will be active how much. Replaces "Servo Open/Close only" which would be "fully open at 1%"
+* Make servo pulse for 2 seconds if going to holdoff instead of just one (reports of servo not closing fully).
 * Can Flot color the lines via CSS? Will allow CSS overrides.
 * Add ability to upload custom background image via usercss page.
 * Output manual fan percentage instead of setpoint in serial stream?
