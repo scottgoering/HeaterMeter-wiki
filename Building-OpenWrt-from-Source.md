@@ -7,7 +7,7 @@ If you don't want to use a the pre-built LinkMeter OpenWrt image, you can build 
     cd ~/heatermeter/openwrt
     ./install.sh BCM2708 ~/openwrt
     cd ~/openwrt
-    make menuconfig (exit and save)
+    make oldconfig
     make V=s ; make package/mac80211/compile V=s ; make V=s
 
 The firmware image will be built to `~/openwrt/bin/brcm2708/`
