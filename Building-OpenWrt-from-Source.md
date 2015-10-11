@@ -1,5 +1,5 @@
 # Building OpenWrt (for RaspberryPi)
-If you don't want to use a the pre-built LinkMeter OpenWrt image, you can build it yourself from source.  LinkMeter is built on the Attitude Adjustment release of OpenWrt.  In these examples, it is assumed your heatermeter git repository lives at ~/heatermeter and you'll be building OpenWrt at ~/openwrt
+If you don't want to use a the pre-built LinkMeter OpenWrt image, you can build it yourself from source.  LinkMeter is built on the Attitude Adjustment release of OpenWrt. Your host (build) system will need to have lua5.2 and liblua5.2-dev due to how insane the rrdtool build process is (perhaps 5.1 too?). In these examples, it is assumed your heatermeter git repository lives at ~/heatermeter and you'll be building OpenWrt at ~/openwrt
 
     cd ~
     git clone git://github.com/CapnBry/HeaterMeter.git heatermeter
