@@ -16,6 +16,10 @@ Now short the two thermocouple input pins together with a piece of wire. The out
 
 If both these readings check out, your thermocouple amplifier is fully operational and you may continue [[HeaterMeter 4.2 Assembly]].
 
+## Initial Bootup
+
+On the first boot of your HeaterMeter when the default configuration is flashed onto the AVR, you might be expecting to see `- No Pit Probe-` on the LCD. However, you'll be greeted with a boggling `Pit: 21F [ 0%]` message. Not to worry, the default configuration is for a thermistor probe. All that needs to be done is to switch Probe 0 in the webui config from "*Internal*" type to "*Thermocouple*" and save the config.
+
 ## Thermocouple Calibration
 
 After your HeaterMeter is assembled and fully operational, calibrating the thermocouple input may marginally improve its accuracy. Because HeaterMeter does not use a precision analog voltage reference, there's an inherent error in the measurement. Luckily this error is relatively constant for a build so it an be calibrated out. A one point calibration is all that is needed to determine an accurate reference voltage.
