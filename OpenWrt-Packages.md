@@ -7,7 +7,7 @@
 Prebuilt custom packages from the development branch can be downloaded from  
 
 * Linksys WRT54GL - http://capnbry.net/linkmeter/snapshots/trunk/packages/
-* RasberryPi - http://capnbry.net/linkmeter/snapshots/brcm2708/packages/
+* RasberryPi - http://capnbry.net/linkmeter/snapshots/bcm2708/packages/
 
 These are not necessary if installing the pre-built OpenWrt image as it already contains these packages.
 
