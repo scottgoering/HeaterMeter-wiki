@@ -72,6 +72,7 @@
 
 ### HeaterMeter PCB
 
+* Allow use of one of the ADC pins to connect to a potentiometer to allow direct manual mode control based on pot position.
 * Solder pads for the unused output pins.
 * Cuttable trace for LCD backlight in addition to 0 ohm resistor.
 * Add "AUX" port. An output that runs through a mosfet that can either supply 3.3V, 5V or 12V as one of the configurable LEDs
