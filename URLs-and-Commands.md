@@ -51,6 +51,10 @@ Both HeaterMeter and LinkMeter accept commands via URL-type form.
 </ul></td>
   <td>Y</td><td>N</td>
 
+<tr><td><code>/lm/light</code></td>
+  <td>A lightweight, mobile friendly "home" page. Displays current temperature, fan speed and set point.</td>
+  <td>Y</td><td>N</td>
+
 <tr><td><code>/lm/login</code></td>
   <td>Bounce to the LinkMeter login page for authentication.</td>
   <td>Y</td><td>N</td>
