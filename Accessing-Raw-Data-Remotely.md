@@ -67,6 +67,7 @@ data: {"time":1405429471,"set":65,"lid":34,...}
 |hmstatus|Current Status update|
 |log|Debugging log message|
 |alarm|Alarm was just triggered|
+|peaks|Last high and low Pit peaks|
 |pidint|PID internals dump enabled by the user|
 
 ## Historical Data
