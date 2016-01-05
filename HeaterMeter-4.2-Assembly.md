@@ -26,7 +26,7 @@
 ### HeaterMeter v4.2 PCB
 
 This can be obtained either by finding someone who has an extra (they're usually ordered in 3s and you probably only need one) or by ordering your own set. To order your own set, use any online PCB fab service which supports gerber files. [OSH Park](http://oshpark.com) is the preferred online service for the U.S., due to their quick turnaround, impeccable output, friendly service, and reasonable prices. Just upload the "dorkbot" zip file to their service and pay them. You'll have boards in your hands in about two weeks.
-[PCB 4.2 Snapshot](http://capnbry.net/linkmeter/pcb/hm-4.2/)
+[PCB 4.2 Snapshot](http://heatermeter.com/devel/pcb/hm-4.2/)
 
 Singles are also available in the [OSH Park](http://store.oshpark.com/products/heatermeter) and [HeaterMeter Store ](http://heatermeter.myshopify.com/products/heatermeter-v4-2-circuit-board-only)
  
