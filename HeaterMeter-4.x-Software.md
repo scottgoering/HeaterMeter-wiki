@@ -1,12 +1,19 @@
 ## Software Installation
 
-Download and unzip [Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager/files/latest/download?source=files) (binary)
-
 Download and unzip [the OpenWrt firmware image](http://capnbry.net/linkmeter/release/bcm2708/12/) (v12)
 
 For Raspberry Pi A+ use [the snapshot image for A+ support](http://capnbry.net/linkmeter/snapshots/bcm2708/)
 
-Insert your SD card into your computer, launch Win32 Disk Imager, select the SD card drive, browse for the openwrt IMG file (not the ZIP!), and hit the "Write" button. Writing to the SD card should take only a few seconds. 
+* **Instructions for Windows**:
+ Download and unzip [Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager/files/latest/download?source=files) (binary)
+
+ Insert your SD card into your computer, launch Win32 Disk Imager, select the SD card drive, browse for the openwrt IMG file (not the ZIP!), and hit the "Write" button. Writing to the SD card should take only a few seconds. 
+
+* **Instructions for Apple OSX**:
+ Download and install [ApplePi-Baker](http://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/)
+
+ Insert your SD card into your computer, launch ApplePi-Baker, select the SD card on the left, under "Pi-Crust", on the right side, click on the empty box to the right of "IMG file" and browse for the openwrt IMG file and click on the "Restore Backup" button. Writing to the SD card should take only a few seconds. 
+
 
 Insert the SD card into the Raspberry Pi and power it up using either the 12V barrel jack on the HeaterMeter board or the rPi micro USB power input. Do not hook up both at the same time! For the first boot, using the rPi USB power input is preferred to verify the operation of your assembled HeaterMeter board without the chance of subjecting the rPi to 12V which will definitely fry components on it. I know from experience.
 
