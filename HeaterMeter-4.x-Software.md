@@ -4,12 +4,12 @@ Download and unzip [the OpenWrt firmware image](http://capnbry.net/linkmeter/rel
 
 For Raspberry Pi A+ use [the snapshot image for A+ support](http://capnbry.net/linkmeter/snapshots/bcm2708/)
 
-* **Instructions for Windows**:
+* **Instructions for Windows**:  
  Download and unzip [Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager/files/latest/download?source=files) (binary)
 
  Insert your SD card into your computer, launch Win32 Disk Imager, select the SD card drive, browse for the openwrt IMG file (not the ZIP!), and hit the "Write" button. Writing to the SD card should take only a few seconds. 
 
-* **Instructions for Apple OSX**:
+* **Instructions for Apple OSX**:  
  Download and install [ApplePi-Baker](http://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/)
 
  Insert your SD card into your computer, launch ApplePi-Baker, select the SD card on the left, under "Pi-Crust", on the right side, click on the empty box to the right of "IMG file" and browse for the openwrt IMG file and click on the "Restore Backup" button. Writing to the SD card should take only a few seconds. 
