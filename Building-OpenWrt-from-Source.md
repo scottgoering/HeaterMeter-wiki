@@ -1,5 +1,12 @@
 # Building OpenWrt (for RaspberryPi)
-If you don't want to use a the pre-built LinkMeter OpenWrt image, you can build it yourself from source.  LinkMeter is built on the Attitude Adjustment release of OpenWrt. Your host (build) system will need to have lua5.2 and liblua5.2-dev due to how insane the rrdtool build process is (perhaps 5.1 too?). In these examples, it is assumed your heatermeter git repository lives at ~/heatermeter and you'll be building OpenWrt at ~/openwrt
+If you don't want to use the pre-built LinkMeter OpenWrt image, you can build it yourself from source. LinkMeter is built on the Attitude Adjustment release of OpenWrt. In these examples, it is assumed your heatermeter git repository lives at ~/heatermeter and you'll be building OpenWrt at ~/openwrt
+
+These packages are required to install on 64bit Ubuntu 14.04 (trusty)
+
+    sudo apt-get update
+    sudo apt-get -y install git-core build-essential libssl-dev libncurses5-dev unzip lua5.1 libxml-parser-perl subversion mercurial
+
+This will compile everything
 
     cd ~
     git clone git://github.com/CapnBry/HeaterMeter.git heatermeter
@@ -9,8 +16,11 @@ If you don't want to use a the pre-built LinkMeter OpenWrt image, you can build 
     cd ~/openwrt
     make oldconfig
     make V=s ; make package/mac80211/compile V=s ; make V=s
-
-The firmware image will be built to `~/openwrt/bin/brcm2708/`
+    # The first make will error out on building incompat-wireless
+    # mac80211 has to be compiled on its own, then everything else
+    # will compile cleanly
+    
+The firmware image will be built to `~/openwrt/bin/brcm2708/openwrt-brcm2708-sdcard-vfat-ext4.img`
 
 ## Building just the LinkMeter package
 You'll still need the full OpenWrt build environment created from the above steps, but recompiling just the LinkMeter package can be done (from ~/openwrt)
