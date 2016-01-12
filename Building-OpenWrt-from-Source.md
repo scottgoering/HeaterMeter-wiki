@@ -1,5 +1,5 @@
 # Building OpenWrt (for RaspberryPi)
-If you don't want to use the pre-built LinkMeter OpenWrt image, you can build it yourself from source. LinkMeter is built on the Attitude Adjustment release of OpenWrt. In these examples, it is assumed your heatermeter git repository lives at ~/heatermeter and you'll be building OpenWrt at ~/openwrt
+If you don't want to use the pre-built LinkMeter OpenWrt image, you can build it yourself from source. LinkMeter is built on the Attitude Adjustment release of OpenWrt. In these examples, it is assumed your heatermeter git repository lives at `~/heatermeter` and you'll be building OpenWrt at `~/openwrt`
 
 These packages are required to install on 64bit Ubuntu 14.04 (trusty)
 ```
