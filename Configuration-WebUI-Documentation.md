@@ -21,4 +21,5 @@ Attempting to use voltage mode on hardware without support for it will result in
 ### Servo Output Settings
 * **Pulse Duration** - Two values to represent the microseconds for the duration of the servo output pulse. The servo output is scaled linearly between these values based on the PID output percentage. Reducing or increasing the number will adjust how much the servo rotates in that direction before it stops. If a value is entered that is beyond the range of the servo movement, the servo may be damaged especially if left continuously running in this condition. See also [[Servo Mode]]
 * **Invert output** - Swap the left and right endstops so the servo operates in the opposite direction.
-* **Full open/close only** - Only operate the servo in two positions, fully closed (at 0% PID output) and fully open (at any PID output >0%)
+* **Full open/close only** - Only operate the servo in two positions, fully closed (at 0% PID output) and fully open (at any PID output >0%) (removed in LinkMeter v13, use "fully open at")
+* **Fully open at** (v13+) - Instead of running the servo at 100% PID = 100% servo, you can set the PID output at which the servo should be fully open. 0% PID is always fully closed, this only adjusts the top end. Setting to 1% sets the servo to fully open/close only.
