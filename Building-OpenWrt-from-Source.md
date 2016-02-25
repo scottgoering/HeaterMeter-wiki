@@ -4,14 +4,16 @@ If you don't want to use the pre-built LinkMeter OpenWrt image, you can build it
 These packages are required to install on 64bit Ubuntu 14.04 (trusty)
 ```
 sudo apt-get update
-sudo apt-get -y install git-core build-essential libssl-dev libncurses5-dev unzip lua5.1 libxml-parser-perl subversion mercurial
+sudo apt-get -y install git-core build-essential libssl-dev libncurses5-dev unzip lua5.1 libxml-parser-perl subversion
 ```
 This will compile everything
 
 ```
 cd ~
 git clone git://github.com/CapnBry/HeaterMeter.git heatermeter
-svn co svn://svn.openwrt.org/openwrt/tags/attitude_adjustment_12.09 -r36422 openwrt
+git clone git://git.openwrt.org/12.09/openwrt.git openwrt
+cd openwrt
+git checkout f83d737
 cd ~/heatermeter/openwrt
 ./install.sh BCM2708 ~/openwrt
 cd ~/openwrt
