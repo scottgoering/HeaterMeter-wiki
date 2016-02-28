@@ -165,11 +165,12 @@ The HeaterMeter v4.2 PCB has two sides and components go on both sides. The silk
 
 ***
 
-|Qty|Value     |Device                |Parts|
-|---|----------|----------------------|-----|
+|Qty|Value     |Device                |Parts|Note|
+|---|----------|----------------------|-----|----|
 1|POW|POWER_JACKPTH|J9
 1|RJ45-8|RJ45-8|JP2
-1-4|Probes|AUDIO-MONO|JP3, JP4, JP5, JP6
+1-4|Probes|AUDIO-MONO|JP3, JP4, JP5, JP6|Do not install JP3 on thermocouple board
+1|PCC-SMP|PCC-SMP-K|J4|Thermocouple pit probe
 
 **Step 10** Rounding out the bottom-side assembly are all the I/O jacks. You're in the home stretch now. Note that solder bridging on the top in the circled areas is fine, the pads are actually connected.
 
