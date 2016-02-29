@@ -1,8 +1,6 @@
 ## Software Installation
 
-Download and unzip [the OpenWrt firmware image](http://capnbry.net/linkmeter/release/bcm2708/12/) (v12)
-
-For Raspberry Pi A+ use [the snapshot image for A+ support](http://capnbry.net/linkmeter/snapshots/bcm2708/)
+Download and unzip [the OpenWrt firmware image](http://capnbry.net/linkmeter/release/bcm2708/13/) (v13)
 
 * **Instructions for Windows**:  
  Download and unzip [Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager/files/latest/download?source=files) (binary)
