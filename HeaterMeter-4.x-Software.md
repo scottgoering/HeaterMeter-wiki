@@ -15,7 +15,7 @@ Download and unzip [the OpenWrt firmware image (ZIP file)](http://heatermeter.co
 
 Insert the SD card into the Raspberry Pi and power it up using either the 12V barrel jack on the HeaterMeter board or the rPi micro USB power input. Do not hook up both at the same time! For the first boot, using the rPi USB power input is preferred to verify the operation of your assembled HeaterMeter board without the chance of subjecting the rPi to 12V which will definitely fry components on it. I know from experience.
 
-If this is the first time you've booted the rPi using the prepared SD card, the HeaterMeter firmware will be installed automatically onto the ATmega238P.  Within 30 seconds of booting, the LCD should light up and display "-No Pit Probe-".  If you don't see anything on the LCD, but it lights up, try adjusting the contrast potentiometer with a small screwdriver.
+If this is the first time you've booted the rPi using the prepared SD card, the HeaterMeter firmware will be installed automatically onto the ATmega238P.  Within 30 seconds of booting, the LCD should light up and display **-No Pit Probe-**.  If you've built the thermocouple version, you will see a reported temp of around 19F instead of "-No Pit Probe-".  You will need to change the **Probe 0** type to **Thermocouple** in the web config.  If you don't see anything on the LCD, but it lights up, try adjusting the contrast potentiometer with a small screwdriver.
 
 ## Configuration
 
