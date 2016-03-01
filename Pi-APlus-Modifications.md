@@ -4,7 +4,7 @@ HeaterMeter v4.2 mates with a Raspberry Pi Model A+, but the extended 40 pin Pi 
  * Q2 MOSFET soldered to top instead of bottom of board. Notice that it needs to be mirrored (flipped 180 degrees) to still have the correct polarity. It should be soldered with enough "leg" that it can be bent over face down after soldering.
  * Install piezo alarm at an angle so it doesn't interfere with the A+'s 40 pin connector.
  * Make sure the LCD pins don't contact the USB shield.
- * Be careful when installing the HeaterMeter to the Pi. There are only 28 pins on the Heatermeter connection and they should connect with the 28 pins furthest from the Pi's USB connector (Pins 1-28 not Pins 12-40).
+ * Be careful when installing the HeaterMeter to the Pi. There are only 26 pins on the Heatermeter connection and they should connect with the 26 pins furthest from the Pi's USB connector (Pins 1-26 not Pins 15-40).
 
 ## Top View
 
