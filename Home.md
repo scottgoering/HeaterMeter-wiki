@@ -9,7 +9,7 @@
       * [[Preparing LCD for v4.2 Installation]]
       * [[Pi APlus Modifications]]
       * [[Blower and Servo Wiring]]
-    * [[HeaterMeter 4.0 Case]]
+    * [[HeaterMeter 4.2 Case]]
     * [[HeaterMeter Probes]]
     * [[LinkMeter Hardware]]
     * [[Wireless Adapters]] (Wifi) for RapsberryPi
@@ -44,6 +44,7 @@ The HeaterMeter online community is hosted on [The Virtual Weber Bulletin Board 
   * [[HeaterMeter 4.1 Assembly]]
   * [[HeaterMeter 4.0 Hardware]]
   * [[HeaterMeter 4.0 Assembly]]
+  * [[HeaterMeter 4.0 Case]]
   * [[Servo Mode]]
   * [[Outdated Information]]
 
