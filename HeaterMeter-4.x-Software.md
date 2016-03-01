@@ -1,6 +1,6 @@
 ## Software Installation
 
-Download and unzip [the OpenWrt firmware image (ZIP file)](http://heatermeter.com/devel/release/bcm2708/13/) (v13)
+Download and unzip [the OpenWrt firmware image (ZIP file)](http://heatermeter.com/devel/release/bcm2708/13/){:target="_blank"} (v13)
 
 * **Instructions for Windows**:  
  Download and unzip [Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager/files/latest/download?source=files) (binary)
