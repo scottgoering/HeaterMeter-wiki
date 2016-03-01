@@ -27,7 +27,46 @@ By default the rPi's ethernet is set to both the IP address 192.168.200.1 and DH
 
 The stock image includes drivers for any rtl8192cu-based or RT5370 USB wifi adapters. See [[Wireless Adapters]] for a more complete listing. The adapter should be recognized if inserted before booting and be shown in the System -> Network -> Wifi web configuration pages. Both AP and client mode are supported, and starting with LinkMeter v12 the device will be configured as an open Access Point with the name (SSID) "heatermeter", on IP address http://192.168.201.1/ or http://OpenWrt.local/ (only if connecting through the wifi!)
 
-### Wireless Client Setup step-by-step
+### Wireless Client Setup via config file step-by-step ( easiest method )
+
+There's now an easy way to set your wifi configuration before you even boot the HeaterMeter for the first time.
+
+**Step 1**: Insert your SD card back into your card writer / computer and edit the `config.txt` file located in the top level folder of the card. At the bottom of that file there's now a `## wifi configuration` section.
+```
+##
+## wifi configuration
+##
+# SSID (network name)
+#wifi_ssid=heatermeter
+# Password for encryption
+#wifi_password=password
+# Encryption mode psk2 (WPA2-PSK default), psk, wep, none
+#wifi_encryption=psk2
+# Mode ap (Access Point) or sta (Client mode, default). Must be lowercase!
+#wifi_mode=ap
+# wifi channel, only used in AP mode
+#wifi_channel=6
+```
+
+#### Regular wifi client mode with WPA2 security:
+Just uncomment out (remove the # at the beginning of the line) for the `wifi_ssid` and `wifi_password` entries.
+```
+# SSID (network name)
+wifi_ssid=MyHomeWireless
+# Password for encryption
+wifi_password=MyWirelessPassword
+```
+**Step 2**: Save the file, eject the SD card and insert it back into the Raspberry Pi
+
+**Step 3**: Plug your USB wifi dongle into the Raspberry Pi
+
+**Step 4**: Power up your HeaterMeter
+
+The configuration takes place at the end of boot, after the network has already been initialized, so you'll see it pop up in the original mode first, then switch to the desired mode. This is because it needs to take place after the configuration restore has occurred (if it is going to). Once the wifi settings are loaded, it will automatically comment out all the wifi values in config.txt so it won't reset them again. 
+
+**Note**: If your wifi SSID or password contains quotes (single ' or double ") then you're going to experience a nightmare trying to get this to work. E.g. your SSID is `"Bryan's Wifi"` = mal tiempo.
+
+### Wireless Client Setup via Web Config step-by-step
 
 **Step 1**: Use a web browser to go to http://ip-address-shown-on-heatermeter/ which should land you on the HeaterMeter home page. It's blue. It has flaaaaames. It's pretty American. (No photo, you'll know it when you see it)
 
