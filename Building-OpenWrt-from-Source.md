@@ -4,7 +4,8 @@ If you don't want to use the pre-built LinkMeter OpenWrt image, you can build it
 These packages are required to install on 64bit Ubuntu 14.04 (trusty)
 ```
 sudo apt-get update
-sudo apt-get -y install git-core build-essential libssl-dev libncurses5-dev unzip lua5.1 libxml-parser-perl subversion
+sudo apt-get -y install git-core build-essential libssl-dev libncurses5-dev \
+unzip lua5.1 libxml-parser-perl subversion
 ```
 This will compile everything
 
