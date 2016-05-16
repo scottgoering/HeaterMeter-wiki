@@ -29,7 +29,7 @@ Recommended HeaterMeter resistance: 10kohm (standard)
 
 **Highly Recommended**
 
-Thermoworks Pro Series probes for their ChefAlarm system work well, and respond faster than ET-72/73 due to their smaller probe tips. Note these are thermistor-based probes, and not the high-precision Thermoworks thermocouple-based design. These probes are well built with better moisture resistance and larger temperature range too. The coefficients in LinkMeter may not be completely accurate because they are correlated off a ET-72/73 probe.
+Thermoworks Pro Series probes for their ChefAlarm system work well, and respond faster than ET-72/73 due to their smaller probe tips. Note these are thermistor-based probes, and not the high-precision Thermoworks thermocouple-based design. These probes are well built with better moisture resistance and larger temperature range too.
   * Cable length: 47 inches
   * Maximum working temperature: 644F
   * Maximum cable temperature: 700F
