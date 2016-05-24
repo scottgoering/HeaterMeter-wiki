@@ -9,7 +9,7 @@ There are two active versions of HeaterMeter, v4.2 (aka 4.2.4) and v4.3 (aka 4.3
 ![HeaterMeter4.2](https://lh3.googleusercontent.com/-q_gR6XiRUJo/U8Pi3gns3gI/AAAAAAAACPE/k1K1xTxHFsETTis8IAKTTC569dzrQC8ZgCCo/s640/IMG_2159.JPG)
 
 # HeaterMeter v4.3
-* Rasberry Pi 3 Model B, Raspberry Pi 2 Model B, Raspberry Pi Model B+, Raspberry Pi Model A+
+* Raspberry Pi 2 Model B, Raspberry Pi Model B+, Raspberry Pi Model A+, Raspberry Pi 3 Model B (intergated wifi not supported)
 * Narrower, fatter form factor
   * Dimensions: 102mm x 101mm x 36mm (371cm3)
 * Discrete 4x buttons
