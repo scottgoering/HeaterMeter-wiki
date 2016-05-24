@@ -1,8 +1,8 @@
 As a reminder, HeaterMeter refers to the ATmega (Arduino) based microcontroller board that runs the LCD, reads button and temperature probe inputs, and controls the servo and blower motor. This document describes the configurations and design of the HeaterMeter board, which may optionally be attached to a Raspberry Pi. This list is split into three sections
 
 * Main HeaterMeter Board which contains the input power and probe connections, as well as the blower and servo output.
-* Thermocouple Addon, which are components added onto the Main Board to utilize a thermocouple control probe instead of the thermistor. The FOODx probes remain as thermistors. **Optional**
 * LCD and Button Board which contains the drive circuitry for the 16x2 character LCD and buttons, as well as the 3 indicator LEDs. **Optional** if a local display and buttons are not desired.
+* Thermocouple Addon, which are components added onto the Main Board to utilize a thermocouple control probe instead of the thermistor. The FOODx probes remain as thermistors. **Optional**
 
 Standard HeaterMeter hardware is built on a HeaterMeter v4.3 PCB
 
