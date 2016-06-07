@@ -12,7 +12,7 @@ Standard HeaterMeter hardware is built on a HeaterMeter v4.3 PCB
 * EAGLE 5 schematic and board
 * DorkBot/OSH Park cam job or cam output. Use cam output if you just want a board made with no modifications
 
-**Quick and Easy**: Mouser parts. Does not include thermocouple or DigiKey-only parts 1xBlower 1xSocket. Alternatively, HeaterMeter kits are available from the HeaterMeter store which include all the Mouser and Digikey parts as well as a PCB.
+**Quick and Easy**: Mouser parts. Does not include thermocouple or DigiKey-only parts 1xSocket. Alternatively, HeaterMeter kits are available from the HeaterMeter store which include all the Mouser and Digikey parts as well as a PCB.
 
 ### Main Board
 |Qty|Value     |Device                |Parts|Link|
@@ -76,5 +76,5 @@ Thermocouple support relies on surface mount soldering an 8 pin 3mm x 3mm chip a
 |Qty|Description|Link|
 |---|-----------|----|
 1 | 12VDC/1A power brick 5.5x2.1mm barrel jack | [Generic](http://www.amazon.com/gp/product/B006GEPUYA/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B006GEPUYA&linkCode=as2&tag=httpcapnbrnet-20)
-1 | Blower-style fan 12VDC 5-10CFM | [DigiKey50mm](http://www.digikey.com/product-search/en?x=0&y=0&lang=en&site=us&KeyWords=603-1370-ND) [DifferentBlower](http://www.mouser.com/ProductDetail/ADDA/AB06012MB-250300-LF/?qs=UW%252b%252bp%2fVkpn%2fEQGl6BnSAug%3d%3d)
+1 | Blower-style fan 12VDC 5-10CFM | [Mouser](https://www.mouser.com/Search/ProductDetail.aspx?R=BFB0512VHD-F00virtualkey59330000virtualkey108-BFB0512VHD-F00) [DigiKey50mm](http://www.digikey.com/product-search/en?x=0&y=0&lang=en&site=us&KeyWords=603-1370-ND) [DifferentBlower](http://www.mouser.com/ProductDetail/ADDA/AB06012MB-250300-LF/?qs=UW%252b%252bp%2fVkpn%2fEQGl6BnSAug%3d%3d)
 1-4 | Thermistor Probes -- ThermoWorks Pro-Series (Std or Needle) / Maverick ET-72/ET-73 (3ft or High Heat)| [Amazon-T-Std](http://www.amazon.com/dp/B00EZB8W0K/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B00EZB8W0K&adid=03P1SGNDWFZ85JC5W569) [Amazon-T-Needle](https://www.amazon.com/dp/B00EZBB8AQ/ref=as_li_ss_til?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B00EZBB8AQ&adid=0J280WDZFM7N5XZM4XF3&) [Amazon-M-3ft](http://www.amazon.com/gp/product/B004W8B3PC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B004W8B3PC&linkCode=as2&tag=httpcapnbrnet-20) [Amazon-M-High](https://www.amazon.com/dp/B008OWZMMW?tag=httpcapnbrnet-20&camp=0&creative=0&linkCode=as4&creativeASIN=B008OWZMMW&adid=02TKF6EJVRJFR2HC0FXT&)
