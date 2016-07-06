@@ -44,7 +44,8 @@ Standard HeaterMeter hardware is built on a HeaterMeter v4.3 PCB
 ### LCD and Button Board
 |Qty|Value     |Device                |Parts|Link|
 |---|----------|----------------------|-----|----|
-3|  390     |R-US_0204/7     | R10, R12, R15|[Mouser](http://www.mouser.com/Search/ProductDetail.aspx?R=291-390-RCvirtualkey21980000virtualkey291-390-RC) [DigiKey](http://www.digikey.com/product-detail/en/CF14JT390R/CF14JT390RCT-ND/1830340)
+2|  220     |R-US_0204/7     | R12, R15|[Mouser](http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey291-220-RC) [DigiKey](http://www.digikey.com/product-detail/en/CF14JT390R/CF14JT390RCT-ND/1830340)
+1|  1k      |R-US_0204/7     | R10          |See above
 1|  1k2     |R-US_0204/7     | R8           |[Mouser](http://www.mouser.com/ProductDetail/Xicon/291-12K-RC/?qs=sGAEpiMZZMu61qfTUdNhGzmcydQ1pJoa8vv7tbu1P6w%3d)
 1|  1k8     |R-US_0204/7     | R11          |[Mouser](http://www.mouser.com/ProductDetail/Xicon/291-18-RC/?qs=tZuyTH1srTr%252b3mSLL5ed0A%3d%3d)
 1|  3k9     |R-US_0204/7     | R2           |[Mouser](http://www.mouser.com/ProductDetail/Xicon/291-39-RC/?qs=g%252bmt%252bTSz0lYfQsKTnzZMRA%3d%3d)
