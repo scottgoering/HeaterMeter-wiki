@@ -15,9 +15,9 @@
   * Zero (no Ethernet, needs USB adapter for wifi) *$5*. These exist nowhere.
   * Model A+ (no Ethernet) *$25*, or more accurately [closer to $33](https://www.amazon.com/Raspberry-PI-Model-A-256M/dp/B01CEATZTU/ref=as_li_ss_tl?ie=UTF8&qid=1468272135&sr=8-3&keywords=raspberry+pi+model+A+&linkCode=ll1&tag=httpcapnbrnet-20&linkId=5ebd85b16637b4d81ce0d1655085843b) shipped
   * Model B+ (with Wired Ethernet) *$35*, usually [closer to $50] (https://www.amazon.com/Raspberry-Pi-Model-512MB-Computer/dp/B00LPESRUK/ref=as_li_ss_tl?ie=UTF8&qid=1468272173&sr=8-3&keywords=raspberry+pi+model+B+&linkCode=ll1&tag=httpcapnbrnet-20&linkId=54cf30462d1129ff09dcf5a3b40b00e3) shipped
-* Micro sized SD card (not miniSD or full sized) 128MB or larger ([Raspberry Pi SD Compatibility](http://www.raspberry-pi.co.uk/2012/06/07/compatible-sd-cards/))
   * Model 2 B (Not supported by software yet)
   * Model 3 B (Not supported by software yet)
+* Micro sized SD card (not miniSD or full sized) 128MB or larger ([Raspberry Pi SD Compatibility](http://www.raspberry-pi.co.uk/2012/06/07/compatible-sd-cards/))
 * A [[supported WiFi Adapter|Wireless Adapters]]
 * Phone or Ethernet cable you won't mind cutting an end off of
 * Some sort of fan-attaching mechanism for your grill
@@ -30,5 +30,5 @@
 Due to the modular nature of the parts, the build instructions are separated into multiple steps.
 
 1. Thermocouple SMD soldering
-1. HeaterMeter Main board Assembly
-1. HeaterMeter LCD board Assembly
+1. HeaterMeter main board assembly
+1. HeaterMeter LCD board assembly
