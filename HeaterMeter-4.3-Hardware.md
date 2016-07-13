@@ -4,15 +4,7 @@ As a reminder, HeaterMeter refers to the ATmega (Arduino) based microcontroller 
 * LCD and Button Board which contains the drive circuitry for the 16x2 character LCD and buttons, as well as the 3 indicator LEDs. **Optional** if a local display and buttons are not desired.
 * Thermocouple Addon, which are components added onto the Main Board to utilize a thermocouple control probe instead of the thermistor. The FOODx probes remain as thermistors. **Optional**
 
-Standard HeaterMeter hardware is built on a HeaterMeter v4.3 PCB
-
-* Surface Mount a PCB with the optional thermocouple parts already soldered and tested or the HeaterMeter kit
-* Buy direct from OSH Park (minimum quantity 3), singles OSH Park or HeaterMeter
-* Schematic Image
-* EAGLE 5 schematic and board
-* DorkBot/OSH Park cam job or cam output. Use cam output if you just want a board made with no modifications
-
-**Quick and Easy**: Mouser [base parts](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=73e9cd6ae8) and [LCD/button parts](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=cbae2eb456) and [thermocouple parts](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=dc304d0fab). Alternatively, HeaterMeter kits are available from the HeaterMeter store which include all relevant parts as well as PCBs.
+**Quick and Easy**: Mouser [base parts](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=73e9cd6ae8) and [LCD/button parts](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=cbae2eb456) (does not include theromcouple parts below). Alternatively, HeaterMeter kits are available from the HeaterMeter store which include all relevant parts as well as PCBs.
 
 ### Main Board
 |Qty|Value     |Device                |Parts|Link|
@@ -60,8 +52,8 @@ Standard HeaterMeter hardware is built on a HeaterMeter v4.3 PCB
 1|  RED,YEL,GRN |LED3MM      | LED1, LED2, LED3 (any ~3mm LED, any colors you want)|[MouserR](http://www.mouser.com/ProductDetail/Kingbright/WP710A10SRD-E/?qs=sGAEpiMZZMs4quMj8r4lmsjEjMC4bfpUeUpboelRnWU%3d) [MouserY](http://www.mouser.com/ProductDetail/Kingbright/WP710A10SYD/?qs=sGAEpiMZZMs4quMj8r4lmsjEjMC4bfpUUbW71NEUWBk%3d) [MouserG](http://www.mouser.com/ProductDetail/Kingbright/WP710A10SGD/?qs=sGAEpiMZZMs4quMj8r4lmsjEjMC4bfpUWqs%252bGoI7SdI%3d) [MouserGAlt](http://www.mouser.com/ProductDetail/Kingbright/WP710A10GT/?qs=%2fha2pyFaduiSDnyyF%252bbBg7Q2NRL8uxAN9NekbnvC4Frh1v2fcaLdHw%3d%3d)
 1|  LCD     |NEWHAVENLCD     |  LCD          |[[LCD Color Gallery]]
 
-### Thermocouple Addon on Main PCB
-Thermocouple support relies on surface mount soldering an 8 pin 3mm x 3mm chip and some 0805 passive components. Any 'ole capacitors (20%/16V) and resistors (10%/0.125W) will do fine. Mouser Project (does not include jack J4). If this is your first surface mount soldering experience, I recommend getting a couple extra of the cheap parts because they are easy to lose or destroy during soldering and you don't want to have to place another order for a 6 cent part.
+### Thermocouple Addon to Main PCB
+Thermocouple support relies on surface mount soldering an 8 pin 3mm x 3mm chip and some 0805 passive components. Any 'ole capacitors (20%/16V) and resistors (10%/0.125W) will do fine. [Mouser Project](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=dc304d0fab) (**does not include jack J4**). If this is your first surface mount soldering experience, I recommend getting a couple extra of the cheap parts because they are easy to lose or destroy during soldering and you don't want to have to place another order for a 6 cent part.
 
 |Qty|Value     |Device                |Parts|Link|
 |---|----------|----------------------|-----|----|
