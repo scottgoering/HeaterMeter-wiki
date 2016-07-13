@@ -12,7 +12,7 @@ Standard HeaterMeter hardware is built on a HeaterMeter v4.3 PCB
 * EAGLE 5 schematic and board
 * DorkBot/OSH Park cam job or cam output. Use cam output if you just want a board made with no modifications
 
-**Quick and Easy**: Mouser [base parts](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=73e9cd6ae8) and [LCD/button parts](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=XXX) and [thermocouple parts](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=dc304d0fab). Alternatively, HeaterMeter kits are available from the HeaterMeter store which include all relevant parts as well as a PCB.
+**Quick and Easy**: Mouser [base parts](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=73e9cd6ae8) and [LCD/button parts](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=cbae2eb456) and [thermocouple parts](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=dc304d0fab). Alternatively, HeaterMeter kits are available from the HeaterMeter store which include all relevant parts as well as PCBs.
 
 ### Main Board
 |Qty|Value     |Device                |Parts|Link|
