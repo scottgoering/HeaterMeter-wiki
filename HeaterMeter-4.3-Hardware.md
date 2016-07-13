@@ -12,7 +12,7 @@ Standard HeaterMeter hardware is built on a HeaterMeter v4.3 PCB
 * EAGLE 5 schematic and board
 * DorkBot/OSH Park cam job or cam output. Use cam output if you just want a board made with no modifications
 
-**Quick and Easy**: Mouser parts. Does not include thermocouple or DigiKey-only parts 1xSocket. Alternatively, HeaterMeter kits are available from the HeaterMeter store which include all the Mouser and Digikey parts as well as a PCB.
+**Quick and Easy**: Mouser [base parts](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=73e9cd6ae8) and [LCD/button parts](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=XXX) and [thermocouple parts](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=dc304d0fab). Alternatively, HeaterMeter kits are available from the HeaterMeter store which include all relevant parts as well as a PCB.
 
 ### Main Board
 |Qty|Value     |Device                |Parts|Link|
@@ -39,7 +39,7 @@ Standard HeaterMeter hardware is built on a HeaterMeter v4.3 PCB
 1|  PROBES     | AUDIO-MONO           | JP3, JP4, JP5, JP6                |[Mouser](http://www.mouser.com/ProductDetail/CUI-Inc/MJ-2508N/?qs=%2fha2pyFaduga%2fOxsLoZeddnX29ITbS93306kdE%252bHMeY%3d) [DigiKey](http://www.digikey.com/product-detail/en/MJ-2508N/CP-2508N-ND/281260)
 1|  POW        | POWERJACKPTH         | J9                                |[Mouser](http://www.mouser.com/ProductDetail/Kobiconn/163-7620E-E/?qs=%2fha2pyFaduipJSLWTjADy4YYaTeQAmrHvwEfLULTtmcjsFvpXHYyeA%3d%3d) [MouserAlt](http://www.mouser.com/ProductDetail/Kobiconn/163-179PH-EX/?qs=%2fha2pyFadujsO45cTDeafnb8UTTjqBiiaL9T7NPB7rV7ulYyk%2fdYxw%3d%3d)
 1|  RJ45-8     | RJ45-8               | JP2                               |[Mouser](http://www.mouser.com/ProductDetail/Amphenol-Commercial-Products/RJHSE-5080/?qs=sGAEpiMZZMvQhAhQbXdbBuidMRPVpG5q%252bZ1tFY96Whg%3d) [DigiKey](http://www.digikey.com/product-detail/en/RJHSE-5080/RJHSE-5080-ND/1242687)
-1|  RPi        | PINHD-2X13           |  J1                               |[Mouser](http://www.mouser.com/ProductDetail/Harwin/M20-7831346/) [DigiKey](http://www.digikey.com/product-search/en?keywords=M20-7831346) [DigiKey2](http://www.digikey.com/product-detail/en/PPTC132LFBN-RC/S7081-ND/810219) [DigiKey3](http://www.digikey.com/product-detail/en/PPPC132LFBN-RC/S7116-ND/810252) ([MouserAlt](http://www.mouser.com/ProductDetail/Harwin/M20-7831342/) [MouserWorseAlt](http://www.mouser.com/ProductDetail/TE-Connectivity-AMP/1-534206-3/) [DigiKeyWorseAlt](http://www.digikey.com/product-search/en?keywords=1-534206-3))
+1|  RPi        | PINHD-2X13           |  J1                               |[Mouser](http://www.mouser.com/ProductDetail/Harwin/M20-7831346/) [DigiKey](http://www.digikey.com/product-search/en?keywords=M20-7831346) [Mouser2](http://www.mouser.com/ProductDetail/Harwin/M20-7831342/) [DigiKey2](http://www.digikey.com/product-detail/en/PPTC132LFBN-RC/S7081-ND/810219) [DigiKey3](http://www.digikey.com/product-detail/en/PPPC132LFBN-RC/S7116-ND/810252) ([MouserWorseAlt](http://www.mouser.com/ProductDetail/TE-Connectivity-AMP/1-534206-3/) [DigiKeyWorseAlt](http://www.digikey.com/product-search/en?keywords=1-534206-3))
 
 ### LCD and Button Board
 |Qty|Value     |Device                |Parts|Link|
