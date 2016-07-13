@@ -71,7 +71,7 @@ The HeaterMeter v4.2 PCB has two sides and components go on both sides. The silk
 1|10k|R-US_0204|R20
 1|100k|R-US_0204|R19
 1|68k|R-US_0204|R13
-1|22k|R-US_0204|R14
+1|22k|R-US_0204|R4
 
 **Step 2** Horizontally-mounted resistors. The orientation on these does not matter either side can go in either hole, as long as the body of the resistor is on the right side of the board. The placements are sized such that you should be able to fold the leads of the resistor against the body at a right angle and have them just fit into the holes. It is easiest to insert a couple resistors at a time and flip the whole board over, resting the board on the resistors to hold them in place while you solder them and clip the extra leads off. All the standard resistors will have blue bodies, but the color bands should match what is seen here. You will have 4x 100k resistors and 4x 10k resistors left over to be used later.
 
