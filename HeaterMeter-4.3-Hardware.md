@@ -4,7 +4,7 @@ As a reminder, HeaterMeter refers to the ATmega (Arduino) based microcontroller 
 * LCD and Button Board which contains the drive circuitry for the 16x2 character LCD and buttons, as well as the 3 indicator LEDs. **Optional** if a local display and buttons are not desired.
 * Thermocouple Addon, which are components added onto the Main Board to utilize a thermocouple control probe instead of the thermistor. The FOODx probes remain as thermistors. **Optional**
 
-**Quick and Easy**: Mouser [base parts](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=73e9cd6ae8) and [LCD/button parts](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=cbae2eb456) (does not include theromcouple parts below). Alternatively, HeaterMeter kits are available from the HeaterMeter store which include all relevant parts as well as PCBs.
+**Quick and Easy**: Mouser [base parts](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=73e9cd6ae8) and [LCD/button parts](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=cbae2eb456) (does not include thermocouple parts below). Alternatively, HeaterMeter kits are available from the [HeaterMeter store](https://store.heatermeter.com/) which include all relevant parts as well as PCBs.
 
 ### Main Board
 |Qty|Value     |Device                |Parts|Link|
